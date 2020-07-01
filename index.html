@@ -1,0 +1,255 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Crow</title><meta name="description"><meta name="author" content="Crow"><meta name="copyright" content="Crow"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://yoursite.com/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="website"><meta property="og:title" content="Crow"><meta property="og:url" content="http://yoursite.com/"><meta property="og:site_name" content="Crow"><meta property="og:description"><meta property="og:image" content="http://yoursite.com/img/headportrait.jpeg"><meta property="article:published_time" content="2020-07-01T10:15:39.369Z"><meta property="article:modified_time" content="2020-07-01T10:15:39.369Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isSidebar: false
+  }</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 4.2.1"></head><body><canvas class="fireworks"></canvas><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/headportrait.jpeg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">10</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">14</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">2</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/24/83a1823aada22cbf15ee9c9779cb6e2f.png)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Crow</a></span><span class="pull-right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="site-info"><h1 id="site_title">Crow</h1><div id="site_subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:xxxxxx@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll_down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/07/01/%E6%8C%87%E9%92%88/" title="指针">     <img class="post_bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/26/e59279b4ebd7a3440da6cf61d275e520.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="指针"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/07/01/%E6%8C%87%E9%92%88/" title="指针">指针</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-07-01 14:52:23"><i class="far fa-calendar-alt"></i>2020-07-01</time></div><div class="content">
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/07/01/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/" title="栈和队列">     <img class="post_bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/26/d51a943135d03c681981149a689ffa09.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="栈和队列"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/07/01/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/" title="栈和队列">栈和队列</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-07-01 12:13:11"><i class="far fa-calendar-alt"></i>2020-07-01</time></div><div class="content">1.栈和队列在数组中，我们可以通过索引访问随机元素。 但是，在某些情况下，我们可能想要限制处理顺序。
+两种不同的处理顺序，先入先出和后入先出；以及两个相应的线性数据结构，队列和栈。
+先入先出的数据结构
+
+首先处理添加到队列中的第一个元素。添加第一个元素到队列
+如上图所示，队列是典型的 FIFO(First Input First Output) 数据结构。插入（insert）操作也称作入队（enqueue），新元素始终被添加在队列的末尾。 删除（delete）操作也被称为出队（dequeue)。 你只能移除第一个元素。
+示例 - 队列
+
+入队：您可以单击下面的 Enqueue 以查看如何将新元素 6 添加到队列中。
+
+  Enqueue
+
+出队：您可以单击下面的 Dequeue 以查看将删除哪个元素。
+
+  Dequeue
+</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/07/01/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E6%8E%A8%E8%8D%90/" title="开源项目推荐">     <img class="post_bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/26/2a2b95c95cea1263fbc0f315a7666103.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="开源项目推荐"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/07/01/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E6%8E%A8%E8%8D%90/" title="开源项目推荐">开源项目推荐</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-07-01 11:17:43"><i class="far fa-calendar-alt"></i>2020-07-01</time></div><div class="content">1.编程语言1.1Java
+1.JavaGuide
+
+https://github.com/Snailclimb/JavaGuide
+2.数据结构和算法2.1fucking-algorithm
+https://github.com/labuladong/fucking-algorithm
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/07/01/IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE/" title="IDEA快捷键">     <img class="post_bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/26/df21e989c1e52286adcf685fdbc3a3e2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="IDEA快捷键"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/07/01/IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE/" title="IDEA快捷键">IDEA快捷键</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-07-01 09:35:35"><i class="far fa-calendar-alt"></i>2020-07-01</time></div><div class="content">断点调试https://www.cnblogs.com/xiemingjun/p/9618427.html
+</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/06/30/%E6%95%B0%E7%BB%84%E5%92%8C%E5%AD%97%E7%AC%A6%E4%B8%B2/" title="数组和字符串">     <img class="post_bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/24/9029415e333bc09b5f1675ee8c929d9c.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数组和字符串"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/30/%E6%95%B0%E7%BB%84%E5%92%8C%E5%AD%97%E7%AC%A6%E4%B8%B2/" title="数组和字符串">数组和字符串</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-30 17:20:10"><i class="far fa-calendar-alt"></i>2020-06-30</time></div><div class="content"></div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/06/30/Github%E4%B8%8B%E8%BD%BD%E5%8A%A0%E9%80%9F/" title="Github下载加速">     <img class="post_bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/26/4a0ec5560369bc268fa797ddbd7d1b7d.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Github下载加速"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/30/Github%E4%B8%8B%E8%BD%BD%E5%8A%A0%E9%80%9F/" title="Github下载加速">Github下载加速</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-30 11:23:32"><i class="far fa-calendar-alt"></i>2020-06-30</time></div><div class="content">准备条件
+
+码云(Gitee账号)
+
+注册地址：https://gitee.com/
+
+Git
+
+镜像下载地址：https://npm.taobao.org/mirrors/git-for-windows/222
+1.码云(Gitee)导入1.以Github上Stars较多的一个优秀的Java学习路线项目为例
+
+
+1.复制项目的网址
+
+https://github.com/Snailclimb/JavaGuide
+
+
+2.导入项目到Gitee
+
+
+
+
+导入后等待页面加载即可
+
+将项目克隆到本地
+
+12#git clone 码云上的项目地址git clone https://gitee.com/crow_678/JavaGuide.git
+
+
+速度还行
+当我们导入一个比较大的项目时
+
+
+2.使用在线的网站http://g.widyun.com/
+
+复制项目网址到中间的输入框,点击获取连接耐心等待
+
+
+</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/06/26/%E6%B3%9B%E5%9E%8B/" title="泛型">     <img class="post_bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/26/0bbf9d5d8ddbc38aeade75f47987c901.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="泛型"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/26/%E6%B3%9B%E5%9E%8B/" title="泛型">泛型</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-26 19:20:59"><i class="far fa-calendar-alt"></i>2020-06-26</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span></div><div class="content">1.泛型1.1什么是泛型泛型的概念
+
+Java 泛型（generics）是 JDK 5 中引入的一个新特性,考虑到向前兼容，编译器是允许非泛型集合与泛型集合互相赋值 ,泛型提供了编译时类型安全检测机制，该机制允许程序在编译时检测到非法的类型。
+
+泛型的本质是参数化类型,也就是说所操作的数据类型被指定为一个参数,泛型的参数只可以代表类，不能代表个别对象。由于 Java 泛型的类型参数之实际类型在编译时会被消除，所以无法在运行时得知其类型参数的类型。
+
+
+参数化类型
+
+将类型由原来的具体的类型参数化，然后在使用/调用时传入具体的类型这种参数类型可以用在类、方法和接口中，分别被称为泛型类、泛型方法、泛型接口
+
+编译器在编译泛型时会自动加入类型转换的编码，故运行速度不会因为使用泛型而加快
+
+
+泛型定义格式
+
+&lt;类型&gt;：指定一种类型的格式。这里的类型可以看成是形参
+&lt;类型1类型2…&gt;：指定多种类型的格式，多种类型之间用逗号隔开。这里的类型可以看成是形参将来具体调用时候给定的类型可以看成是实参，并且实参的类型只能是引用数据类型（类,接口,数组）
+
+1234567891011 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/06/25/%E5%8E%9F%E7%A0%81-%E5%8F%8D%E7%A0%81-%E8%A1%A5%E7%A0%81/" title="位运算">     <img class="post_bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/24/f49fd6c311c8cda7497e992b1bd7cbf7.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="位运算"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/25/%E5%8E%9F%E7%A0%81-%E5%8F%8D%E7%A0%81-%E8%A1%A5%E7%A0%81/" title="位运算">位运算</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-25 16:37:46"><i class="far fa-calendar-alt"></i>2020-06-25</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/C/">C</a></span></div><div class="content">位运算符以及源码,反码,补码
+二进制的最高位是符号位:0表示正数,1表示负数
+正数三码合一,均相同
+负数的反码 = 符号位不变,其他位取反(0=&gt;1,1=&gt;0)
+负数的补码 = 反码 + 1
+0的补码,原码都是0,+0的反码 = 0000 0000,-0的补码 = 1111 1111;
+计算机运算的时候都是以补码的方式来运行 原因:可以将正负数统一起来
+
+
+
+
+运算规则
+描述
+
+
+
+&amp;:按位与
+相同为1,否则为0
+
+
+|:按位或
+有1为1,否则为0
+
+
+^:按位异或
+不同为1,否则为0
+
+
+~:按位取反
+1转换为0,0转换为1
+
+
+🌰​举两个例子
+~2:对2取反
+
+1.2是正数三码合一得到补码:
+
+1234567891011#int占4个字节 1个字节等于8位补码: 00000000 00000000 00000000 00000010#进行取反补码: 11111111 11111111 11111111 11111101#将取反后得到的补码(11111111 11111111 11111111 11111101)转成源码#负数的补码 &#x3D; 反码 + 1反 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/06/25/ArrayList%E8%AF%A6%E8%A7%A3/" title="ArrayList详解">     <img class="post_bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/24/9029415e333bc09b5f1675ee8c929d9c.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ArrayList详解"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/25/ArrayList%E8%AF%A6%E8%A7%A3/" title="ArrayList详解">ArrayList详解</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-25 12:15:11"><i class="far fa-calendar-alt"></i>2020-06-25</time><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/Java/">Java</a></span></div><div class="content">1.什么是ArrayListArrayList就是动态数组,就是Array(数组)的复杂版本,可以动态的对数组进行增加和减少元素,实现了Collection和List接口，灵活的设置数组的大小等好处
+clear()和removeAll()方法比较
+clear()源码
+123456789public void clear() &#123;    modCount++;    // Let gc do its work    for (int i = 0; i &lt; size; i++)        elementData[i] = null;    size = 0;&#125;
+
+removeAll()源码
+12
+
+
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/06/24/hello-world/" title="Hello World">     <img class="post_bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/24/9029415e333bc09b5f1675ee8c929d9c.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/06/24/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><time class="post-meta__date" title="发表于 2020-06-24 11:31:38"><i class="far fa-calendar-alt"></i>2020-06-24</time></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new "My New Post"
+
+More info: Writing
+Run server1$ hexo server
+
+More info: Server
+Generate static files1$ hexo generate
+
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+
+More info: Deployment
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/headportrait.jpeg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Crow</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">文章</div><div class="length_num">10</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">标签</div><div class="length_num">14</div></a></div><div class="card-info-data-item is-center">     <a href="/categories"><div class="headline">分类</div><div class="length_num">2</div></a></div></div><div class="card-info-bookmark is-center"><button class="button--animated" id="bookmark-it" title="加入书签"><i class="fas fa-bookmark"></i><span>加入书签</span></button></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:xxxxxx@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">争取一周两更</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a href="/2020/07/01/%E6%8C%87%E9%92%88/"><div class="aside-post-cover"><img class="aside-post-bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/26/e59279b4ebd7a3440da6cf61d275e520.png" onerror="this.onerror=null;this.src='/img/404.jpg'" title="指针" alt="指针"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/07/01/%E6%8C%87%E9%92%88/" title="指针">指针</div><time class="aside-post_meta post-meta__date" title="发表于 2020-07-01 14:52:23">2020-07-01</time></div></a></div><div class="aside-recent-post"><a href="/2020/07/01/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/"><div class="aside-post-cover"><img class="aside-post-bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/26/d51a943135d03c681981149a689ffa09.png" onerror="this.onerror=null;this.src='/img/404.jpg'" title="栈和队列" alt="栈和队列"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/07/01/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/" title="栈和队列">栈和队列</div><time class="aside-post_meta post-meta__date" title="发表于 2020-07-01 12:13:11">2020-07-01</time></div></a></div><div class="aside-recent-post"><a href="/2020/07/01/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E6%8E%A8%E8%8D%90/"><div class="aside-post-cover"><img class="aside-post-bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/26/2a2b95c95cea1263fbc0f315a7666103.png" onerror="this.onerror=null;this.src='/img/404.jpg'" title="开源项目推荐" alt="开源项目推荐"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/07/01/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E6%8E%A8%E8%8D%90/" title="开源项目推荐">开源项目推荐</div><time class="aside-post_meta post-meta__date" title="发表于 2020-07-01 11:17:43">2020-07-01</time></div></a></div><div class="aside-recent-post"><a href="/2020/07/01/IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE/"><div class="aside-post-cover"><img class="aside-post-bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/26/df21e989c1e52286adcf685fdbc3a3e2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" title="IDEA快捷键" alt="IDEA快捷键"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/07/01/IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE/" title="IDEA快捷键">IDEA快捷键</div><time class="aside-post_meta post-meta__date" title="发表于 2020-07-01 09:35:35">2020-07-01</time></div></a></div><div class="aside-recent-post"><a href="/2020/06/30/%E6%95%B0%E7%BB%84%E5%92%8C%E5%AD%97%E7%AC%A6%E4%B8%B2/"><div class="aside-post-cover"><img class="aside-post-bg" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/24/9029415e333bc09b5f1675ee8c929d9c.png" onerror="this.onerror=null;this.src='/img/404.jpg'" title="数组和字符串" alt="数组和字符串"/></div><div class="aside-post-title"><div class="aside-post_title" href="/2020/06/30/%E6%95%B0%E7%BB%84%E5%92%8C%E5%AD%97%E7%AC%A6%E4%B8%B2/" title="数组和字符串">数组和字符串</div><time class="aside-post_meta post-meta__date" title="发表于 2020-06-30 17:20:10">2020-06-30</time></div></a></div></div></div></div><div class="card-widget card-categories"><div class="card-content"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div><ul class="card-category-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/C/"><span class="card-category-list-name">C</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Java/"><span class="card-category-list-name">Java</span><span class="card-category-list-count">2</span></a></li>
+                       
+            </ul></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/ArrayList/" style="font-size: 16px; color: #999">ArrayList</a> <a href="/tags/C/" style="font-size: 16px; color: #999">C</a> <a href="/tags/Github/" style="font-size: 22px; color: #99a9bf">Github</a> <a href="/tags/IDEA/" style="font-size: 16px; color: #999">IDEA</a> <a href="/tags/Java/" style="font-size: 22px; color: #99a9bf">Java</a> <a href="/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/" style="font-size: 16px; color: #999">位运算</a> <a href="/tags/%E5%89%91%E6%8C%87offer/" style="font-size: 16px; color: #999">剑指offer</a> <a href="/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/" style="font-size: 16px; color: #999">开源项目</a> <a href="/tags/%E6%8C%87%E9%92%88/" style="font-size: 16px; color: #999">指针</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 16px; color: #999">数据结构</a> <a href="/tags/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/" style="font-size: 16px; color: #999">栈和队列</a> <a href="/tags/%E6%B3%9B%E5%9E%8B/" style="font-size: 16px; color: #999">泛型</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" style="font-size: 16px; color: #999">计算机基础知识</a> <a href="/tags/%E9%9B%86%E5%90%88/" style="font-size: 16px; color: #999">集合</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/07/"><span class="card-archive-list-date">七月 2020</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/06/"><span class="card-archive-list-date">六月 2020</span><span class="card-archive-list-count">6</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">文章数目 :</div><div class="webinfo-article-count">10</div></div><div class="webinfo-item"><div class="webinfo-runtime-name">已运行时间 :</div><div class="webinfo-runtime-count" id="webinfo-runtime-count" publish_date="6/23/2020 00:00:00">     </div></div><div class="webinfo-item"><div class="webinfo-site-wordcount-name">本站总字数 :</div><div class="webinfo-site-wordcount">2.9k</div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">本站访客数 :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">本站总访问量 :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By Crow</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><button class="translate_chn_to_cht" id="translateLink" title="简繁转换">繁</button><button id="darkmode" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" title="设置"><i class="fas fa-cog"></i></button><button id="go-up" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="https://cdn.jsdelivr.net/npm/typed.js"></script><script>var subtitleEffect = true
+if (subtitleEffect) { 
+  var typed = new Typed("#subtitle", {
+    strings: "We are all in the gutter,but some of us are looking at the stars.".split(","),
+    startDelay: 300,
+    typeSpeed: 150,
+    loop: true,
+    backSpeed: 50
+  })
+} else {
+  document.getElementById("subtitle").innerHTML = 'We are all in the gutter,but some of us are looking at the stars.'
+}</script></body></html>
