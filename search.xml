@@ -1,67 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Github下载加速</title>
-    <url>/posts/79ca/</url>
-    <content><![CDATA[<p><strong>准备条件</strong></p>
-<ul>
-<li>码云(Gitee账号)</li>
-</ul>
-<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
-<ul>
-<li>Git</li>
-</ul>
-<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows/222" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows/222</a></p>
-<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
-<blockquote>
-<p>1.复制项目的网址</p>
-</blockquote>
-<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
-<blockquote>
-<p>2.导入项目到Gitee</p>
-</blockquote>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
-<p><strong>导入后等待页面加载即可</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
-<p><strong>将项目克隆到本地</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
-<p><strong>速度还行</strong></p>
-<p><strong>当我们导入一个比较大的项目时</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
-<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
-<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
-]]></content>
-      <categories>
-        <category>uncategorized</category>
-      </categories>
-      <tags>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>IDEA快捷键</title>
-    <url>/posts/aa80/</url>
-    <content><![CDATA[<h2 id="断点调试"><a href="#断点调试" class="headerlink" title="断点调试"></a>断点调试</h2><p><a href="https://www.cnblogs.com/xiemingjun/p/9618427.html" target="_blank" rel="noopener">https://www.cnblogs.com/xiemingjun/p/9618427.html</a></p>
-]]></content>
-      <categories>
-        <category>uncategorized</category>
-      </categories>
-      <tags>
-        <tag>IDEA</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>C语言程序设计概述</title>
     <url>/posts/c5a3/</url>
     <content><![CDATA[<h1 id="C语言程序设计概述"><a href="#C语言程序设计概述" class="headerlink" title="C语言程序设计概述"></a>C语言程序设计概述</h1><h2 id="1-C语言的发展历程"><a href="#1-C语言的发展历程" class="headerlink" title="1.C语言的发展历程"></a>1.C语言的发展历程</h2><ul>
@@ -144,99 +83,15 @@
       </tags>
   </entry>
   <entry>
-    <title>Java面向对象的三大特性</title>
-    <url>/posts/9d0/</url>
-    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
-</ul>
-<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
-</ul>
-<p>##多态</p>
-<ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
-</ul>
+    <title>IDEA快捷键</title>
+    <url>/posts/aa80/</url>
+    <content><![CDATA[<h2 id="断点调试"><a href="#断点调试" class="headerlink" title="断点调试"></a>断点调试</h2><p><a href="https://www.cnblogs.com/xiemingjun/p/9618427.html" target="_blank" rel="noopener">https://www.cnblogs.com/xiemingjun/p/9618427.html</a></p>
 ]]></content>
       <categories>
-        <category>Java</category>
+        <category>uncategorized</category>
       </categories>
       <tags>
-        <tag>Java</tag>
-        <tag>面向对象</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MyBatis</title>
-    <url>/posts/f1de/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-      </categories>
-      <tags>
-        <tag>MyBatis</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Spring</title>
-    <url>/posts/46eb/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>Spring</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringBoot</title>
-    <url>/posts/83dd/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringBoot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringMVC</title>
-    <url>/posts/12ac/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringMVC</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringCloud</title>
-    <url>/posts/a67e/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringCloud</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>内存分区模型</title>
-    <url>/posts/a132/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>内存分区模型</tag>
+        <tag>IDEA</tag>
       </tags>
   </entry>
   <entry>
@@ -327,6 +182,236 @@
       <tags>
         <tag>Java</tag>
         <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github下载加速</title>
+    <url>/posts/79ca/</url>
+    <content><![CDATA[<p><strong>准备条件</strong></p>
+<ul>
+<li>码云(Gitee账号)</li>
+</ul>
+<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
+<ul>
+<li>Git</li>
+</ul>
+<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows/222" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows/222</a></p>
+<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
+<blockquote>
+<p>1.复制项目的网址</p>
+</blockquote>
+<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
+<blockquote>
+<p>2.导入项目到Gitee</p>
+</blockquote>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
+<p><strong>导入后等待页面加载即可</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
+<p><strong>将项目克隆到本地</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
+<p><strong>速度还行</strong></p>
+<p><strong>当我们导入一个比较大的项目时</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
+<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
+<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
+]]></content>
+      <categories>
+        <category>uncategorized</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java面向对象的三大特性</title>
+    <url>/posts/9d0/</url>
+    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
+</ul>
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
+</ul>
+<p>##多态</p>
+<ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>面向对象</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spring</title>
+    <url>/posts/46eb/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
+      </categories>
+      <tags>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MyBatis</title>
+    <url>/posts/f1de/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+      </categories>
+      <tags>
+        <tag>MyBatis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringBoot</title>
+    <url>/posts/83dd/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
+      </categories>
+      <tags>
+        <tag>SpringBoot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringCloud</title>
+    <url>/posts/a67e/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
+      </categories>
+      <tags>
+        <tag>SpringCloud</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>位运算</title>
+    <url>/posts/ebce/</url>
+    <content><![CDATA[<h3 id="位运算符以及源码-反码-补码"><a href="#位运算符以及源码-反码-补码" class="headerlink" title="位运算符以及源码,反码,补码"></a>位运算符以及源码,反码,补码</h3><ul>
+<li>二进制的最高位是符号位:0表示正数,1表示负数</li>
+<li>正数三码合一,均相同</li>
+<li><strong>负数</strong>的反码 = 符号位不变,其他位取反(0=&gt;1,1=&gt;0)</li>
+<li><strong>负数</strong>的补码 = 反码 + 1</li>
+<li>0的补码,原码都是0,+0的反码 = 0000 0000,-0的补码 = 1111 1111;</li>
+<li><strong>计算机运算</strong>的时候都是以<strong>补码</strong>的方式来运行 原因:可以将正负数统一起来</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>运算规则</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&amp;:按位与</td>
+<td>相同为1,否则为0</td>
+</tr>
+<tr>
+<td>|:按位或</td>
+<td>有1为1,否则为0</td>
+</tr>
+<tr>
+<td>^:按位异或</td>
+<td>不同为1,否则为0</td>
+</tr>
+<tr>
+<td>~:按位取反</td>
+<td>1转换为0,0转换为1</td>
+</tr>
+</tbody></table>
+<p>🌰​举两个例子</p>
+<p><strong>~2:对2取反</strong></p>
+<ul>
+<li>1.2是正数三码合一得到补码:</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#int占4个字节 1个字节等于8位</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#进行取反</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line">#将取反后得到的补码(11111111 11111111 11111111 11111101)转成源码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">反码: 补码 - 1 &#x3D; 11111111 11111111 11111111 11111100</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#对2取反的结果是-3</span><br><span class="line">~2 &#x3D;&gt; -3</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下：</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = ~<span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a = %d"</span>,a);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/66509c6ebf73a738a3e86da02d1cab4f.png" alt="image-20200625172956190"></p>
+<p><strong>2&amp;-3:2对-3进行按位与运算</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#获取2的补码</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#获取-3的源码</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">反码: 11111111 11111111 11111111 11111100</span><br><span class="line">#获取-3的补码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line"></span><br><span class="line">#将2和-3的补码进行运算</span><br><span class="line"> 2的补码: 00000000 00000000 00000000 00000010</span><br><span class="line">-3的补码: 11111111 11111111 11111111 11111101</span><br><span class="line">&amp;: 相同为1,否则为0</span><br><span class="line">#运算结果 为0</span><br><span class="line">00000000 00000000 00000000 00000000</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下:</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">2</span> &amp; <span class="number">-3</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"b = %d"</span>,b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/8739d86e6f646cbbc0daa0318c2a2dfb.png" alt="image-20200625175424053"></p>
+<h3 id="移位运算符"><a href="#移位运算符" class="headerlink" title="移位运算符"></a>移位运算符</h3><p><strong>算术左移&lt;&lt;:</strong> <strong>符号位不变,低位补0</strong> </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3 &lt;&lt; 2，则是将数字3左移2位</span><br><span class="line">#首先把3转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00000011</span><br><span class="line">#把该数字高位(左侧)的两个零移出，其他的数字都朝左平移2位，最后在低位(右侧)的两个空位补零</span><br><span class="line">#转换为十进制是12</span><br><span class="line">0000 0000 0000 0000 0000 0000 0000 1100</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下:</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">3</span> &lt;&lt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c = %d"</span>,c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/ae4bc9b8187b6a5973852f953ff48973.png" alt="image-20200625200949845"></p>
+<p><strong>算术右移&gt;&gt;</strong>: <strong>低位移出(舍弃)，高位的空位补符号位，即正数补零，负数补1。</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">11 &gt;&gt; 2，则是将数字11右移2位</span><br><span class="line">#首先把11转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00001011</span><br><span class="line">#把低位的最后两个数字移出，因为该数字是正数，所以在高位补零</span><br><span class="line">#转换为十进制是2</span><br><span class="line">00000000 00000000 00000000 00000010</span><br><span class="line"></span><br><span class="line">-1 &gt;&gt; 2</span><br><span class="line">#获取-1的源码</span><br><span class="line">10000000 00000000 00000000 00000001</span><br><span class="line">#源码&#x3D;&gt;反码</span><br><span class="line">11111111 11111111 11111111 11111110</span><br><span class="line">#反码&#x3D;&gt;补码</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#移动两位后 (补码)</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#补码&#x3D;&gt;源码</span><br><span class="line">#转换为十进制是-1</span><br><span class="line">10000000 00000000 00000000 00000001</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下:</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> d = <span class="number">11</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> e = <span class="number">-1</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d = %d e = %d"</span>,d,e);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/3499348d49718a15382fb71f28120f1d.png" alt="image-20200625201030080"></p>
+<p>参考连接：</p>
+<ul>
+<li><p><a href="https://baike.so.com/doc/23743705-24299622.html" target="_blank" rel="noopener">https://baike.so.com/doc/23743705-24299622.html</a></p>
+</li>
+<li><p><a href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=57" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1qJ411z7Hf?p=57</a></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>计算机基础知识</tag>
+        <tag>位运算</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开源项目推荐</title>
+    <url>/posts/aaf6/</url>
+    <content><![CDATA[<h2 id="1-编程语言"><a href="#1-编程语言" class="headerlink" title="1.编程语言"></a>1.编程语言</h2><h3 id="1-1Java"><a href="#1-1Java" class="headerlink" title="1.1Java"></a>1.1Java</h3><ul>
+<li>1.<code>JavaGuide</code></li>
+</ul>
+<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
+<h2 id="2-数据结构和算法"><a href="#2-数据结构和算法" class="headerlink" title="2.数据结构和算法"></a>2.数据结构和算法</h2><p>2.1<code>fucking-algorithm</code></p>
+<p><a href="https://github.com/labuladong/fucking-algorithm" target="_blank" rel="noopener">https://github.com/labuladong/fucking-algorithm</a></p>
+]]></content>
+      <categories>
+        <category>uncategorized</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
+        <tag>开源项目</tag>
       </tags>
   </entry>
   <entry>
@@ -555,112 +640,16 @@
       </tags>
   </entry>
   <entry>
-    <title>位运算</title>
-    <url>/posts/ebce/</url>
-    <content><![CDATA[<h3 id="位运算符以及源码-反码-补码"><a href="#位运算符以及源码-反码-补码" class="headerlink" title="位运算符以及源码,反码,补码"></a>位运算符以及源码,反码,补码</h3><ul>
-<li>二进制的最高位是符号位:0表示正数,1表示负数</li>
-<li>正数三码合一,均相同</li>
-<li><strong>负数</strong>的反码 = 符号位不变,其他位取反(0=&gt;1,1=&gt;0)</li>
-<li><strong>负数</strong>的补码 = 反码 + 1</li>
-<li>0的补码,原码都是0,+0的反码 = 0000 0000,-0的补码 = 1111 1111;</li>
-<li><strong>计算机运算</strong>的时候都是以<strong>补码</strong>的方式来运行 原因:可以将正负数统一起来</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>运算规则</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&amp;:按位与</td>
-<td>相同为1,否则为0</td>
-</tr>
-<tr>
-<td>|:按位或</td>
-<td>有1为1,否则为0</td>
-</tr>
-<tr>
-<td>^:按位异或</td>
-<td>不同为1,否则为0</td>
-</tr>
-<tr>
-<td>~:按位取反</td>
-<td>1转换为0,0转换为1</td>
-</tr>
-</tbody></table>
-<p>🌰​举两个例子</p>
-<p><strong>~2:对2取反</strong></p>
-<ul>
-<li>1.2是正数三码合一得到补码:</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#int占4个字节 1个字节等于8位</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#进行取反</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line">#将取反后得到的补码(11111111 11111111 11111111 11111101)转成源码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">反码: 补码 - 1 &#x3D; 11111111 11111111 11111111 11111100</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#对2取反的结果是-3</span><br><span class="line">~2 &#x3D;&gt; -3</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下：</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = ~<span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a = %d"</span>,a);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/66509c6ebf73a738a3e86da02d1cab4f.png" alt="image-20200625172956190"></p>
-<p><strong>2&amp;-3:2对-3进行按位与运算</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#获取2的补码</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#获取-3的源码</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">反码: 11111111 11111111 11111111 11111100</span><br><span class="line">#获取-3的补码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line"></span><br><span class="line">#将2和-3的补码进行运算</span><br><span class="line"> 2的补码: 00000000 00000000 00000000 00000010</span><br><span class="line">-3的补码: 11111111 11111111 11111111 11111101</span><br><span class="line">&amp;: 相同为1,否则为0</span><br><span class="line">#运算结果 为0</span><br><span class="line">00000000 00000000 00000000 00000000</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下:</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">2</span> &amp; <span class="number">-3</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"b = %d"</span>,b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/8739d86e6f646cbbc0daa0318c2a2dfb.png" alt="image-20200625175424053"></p>
-<h3 id="移位运算符"><a href="#移位运算符" class="headerlink" title="移位运算符"></a>移位运算符</h3><p><strong>算术左移&lt;&lt;:</strong> <strong>符号位不变,低位补0</strong> </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3 &lt;&lt; 2，则是将数字3左移2位</span><br><span class="line">#首先把3转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00000011</span><br><span class="line">#把该数字高位(左侧)的两个零移出，其他的数字都朝左平移2位，最后在低位(右侧)的两个空位补零</span><br><span class="line">#转换为十进制是12</span><br><span class="line">0000 0000 0000 0000 0000 0000 0000 1100</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下:</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">3</span> &lt;&lt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c = %d"</span>,c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/ae4bc9b8187b6a5973852f953ff48973.png" alt="image-20200625200949845"></p>
-<p><strong>算术右移&gt;&gt;</strong>: <strong>低位移出(舍弃)，高位的空位补符号位，即正数补零，负数补1。</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">11 &gt;&gt; 2，则是将数字11右移2位</span><br><span class="line">#首先把11转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00001011</span><br><span class="line">#把低位的最后两个数字移出，因为该数字是正数，所以在高位补零</span><br><span class="line">#转换为十进制是2</span><br><span class="line">00000000 00000000 00000000 00000010</span><br><span class="line"></span><br><span class="line">-1 &gt;&gt; 2</span><br><span class="line">#获取-1的源码</span><br><span class="line">10000000 00000000 00000000 00000001</span><br><span class="line">#源码&#x3D;&gt;反码</span><br><span class="line">11111111 11111111 11111111 11111110</span><br><span class="line">#反码&#x3D;&gt;补码</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#移动两位后 (补码)</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#补码&#x3D;&gt;源码</span><br><span class="line">#转换为十进制是-1</span><br><span class="line">10000000 00000000 00000000 00000001</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下:</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> d = <span class="number">11</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> e = <span class="number">-1</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d = %d e = %d"</span>,d,e);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/3499348d49718a15382fb71f28120f1d.png" alt="image-20200625201030080"></p>
-<p>参考连接：</p>
-<ul>
-<li><p><a href="https://baike.so.com/doc/23743705-24299622.html" target="_blank" rel="noopener">https://baike.so.com/doc/23743705-24299622.html</a></p>
-</li>
-<li><p><a href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=57" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1qJ411z7Hf?p=57</a></p>
-</li>
-</ul>
+    <title>指针</title>
+    <url>/posts/9f93/</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="upload/image-20200701155145887.png" alt="image-20200701155145887"></p>
 ]]></content>
       <categories>
         <category>C</category>
       </categories>
       <tags>
-        <tag>计算机基础知识</tag>
-        <tag>位运算</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开源项目推荐</title>
-    <url>/posts/aaf6/</url>
-    <content><![CDATA[<h2 id="1-编程语言"><a href="#1-编程语言" class="headerlink" title="1.编程语言"></a>1.编程语言</h2><h3 id="1-1Java"><a href="#1-1Java" class="headerlink" title="1.1Java"></a>1.1Java</h3><ul>
-<li>1.<code>JavaGuide</code></li>
-</ul>
-<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
-<h2 id="2-数据结构和算法"><a href="#2-数据结构和算法" class="headerlink" title="2.数据结构和算法"></a>2.数据结构和算法</h2><p>2.1<code>fucking-algorithm</code></p>
-<p><a href="https://github.com/labuladong/fucking-algorithm" target="_blank" rel="noopener">https://github.com/labuladong/fucking-algorithm</a></p>
-]]></content>
-      <categories>
-        <category>uncategorized</category>
-      </categories>
-      <tags>
-        <tag>Github</tag>
-        <tag>开源项目</tag>
+        <tag>C</tag>
+        <tag>指针</tag>
       </tags>
   </entry>
   <entry>
@@ -672,6 +661,30 @@
       </categories>
       <tags>
         <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>内存分区模型</title>
+    <url>/posts/a132/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>内存分区模型</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringMVC</title>
+    <url>/posts/12ac/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
+      </categories>
+      <tags>
+        <tag>SpringMVC</tag>
       </tags>
   </entry>
   <entry>
@@ -1187,16 +1200,199 @@
       </categories>
   </entry>
   <entry>
-    <title>指针</title>
-    <url>/posts/9f93/</url>
-    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="upload/image-20200701155145887.png" alt="image-20200701155145887"></p>
+    <title>线性表</title>
+    <url>/posts/82000000/</url>
+    <content><![CDATA[<h1 id="线性表"><a href="#线性表" class="headerlink" title="线性表"></a>线性表</h1><p><strong>定义</strong>：零个或多个数据元素的<strong>有限序列</strong>。<strong>除第一个元素外</strong>，每个元素<strong>有且仅有</strong>一个直接前驱，<strong>除最后一个元素外，每个元素有且仅有一个直接后继。</strong></p>
+<p>线性表的特点：</p>
+<ul>
+<li>1.元素个数有限   </li>
+<li>2.元素有先后次序</li>
+<li>3.数据类型相同   </li>
+</ul>
+<h2 id="顺序存储结构"><a href="#顺序存储结构" class="headerlink" title="顺序存储结构"></a>顺序存储结构</h2><p>线性表的<code>顺序存储结构</code>，指的是用<strong>一段地址连续的存储单元依次存储线性表的数据元素</strong></p>
+<p>🌰<code>一维数组</code></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//存储空间初始分配量</span></span><br><span class="line"><span class="meta"># <span class="meta-keyword">define</span> MAXSIZE 20</span></span><br><span class="line"><span class="comment">//ElemType类型根据实际情况而定，这里假设为int</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> ElemType;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//数组存储数据元素,最大值为 MAXSIZE</span></span><br><span class="line">    <span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">E1</span> <span class="title">emType</span> <span class="title">data</span>[<span class="title">MAXSIZE</span>];</span> </span><br><span class="line">    <span class="comment">//线性表的当前长度</span></span><br><span class="line">    <span class="keyword">int</span> length;</span><br><span class="line">&#125;SqList;</span><br></pre></td></tr></table></figure>
+
+<p><code>顺序存储结构</code>的属性:</p>
+<ul>
+<li>存储空间的起始位置：数组data，数组<strong>起始位置</strong>的地址就是数组在内存中的存储位置。</li>
+<li>线性表的最大存储容量：数组长度 MaxSize </li>
+<li>线性表的当前长度：length</li>
+</ul>
+<p>内存中的<code>地址</code>，就和图书馆或电影院里的座位一样，都是有编号的。存储器中的每个存储单元都有自己的编号，这个编号称为地址。</p>
+<p>假设数组中的第一元素在内存中的地址是<strong>000000000061FE08</strong>, 第二个元素的地址是<strong>000000000061FE0C</strong></p>
+<p>原因是数组中存储的<strong>元素的数据类型是int</strong>,int在内存中占4个字节 <strong>08 + 4 =&gt; 0C (16进制),</strong>后面元素的地址在前一个地址的基础上加4即可</p>
+<p>算出线性表中<strong>任意位置的地址都是相同的时间</strong>。对每个线性表位置的<code>存入</code>或者<code>取出</code>数据，对于计算机来说都是相等的时间，也就是一个常数，时间复杂度的概念来说，它的存取时间性能为O（1）。我们通常把具有这一特点的存储结构称为<code>随机存取结构</code>。</p>
+<h3 id="顺序存储结构的插入和删除"><a href="#顺序存储结构的插入和删除" class="headerlink" title="顺序存储结构的插入和删除"></a>顺序存储结构的插入和删除</h3><h4 id="获取元素"><a href="#获取元素" class="headerlink" title="获取元素"></a>获取元素</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> OK 1</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ERROR 0</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> TRUE 1</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> FALSE 0</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> status;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	status是函数的类型，其值是函数结果状态代码，如OK等</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在1≤i≤ListLength（L）</span></span><br><span class="line"><span class="comment">	操作结果：用e返回L中第i个数据元素的值</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function">status <span class="title">GetElem</span> <span class="params">(SqList L, <span class="keyword">int</span> i, ElemType *e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(L.length==<span class="number">0</span> || i &lt; <span class="number">1</span> || i &gt; L length)&#123;</span><br><span class="line">		<span class="keyword">return</span> ERROR；</span><br><span class="line">	&#125;</span><br><span class="line">	*e = L.data[i<span class="number">-1</span>]; </span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>返回值类型Sats是一个整型，返回OK代表1， ERROR代表0。</strong></p>
+<h4 id="插入元素"><a href="#插入元素" class="headerlink" title="插入元素"></a>插入元素</h4><p><strong>思路</strong></p>
+<ul>
+<li>插入位置不合理，抛出异常；</li>
+<li>线性表长度大于等于数组长度，则抛出异常或动态增加容量；</li>
+<li>从最后一个元素开始向前遍历到第i个位置，分别将它们都向后移动一个位置;</li>
+<li>将要插入元素填入位置i处；</li>
+<li>表长加1。</li>
+</ul>
+<p>🌰<strong>插队</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在，1≤i≤ ListLength(L)，</span></span><br><span class="line"><span class="comment">	操作结果：在工中第i个位置之前插入新的数据元素e，工的长度加1</span></span><br><span class="line"><span class="comment">*/</span> </span><br><span class="line"><span class="function">Status <span class="title">ListInsert</span> <span class="params">(SqList *L, <span class="keyword">int</span> i, ElemType e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> k;</span><br><span class="line">    <span class="comment">//顺序线性表已经满</span></span><br><span class="line">    <span class="keyword">if</span>(L-&gt; length == MAXSIZE)&#123;</span><br><span class="line">        <span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//当不在范围内时</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt; <span class="number">1</span> || i &gt; L-&gt;<span class="number">1</span>ength + <span class="number">1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//若插入数据位置不在表尾</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt;= L-&gt; <span class="number">1</span>ength)&#123;</span><br><span class="line">        <span class="comment">//将要插入位置后数据元素向后移动一位*/</span></span><br><span class="line">        <span class="keyword">for</span>(k = L-&gt; <span class="number">1</span>ength<span class="number">-1</span>;k &gt;=i<span class="number">-1</span>;k--)&#123;</span><br><span class="line">            L-&gt;data[k+<span class="number">1</span>] = L-&gt;data[k]; </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//将新元素插入</span></span><br><span class="line">    L-&gt;data[i<span class="number">-1</span>] = e;</span><br><span class="line">    L-&gt;length++; </span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="删除元素"><a href="#删除元素" class="headerlink" title="删除元素"></a>删除元素</h4><p><strong>思路</strong></p>
+<ul>
+<li>删除位置不合理，抛出异常；</li>
+<li>取出删除元素；</li>
+<li>从删除元素位置开始遍历到最后一个元素位置，分别将它们都向前移动个位置；</li>
+<li>表长减1。</li>
+</ul>
+<p>🌰<strong>离队</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在，1 ≤ i ≤ ListLength(L)</span></span><br><span class="line"><span class="comment">	操作结果：删除L的第主个数据元素，并用e返回其值，L的长度减1</span></span><br><span class="line"><span class="comment">*/</span>	</span><br><span class="line"><span class="function">Status <span class="title">ListDelete</span><span class="params">(SqList *L, <span class="keyword">int</span> i, ElemType *e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> k;</span><br><span class="line">    <span class="keyword">if</span>(L-&gt;length == <span class="number">0</span>)&#123;</span><br><span class="line">    	<span class="comment">//线性表为空</span></span><br><span class="line">   		<span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(i &lt; <span class="number">1</span> || i &gt; L-&gt;length)&#123;</span><br><span class="line">    	<span class="comment">//删除位置不正确</span></span><br><span class="line">    	<span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    *e = L-&gt;data[i<span class="number">-1</span>];</span><br><span class="line">    <span class="comment">//如果删除不是最后位置</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt; L-&gt;length)&#123;</span><br><span class="line">    	<span class="comment">//将删除位置后继元素前移</span></span><br><span class="line">    	<span class="keyword">for</span>(k = i;k &lt; L-&gt;<span class="number">1</span>ength;k++)&#123;</span><br><span class="line">    		L-&gt;data[k<span class="number">-1</span>] = L-&gt;data[k];</span><br><span class="line">    	&#125;</span><br><span class="line">    &#125;</span><br><span class="line">    L-&gt;length--;</span><br><span class="line">    <span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>分析插入和删除的时间复杂度</strong></p>
+<p><strong>最好的情况</strong>，如果元素要插入到<strong>最后一个位置</strong>，或者删除最后一个元素，<strong>时间复杂度为O（1）</strong>,因为<strong>不需要移动元素</strong>的，就如同来了一个新人要正常排队，当然是<strong>排在最后</strong>，如果此时他又不想排了，他离开之后，不影响任何人</p>
+<p><strong>最坏的情况</strong>，如果元素要插入到<strong>第一个位置</strong>或者删除第一个元素,意味着要<strong>移动所有的元素向后或者向前</strong>，这个<strong>时间复杂度为平均的情况</strong>，由于元素插入到第<code>ⅰ</code>个位置，或删除第<code>i</code>个元素，需要移动<code>n-i</code>个元素。每个位置插入或删除元素的<strong>可能性是相同</strong>的，也就说位置靠前，移动元素多，位置靠后，移动元素少。最终<strong>平均移动次数和最中间的那个元素的移动次数相等</strong>，为(n-1)/2</p>
+<p>平均时间复杂度还是O(n),这说明<code>线性表</code>的<code>顺序存储结构</code>，在<strong>存、读数据</strong>时，不管是哪个位置，<strong>时间复杂度都是O(1)</strong>；而<strong>插入或删除</strong>时，<strong>时间复杂度都是O(n)</strong>,说明它<strong>比较适合元素个数不太变化</strong>，而<strong>更多是存取数据</strong>的应用。</p>
+<p><strong>优点</strong></p>
+<ul>
+<li>无须为表示表中元素之间的逻辑关系而增加额外的存储空间</li>
+<li>可以快速地存取表中任一位置的元素</li>
+</ul>
+<p><strong>缺点</strong></p>
+<ul>
+<li>插入和删除操作需要移密动大量元素</li>
+<li>当线性表长度变化较大时，难以确定存储空间一位置的元素的容量</li>
+<li>造成存储空间的“碎片”</li>
+</ul>
+<h2 id="链式存储结构"><a href="#链式存储结构" class="headerlink" title="链式存储结构"></a>链式存储结构</h2><p><strong>特点</strong></p>
+<p>用一组<strong>任意的存储单元</strong>存储线性表的数据元素，这组存储单元<strong>可以是连续</strong>的，<strong>也可以是不连续</strong>的。意味着，这些数据元素可以存在内存未被占用的<strong>任意位置</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200705174507.png" alt="下载"></p>
+<p>在<strong>顺序结构</strong>中，每个数据元素<strong>只需要存数据元素信息</strong>就可以了。现在<strong>链式结构</strong>中，除了要存数据元素信息外，还要存储它的<strong>后继元素的存储地址</strong></p>
+<p>把<strong>存储数据元素信息</strong>的域称为<strong>数据域</strong>，把<strong>存储直接后继位置</strong>的域称为<strong>指针域</strong>。指针域中存储的信息称做<strong>指针或链。</strong>这两部分信息组成数据元素的存储映像，称为<strong>结点</strong>（Node）。</p>
+<p>把链表中<strong>第一个结点的存储位置</strong>叫做<code>头指针</code>，整个链表的存取就必须是从头指针开始进行了。之后的每一个结点，是上一个的后继指针指向的位置。想象一下，最后一个结点，它的指针为空  通常 <strong>NULL 或 “^”</strong>  </p>
+<p>方便对链表进行操作,会在单链表的第一个节点称为<code>头节点</code>,它的<strong>数据域,可以不存储任何数据</strong>,但是也<strong>可以存储链表的长度</strong>，<code>指针域</code>存储指向<strong>第一个节点的的指针</strong></p>
+<p><code>头指针</code>与<code>头结点</code></p>
+<p><strong>头指针</strong>是指<code>链表</code><strong>指向第一个节点的指针</strong></p>
+<ul>
+<li>头指针具有<strong>标识作用</strong>，所以常用头指针被称为链表</li>
+<li><strong>无论链表是否为空,头指针一定不为空</strong> ,<code>头指针</code>是<strong>链表必要元素</strong></li>
+</ul>
+<p><strong>头节点</strong>是为了操作<code>链表</code>放在第一个节点之前，数据域一般无意义(可存放链表长度)</p>
+<ul>
+<li>有了头结点，对于链表的第一个节点插入和删除就<strong>与其他节点操作方式无异</strong></li>
+<li><strong>头节点不是链表的必要元素</strong></li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//线性表的单链表存储结构</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span>&#123;</span></span><br><span class="line">	ElemType data; </span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">next</span>;</span></span><br><span class="line">&#125; Node;</span><br><span class="line"><span class="comment">//定义 LinkedList</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">LinkList</span>;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h3><p>与数组相似,<code>链表</code>也是一种<code>线性</code>数据结构,<code>链表</code>有两种类型：<code>单链表</code>和<code>双链表</code>。</p>
+<ul>
+<li>链表是以<code>节点</code>的方式来存储是<strong>链式存储</strong>,</li>
+<li>每个节点包含<strong>data域(存储数据)</strong>，<strong>next域：指向下一个节点</strong></li>
+<li>链表的各个<strong>节点不一定是连续存储</strong></li>
+<li>链表分<strong>带头节点的链表</strong>和<strong>不带头节点的链表</strong>，根据实际的需求来确定</li>
+</ul>
+<h4 id="单链表"><a href="#单链表" class="headerlink" title="单链表"></a><strong>单链表</strong></h4><p>单链表中的<strong>每个结点不仅包含值，还包含链接到下一个结点的<code>引用字段</code></strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704124949.png" alt="screen-shot-2018-04-12-at-152754"></p>
+<p>单链表的创建</p>
+<ul>
+<li>Java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SinglyListNode</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    SinglyListNode next;</span><br><span class="line">    SinglyListNode(<span class="keyword">int</span> x) &#123; val = x; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>C++</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">SinglyListNode</span> &#123;</span></span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    SinglyListNode *next;</span><br><span class="line">    SinglyListNode(<span class="keyword">int</span> x) : val(x), next(<span class="literal">NULL</span>) &#123;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><strong>在大多数情况下,使用头结点(第一个结点)来表示整个链表。</strong></p>
+<p><strong>无法访问单链表中的随机元素</strong>。获得第 i 个元素,必须从<strong>头结点逐个遍历</strong>。 我们按<code>索引</code>来<code>访问元素</code>平均要花费 <code>O(N)</code>时间，其中 N 是链表的长度。 </p>
+<p><strong>添加元素</strong></p>
+<p>在给定的结点 <code>prev</code> 之后添加新值，我们应该：</p>
+<ol>
+<li>使用给定值初始化新结点 <code>cur</code></li>
+</ol>
+<h4 id="双链表"><a href="#双链表" class="headerlink" title="双链表"></a>双链表</h4><p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704145009.png" alt="screen-shot-2018-04-17-at-161130"></p>
+<p><strong>线性表是逻辑结构，顺序表和链表是存储结构。</strong></p>
+<ul>
+<li>若线性表需要频繁查找，很少进行插入和删除操作时，宜采用顺序存储结构。若需要频繁插入和删除时，宜采用单链表结构。</li>
+<li>当线性表中的元素个数变化较大或者根本不知道有多大时，最好用单链表结构，这样可以不需要考虑存储空间的大小问题。而如果事先知道线性表的大致长度，用顺序存储结构效率会高很多。</li>
+</ul>
+<h4 id="剑指-Offer-06-从尾到头打印链表"><a href="#剑指-Offer-06-从尾到头打印链表" class="headerlink" title="剑指 Offer 06. 从尾到头打印链表"></a><a href="https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/" target="_blank" rel="noopener">剑指 Offer 06. 从尾到头打印链表</a></h4><p>难度简单</p>
+<p>输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。</p>
+<p><strong>示例 1：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：head &#x3D; [1,3,2]</span><br><span class="line">输出：[2,3,1]</span><br></pre></td></tr></table></figure>
+
+<p><strong>Java题解</strong></p>
+<p><a href="https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/solution/mian-shi-ti-06-cong-wei-dao-tou-da-yin-lian-biao-d/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/solution/mian-shi-ti-06-cong-wei-dao-tou-da-yin-lian-biao-d/</a></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * public class ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode next;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) &#123; val = x; &#125;</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">int</span>[] reversePrint(ListNode head) &#123;</span><br><span class="line">        LinkedList&lt;Integer&gt; stack = <span class="keyword">new</span> LinkedList&lt;Integer&gt;();</span><br><span class="line">        <span class="keyword">while</span>(head != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stack.addLast(head.val);</span><br><span class="line">            head = head.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span>[] res = <span class="keyword">new</span> <span class="keyword">int</span>[stack.size()];</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; res.length; i++)</span><br><span class="line">            res[i] = stack.removeLast();</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>C++题解</strong></p>
+<p><a href="https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/solution/csan-chong-jie-fa-reversefan-zhuan-fa-dui-zhan-fa-/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/solution/csan-chong-jie-fa-reversefan-zhuan-fa-dui-zhan-fa-/</a></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"> </span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * struct ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode *next;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) : val(x), next(NULL) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">    <span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">reversePrint</span><span class="params">(ListNode* head)</span> </span>&#123;</span><br><span class="line">          <span class="keyword">while</span>(head)&#123;</span><br><span class="line">            res.push_back(head-&gt;val);</span><br><span class="line">            head = head-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//使用algorithm算法中的reverse反转res</span></span><br><span class="line">        reverse(res.<span class="built_in">begin</span>(),res.<span class="built_in">end</span>());</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">		<span class="comment">//方法2：改变链表结构</span></span><br><span class="line">        ListNode *pre = <span class="literal">nullptr</span>;</span><br><span class="line">        ListNode *next = head;</span><br><span class="line">        ListNode *cur = head;</span><br><span class="line">        <span class="keyword">while</span>(cur)&#123;</span><br><span class="line">            next = cur-&gt;next;<span class="comment">//保存当前结点的下一个节点</span></span><br><span class="line">            cur-&gt;next = pre;<span class="comment">//当前结点指向前一个节点，反向改变指针</span></span><br><span class="line">            pre = cur;<span class="comment">//更新前一个节点</span></span><br><span class="line">            cur = next;<span class="comment">//更新当前结点</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span>(pre)&#123;<span class="comment">//上一个while循环结束后，pre指向新的链表头</span></span><br><span class="line">            res.push_back(pre-&gt;val);</span><br><span class="line">            pre = pre-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="剑指-Offer-22-链表中倒数第k个节点"><a href="#剑指-Offer-22-链表中倒数第k个节点" class="headerlink" title="剑指 Offer 22. 链表中倒数第k个节点"></a><a href="https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/" target="_blank" rel="noopener">剑指 Offer 22. 链表中倒数第k个节点</a></h4><p>难度简单</p>
+<p>输入一个链表，输出该链表中倒数第k个节点。为了符合大多数人的习惯，本题从1开始计数，即链表的尾节点是倒数第1个节点。例如，一个链表有6个节点，从头节点开始，它们的值依次是1、2、3、4、5、6。这个链表的倒数第3个节点是值为4的节点。</p>
+<p><strong>示例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">给定一个链表: 1-&gt;2-&gt;3-&gt;4-&gt;5, 和 k &#x3D; 2.</span><br><span class="line"></span><br><span class="line">返回链表 4-&gt;5.</span><br></pre></td></tr></table></figure>
+
+<p><strong>Java解法</strong></p>
+<p><a href="https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/solution/mian-shi-ti-22-lian-biao-zhong-dao-shu-di-kge-j-11/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/solution/mian-shi-ti-22-lian-biao-zhong-dao-shu-di-kge-j-11/</a></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> ListNode <span class="title">getKthFromEnd</span><span class="params">(ListNode head, <span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">        ListNode former = head, latter = head;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; k; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span>(former == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">            former = former.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span>(former != <span class="keyword">null</span>) &#123;</span><br><span class="line">            former = former.next;</span><br><span class="line">            latter = latter.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> latter;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>C++解法</strong></p>
+<p><a href="https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/solution/cjian-ji-dai-ma-kuai-man-zhi-zhen-by-orangeman/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/solution/cjian-ji-dai-ma-kuai-man-zhi-zhen-by-orangeman/</a></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">getKthFromEnd</span><span class="params">(ListNode* head, <span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">        ListNode* cur = head;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; k; i ++) cur = cur-&gt;next;</span><br><span class="line">        <span class="keyword">while</span>(cur) &#123;</span><br><span class="line">            cur = cur-&gt;next;  <span class="comment">//快指针</span></span><br><span class="line">            head = head-&gt;next;  <span class="comment">//慢指针</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> head;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="剑指-Offer-18-删除链表的节点"><a href="#剑指-Offer-18-删除链表的节点" class="headerlink" title="剑指 Offer 18. 删除链表的节点"></a><a href="https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/" target="_blank" rel="noopener">剑指 Offer 18. 删除链表的节点</a></h4><p>难度简单</p>
+<p>给定单向链表的头指针和一个要删除的节点的值，定义一个函数删除该节点。</p>
+<p>返回删除后的链表的头节点。</p>
+<p><strong>注意：</strong>此题对比原题有改动</p>
+<p><strong>示例 1:</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: head &#x3D; [4,5,1,9], val &#x3D; 5</span><br><span class="line">输出: [4,1,9]</span><br><span class="line">解释: 给定你链表中值为 5 的第二个节点，那么在调用了你的函数之后，该链表应变为 4 -&gt; 1 -&gt; 9.</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2:</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: head &#x3D; [4,5,1,9], val &#x3D; 1</span><br><span class="line">输出: [4,5,9]</span><br><span class="line">解释: 给定你链表中值为 1 的第三个节点，那么在调用了你的函数之后，该链表应变为 4 -&gt; 5 -&gt; 9.</span><br></pre></td></tr></table></figure>
+
+<p><strong>说明：</strong></p>
+<ul>
+<li>题目保证链表中节点的值互不相同</li>
+<li>若使用 C 或 C++ 语言，你不需要 <code>free</code> 或 <code>delete</code> 被删除的节点</li>
+</ul>
+<p><strong>Java解法</strong></p>
+<p><a href="https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/mian-shi-ti-18-shan-chu-lian-biao-de-jie-dian-sh-2/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/mian-shi-ti-18-shan-chu-lian-biao-de-jie-dian-sh-2/</a></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * public class ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode next;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) &#123; val = x; &#125;</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> ListNode <span class="title">deleteNode</span><span class="params">(ListNode head, <span class="keyword">int</span> val)</span> </span>&#123;</span><br><span class="line">        ListNode pre = <span class="keyword">new</span> ListNode(-<span class="number">1</span>);</span><br><span class="line">        pre.next = head;</span><br><span class="line">        ListNode cur = pre;</span><br><span class="line">        <span class="keyword">while</span>(cur != <span class="keyword">null</span> &amp;&amp; cur.next != <span class="keyword">null</span>)&#123;</span><br><span class="line">            <span class="keyword">if</span>(cur.next.val == val)&#123;</span><br><span class="line">                cur.next = cur.next.next;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            cur = cur.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> pre.next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>C++解法</strong></p>
+<p><a href="https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/c-99duo-100-by-mo-ruo-an-sheng/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/c-99duo-100-by-mo-ruo-an-sheng/</a></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * struct ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode *next;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) : val(x), next(NULL) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">deleteNode</span><span class="params">(ListNode* head, <span class="keyword">int</span> val)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> dummy=<span class="keyword">new</span> ListNode(<span class="number">-1</span>);</span><br><span class="line">        dummy-&gt;next=head;</span><br><span class="line">        <span class="keyword">auto</span> a=dummy,b=a-&gt;next;</span><br><span class="line">        <span class="keyword">while</span>(b&amp;&amp;b-&gt;val!=val)</span><br><span class="line">        &#123;</span><br><span class="line">            a=a-&gt;next;</span><br><span class="line">            b=b-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        a-&gt;next=a-&gt;next-&gt;next;</span><br><span class="line">        <span class="keyword">return</span> dummy-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>🔗<strong>参考链接</strong></p>
+<ul>
+<li>大话数据结构</li>
+<li>尚硅谷 数据结构(Java版)</li>
+<li><a href="https://www.bilibili.com/video/BV1E4411H73v?from=search&amp;seid=10908307989250096091" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1E4411H73v?from=search&amp;seid=10908307989250096091</a></li>
+<li><a href="https://www.cnblogs.com/wincai/p/5893475.html" target="_blank" rel="noopener">https://www.cnblogs.com/wincai/p/5893475.html</a></li>
+</ul>
 ]]></content>
       <categories>
-        <category>C</category>
+        <category>数据结构和算法</category>
       </categories>
       <tags>
-        <tag>C</tag>
-        <tag>指针</tag>
+        <tag>数据结构</tag>
+        <tag>剑指offer</tag>
+        <tag>线性表</tag>
       </tags>
   </entry>
   <entry>
@@ -1512,202 +1708,6 @@
         <tag>Java</tag>
         <tag>集合</tag>
         <tag>泛型</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>线性表</title>
-    <url>/posts/82000000/</url>
-    <content><![CDATA[<h1 id="线性表"><a href="#线性表" class="headerlink" title="线性表"></a>线性表</h1><p><strong>定义</strong>：零个或多个数据元素的<strong>有限序列</strong>。<strong>除第一个元素外</strong>，每个元素<strong>有且仅有</strong>一个直接前驱，<strong>除最后一个元素外，每个元素有且仅有一个直接后继。</strong></p>
-<p>线性表的特点：</p>
-<ul>
-<li>1.元素个数有限   </li>
-<li>2.元素有先后次序</li>
-<li>3.数据类型相同   </li>
-</ul>
-<h2 id="顺序存储结构"><a href="#顺序存储结构" class="headerlink" title="顺序存储结构"></a>顺序存储结构</h2><p>线性表的<code>顺序存储结构</code>，指的是用<strong>一段地址连续的存储单元依次存储线性表的数据元素</strong></p>
-<p>🌰<code>一维数组</code></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//存储空间初始分配量</span></span><br><span class="line"><span class="meta"># <span class="meta-keyword">define</span> MAXSIZE 20</span></span><br><span class="line"><span class="comment">//ElemType类型根据实际情况而定，这里假设为int</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> ElemType;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//数组存储数据元素,最大值为 MAXSIZE</span></span><br><span class="line">    <span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">E1</span> <span class="title">emType</span> <span class="title">data</span>[<span class="title">MAXSIZE</span>];</span> </span><br><span class="line">    <span class="comment">//线性表的当前长度</span></span><br><span class="line">    <span class="keyword">int</span> length;</span><br><span class="line">&#125;SqList;</span><br></pre></td></tr></table></figure>
-
-<p><code>顺序存储结构</code>的属性:</p>
-<ul>
-<li>存储空间的起始位置：数组data，数组<strong>起始位置</strong>的地址就是数组在内存中的存储位置。</li>
-<li>线性表的最大存储容量：数组长度 MaxSize </li>
-<li>线性表的当前长度：length</li>
-</ul>
-<p>内存中的<code>地址</code>，就和图书馆或电影院里的座位一样，都是有编号的。存储器中的每个存储单元都有自己的编号，这个编号称为地址。</p>
-<p>假设数组中的第一元素在内存中的地址是<strong>000000000061FE08</strong>, 第二个元素的地址是<strong>000000000061FE0C</strong></p>
-<p>原因是数组中存储的<strong>元素的数据类型是int</strong>,int在内存中占4个字节 <strong>08 + 4 =&gt; 0C (16进制),</strong>后面元素的地址在前一个地址的基础上加4即可</p>
-<p>算出线性表中<strong>任意位置的地址都是相同的时间</strong>。对每个线性表位置的<code>存入</code>或者<code>取出</code>数据，对于计算机来说都是相等的时间，也就是一个常数，时间复杂度的概念来说，它的存取时间性能为O（1）。我们通常把具有这一特点的存储结构称为<code>随机存取结构</code>。</p>
-<h3 id="顺序存储结构的插入和删除"><a href="#顺序存储结构的插入和删除" class="headerlink" title="顺序存储结构的插入和删除"></a>顺序存储结构的插入和删除</h3><h4 id="获取元素"><a href="#获取元素" class="headerlink" title="获取元素"></a>获取元素</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> OK 1</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ERROR 0</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> TRUE 1</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> FALSE 0</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> status;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	status是函数的类型，其值是函数结果状态代码，如OK等</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在1≤i≤ListLength（L）</span></span><br><span class="line"><span class="comment">	操作结果：用e返回L中第i个数据元素的值</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function">status <span class="title">GetElem</span> <span class="params">(SqList L, <span class="keyword">int</span> i, ElemType *e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(L.length==<span class="number">0</span> || i &lt; <span class="number">1</span> || i &gt; L length)&#123;</span><br><span class="line">		<span class="keyword">return</span> ERROR；</span><br><span class="line">	&#125;</span><br><span class="line">	*e = L.data[i<span class="number">-1</span>]; </span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>返回值类型Sats是一个整型，返回OK代表1， ERROR代表0。</strong></p>
-<h4 id="插入元素"><a href="#插入元素" class="headerlink" title="插入元素"></a>插入元素</h4><p><strong>思路</strong></p>
-<ul>
-<li>插入位置不合理，抛出异常；</li>
-<li>线性表长度大于等于数组长度，则抛出异常或动态增加容量；</li>
-<li>从最后一个元素开始向前遍历到第i个位置，分别将它们都向后移动一个位置;</li>
-<li>将要插入元素填入位置i处；</li>
-<li>表长加1。</li>
-</ul>
-<p>🌰<strong>插队</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在，1≤i≤ ListLength(L)，</span></span><br><span class="line"><span class="comment">	操作结果：在工中第i个位置之前插入新的数据元素e，工的长度加1</span></span><br><span class="line"><span class="comment">*/</span> </span><br><span class="line"><span class="function">Status <span class="title">ListInsert</span> <span class="params">(SqList *L, <span class="keyword">int</span> i, ElemType e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> k;</span><br><span class="line">    <span class="comment">//顺序线性表已经满</span></span><br><span class="line">    <span class="keyword">if</span>(L-&gt; length == MAXSIZE)&#123;</span><br><span class="line">        <span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//当不在范围内时</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt; <span class="number">1</span> || i &gt; L-&gt;<span class="number">1</span>ength + <span class="number">1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//若插入数据位置不在表尾</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt;= L-&gt; <span class="number">1</span>ength)&#123;</span><br><span class="line">        <span class="comment">//将要插入位置后数据元素向后移动一位*/</span></span><br><span class="line">        <span class="keyword">for</span>(k = L-&gt; <span class="number">1</span>ength<span class="number">-1</span>;k &gt;=i<span class="number">-1</span>;k--)&#123;</span><br><span class="line">            L-&gt;data[k+<span class="number">1</span>] = L-&gt;data[k]; </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//将新元素插入</span></span><br><span class="line">    L-&gt;data[i<span class="number">-1</span>] = e;</span><br><span class="line">    L-&gt;length++; </span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="删除元素"><a href="#删除元素" class="headerlink" title="删除元素"></a>删除元素</h4><p><strong>思路</strong></p>
-<ul>
-<li>删除位置不合理，抛出异常；</li>
-<li>取出删除元素；</li>
-<li>从删除元素位置开始遍历到最后一个元素位置，分别将它们都向前移动个位置；</li>
-<li>表长减1。</li>
-</ul>
-<p>🌰<strong>离队</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在，1 ≤ i ≤ ListLength(L)</span></span><br><span class="line"><span class="comment">	操作结果：删除L的第主个数据元素，并用e返回其值，L的长度减1</span></span><br><span class="line"><span class="comment">*/</span>	</span><br><span class="line"><span class="function">Status <span class="title">ListDelete</span><span class="params">(SqList *L, <span class="keyword">int</span> i, ElemType *e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> k;</span><br><span class="line">    <span class="keyword">if</span>(L-&gt;length == <span class="number">0</span>)&#123;</span><br><span class="line">    	<span class="comment">//线性表为空</span></span><br><span class="line">   		<span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(i &lt; <span class="number">1</span> || i &gt; L-&gt;length)&#123;</span><br><span class="line">    	<span class="comment">//删除位置不正确</span></span><br><span class="line">    	<span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    *e = L-&gt;data[i<span class="number">-1</span>];</span><br><span class="line">    <span class="comment">//如果删除不是最后位置</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt; L-&gt;length)&#123;</span><br><span class="line">    	<span class="comment">//将删除位置后继元素前移</span></span><br><span class="line">    	<span class="keyword">for</span>(k = i;k &lt; L-&gt;<span class="number">1</span>ength;k++)&#123;</span><br><span class="line">    		L-&gt;data[k<span class="number">-1</span>] = L-&gt;data[k];</span><br><span class="line">    	&#125;</span><br><span class="line">    &#125;</span><br><span class="line">    L-&gt;length--;</span><br><span class="line">    <span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>分析插入和删除的时间复杂度</strong></p>
-<p><strong>最好的情况</strong>，如果元素要插入到<strong>最后一个位置</strong>，或者删除最后一个元素，<strong>时间复杂度为O（1）</strong>,因为<strong>不需要移动元素</strong>的，就如同来了一个新人要正常排队，当然是<strong>排在最后</strong>，如果此时他又不想排了，他离开之后，不影响任何人</p>
-<p><strong>最坏的情况</strong>，如果元素要插入到<strong>第一个位置</strong>或者删除第一个元素,意味着要<strong>移动所有的元素向后或者向前</strong>，这个<strong>时间复杂度为平均的情况</strong>，由于元素插入到第<code>ⅰ</code>个位置，或删除第<code>i</code>个元素，需要移动<code>n-i</code>个元素。每个位置插入或删除元素的<strong>可能性是相同</strong>的，也就说位置靠前，移动元素多，位置靠后，移动元素少。最终<strong>平均移动次数和最中间的那个元素的移动次数相等</strong>，为(n-1)/2</p>
-<p>平均时间复杂度还是O(n),这说明<code>线性表</code>的<code>顺序存储结构</code>，在<strong>存、读数据</strong>时，不管是哪个位置，<strong>时间复杂度都是O(1)</strong>；而<strong>插入或删除</strong>时，<strong>时间复杂度都是O(n)</strong>,说明它<strong>比较适合元素个数不太变化</strong>，而<strong>更多是存取数据</strong>的应用。</p>
-<p><strong>优点</strong></p>
-<ul>
-<li>无须为表示表中元素之间的逻辑关系而增加额外的存储空间</li>
-<li>可以快速地存取表中任一位置的元素</li>
-</ul>
-<p><strong>缺点</strong></p>
-<ul>
-<li>插入和删除操作需要移密动大量元素</li>
-<li>当线性表长度变化较大时，难以确定存储空间一位置的元素的容量</li>
-<li>造成存储空间的“碎片”</li>
-</ul>
-<h2 id="链式存储结构"><a href="#链式存储结构" class="headerlink" title="链式存储结构"></a>链式存储结构</h2><p><strong>特点</strong></p>
-<p>用一组<strong>任意的存储单元</strong>存储线性表的数据元素，这组存储单元<strong>可以是连续</strong>的，<strong>也可以是不连续</strong>的。意味着，这些数据元素可以存在内存未被占用的<strong>任意位置</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200705174507.png" alt="下载"></p>
-<p>在<strong>顺序结构</strong>中，每个数据元素<strong>只需要存数据元素信息</strong>就可以了。现在<strong>链式结构</strong>中，除了要存数据元素信息外，还要存储它的<strong>后继元素的存储地址</strong></p>
-<p>把<strong>存储数据元素信息</strong>的域称为<strong>数据域</strong>，把<strong>存储直接后继位置</strong>的域称为<strong>指针域</strong>。指针域中存储的信息称做<strong>指针或链。</strong>这两部分信息组成数据元素的存储映像，称为<strong>结点</strong>（Node）。</p>
-<p>把链表中<strong>第一个结点的存储位置</strong>叫做<code>头指针</code>，整个链表的存取就必须是从头指针开始进行了。之后的每一个结点，是上一个的后继指针指向的位置。想象一下，最后一个结点，它的指针为空  通常 <strong>NULL 或 “^”</strong>  </p>
-<p>方便对链表进行操作,会在单链表的第一个节点称为<code>头节点</code>,它的<strong>数据域,可以不存储任何数据</strong>,但是也<strong>可以存储链表的长度</strong>，<code>指针域</code>存储指向<strong>第一个节点的的指针</strong></p>
-<p><code>头指针</code>与<code>头结点</code></p>
-<p><strong>头指针</strong>是指<code>链表</code><strong>指向第一个节点的指针</strong></p>
-<ul>
-<li>头指针具有<strong>标识作用</strong>，所以常用头指针被称为链表</li>
-<li><strong>无论链表是否为空,头指针一定不为空</strong> ,<code>头指针</code>是<strong>链表必要元素</strong></li>
-</ul>
-<p><strong>头节点</strong>是为了操作<code>链表</code>放在第一个节点之前，数据域一般无意义(可存放链表长度)</p>
-<ul>
-<li>有了头结点，对于链表的第一个节点插入和删除就<strong>与其他节点操作方式无异</strong></li>
-<li><strong>头节点不是链表的必要元素</strong></li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//线性表的单链表存储结构</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span>&#123;</span></span><br><span class="line">	ElemType data; </span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">next</span>;</span></span><br><span class="line">&#125; Node;</span><br><span class="line"><span class="comment">//定义 LinkedList</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">LinkList</span>;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h3><p>与数组相似,<code>链表</code>也是一种<code>线性</code>数据结构,<code>链表</code>有两种类型：<code>单链表</code>和<code>双链表</code>。</p>
-<ul>
-<li>链表是以<code>节点</code>的方式来存储是<strong>链式存储</strong>,</li>
-<li>每个节点包含<strong>data域(存储数据)</strong>，<strong>next域：指向下一个节点</strong></li>
-<li>链表的各个<strong>节点不一定是连续存储</strong></li>
-<li>链表分<strong>带头节点的链表</strong>和<strong>不带头节点的链表</strong>，根据实际的需求来确定</li>
-</ul>
-<h4 id="单链表"><a href="#单链表" class="headerlink" title="单链表"></a><strong>单链表</strong></h4><p>单链表中的<strong>每个结点不仅包含值，还包含链接到下一个结点的<code>引用字段</code></strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704124949.png" alt="screen-shot-2018-04-12-at-152754"></p>
-<p>单链表的创建</p>
-<ul>
-<li>Java</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SinglyListNode</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    SinglyListNode next;</span><br><span class="line">    SinglyListNode(<span class="keyword">int</span> x) &#123; val = x; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>C++</li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">SinglyListNode</span> &#123;</span></span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    SinglyListNode *next;</span><br><span class="line">    SinglyListNode(<span class="keyword">int</span> x) : val(x), next(<span class="literal">NULL</span>) &#123;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<p><strong>在大多数情况下,使用头结点(第一个结点)来表示整个链表。</strong></p>
-<p><strong>无法访问单链表中的随机元素</strong>。获得第 i 个元素,必须从<strong>头结点逐个遍历</strong>。 我们按<code>索引</code>来<code>访问元素</code>平均要花费 <code>O(N)</code>时间，其中 N 是链表的长度。 </p>
-<p><strong>添加元素</strong></p>
-<p>在给定的结点 <code>prev</code> 之后添加新值，我们应该：</p>
-<ol>
-<li>使用给定值初始化新结点 <code>cur</code></li>
-</ol>
-<h4 id="双链表"><a href="#双链表" class="headerlink" title="双链表"></a>双链表</h4><p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704145009.png" alt="screen-shot-2018-04-17-at-161130"></p>
-<p><strong>线性表是逻辑结构，顺序表和链表是存储结构。</strong></p>
-<ul>
-<li>若线性表需要频繁查找，很少进行插入和删除操作时，宜采用顺序存储结构。若需要频繁插入和删除时，宜采用单链表结构。</li>
-<li>当线性表中的元素个数变化较大或者根本不知道有多大时，最好用单链表结构，这样可以不需要考虑存储空间的大小问题。而如果事先知道线性表的大致长度，用顺序存储结构效率会高很多。</li>
-</ul>
-<h4 id="剑指-Offer-06-从尾到头打印链表"><a href="#剑指-Offer-06-从尾到头打印链表" class="headerlink" title="剑指 Offer 06. 从尾到头打印链表"></a><a href="https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/" target="_blank" rel="noopener">剑指 Offer 06. 从尾到头打印链表</a></h4><p>难度简单</p>
-<p>输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。</p>
-<p><strong>示例 1：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：head &#x3D; [1,3,2]</span><br><span class="line">输出：[2,3,1]</span><br></pre></td></tr></table></figure>
-
-<p><strong>Java题解</strong></p>
-<p><a href="https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/solution/mian-shi-ti-06-cong-wei-dao-tou-da-yin-lian-biao-d/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/solution/mian-shi-ti-06-cong-wei-dao-tou-da-yin-lian-biao-d/</a></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * public class ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode next;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) &#123; val = x; &#125;</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">int</span>[] reversePrint(ListNode head) &#123;</span><br><span class="line">        LinkedList&lt;Integer&gt; stack = <span class="keyword">new</span> LinkedList&lt;Integer&gt;();</span><br><span class="line">        <span class="keyword">while</span>(head != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stack.addLast(head.val);</span><br><span class="line">            head = head.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span>[] res = <span class="keyword">new</span> <span class="keyword">int</span>[stack.size()];</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; res.length; i++)</span><br><span class="line">            res[i] = stack.removeLast();</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>C++题解</strong></p>
-<p><a href="https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/solution/csan-chong-jie-fa-reversefan-zhuan-fa-dui-zhan-fa-/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/solution/csan-chong-jie-fa-reversefan-zhuan-fa-dui-zhan-fa-/</a></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"> </span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * struct ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode *next;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) : val(x), next(NULL) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; res;</span><br><span class="line">    <span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">reversePrint</span><span class="params">(ListNode* head)</span> </span>&#123;</span><br><span class="line">          <span class="keyword">while</span>(head)&#123;</span><br><span class="line">            res.push_back(head-&gt;val);</span><br><span class="line">            head = head-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//使用algorithm算法中的reverse反转res</span></span><br><span class="line">        reverse(res.<span class="built_in">begin</span>(),res.<span class="built_in">end</span>());</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">		<span class="comment">//方法2：改变链表结构</span></span><br><span class="line">        ListNode *pre = <span class="literal">nullptr</span>;</span><br><span class="line">        ListNode *next = head;</span><br><span class="line">        ListNode *cur = head;</span><br><span class="line">        <span class="keyword">while</span>(cur)&#123;</span><br><span class="line">            next = cur-&gt;next;<span class="comment">//保存当前结点的下一个节点</span></span><br><span class="line">            cur-&gt;next = pre;<span class="comment">//当前结点指向前一个节点，反向改变指针</span></span><br><span class="line">            pre = cur;<span class="comment">//更新前一个节点</span></span><br><span class="line">            cur = next;<span class="comment">//更新当前结点</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span>(pre)&#123;<span class="comment">//上一个while循环结束后，pre指向新的链表头</span></span><br><span class="line">            res.push_back(pre-&gt;val);</span><br><span class="line">            pre = pre-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="剑指-Offer-22-链表中倒数第k个节点"><a href="#剑指-Offer-22-链表中倒数第k个节点" class="headerlink" title="剑指 Offer 22. 链表中倒数第k个节点"></a><a href="https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/" target="_blank" rel="noopener">剑指 Offer 22. 链表中倒数第k个节点</a></h4><p>难度简单</p>
-<p>输入一个链表，输出该链表中倒数第k个节点。为了符合大多数人的习惯，本题从1开始计数，即链表的尾节点是倒数第1个节点。例如，一个链表有6个节点，从头节点开始，它们的值依次是1、2、3、4、5、6。这个链表的倒数第3个节点是值为4的节点。</p>
-<p><strong>示例：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">给定一个链表: 1-&gt;2-&gt;3-&gt;4-&gt;5, 和 k &#x3D; 2.</span><br><span class="line"></span><br><span class="line">返回链表 4-&gt;5.</span><br></pre></td></tr></table></figure>
-
-<p><strong>Java解法</strong></p>
-<p><a href="https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/solution/mian-shi-ti-22-lian-biao-zhong-dao-shu-di-kge-j-11/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/solution/mian-shi-ti-22-lian-biao-zhong-dao-shu-di-kge-j-11/</a></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> ListNode <span class="title">getKthFromEnd</span><span class="params">(ListNode head, <span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">        ListNode former = head, latter = head;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; k; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span>(former == <span class="keyword">null</span>) <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">            former = former.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span>(former != <span class="keyword">null</span>) &#123;</span><br><span class="line">            former = former.next;</span><br><span class="line">            latter = latter.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> latter;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p><strong>C++解法</strong></p>
-<p><a href="https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/solution/cjian-ji-dai-ma-kuai-man-zhi-zhen-by-orangeman/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/solution/cjian-ji-dai-ma-kuai-man-zhi-zhen-by-orangeman/</a></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">getKthFromEnd</span><span class="params">(ListNode* head, <span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">        ListNode* cur = head;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; k; i ++) cur = cur-&gt;next;</span><br><span class="line">        <span class="keyword">while</span>(cur) &#123;</span><br><span class="line">            cur = cur-&gt;next;  <span class="comment">//快指针</span></span><br><span class="line">            head = head-&gt;next;  <span class="comment">//慢指针</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> head;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="剑指-Offer-18-删除链表的节点"><a href="#剑指-Offer-18-删除链表的节点" class="headerlink" title="剑指 Offer 18. 删除链表的节点"></a><a href="https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/" target="_blank" rel="noopener">剑指 Offer 18. 删除链表的节点</a></h4><p>难度简单</p>
-<p>给定单向链表的头指针和一个要删除的节点的值，定义一个函数删除该节点。</p>
-<p>返回删除后的链表的头节点。</p>
-<p><strong>注意：</strong>此题对比原题有改动</p>
-<p><strong>示例 1:</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: head &#x3D; [4,5,1,9], val &#x3D; 5</span><br><span class="line">输出: [4,1,9]</span><br><span class="line">解释: 给定你链表中值为 5 的第二个节点，那么在调用了你的函数之后，该链表应变为 4 -&gt; 1 -&gt; 9.</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 2:</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: head &#x3D; [4,5,1,9], val &#x3D; 1</span><br><span class="line">输出: [4,5,9]</span><br><span class="line">解释: 给定你链表中值为 1 的第三个节点，那么在调用了你的函数之后，该链表应变为 4 -&gt; 5 -&gt; 9.</span><br></pre></td></tr></table></figure>
-
-<p><strong>说明：</strong></p>
-<ul>
-<li>题目保证链表中节点的值互不相同</li>
-<li>若使用 C 或 C++ 语言，你不需要 <code>free</code> 或 <code>delete</code> 被删除的节点</li>
-</ul>
-<p><strong>Java解法</strong></p>
-<p><a href="https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/mian-shi-ti-18-shan-chu-lian-biao-de-jie-dian-sh-2/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/mian-shi-ti-18-shan-chu-lian-biao-de-jie-dian-sh-2/</a></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * public class ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode next;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) &#123; val = x; &#125;</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> ListNode <span class="title">deleteNode</span><span class="params">(ListNode head, <span class="keyword">int</span> val)</span> </span>&#123;</span><br><span class="line">        ListNode pre = <span class="keyword">new</span> ListNode(-<span class="number">1</span>);</span><br><span class="line">        pre.next = head;</span><br><span class="line">        ListNode cur = pre;</span><br><span class="line">        <span class="keyword">while</span>(cur != <span class="keyword">null</span> &amp;&amp; cur.next != <span class="keyword">null</span>)&#123;</span><br><span class="line">            <span class="keyword">if</span>(cur.next.val == val)&#123;</span><br><span class="line">                cur.next = cur.next.next;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            cur = cur.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> pre.next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p><strong>C++解法</strong></p>
-<p><a href="https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/c-99duo-100-by-mo-ruo-an-sheng/" target="_blank" rel="noopener">https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/solution/c-99duo-100-by-mo-ruo-an-sheng/</a></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * struct ListNode &#123;</span></span><br><span class="line"><span class="comment"> *     int val;</span></span><br><span class="line"><span class="comment"> *     ListNode *next;</span></span><br><span class="line"><span class="comment"> *     ListNode(int x) : val(x), next(NULL) &#123;&#125;</span></span><br><span class="line"><span class="comment"> * &#125;;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">deleteNode</span><span class="params">(ListNode* head, <span class="keyword">int</span> val)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">auto</span> dummy=<span class="keyword">new</span> ListNode(<span class="number">-1</span>);</span><br><span class="line">        dummy-&gt;next=head;</span><br><span class="line">        <span class="keyword">auto</span> a=dummy,b=a-&gt;next;</span><br><span class="line">        <span class="keyword">while</span>(b&amp;&amp;b-&gt;val!=val)</span><br><span class="line">        &#123;</span><br><span class="line">            a=a-&gt;next;</span><br><span class="line">            b=b-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        a-&gt;next=a-&gt;next-&gt;next;</span><br><span class="line">        <span class="keyword">return</span> dummy-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>🔗<strong>参考链接</strong></p>
-<ul>
-<li>大话数据结构</li>
-<li>尚硅谷 数据结构(Java版)</li>
-<li><a href="https://www.bilibili.com/video/BV1E4411H73v?from=search&amp;seid=10908307989250096091" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1E4411H73v?from=search&amp;seid=10908307989250096091</a></li>
-<li><a href="https://www.cnblogs.com/wincai/p/5893475.html" target="_blank" rel="noopener">https://www.cnblogs.com/wincai/p/5893475.html</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>剑指offer</tag>
-        <tag>线性表</tag>
       </tags>
   </entry>
 </search>
