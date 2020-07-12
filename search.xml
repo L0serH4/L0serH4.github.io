@@ -13,6 +13,136 @@
       </tags>
   </entry>
   <entry>
+    <title>C语言程序设计概述</title>
+    <url>/posts/c5a3/</url>
+    <content><![CDATA[<h1 id="C语言程序设计概述"><a href="#C语言程序设计概述" class="headerlink" title="C语言程序设计概述"></a>C语言程序设计概述</h1><h2 id="1-C语言的发展历程"><a href="#1-C语言的发展历程" class="headerlink" title="1.C语言的发展历程"></a>1.C语言的发展历程</h2><ul>
+<li>1.为什么发明C语言：C语言的诞生是和UNIX操作系统的开发密不可分的，原先的UNⅨX操作系统都是用汇编语言写的，1973年UNIX操作系统的核心用C语言改写，从此以后，C语言成为编写操作系统的主要语言</li>
+<li>2.C语言对其它语言的影响：很多编程语言都深受C语言的影响，比如C艹（原先是C语言的一个扩展）、C#、 Java、PHP、 Javascript、Perl、LPC和UNIX的 C Shell等</li>
+<li>掌握C语言的人，再学其它编程语言，大多能很快上手，触类旁通，很多大学将C语言作为计算机教学的入门</li>
+<li>C语言之父 <strong>丹尼斯·麦卡利斯泰尔·里奇</strong>（英语：<strong>Dennis MacAlistair Ritchie</strong></li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703203727.png" alt="1-15030119511M02"></p>
+<p><strong>程序：</strong></p>
+<ul>
+<li>为了<code>计算机</code><strong>执行某些操作或解决某个问题</strong>而编写的一系列<strong>有序指令的集合</strong></li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//引入头文件</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio h&gt;</span></span></span><br><span class="line"><span class="comment">//main函数，是程序的执行入口，即程序是从main函数开始执行</span></span><br><span class="line"><span class="comment">//void表示main函数没有返回值</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//函数体</span></span><br><span class="line">    <span class="comment">//printf是一个函数，需要是一个头文件才能使用</span></span><br><span class="line">    <span class="comment">//printf是在&lt; stdio. h&gt;，需要引入该头文件</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello, world!"</span>);</span><br><span class="line">    <span class="comment">//让窗口停留</span></span><br><span class="line">    getchar;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="2-C语言的特点"><a href="#2-C语言的特点" class="headerlink" title="2.C语言的特点"></a>2.C语言的特点</h2><ul>
+<li>代码级别的<strong>跨平台</strong>：由于标准的存在，使得几乎同样的C代码可用于多种操作系统，如 Windows、DOS、UNIX等等；也适用于多种机型。</li>
+<li><strong>允许直接访问物理地址</strong>，<strong>对硬件进行操作</strong> 因此它<strong>既具有高级语言的功能</strong>，<strong>又具有低级语言的许多功能</strong>，C语言可用来写系统软件（比如操作系统，数据库，杀毒软件，防火墙，驱动，服务器程序）。</li>
+<li>C语言是一个有<strong>结构化程序设计</strong>、具有<strong>变量作用域（ variable scope）</strong>以及<strong>递归功能</strong>的过程式语言</li>
+<li>C语言<code>传递参数</code>可以是<code>值传递</code>（ pass by value，值），也可以<code>传递指针</code>（ a pointer passed by value，地址）也叫<code>引用传递</code></li>
+<li>C语言中，没有对象，不同的变量类型可以用结构体（ struct）组合在一起</li>
+<li>预编译处理（ preprocessor），生成目标代码质量高，程序执行效率高</li>
+</ul>
+<h2 id="3-C语言运行机制"><a href="#3-C语言运行机制" class="headerlink" title="3.C语言运行机制"></a>3.C语言运行机制</h2><p><strong>C程序运行机制过程</strong></p>
+<ul>
+<li><p>1.编辑：比如编写我们的 hello. c文件，就是<code>源代码</code>,</p>
+</li>
+<li><p>2.编译：将 <code>hello.c</code>程序通过编译器将其编译成<code>目标文件(hell.obj)</code>在<strong>计算机底层</strong>执行</p>
+</li>
+<li><p>3.链接：将目标文件 hello. obj + <code>库文件</code>生成可执行文件(My ProjectoR.exe)<strong>计算机底层</strong>执行</p>
+<p>链接库文件的原因：我们的C程序中会使用<code>C程序库</code>的内容，比如&lt; stdio.h&gt;&lt; stdlib. h&gt;中的函数printf system（）等等，这些函数不是程序员自己写的，而是C程序库中提供的,</p>
+<p>链接链接后，生成的exe文件，会比obj文件更大</p>
+</li>
+<li><p>4.运行：执行<code>exe</code>文件，得到运行结果</p>
+<p>​                                            <strong>运行机制图解</strong></p>
+</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704093956.png" alt="image-20200704093722914"></p>
+<h2 id="4-转义字符"><a href="#4-转义字符" class="headerlink" title="4.转义字符"></a>4.转义字符</h2><table>
+<thead>
+<tr>
+<th>转义字符</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>\t</td>
+<td>一个制表符,用于格式对齐</td>
+</tr>
+<tr>
+<td>\n</td>
+<td>换行符</td>
+</tr>
+<tr>
+<td>\\</td>
+<td>表示一个\反斜杠</td>
+</tr>
+<tr>
+<td>\“</td>
+<td>表示一个”</td>
+</tr>
+<tr>
+<td>\‘</td>
+<td>表示一个’</td>
+</tr>
+<tr>
+<td>\r</td>
+<td>表示回车</td>
+</tr>
+</tbody></table>
+<p>🔗<a href="https://www.runoob.com/cprogramming/c-standard-library.html" target="_blank" rel="noopener">C语言标准库参考手册</a></p>
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IDEA快捷键</title>
+    <url>/posts/aa80/</url>
+    <content><![CDATA[<h2 id="断点调试"><a href="#断点调试" class="headerlink" title="断点调试"></a>断点调试</h2><p><a href="https://www.cnblogs.com/xiemingjun/p/9618427.html" target="_blank" rel="noopener">https://www.cnblogs.com/xiemingjun/p/9618427.html</a></p>
+]]></content>
+      <categories>
+        <category>uncategorized</category>
+      </categories>
+      <tags>
+        <tag>IDEA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java面向对象的三大特性</title>
+    <url>/posts/9d0/</url>
+    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
+</ul>
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
+</ul>
+<p>##多态</p>
+<ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>面向对象</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MyBatis</title>
+    <url>/posts/f1de/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+      </categories>
+      <tags>
+        <tag>MyBatis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Github下载加速</title>
     <url>/posts/79ca/</url>
     <content><![CDATA[<p><strong>准备条件</strong></p>
@@ -59,18 +189,6 @@
       </categories>
       <tags>
         <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>IDEA快捷键</title>
-    <url>/posts/aa80/</url>
-    <content><![CDATA[<h2 id="断点调试"><a href="#断点调试" class="headerlink" title="断点调试"></a>断点调试</h2><p><a href="https://www.cnblogs.com/xiemingjun/p/9618427.html" target="_blank" rel="noopener">https://www.cnblogs.com/xiemingjun/p/9618427.html</a></p>
-]]></content>
-      <categories>
-        <category>uncategorized</category>
-      </categories>
-      <tags>
-        <tag>IDEA</tag>
       </tags>
   </entry>
   <entry>
@@ -164,88 +282,6 @@
       </tags>
   </entry>
   <entry>
-    <title>C语言程序设计概述</title>
-    <url>/posts/c5a3/</url>
-    <content><![CDATA[<h1 id="C语言程序设计概述"><a href="#C语言程序设计概述" class="headerlink" title="C语言程序设计概述"></a>C语言程序设计概述</h1><h2 id="1-C语言的发展历程"><a href="#1-C语言的发展历程" class="headerlink" title="1.C语言的发展历程"></a>1.C语言的发展历程</h2><ul>
-<li>1.为什么发明C语言：C语言的诞生是和UNIX操作系统的开发密不可分的，原先的UNⅨX操作系统都是用汇编语言写的，1973年UNIX操作系统的核心用C语言改写，从此以后，C语言成为编写操作系统的主要语言</li>
-<li>2.C语言对其它语言的影响：很多编程语言都深受C语言的影响，比如C艹（原先是C语言的一个扩展）、C#、 Java、PHP、 Javascript、Perl、LPC和UNIX的 C Shell等</li>
-<li>掌握C语言的人，再学其它编程语言，大多能很快上手，触类旁通，很多大学将C语言作为计算机教学的入门</li>
-<li>C语言之父 <strong>丹尼斯·麦卡利斯泰尔·里奇</strong>（英语：<strong>Dennis MacAlistair Ritchie</strong></li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703203727.png" alt="1-15030119511M02"></p>
-<p><strong>程序：</strong></p>
-<ul>
-<li>为了<code>计算机</code><strong>执行某些操作或解决某个问题</strong>而编写的一系列<strong>有序指令的集合</strong></li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//引入头文件</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio h&gt;</span></span></span><br><span class="line"><span class="comment">//main函数，是程序的执行入口，即程序是从main函数开始执行</span></span><br><span class="line"><span class="comment">//void表示main函数没有返回值</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//函数体</span></span><br><span class="line">    <span class="comment">//printf是一个函数，需要是一个头文件才能使用</span></span><br><span class="line">    <span class="comment">//printf是在&lt; stdio. h&gt;，需要引入该头文件</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello, world!"</span>);</span><br><span class="line">    <span class="comment">//让窗口停留</span></span><br><span class="line">    getchar;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="2-C语言的特点"><a href="#2-C语言的特点" class="headerlink" title="2.C语言的特点"></a>2.C语言的特点</h2><ul>
-<li>代码级别的<strong>跨平台</strong>：由于标准的存在，使得几乎同样的C代码可用于多种操作系统，如 Windows、DOS、UNIX等等；也适用于多种机型。</li>
-<li><strong>允许直接访问物理地址</strong>，<strong>对硬件进行操作</strong> 因此它<strong>既具有高级语言的功能</strong>，<strong>又具有低级语言的许多功能</strong>，C语言可用来写系统软件（比如操作系统，数据库，杀毒软件，防火墙，驱动，服务器程序）。</li>
-<li>C语言是一个有<strong>结构化程序设计</strong>、具有<strong>变量作用域（ variable scope）</strong>以及<strong>递归功能</strong>的过程式语言</li>
-<li>C语言<code>传递参数</code>可以是<code>值传递</code>（ pass by value，值），也可以<code>传递指针</code>（ a pointer passed by value，地址）也叫<code>引用传递</code></li>
-<li>C语言中，没有对象，不同的变量类型可以用结构体（ struct）组合在一起</li>
-<li>预编译处理（ preprocessor），生成目标代码质量高，程序执行效率高</li>
-</ul>
-<h2 id="3-C语言运行机制"><a href="#3-C语言运行机制" class="headerlink" title="3.C语言运行机制"></a>3.C语言运行机制</h2><p><strong>C程序运行机制过程</strong></p>
-<ul>
-<li><p>1.编辑：比如编写我们的 hello. c文件，就是<code>源代码</code>,</p>
-</li>
-<li><p>2.编译：将 <code>hello.c</code>程序通过编译器将其编译成<code>目标文件(hell.obj)</code>在<strong>计算机底层</strong>执行</p>
-</li>
-<li><p>3.链接：将目标文件 hello. obj + <code>库文件</code>生成可执行文件(My ProjectoR.exe)<strong>计算机底层</strong>执行</p>
-<p>链接库文件的原因：我们的C程序中会使用<code>C程序库</code>的内容，比如&lt; stdio.h&gt;&lt; stdlib. h&gt;中的函数printf system（）等等，这些函数不是程序员自己写的，而是C程序库中提供的,</p>
-<p>链接链接后，生成的exe文件，会比obj文件更大</p>
-</li>
-<li><p>4.运行：执行<code>exe</code>文件，得到运行结果</p>
-<p>​                                            <strong>运行机制图解</strong></p>
-</li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704093956.png" alt="image-20200704093722914"></p>
-<h2 id="4-转义字符"><a href="#4-转义字符" class="headerlink" title="4.转义字符"></a>4.转义字符</h2><table>
-<thead>
-<tr>
-<th>转义字符</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>\t</td>
-<td>一个制表符,用于格式对齐</td>
-</tr>
-<tr>
-<td>\n</td>
-<td>换行符</td>
-</tr>
-<tr>
-<td>\\</td>
-<td>表示一个\反斜杠</td>
-</tr>
-<tr>
-<td>\“</td>
-<td>表示一个”</td>
-</tr>
-<tr>
-<td>\‘</td>
-<td>表示一个’</td>
-</tr>
-<tr>
-<td>\r</td>
-<td>表示回车</td>
-</tr>
-</tbody></table>
-<p>🔗<a href="https://www.runoob.com/cprogramming/c-standard-library.html" target="_blank" rel="noopener">C语言标准库参考手册</a></p>
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SpringCloud</title>
     <url>/posts/a67e/</url>
     <content><![CDATA[]]></content>
@@ -279,102 +315,6 @@
       </categories>
       <tags>
         <tag>Spring</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java面向对象的三大特性</title>
-    <url>/posts/9d0/</url>
-    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
-</ul>
-<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
-</ul>
-<p>##多态</p>
-<ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>面向对象</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>内存分区模型</title>
-    <url>/posts/a132/</url>
-    <content><![CDATA[<p>C++程序在执行时，将内存大方向划分为<strong>4个区域</strong></p>
-<ul>
-<li><code>代码区</code>：存放函数体的<strong>二进制代码</strong>，由<strong>操作系统进行管理</strong></li>
-<li><code>全局区</code>：存放<strong>全局变量</strong>和<strong>静态变量</strong>以及<strong>常量</strong></li>
-<li><code>栈区</code>：<strong>编译器自动分配释放</strong>, 存放<strong>函数的参数值</strong>,<strong>局部变量</strong>等</li>
-<li><code>堆区</code>：<strong>手动分配和释放,没有手动释放</strong>,程序结束时<strong>由操作系统回收</strong></li>
-</ul>
-<p><strong>内存四区意义：</strong></p>
-<p><strong>不同区域存放的数据，赋予不同的生命周期</strong>, 便于开发程序</p>
-<h2 id="程序运行前"><a href="#程序运行前" class="headerlink" title="程序运行前"></a>程序运行前</h2><p>​    在程序编译后，生成了exe可执行程序，<strong>未执行该程序前</strong>分为两个区域</p>
-<p>​    <strong>代码区：</strong></p>
-<p>​        存放 CPU 执行的机器指令</p>
-<p>​        代码区是<strong>共享</strong>的，共享的目的是对于频繁被执行的程序，只需要在内存中有一份代码即可</p>
-<p>​        代码区是<strong>只读</strong>的，使其只读的原因是防止程序意外地修改了它的指令</p>
-<p>​    <strong>全局区：</strong></p>
-<p>​        全局变量和静态变量存放在此.</p>
-<p>​        全局区还包含了常量区, 字符串常量和其他常量也存放在此.</p>
-<p>​        <strong>该区域的数据在程序结束后由操作系统释放</strong></p>
-<p><strong>示例：</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="comment">//全局变量</span></span><br><span class="line"><span class="keyword">int</span> g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//全局常量</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//局部变量</span></span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//打印地址</span></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量a地址为： "</span> &lt;&lt; &amp;a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量b地址为： "</span> &lt;&lt; &amp;b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_a地址为： "</span> &lt;&lt;  &amp;g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_b地址为： "</span> &lt;&lt;  &amp;g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//静态变量</span></span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_a地址为： "</span> &lt;&lt; &amp;s_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_b地址为： "</span> &lt;&lt; &amp;s_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world1"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_a地址为： "</span> &lt;&lt; &amp;c_g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_b地址为： "</span> &lt;&lt; &amp;c_g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_b = <span class="number">10</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_a地址为： "</span> &lt;&lt; &amp;c_l_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_b地址为： "</span> &lt;&lt; &amp;c_l_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>打印结果：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">局部变量a地址为： 0x66fe1c</span><br><span class="line">局部变量b地址为： 0x66fe18</span><br><span class="line">全局变量g_a地址为： 0x404010</span><br><span class="line">全局变量g_b地址为： 0x404014</span><br><span class="line">静态变量s_a地址为： 0x404018</span><br><span class="line">静态变量s_b地址为： 0x40401c</span><br><span class="line">字符串常量地址为： 0x405096</span><br><span class="line">字符串常量地址为： 0x4050a2</span><br><span class="line">全局常量c_g_a地址为： 0x405000</span><br><span class="line">全局常量c_g_b地址为： 0x405004</span><br><span class="line">局部常量c_l_a地址为： 0x66fe14</span><br><span class="line">局部常量c_l_b地址为： 0x66fe10</span><br></pre></td></tr></table></figure>
-
-<p>总结：</p>
-<ul>
-<li>C++中在程序运行前分为全局区和代码区</li>
-<li>代码区特点是共享和只读</li>
-<li>全局区中存放全局变量、静态变量、常量</li>
-<li>常量区中存放 const修饰的全局常量  和 字符串常量</li>
-</ul>
-<h2 id="程序运行后"><a href="#程序运行后" class="headerlink" title="程序运行后"></a>程序运行后</h2><p>​    <strong>栈区：</strong></p>
-<p>​        由编译器自动分配释放, 存放函数的参数值,局部变量等</p>
-<p>​        注意事项：不要返回局部变量的地址，栈区开辟的数据由编译器自动释放</p>
-<p><strong>示例：</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> * <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">	<span class="keyword">return</span> &amp;a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line">	<span class="comment">//第一次可以打印吃结果的原因:编译器对数据进行了保留</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="comment">//再次使用指针在内存中对数据进行操作时,数据已经消失</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>​    <strong>堆区：</strong></p>
-<p>​        由程序员分配释放,若程序员不释放,程序结束时由操作系统回收</p>
-<p>​        在C++中主要利用new在堆区开辟内存</p>
-<p><strong>示例：</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    </span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>总结：</strong></p>
-<p>堆区数据由程序员管理开辟和释放</p>
-<p>堆区数据利用new关键字进行开辟内存</p>
-<h2 id="new操作符"><a href="#new操作符" class="headerlink" title="new操作符"></a>new操作符</h2><p>​    C++中利用<code>new</code>操作符在堆区开辟数据</p>
-<p>​    堆区开辟的数据，由程序员手动开辟，手动释放，释放利用操作符 <code>delete</code></p>
-<p>​    语法：<code>new 数据类型</code></p>
-<p>​    利用new创建的数据，会返回该数据对应的类型的指针</p>
-<p><strong>示例1： 基本语法</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//利用delete释放堆区数据</span></span><br><span class="line">	<span class="keyword">delete</span> p;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//cout &lt;&lt; *p &lt;&lt; endl; //报错，释放的空间不可访问</span></span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例2：开辟数组</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//堆区开辟数组</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span>* arr = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">10</span>];</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		arr[i] = i + <span class="number">100</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; arr[i] &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//释放数组 delete 后加 []</span></span><br><span class="line">	<span class="keyword">delete</span>[] arr;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1et411b73Z?p=85" target="_blank" rel="noopener" title="黑马程序员C++教程"><i class="far fa-hand-point-right fa-fw"></i> 黑马程序员C++教程 </a>
-</div>
-]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>内存分区模型</tag>
       </tags>
   </entry>
   <entry>
@@ -481,14 +421,88 @@
       </tags>
   </entry>
   <entry>
-    <title>MyBatis</title>
-    <url>/posts/f1de/</url>
-    <content><![CDATA[]]></content>
+    <title>内存分区模型</title>
+    <url>/posts/a132/</url>
+    <content><![CDATA[<p>C++程序在执行时，将内存大方向划分为<strong>4个区域</strong></p>
+<ul>
+<li><code>代码区</code>：存放函数体的<strong>二进制代码</strong>，由<strong>操作系统进行管理</strong></li>
+<li><code>全局区</code>：存放<strong>全局变量</strong>和<strong>静态变量</strong>以及<strong>常量</strong></li>
+<li><code>栈区</code>：<strong>编译器自动分配释放</strong>, 存放<strong>函数的参数值</strong>,<strong>局部变量</strong>等</li>
+<li><code>堆区</code>：<strong>手动分配和释放,没有手动释放</strong>,程序结束时<strong>由操作系统回收</strong></li>
+</ul>
+<p><strong>内存四区意义：</strong></p>
+<p><strong>不同区域存放的数据，赋予不同的生命周期</strong>, 便于开发程序</p>
+<h2 id="程序运行前"><a href="#程序运行前" class="headerlink" title="程序运行前"></a>程序运行前</h2><p>程序编译后，生成了exe可执行程序，<strong>未执行该程序前</strong>分为<strong>两个区域</strong></p>
+<p><strong>代码区：</strong></p>
+<ul>
+<li>存放 CPU 执行的<strong>机器指令(二进制代码)</strong></li>
+<li>代码区是<strong>共享</strong>的，共享的目的是<strong>对于频繁被执行的程序，内存中有一份代码即可</strong></li>
+<li>代码区是<strong>只读</strong>的，使其只读的原因是<strong>防止程序意外地修改了它的指令</strong></li>
+</ul>
+<p><strong>全局区：</strong></p>
+<ul>
+<li><code>全局变量</code>和<code>静态变量</code>存放位置</li>
+<li>全局区还包含了<code>常量区</code>, <code>字符串常量</code>和<code>其他常量</code>也存放在此.</li>
+<li><strong>该区域的数据在程序结束后由操作系统释放</strong></li>
+</ul>
+<p><strong>🌰举例：</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="comment">//全局变量</span></span><br><span class="line"><span class="keyword">int</span> g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//全局常量</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//局部变量</span></span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//打印地址</span></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量a地址为： "</span> &lt;&lt; &amp;a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量b地址为： "</span> &lt;&lt; &amp;b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_a地址为： "</span> &lt;&lt;  &amp;g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_b地址为： "</span> &lt;&lt;  &amp;g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//静态变量</span></span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_a地址为： "</span> &lt;&lt; &amp;s_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_b地址为： "</span> &lt;&lt; &amp;s_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world1"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_a地址为： "</span> &lt;&lt; &amp;c_g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_b地址为： "</span> &lt;&lt; &amp;c_g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_b = <span class="number">10</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_a地址为： "</span> &lt;&lt; &amp;c_l_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_b地址为： "</span> &lt;&lt; &amp;c_l_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>打印结果：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">局部变量a地址为： 0x66fe1c</span><br><span class="line">局部变量b地址为： 0x66fe18</span><br><span class="line">全局变量g_a地址为： 0x404010</span><br><span class="line">全局变量g_b地址为： 0x404014</span><br><span class="line">静态变量s_a地址为： 0x404018</span><br><span class="line">静态变量s_b地址为： 0x40401c</span><br><span class="line">字符串常量地址为： 0x405096</span><br><span class="line">字符串常量地址为： 0x4050a2</span><br><span class="line">全局常量c_g_a地址为： 0x405000</span><br><span class="line">全局常量c_g_b地址为： 0x405004</span><br><span class="line">局部常量c_l_a地址为： 0x66fe14</span><br><span class="line">局部常量c_l_b地址为： 0x66fe10</span><br></pre></td></tr></table></figure>
+
+<p><strong>总结：</strong></p>
+<ul>
+<li>C++中在程序运行前分为<code>全局区</code>和<code>代码区</code></li>
+<li><code>代码区</code>特点是<strong>共享和只读</strong></li>
+<li><code>全局区</code>中存放<code>全局变量</code>、<code>静态变量</code>、<code>常量</code></li>
+<li><code>常量区</code>中存放 <code>const修饰的全局常量</code>  和 <code>字符串常量</code></li>
+</ul>
+<h2 id="程序运行后"><a href="#程序运行后" class="headerlink" title="程序运行后"></a>程序运行后</h2><p><strong>栈区：</strong></p>
+<ul>
+<li>编译器<strong>自动分配释放内存</strong>, 存放函数的<code>参数值</code>,<code>局部变量</code>等</li>
+<li>注意事项：<strong>不要返回局部变量的地址，栈区开辟的数据由编译器自动释放</strong></li>
+</ul>
+<p><strong>🌰举例：</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> * <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">	<span class="keyword">return</span> &amp;a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line">	<span class="comment">//第一次可以打印吃结果的原因:编译器对数据进行了保留</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="comment">//再次使用指针在内存中对数据进行操作时,数据已经消失</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>堆区：</strong></p>
+<ul>
+<li><strong>手动分配释放</strong>,没有释放,<strong>程序结束时由操作系统回收</strong></li>
+<li>C++中主要利用<strong>new在堆区开辟内存</strong></li>
+</ul>
+<p><strong>🌰举例：</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    </span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>总结：</strong></p>
+<ul>
+<li>堆区数据<strong>手动管理开辟和释放</strong></li>
+<li>堆区数据利用<strong>new关键字进行开辟内存</strong></li>
+</ul>
+<h2 id="new操作符"><a href="#new操作符" class="headerlink" title="new操作符"></a>new操作符</h2><ul>
+<li>C++中利用<code>new</code>操作符在堆区开辟数据</li>
+<li>堆区开辟的数据，由程序员手动开辟，手动释放，释放利用操作符 <code>delete</code></li>
+<li>语法：<code>new 数据类型</code></li>
+<li><strong>new创建的数据，会返回该数据对应的类型的指针</strong></li>
+</ul>
+<p><strong>🌰举例：</strong>基本语法</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//利用delete释放堆区数据</span></span><br><span class="line">	<span class="keyword">delete</span> p;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//cout &lt;&lt; *p &lt;&lt; endl; //报错，释放的空间不可访问</span></span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>🌰举例：</strong>：开辟数组</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//堆区开辟数组</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span>* arr = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">10</span>];</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		arr[i] = i + <span class="number">100</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; arr[i] &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//释放数组 delete 后加 []</span></span><br><span class="line">	<span class="keyword">delete</span>[] arr;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​                                                                                    <strong>内存图解</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200712201259.png" alt="image-20200712200817949"></p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1et411b73Z?p=85" target="_blank" rel="noopener" title="黑马程序员C++教程"><i class="far fa-hand-point-right fa-fw"></i> 黑马程序员C++教程 </a>
+</div>
+]]></content>
       <categories>
-        <category>后端框架</category>
+        <category>C++</category>
       </categories>
       <tags>
-        <tag>MyBatis</tag>
+        <tag>C++</tag>
+        <tag>内存分区模型</tag>
       </tags>
   </entry>
   <entry>
@@ -737,19 +751,6 @@
       </tags>
   </entry>
   <entry>
-    <title>指针</title>
-    <url>/posts/9f93/</url>
-    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="upload/image-20200701155145887.png" alt="image-20200701155145887"></p>
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>指针</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开源项目推荐</title>
     <url>/posts/aaf6/</url>
     <content><![CDATA[<h2 id="1-编程语言"><a href="#1-编程语言" class="headerlink" title="1.编程语言"></a>1.编程语言</h2><h3 id="1-1Java"><a href="#1-1Java" class="headerlink" title="1.1Java"></a>1.1Java</h3><ul>
@@ -765,6 +766,19 @@
       <tags>
         <tag>Github</tag>
         <tag>开源项目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>指针</title>
+    <url>/posts/9f93/</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="upload/image-20200701155145887.png" alt="image-20200701155145887"></p>
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>指针</tag>
       </tags>
   </entry>
   <entry>
@@ -1291,53 +1305,6 @@
       </tags>
   </entry>
   <entry>
-    <title>枚举</title>
-    <url>/posts/4523/</url>
-    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>枚举是C语言中的一种<strong>构造数据类型</strong>，它可以<strong>让数据更简洁，更易读</strong>，对于<strong>只有几个有限的特定数据</strong>，可以使用枚举(enumeration,简写enum）</p>
-<p>枚举是<strong>一组常量的集合</strong>，包含一组有限的特定的数据</p>
-<p><strong>语法定义格式</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum 枚举名 &#123;枚举元素1,枚举元素2,.....&#125;;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//DAY是枚举类型 包含了7个枚举元素</span></span><br><span class="line">	<span class="keyword">enum</span> DAY</span><br><span class="line">	&#123;</span><br><span class="line">    	MON=<span class="number">1</span>,TUE=<span class="number">2</span>,WED=<span class="number">3</span>,THU=<span class="number">4</span>,FRI=<span class="number">5</span>,SAT=<span class="number">6</span>,SUN=<span class="number">7</span></span><br><span class="line">	&#125;;</span><br><span class="line">	<span class="comment">//day 是枚举变量</span></span><br><span class="line">	<span class="keyword">enum</span> DAY day;</span><br><span class="line">    <span class="comment">//给枚举变量赋值,值是某个枚举元素</span></span><br><span class="line">	day=WED;</span><br><span class="line">    <span class="comment">//每个枚举元素对应一个值 3</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d"</span>,day);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="枚举的遍历及使用"><a href="#枚举的遍历及使用" class="headerlink" title="枚举的遍历及使用"></a>枚举的遍历及使用</h2><p><strong>遍历</strong></p>
-<p>C语言中，<strong>枚举类型</strong>是被当做<code>int</code>或者<code>unsigned int</code>类型来处理的，<strong>枚举类型必须连续是可以实现有条件的遍历</strong>。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">enum</span> day </span><br><span class="line">	&#123;</span><br><span class="line">	<span class="comment">//如果没有给赋值,则会按照顺序赋值</span></span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN;</span><br><span class="line">	&#125;day;</span><br><span class="line">	<span class="comment">//表示定义了一个枚举类型 enum Day,同时定义了一个变量枚举day(类型是 enum day)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(day = MON;day&lt;=SUN;day++)&#123;</span><br><span class="line">       <span class="comment">//要求枚举元素是连续赋值 </span></span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"枚举元素:%d\n"</span>,day);</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="keyword">return</span> o;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>swich 使用枚举</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//定义枚举类型 enum SEASONS</span></span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS seasons;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入你喜欢的季节:1.spring,2.summer,3.autumn,4.winter);"</span>); 		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;season);</span><br><span class="line">	<span class="keyword">switch</span>(season)&#123;</span><br><span class="line">	<span class="keyword">case</span> SPRING: </span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是春天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> SUMMER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是夏天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> AUTUMN:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是秋天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> WINTER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是冬天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"输入有误"</span>); </span><br><span class="line">	&#125;</span><br><span class="line">	getchar();</span><br><span class="line">	getchar();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>使用的注意事项和细节</strong></p>
-<ul>
-<li><p><strong>第一个枚举成员</strong>的<strong>默认值为整型的0</strong>，<strong>后续枚举成员的值</strong>在<strong>前一个成员上加1.</strong></p>
-</li>
-<li><p>在<strong>定义</strong><code>枚举类型</code>时<strong>改变枚举元素的值</strong></p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum DAY&#123;</span><br><span class="line">	&#x2F;&#x2F;如果没有给赋值,会从1开始按照顺序赋值</span><br><span class="line">	MON,TUE,WED,THU&#x3D;9,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line">	&#x2F;&#x2F;定义了一个枚举类型enum DAY,同时定义了一个变量day</span><br><span class="line">	&#x2F;&#x2F;FRI,SAT,SUN 10,11,12</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><strong>枚举变量</strong>的定义的形式</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先定义枚举类型,再定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">enum</span> Day day;</span><br><span class="line"><span class="comment">//定义枚举类型同时定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line"><span class="comment">//省略枚举类型,直接定义枚举变量,这种形式定义的枚举类型只能使用一次</span></span><br><span class="line"><span class="keyword">enum</span> &#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>整数转换为对应的枚举值</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS season;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="number">4</span>;</span><br><span class="line">    season = (<span class="keyword">enum</span> SEASONS)n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"season = %d"</span>,season);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>枚举</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>栈和队列</title>
     <url>/posts/7712/</url>
     <content><![CDATA[<h1 id="1-栈和队列"><a href="#1-栈和队列" class="headerlink" title="1.栈和队列"></a>1.栈和队列</h1><p>在数组中，我们可以通过索引访问<code>随机</code>元素。 但是，在某些情况下，我们可能想要限制处理顺序。</p>
@@ -1436,6 +1403,53 @@
         <tag>数据结构</tag>
         <tag>剑指offer</tag>
         <tag>栈和队列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>枚举</title>
+    <url>/posts/4523/</url>
+    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>枚举是C语言中的一种<strong>构造数据类型</strong>，它可以<strong>让数据更简洁，更易读</strong>，对于<strong>只有几个有限的特定数据</strong>，可以使用枚举(enumeration,简写enum）</p>
+<p>枚举是<strong>一组常量的集合</strong>，包含一组有限的特定的数据</p>
+<p><strong>语法定义格式</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum 枚举名 &#123;枚举元素1,枚举元素2,.....&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//DAY是枚举类型 包含了7个枚举元素</span></span><br><span class="line">	<span class="keyword">enum</span> DAY</span><br><span class="line">	&#123;</span><br><span class="line">    	MON=<span class="number">1</span>,TUE=<span class="number">2</span>,WED=<span class="number">3</span>,THU=<span class="number">4</span>,FRI=<span class="number">5</span>,SAT=<span class="number">6</span>,SUN=<span class="number">7</span></span><br><span class="line">	&#125;;</span><br><span class="line">	<span class="comment">//day 是枚举变量</span></span><br><span class="line">	<span class="keyword">enum</span> DAY day;</span><br><span class="line">    <span class="comment">//给枚举变量赋值,值是某个枚举元素</span></span><br><span class="line">	day=WED;</span><br><span class="line">    <span class="comment">//每个枚举元素对应一个值 3</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d"</span>,day);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="枚举的遍历及使用"><a href="#枚举的遍历及使用" class="headerlink" title="枚举的遍历及使用"></a>枚举的遍历及使用</h2><p><strong>遍历</strong></p>
+<p>C语言中，<strong>枚举类型</strong>是被当做<code>int</code>或者<code>unsigned int</code>类型来处理的，<strong>枚举类型必须连续是可以实现有条件的遍历</strong>。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">enum</span> day </span><br><span class="line">	&#123;</span><br><span class="line">	<span class="comment">//如果没有给赋值,则会按照顺序赋值</span></span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN;</span><br><span class="line">	&#125;day;</span><br><span class="line">	<span class="comment">//表示定义了一个枚举类型 enum Day,同时定义了一个变量枚举day(类型是 enum day)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(day = MON;day&lt;=SUN;day++)&#123;</span><br><span class="line">       <span class="comment">//要求枚举元素是连续赋值 </span></span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"枚举元素:%d\n"</span>,day);</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="keyword">return</span> o;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>swich 使用枚举</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//定义枚举类型 enum SEASONS</span></span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS seasons;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入你喜欢的季节:1.spring,2.summer,3.autumn,4.winter);"</span>); 		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;season);</span><br><span class="line">	<span class="keyword">switch</span>(season)&#123;</span><br><span class="line">	<span class="keyword">case</span> SPRING: </span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是春天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> SUMMER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是夏天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> AUTUMN:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是秋天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> WINTER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是冬天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"输入有误"</span>); </span><br><span class="line">	&#125;</span><br><span class="line">	getchar();</span><br><span class="line">	getchar();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>使用的注意事项和细节</strong></p>
+<ul>
+<li><p><strong>第一个枚举成员</strong>的<strong>默认值为整型的0</strong>，<strong>后续枚举成员的值</strong>在<strong>前一个成员上加1.</strong></p>
+</li>
+<li><p>在<strong>定义</strong><code>枚举类型</code>时<strong>改变枚举元素的值</strong></p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum DAY&#123;</span><br><span class="line">	&#x2F;&#x2F;如果没有给赋值,会从1开始按照顺序赋值</span><br><span class="line">	MON,TUE,WED,THU&#x3D;9,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line">	&#x2F;&#x2F;定义了一个枚举类型enum DAY,同时定义了一个变量day</span><br><span class="line">	&#x2F;&#x2F;FRI,SAT,SUN 10,11,12</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>枚举变量</strong>的定义的形式</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先定义枚举类型,再定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">enum</span> Day day;</span><br><span class="line"><span class="comment">//定义枚举类型同时定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line"><span class="comment">//省略枚举类型,直接定义枚举变量,这种形式定义的枚举类型只能使用一次</span></span><br><span class="line"><span class="keyword">enum</span> &#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>整数转换为对应的枚举值</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS season;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="number">4</span>;</span><br><span class="line">    season = (<span class="keyword">enum</span> SEASONS)n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"season = %d"</span>,season);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>枚举</tag>
       </tags>
   </entry>
   <entry>
@@ -1635,171 +1649,6 @@
       </tags>
   </entry>
   <entry>
-    <title>预处理命令</title>
-    <url>/posts/3c59/</url>
-    <content><![CDATA[<h2 id="预处理命令基本介绍"><a href="#预处理命令基本介绍" class="headerlink" title="预处理命令基本介绍"></a><strong>预处理命令基本介绍</strong></h2><ul>
-<li><p>使用库函数之前，应该用<code>#include</code>引入对应的头文件。这种<strong>以#号开头的命令称为预处理命令。</strong></p>
-</li>
-<li><p>这些在编译之前对<strong>源文件</strong>进行简单加工的过程，就称为<strong>预处理（即预先处理、提前处理）</strong></p>
-</li>
-<li><p>预处理主要是处理以#开头的命令，预处理命令要放<strong>在所有函数之外</strong>，<strong>一般都放在源文件的前面</strong></p>
-</li>
-<li><p>预处理由<strong>预处理程序</strong>完成。当<strong>对源文件进行编译</strong>时，系统将<strong>自动调用预处理程序</strong>对源程序中的预处理部分作处理，<strong>处理完毕自动进入对源程序的编译</strong></p>
-</li>
-<li><p>C语言提供了多种预处理功能，如<code>宏定义</code>、<code>文件包含</code>、<code>条件编译</code>等，合理地使用会使程序便于<strong>阅读修改、移植和调试，也有利于模块化程序设计</strong></p>
-</li>
-<li><p><code>Windows平台</code>下<strong>暂停函数</strong>的原型是 <code>void Sleep(DWORD dwMilliseconds)</code>，参数的<strong>单位是“毫秒”</strong>，位于<code>&lt; windows.h&gt;</code>头文件。</p>
-</li>
-<li><p><code>Linux平台</code>下<strong>暂停函数</strong>的原型是 <code>unsigned int sleep(unsigned int seconds)</code>,参数的<strong>单位是“秒”</strong>，位于<code>&lt; unistd.h&gt;</code>头文件</p>
-</li>
-<li><p>.#if、#elif、#endif就是预处理命令，它们都是在<strong>编译之前由预处理程序</strong>来执行的。</p>
-</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;windows.h&gt;</span></span></span><br><span class="line"><span class="comment">//windows平台#include&lt;windows.h&gt;</span></span><br><span class="line">#if_WIN32</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;windows.h&gt;</span></span></span><br><span class="line"><span class="comment">//Linux平台#include&lt;unistd.h&gt;</span></span><br><span class="line">#elif_linux_</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> </span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//不同的平台下调用不同的函数</span></span><br><span class="line">	#if_WIN32</span><br><span class="line">	Sleep(<span class="number">5000</span>);</span><br><span class="line">	#elif_linux_</span><br><span class="line">	Sleep(<span class="number">5</span>);</span><br><span class="line">	<span class="built_in">puts</span>(<span class="string">"cyberpunk2077"</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="宏定义"><a href="#宏定义" class="headerlink" title="宏定义"></a>宏定义</h2><p><strong>基本介绍</strong></p>
-<ul>
-<li>1.<code>#define</code>叫做<strong>宏定义命令</strong>，#表示这是一条预处理命令)。所谓宏定义，就是<strong>用一个标识符来表示一个字符串</strong>，在代码中<strong>出现了该标识符</strong>，那么就<strong>全部替换成指定的字符串</strong></li>
-<li>2.宏名是标识符的一种，<strong>命名规则和变量相同</strong>。<strong>字符串</strong>可以是<code>数字</code>、<code>表达式</code>、<code>if语句</code>、<code>函数</code>等</li>
-<li>3.<code>#define</code>    宏名  字符串  </li>
-<li>4.这里所说的字符串是<strong>一般意义上的字符序列</strong>，<strong>不和C语言中的字符串等同</strong>，<strong>不需要双引号</strong></li>
-<li>5.程序中反复使用的表达式就可以使用宏定义</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> N 100</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>N为<strong>宏名</strong>，100是<strong>宏的内容(宏所表示的字符串)</strong>。<strong>预处理阶段</strong>，对程序中<strong>所有出现的“宏名”</strong>，<code>预处理器</code>都会用宏定义中的字符串去代换，<strong>称为“宏替换”或“宏展开”。</strong></li>
-<li><strong>宏定义</strong>是由<strong>源程序中的宏定义命令#define</strong>完成的，<strong>宏替换</strong>是由<strong>预处理程序</strong>完成的</li>
-</ul>
-<p>🌰<strong>举例</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//宏定义，宏名M，对应的字符串（n*n+3*n）</span></span><br><span class="line"><span class="comment">//注意：如果宏对应的字符串有（），那么就不能省略</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> M (n*n+3*n)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum,n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Input a number:"</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(%d<span class="string">",&amp;n);</span></span><br><span class="line"><span class="string">    //宏展开 3*(n*n+3*n）+4*(n*n+3*n)+5(n*n+3*n); </span></span><br><span class="line"><span class="string">    sum=3*M+4*M+5*M;</span></span><br><span class="line"><span class="string">    printf("</span>sum=%d\n<span class="string">";sum);</span></span><br><span class="line"><span class="string">    return 0;      </span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>宏定义注意事项和细节</strong></p>
-<ul>
-<li>宏展开的过程，只是一种<strong>简单的替换</strong>。<strong>字符串中可以含任何字符，它可以是常数、表达式、if语句、函数等</strong>，<code>预处理程序</code>对它<strong>不作任何检査，只能在宏展开编译后的源程序时发现错误</strong></li>
-<li>宏定义不是说明或语句，在<strong>行末不必加分号</strong>，如加上分号则连分号也一起替换</li>
-<li>宏定义必须<strong>写在函数之外</strong>，<strong>作用域为宏定义命令起到源程序结束</strong>。如要<strong>终止其作用域</strong>可使用<code>#undef</code>命令</li>
-<li>代码中的<strong>宏名被引号包围，预处理程序不对其作宏代替</strong></li>
-<li>宏定义<strong>允许嵌套</strong>，在宏定义的字符串中<strong>可以使用已经定义的宏名</strong>，在宏展开时由预处理程序层层代换</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PI 3.1415926</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> s PI*y*y</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%f"</span>,S);</span><br><span class="line"><span class="comment">//在宏替换后变为：</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%f"</span>,<span class="number">3.1415926</span>*y*y);</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>习惯上宏名用<strong>大写字母</strong>表示，以便于与变量区别。但<strong>也允许用小写字母</strong></li>
-<li>可用宏定义表示数据类型，使书写方便</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> UINT unsigned int </span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//宏替换 unsigned int a,b;</span></span><br><span class="line">	UNIT a,b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><strong>宏定义表示</strong>数据类型和用 <code>typedef</code>定义数据说明符的区别：<ul>
-<li>宏定义只是<strong>简单的字符串替换</strong>，由<strong>预处理器来处理</strong>;</li>
-<li>typedef是在<strong>编译阶段由编译器处理</strong>的，它并不是简单的字符串替换，而<strong>给原有的数据类型起一个新的名字，将它作为一种新的数据类型。</strong></li>
-</ul>
-</li>
-</ul>
-<h3 id="带参数的宏定义"><a href="#带参数的宏定义" class="headerlink" title="带参数的宏定义"></a>带参数的宏定义</h3><p><strong>基本介绍</strong></p>
-<ul>
-<li><p>C语言允许宏带有参数。在<strong>宏定义</strong>中的参数称为<code>“形式参数”</code>，在<strong>宏调用</strong>中的参数称为<code>“实际参数”</code>，这点和函数有些类似</p>
-</li>
-<li><p>对带参数的宏，在展开过程中不仅要进行字符串替换，还要用<strong>实参去替换形参</strong></p>
-</li>
-<li><p><strong>带参宏定义</strong>的一般形式为#define 宏名(形参列表) 字符串，在字符串中可以含有各个形参</p>
-</li>
-<li><p><strong>带参宏调用</strong>的一般形式为：<code>宏名(实参列表)</code>;</p>
-</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//1.MAX就是带参数的宏</span></span><br><span class="line"><span class="comment">//2.(a,b)就是形参</span></span><br><span class="line"><span class="comment">//3.(a&gt;b)?a:b 是带参数的宏对应字符串，该字符串中可以使用形参</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX(a,b)(a&gt;b) ? a:b </span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> x,y,<span class="built_in">max</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"input two numbers:"</span>);</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d %d”,&amp;x,&amp;y);</span></span><br><span class="line"><span class="string">	//1.MAX(x,y);调用带参数宏定义</span></span><br><span class="line"><span class="string">	//2.在宏替换时(预处理,由预处理器)，会进行字符串的替换，同时会使用实参，去替换形参</span></span><br><span class="line"><span class="string">	//3.即MAX(x,y) 宏替换后 (x&gt;y)?x:y </span></span><br><span class="line"><span class="string">	max = MAX(x,y);</span></span><br><span class="line"><span class="string">    printf（"</span><span class="built_in">max</span>=%d\n<span class="string">",max);</span></span><br><span class="line"><span class="string">	getchar();</span></span><br><span class="line"><span class="string">    getchar();</span></span><br><span class="line"><span class="string">    return 0;</span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>带参宏定义的注意事项和细节</strong></p>
-<ul>
-<li>带参宏定义中，形参之间可以出现空格，但是宏名和形参列表之间不能有空格出现</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX(a,b)(a&gt;b)?a:b</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX (a,b)(a&gt;b)?a:b</span></span><br><span class="line"><span class="comment">//如果写成了MAX (a,b)(a&gt;b)?a:b将被认为是无参宏定义，</span></span><br><span class="line"><span class="comment">//宏名MAX代表字符串(a,b)(a&gt;b)?a:b 而不是:MAX(a,b)代表(a&gt;b)?a:b</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><strong>带参宏定义</strong>中，<strong>不会为形式参数分配内存</strong>，因此<strong>不必指明数据类型</strong>。而在<strong>宏调用</strong>中，<strong>实参包含了具体的数据，要去替换形参</strong>，因此实参必须要指明数据类型</li>
-<li>在宏定义中，<strong>字符串内的形参</strong>通常要<strong>用括号括起来</strong>以避免出错</li>
-</ul>
-<h3 id="带参宏定义和函数的区别"><a href="#带参宏定义和函数的区别" class="headerlink" title="带参宏定义和函数的区别"></a>带参宏定义和函数的区别</h3><ul>
-<li><code>宏展开</code>仅仅是<strong>字符串的替换</strong>，<strong>不会对表达式进行计算</strong>；宏在<strong>编译之前就被处理掉</strong>，<strong>没有机会参与编译</strong>，<strong>也不会占用内存。</strong></li>
-<li><code>函数</code>是一段可以重复使用的代码，<strong>会被编译</strong>，会给它<strong>分配内存</strong>，每次调用函数，就是<strong>执行这块内存中的代码</strong></li>
-</ul>
-<p><strong>🌰举例</strong></p>
-<ul>
-<li>函数计算平方值</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">SQ</span><span class="params">(<span class="keyword">int</span> y)</span></span>&#123;</span><br><span class="line">	 <span class="keyword">return</span> ((y) *(y));</span><br><span class="line">&#125;</span><br><span class="line">   </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(i&lt;=<span class="number">5</span>)&#123;</span><br><span class="line">    	<span class="comment">//1,4,9,16,25</span></span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"%d ^2=%d\n"</span>,(i<span class="number">-1</span>),SQ(i++));</span><br><span class="line">    &#125;</span><br><span class="line">    system(<span class="string">"pause"</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>宏定义计算平方值</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> SQ((y)*(y))</span></span><br><span class="line">   </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(i&lt;=<span class="number">5</span>)&#123;</span><br><span class="line">    	<span class="comment">//1,9,25 进入循环三次</span></span><br><span class="line">        <span class="comment">//SQ(i++)宏展开 ((i++)*(i++))</span></span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"%d ^2=%d\n"</span>,(i<span class="number">-1</span>),SQ(i++));</span><br><span class="line">    &#125;</span><br><span class="line">    system(<span class="string">"pause"</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="预处理命令总结"><a href="#预处理命令总结" class="headerlink" title="预处理命令总结"></a>预处理命令总结</h2><p><code>预处理指令</code>是<strong>以#号开头的代码行</strong>,#后是指令关键字，(#include  空白字符  &lt;&gt;)在关键字和#号之间允许存在任意个数的空白字符，整行语句构成了一条预处理指令，该<strong>指令将在编译器进行编译之前对源代码做某些转换</strong></p>
-<p>​                                                                                  <strong>常见预处理指令</strong></p>
-<table>
-<thead>
-<tr>
-<th>指令</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>#</td>
-<td>空指令</td>
-</tr>
-<tr>
-<td>#include</td>
-<td>包含一个源代码文件</td>
-</tr>
-<tr>
-<td>#define</td>
-<td>定义宏</td>
-</tr>
-<tr>
-<td>#undef</td>
-<td>取消已定义的宏</td>
-</tr>
-<tr>
-<td>#if</td>
-<td>如果给定条件为真，则编译下面代码</td>
-</tr>
-<tr>
-<td>#ifdef</td>
-<td>如果宏已经定义，则编译下面代码</td>
-</tr>
-<tr>
-<td>#ifndef</td>
-<td>如果宏没有定义，则编译下面代码</td>
-</tr>
-<tr>
-<td>#elif</td>
-<td>如果前面的#给定条件不为真，当前条件为真，则编译下面代码</td>
-</tr>
-<tr>
-<td>#endif</td>
-<td>结束一个#if…#else条件编译块</td>
-</tr>
-</tbody></table>
-<p><strong>预处理指令使用注意事项</strong></p>
-<ul>
-<li><strong>预处理功能是C语言特有的功能</strong>，对源程序正式编译前<strong>由预处理程序</strong>完成的，程序中<strong>用预处理命令</strong>来调用功能。</li>
-<li>宏定义可以带有参数，<strong>宏调用时是以实参代换形参，不是“值传送”</strong></li>
-<li>为了避免宏代换时发生错误，<code>宏定义</code>中的<strong>字符串应加括号</strong>，<code>字符串</code>中出现的<strong>形式参数两边也应加括号</strong></li>
-<li><strong>文件包含</strong>是预处理的一个重要功能，可以<strong>把多个源文件连接成一个源文件进行编译</strong>，结果将<strong>生成一个目标文件</strong></li>
-<li><code>条件编译</code>允许只编译源程序中满足条件的程序段，生成的目标程序较小，<strong>减少内存的开销</strong>并<strong>提髙程序的效率</strong>。</li>
-<li><code>预处理</code>功能便于程序的<strong>修改、阅读、移植和调试，也便于实现模块化程序设计</strong></li>
-</ul>
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>预处理命令</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>泛型</title>
     <url>/posts/805/</url>
     <content><![CDATA[<h1 id="1-泛型"><a href="#1-泛型" class="headerlink" title="1.泛型"></a>1.泛型</h1><h2 id="1-1什么是泛型"><a href="#1-1什么是泛型" class="headerlink" title="1.1什么是泛型"></a>1.1什么是泛型</h2><p><strong>泛型的概念</strong></p>
@@ -1964,6 +1813,171 @@
         <tag>Java</tag>
         <tag>集合</tag>
         <tag>泛型</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>预处理命令</title>
+    <url>/posts/3c59/</url>
+    <content><![CDATA[<h2 id="预处理命令基本介绍"><a href="#预处理命令基本介绍" class="headerlink" title="预处理命令基本介绍"></a><strong>预处理命令基本介绍</strong></h2><ul>
+<li><p>使用库函数之前，应该用<code>#include</code>引入对应的头文件。这种<strong>以#号开头的命令称为预处理命令。</strong></p>
+</li>
+<li><p>这些在编译之前对<strong>源文件</strong>进行简单加工的过程，就称为<strong>预处理（即预先处理、提前处理）</strong></p>
+</li>
+<li><p>预处理主要是处理以#开头的命令，预处理命令要放<strong>在所有函数之外</strong>，<strong>一般都放在源文件的前面</strong></p>
+</li>
+<li><p>预处理由<strong>预处理程序</strong>完成。当<strong>对源文件进行编译</strong>时，系统将<strong>自动调用预处理程序</strong>对源程序中的预处理部分作处理，<strong>处理完毕自动进入对源程序的编译</strong></p>
+</li>
+<li><p>C语言提供了多种预处理功能，如<code>宏定义</code>、<code>文件包含</code>、<code>条件编译</code>等，合理地使用会使程序便于<strong>阅读修改、移植和调试，也有利于模块化程序设计</strong></p>
+</li>
+<li><p><code>Windows平台</code>下<strong>暂停函数</strong>的原型是 <code>void Sleep(DWORD dwMilliseconds)</code>，参数的<strong>单位是“毫秒”</strong>，位于<code>&lt; windows.h&gt;</code>头文件。</p>
+</li>
+<li><p><code>Linux平台</code>下<strong>暂停函数</strong>的原型是 <code>unsigned int sleep(unsigned int seconds)</code>,参数的<strong>单位是“秒”</strong>，位于<code>&lt; unistd.h&gt;</code>头文件</p>
+</li>
+<li><p>.#if、#elif、#endif就是预处理命令，它们都是在<strong>编译之前由预处理程序</strong>来执行的。</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;windows.h&gt;</span></span></span><br><span class="line"><span class="comment">//windows平台#include&lt;windows.h&gt;</span></span><br><span class="line">#if_WIN32</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;windows.h&gt;</span></span></span><br><span class="line"><span class="comment">//Linux平台#include&lt;unistd.h&gt;</span></span><br><span class="line">#elif_linux_</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> </span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//不同的平台下调用不同的函数</span></span><br><span class="line">	#if_WIN32</span><br><span class="line">	Sleep(<span class="number">5000</span>);</span><br><span class="line">	#elif_linux_</span><br><span class="line">	Sleep(<span class="number">5</span>);</span><br><span class="line">	<span class="built_in">puts</span>(<span class="string">"cyberpunk2077"</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="宏定义"><a href="#宏定义" class="headerlink" title="宏定义"></a>宏定义</h2><p><strong>基本介绍</strong></p>
+<ul>
+<li>1.<code>#define</code>叫做<strong>宏定义命令</strong>，#表示这是一条预处理命令)。所谓宏定义，就是<strong>用一个标识符来表示一个字符串</strong>，在代码中<strong>出现了该标识符</strong>，那么就<strong>全部替换成指定的字符串</strong></li>
+<li>2.宏名是标识符的一种，<strong>命名规则和变量相同</strong>。<strong>字符串</strong>可以是<code>数字</code>、<code>表达式</code>、<code>if语句</code>、<code>函数</code>等</li>
+<li>3.<code>#define</code>    宏名  字符串  </li>
+<li>4.这里所说的字符串是<strong>一般意义上的字符序列</strong>，<strong>不和C语言中的字符串等同</strong>，<strong>不需要双引号</strong></li>
+<li>5.程序中反复使用的表达式就可以使用宏定义</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> N 100</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>N为<strong>宏名</strong>，100是<strong>宏的内容(宏所表示的字符串)</strong>。<strong>预处理阶段</strong>，对程序中<strong>所有出现的“宏名”</strong>，<code>预处理器</code>都会用宏定义中的字符串去代换，<strong>称为“宏替换”或“宏展开”。</strong></li>
+<li><strong>宏定义</strong>是由<strong>源程序中的宏定义命令#define</strong>完成的，<strong>宏替换</strong>是由<strong>预处理程序</strong>完成的</li>
+</ul>
+<p>🌰<strong>举例</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//宏定义，宏名M，对应的字符串（n*n+3*n）</span></span><br><span class="line"><span class="comment">//注意：如果宏对应的字符串有（），那么就不能省略</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> M (n*n+3*n)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum,n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Input a number:"</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(%d<span class="string">",&amp;n);</span></span><br><span class="line"><span class="string">    //宏展开 3*(n*n+3*n）+4*(n*n+3*n)+5(n*n+3*n); </span></span><br><span class="line"><span class="string">    sum=3*M+4*M+5*M;</span></span><br><span class="line"><span class="string">    printf("</span>sum=%d\n<span class="string">";sum);</span></span><br><span class="line"><span class="string">    return 0;      </span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>宏定义注意事项和细节</strong></p>
+<ul>
+<li>宏展开的过程，只是一种<strong>简单的替换</strong>。<strong>字符串中可以含任何字符，它可以是常数、表达式、if语句、函数等</strong>，<code>预处理程序</code>对它<strong>不作任何检査，只能在宏展开编译后的源程序时发现错误</strong></li>
+<li>宏定义不是说明或语句，在<strong>行末不必加分号</strong>，如加上分号则连分号也一起替换</li>
+<li>宏定义必须<strong>写在函数之外</strong>，<strong>作用域为宏定义命令起到源程序结束</strong>。如要<strong>终止其作用域</strong>可使用<code>#undef</code>命令</li>
+<li>代码中的<strong>宏名被引号包围，预处理程序不对其作宏代替</strong></li>
+<li>宏定义<strong>允许嵌套</strong>，在宏定义的字符串中<strong>可以使用已经定义的宏名</strong>，在宏展开时由预处理程序层层代换</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PI 3.1415926</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> s PI*y*y</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%f"</span>,S);</span><br><span class="line"><span class="comment">//在宏替换后变为：</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%f"</span>,<span class="number">3.1415926</span>*y*y);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>习惯上宏名用<strong>大写字母</strong>表示，以便于与变量区别。但<strong>也允许用小写字母</strong></li>
+<li>可用宏定义表示数据类型，使书写方便</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> UINT unsigned int </span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//宏替换 unsigned int a,b;</span></span><br><span class="line">	UNIT a,b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>宏定义表示</strong>数据类型和用 <code>typedef</code>定义数据说明符的区别：<ul>
+<li>宏定义只是<strong>简单的字符串替换</strong>，由<strong>预处理器来处理</strong>;</li>
+<li>typedef是在<strong>编译阶段由编译器处理</strong>的，它并不是简单的字符串替换，而<strong>给原有的数据类型起一个新的名字，将它作为一种新的数据类型。</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="带参数的宏定义"><a href="#带参数的宏定义" class="headerlink" title="带参数的宏定义"></a>带参数的宏定义</h3><p><strong>基本介绍</strong></p>
+<ul>
+<li><p>C语言允许宏带有参数。在<strong>宏定义</strong>中的参数称为<code>“形式参数”</code>，在<strong>宏调用</strong>中的参数称为<code>“实际参数”</code>，这点和函数有些类似</p>
+</li>
+<li><p>对带参数的宏，在展开过程中不仅要进行字符串替换，还要用<strong>实参去替换形参</strong></p>
+</li>
+<li><p><strong>带参宏定义</strong>的一般形式为#define 宏名(形参列表) 字符串，在字符串中可以含有各个形参</p>
+</li>
+<li><p><strong>带参宏调用</strong>的一般形式为：<code>宏名(实参列表)</code>;</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//1.MAX就是带参数的宏</span></span><br><span class="line"><span class="comment">//2.(a,b)就是形参</span></span><br><span class="line"><span class="comment">//3.(a&gt;b)?a:b 是带参数的宏对应字符串，该字符串中可以使用形参</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX(a,b)(a&gt;b) ? a:b </span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> x,y,<span class="built_in">max</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"input two numbers:"</span>);</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d %d”,&amp;x,&amp;y);</span></span><br><span class="line"><span class="string">	//1.MAX(x,y);调用带参数宏定义</span></span><br><span class="line"><span class="string">	//2.在宏替换时(预处理,由预处理器)，会进行字符串的替换，同时会使用实参，去替换形参</span></span><br><span class="line"><span class="string">	//3.即MAX(x,y) 宏替换后 (x&gt;y)?x:y </span></span><br><span class="line"><span class="string">	max = MAX(x,y);</span></span><br><span class="line"><span class="string">    printf（"</span><span class="built_in">max</span>=%d\n<span class="string">",max);</span></span><br><span class="line"><span class="string">	getchar();</span></span><br><span class="line"><span class="string">    getchar();</span></span><br><span class="line"><span class="string">    return 0;</span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>带参宏定义的注意事项和细节</strong></p>
+<ul>
+<li>带参宏定义中，形参之间可以出现空格，但是宏名和形参列表之间不能有空格出现</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX(a,b)(a&gt;b)?a:b</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX (a,b)(a&gt;b)?a:b</span></span><br><span class="line"><span class="comment">//如果写成了MAX (a,b)(a&gt;b)?a:b将被认为是无参宏定义，</span></span><br><span class="line"><span class="comment">//宏名MAX代表字符串(a,b)(a&gt;b)?a:b 而不是:MAX(a,b)代表(a&gt;b)?a:b</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>带参宏定义</strong>中，<strong>不会为形式参数分配内存</strong>，因此<strong>不必指明数据类型</strong>。而在<strong>宏调用</strong>中，<strong>实参包含了具体的数据，要去替换形参</strong>，因此实参必须要指明数据类型</li>
+<li>在宏定义中，<strong>字符串内的形参</strong>通常要<strong>用括号括起来</strong>以避免出错</li>
+</ul>
+<h3 id="带参宏定义和函数的区别"><a href="#带参宏定义和函数的区别" class="headerlink" title="带参宏定义和函数的区别"></a>带参宏定义和函数的区别</h3><ul>
+<li><code>宏展开</code>仅仅是<strong>字符串的替换</strong>，<strong>不会对表达式进行计算</strong>；宏在<strong>编译之前就被处理掉</strong>，<strong>没有机会参与编译</strong>，<strong>也不会占用内存。</strong></li>
+<li><code>函数</code>是一段可以重复使用的代码，<strong>会被编译</strong>，会给它<strong>分配内存</strong>，每次调用函数，就是<strong>执行这块内存中的代码</strong></li>
+</ul>
+<p><strong>🌰举例</strong></p>
+<ul>
+<li>函数计算平方值</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">SQ</span><span class="params">(<span class="keyword">int</span> y)</span></span>&#123;</span><br><span class="line">	 <span class="keyword">return</span> ((y) *(y));</span><br><span class="line">&#125;</span><br><span class="line">   </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(i&lt;=<span class="number">5</span>)&#123;</span><br><span class="line">    	<span class="comment">//1,4,9,16,25</span></span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"%d ^2=%d\n"</span>,(i<span class="number">-1</span>),SQ(i++));</span><br><span class="line">    &#125;</span><br><span class="line">    system(<span class="string">"pause"</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>宏定义计算平方值</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> SQ((y)*(y))</span></span><br><span class="line">   </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(i&lt;=<span class="number">5</span>)&#123;</span><br><span class="line">    	<span class="comment">//1,9,25 进入循环三次</span></span><br><span class="line">        <span class="comment">//SQ(i++)宏展开 ((i++)*(i++))</span></span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"%d ^2=%d\n"</span>,(i<span class="number">-1</span>),SQ(i++));</span><br><span class="line">    &#125;</span><br><span class="line">    system(<span class="string">"pause"</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="预处理命令总结"><a href="#预处理命令总结" class="headerlink" title="预处理命令总结"></a>预处理命令总结</h2><p><code>预处理指令</code>是<strong>以#号开头的代码行</strong>,#后是指令关键字，(#include  空白字符  &lt;&gt;)在关键字和#号之间允许存在任意个数的空白字符，整行语句构成了一条预处理指令，该<strong>指令将在编译器进行编译之前对源代码做某些转换</strong></p>
+<p>​                                                                                  <strong>常见预处理指令</strong></p>
+<table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>#</td>
+<td>空指令</td>
+</tr>
+<tr>
+<td>#include</td>
+<td>包含一个源代码文件</td>
+</tr>
+<tr>
+<td>#define</td>
+<td>定义宏</td>
+</tr>
+<tr>
+<td>#undef</td>
+<td>取消已定义的宏</td>
+</tr>
+<tr>
+<td>#if</td>
+<td>如果给定条件为真，则编译下面代码</td>
+</tr>
+<tr>
+<td>#ifdef</td>
+<td>如果宏已经定义，则编译下面代码</td>
+</tr>
+<tr>
+<td>#ifndef</td>
+<td>如果宏没有定义，则编译下面代码</td>
+</tr>
+<tr>
+<td>#elif</td>
+<td>如果前面的#给定条件不为真，当前条件为真，则编译下面代码</td>
+</tr>
+<tr>
+<td>#endif</td>
+<td>结束一个#if…#else条件编译块</td>
+</tr>
+</tbody></table>
+<p><strong>预处理指令使用注意事项</strong></p>
+<ul>
+<li><strong>预处理功能是C语言特有的功能</strong>，对源程序正式编译前<strong>由预处理程序</strong>完成的，程序中<strong>用预处理命令</strong>来调用功能。</li>
+<li>宏定义可以带有参数，<strong>宏调用时是以实参代换形参，不是“值传送”</strong></li>
+<li>为了避免宏代换时发生错误，<code>宏定义</code>中的<strong>字符串应加括号</strong>，<code>字符串</code>中出现的<strong>形式参数两边也应加括号</strong></li>
+<li><strong>文件包含</strong>是预处理的一个重要功能，可以<strong>把多个源文件连接成一个源文件进行编译</strong>，结果将<strong>生成一个目标文件</strong></li>
+<li><code>条件编译</code>允许只编译源程序中满足条件的程序段，生成的目标程序较小，<strong>减少内存的开销</strong>并<strong>提髙程序的效率</strong>。</li>
+<li><code>预处理</code>功能便于程序的<strong>修改、阅读、移植和调试，也便于实现模块化程序设计</strong></li>
+</ul>
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>预处理命令</tag>
       </tags>
   </entry>
 </search>
