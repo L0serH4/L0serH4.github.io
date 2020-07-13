@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>C++面向对象的三大特性</title>
+    <url>/posts/ac27/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>面向对象</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C语言程序设计概述</title>
     <url>/posts/c5a3/</url>
     <content><![CDATA[<h1 id="C语言程序设计概述"><a href="#C语言程序设计概述" class="headerlink" title="C语言程序设计概述"></a>C语言程序设计概述</h1><h2 id="1-C语言的发展历程"><a href="#1-C语言的发展历程" class="headerlink" title="1.C语言的发展历程"></a>1.C语言的发展历程</h2><ul>
@@ -83,15 +95,64 @@
       </tags>
   </entry>
   <entry>
-    <title>C++面向对象的三大特性</title>
-    <url>/posts/ac27/</url>
-    <content><![CDATA[]]></content>
+    <title>Github下载加速</title>
+    <url>/posts/79ca/</url>
+    <content><![CDATA[<p><strong>准备条件</strong></p>
+<ul>
+<li>码云(Gitee账号)</li>
+</ul>
+<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
+<ul>
+<li>Git</li>
+</ul>
+<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows/222" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows/222</a></p>
+<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
+<blockquote>
+<p>1.复制项目的网址</p>
+</blockquote>
+<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
+<blockquote>
+<p>2.导入项目到Gitee</p>
+</blockquote>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
+<p><strong>导入后等待页面加载即可</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
+<p><strong>将项目克隆到本地</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
+<p><strong>速度还行</strong></p>
+<p><strong>当我们导入一个比较大的项目时</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
+<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
+<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
+]]></content>
       <categories>
-        <category>C++</category>
+        <category>uncategorized</category>
       </categories>
       <tags>
-        <tag>C++</tag>
-        <tag>面向对象</tag>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IDEA快捷键</title>
+    <url>/posts/aa80/</url>
+    <content><![CDATA[<h2 id="断点调试"><a href="#断点调试" class="headerlink" title="断点调试"></a>断点调试</h2><p><a href="https://www.cnblogs.com/xiemingjun/p/9618427.html" target="_blank" rel="noopener">https://www.cnblogs.com/xiemingjun/p/9618427.html</a></p>
+]]></content>
+      <categories>
+        <category>uncategorized</category>
+      </categories>
+      <tags>
+        <tag>IDEA</tag>
       </tags>
   </entry>
   <entry>
@@ -185,52 +246,14 @@
       </tags>
   </entry>
   <entry>
-    <title>Github下载加速</title>
-    <url>/posts/79ca/</url>
-    <content><![CDATA[<p><strong>准备条件</strong></p>
-<ul>
-<li>码云(Gitee账号)</li>
-</ul>
-<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
-<ul>
-<li>Git</li>
-</ul>
-<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows/222" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows/222</a></p>
-<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
-<blockquote>
-<p>1.复制项目的网址</p>
-</blockquote>
-<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
-<blockquote>
-<p>2.导入项目到Gitee</p>
-</blockquote>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
-<p><strong>导入后等待页面加载即可</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
-<p><strong>将项目克隆到本地</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
-<p><strong>速度还行</strong></p>
-<p><strong>当我们导入一个比较大的项目时</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
-<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
-<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
-]]></content>
+    <title>MyBatis</title>
+    <url>/posts/f1de/</url>
+    <content><![CDATA[]]></content>
       <categories>
-        <category>uncategorized</category>
+        <category>后端框架</category>
       </categories>
       <tags>
-        <tag>Github</tag>
+        <tag>MyBatis</tag>
       </tags>
   </entry>
   <entry>
@@ -259,18 +282,6 @@
       </tags>
   </entry>
   <entry>
-    <title>IDEA快捷键</title>
-    <url>/posts/aa80/</url>
-    <content><![CDATA[<h2 id="断点调试"><a href="#断点调试" class="headerlink" title="断点调试"></a>断点调试</h2><p><a href="https://www.cnblogs.com/xiemingjun/p/9618427.html" target="_blank" rel="noopener">https://www.cnblogs.com/xiemingjun/p/9618427.html</a></p>
-]]></content>
-      <categories>
-        <category>uncategorized</category>
-      </categories>
-      <tags>
-        <tag>IDEA</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Spring</title>
     <url>/posts/46eb/</url>
     <content><![CDATA[]]></content>
@@ -283,14 +294,15 @@
       </tags>
   </entry>
   <entry>
-    <title>MyBatis</title>
-    <url>/posts/f1de/</url>
+    <title>SpringBoot</title>
+    <url>/posts/83dd/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>后端框架</category>
+        <category>Spring全家桶</category>
       </categories>
       <tags>
-        <tag>MyBatis</tag>
+        <tag>SpringBoot</tag>
       </tags>
   </entry>
   <entry>
@@ -303,18 +315,6 @@
       </categories>
       <tags>
         <tag>SpringCloud</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringBoot</title>
-    <url>/posts/83dd/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringBoot</tag>
       </tags>
   </entry>
   <entry>
@@ -748,6 +748,48 @@
       <tags>
         <tag>C</tag>
         <tag>函数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开源项目推荐</title>
+    <url>/posts/aaf6/</url>
+    <content><![CDATA[<h2 id="1-编程语言"><a href="#1-编程语言" class="headerlink" title="1.编程语言"></a>1.编程语言</h2><h3 id="1-1Java"><a href="#1-1Java" class="headerlink" title="1.1Java"></a>1.1Java</h3><ul>
+<li>1.<code>JavaGuide</code></li>
+</ul>
+<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
+<h2 id="2-数据结构和算法"><a href="#2-数据结构和算法" class="headerlink" title="2.数据结构和算法"></a>2.数据结构和算法</h2><p>2.1<code>fucking-algorithm</code></p>
+<p><a href="https://github.com/labuladong/fucking-algorithm" target="_blank" rel="noopener">https://github.com/labuladong/fucking-algorithm</a></p>
+]]></content>
+      <categories>
+        <category>uncategorized</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
+        <tag>开源项目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>指针</title>
+    <url>/posts/9f93/</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="upload/image-20200701155145887.png" alt="image-20200701155145887"></p>
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>指针</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构和算法基本介绍</title>
+    <url>/posts/e427/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
@@ -1255,48 +1297,6 @@
       </tags>
   </entry>
   <entry>
-    <title>指针</title>
-    <url>/posts/9f93/</url>
-    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="upload/image-20200701155145887.png" alt="image-20200701155145887"></p>
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>指针</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开源项目推荐</title>
-    <url>/posts/aaf6/</url>
-    <content><![CDATA[<h2 id="1-编程语言"><a href="#1-编程语言" class="headerlink" title="1.编程语言"></a>1.编程语言</h2><h3 id="1-1Java"><a href="#1-1Java" class="headerlink" title="1.1Java"></a>1.1Java</h3><ul>
-<li>1.<code>JavaGuide</code></li>
-</ul>
-<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
-<h2 id="2-数据结构和算法"><a href="#2-数据结构和算法" class="headerlink" title="2.数据结构和算法"></a>2.数据结构和算法</h2><p>2.1<code>fucking-algorithm</code></p>
-<p><a href="https://github.com/labuladong/fucking-algorithm" target="_blank" rel="noopener">https://github.com/labuladong/fucking-algorithm</a></p>
-]]></content>
-      <categories>
-        <category>uncategorized</category>
-      </categories>
-      <tags>
-        <tag>Github</tag>
-        <tag>开源项目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构和算法基本介绍</title>
-    <url>/posts/e427/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数组</title>
     <url>/posts/7ffe/</url>
     <content><![CDATA[<h2 id="数组介绍"><a href="#数组介绍" class="headerlink" title="数组介绍"></a>数组介绍</h2><p><code>数组</code>可以存放多个<strong>同一类型数据</strong>。数组也是一种数据类型，是<strong>构造类型</strong>。传递是以<strong>引用的方式传递</strong>（即传递的是<strong>地址</strong>）</p>
@@ -1351,7 +1351,7 @@
 
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//自动补"\0"</span></span><br><span class="line"><span class="keyword">char</span> h[] = <span class="string">"http"</span>;</span><br></pre></td></tr></table></figure>
 
-<p><img src= "/img/loading.gif" data-src="upload/image-20200713171829040.png" alt="image-20200713171829040"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/13/cf25b28ea6e66f87691db9a9f1817e62.png" alt="image-20200713171829040"></p>
 <p><strong>字符指针指向字符串</strong></p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">char</span> *pStr = <span class="string">"https"</span></span><br><span class="line"><span class="comment">//输出str指向的字符串    </span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%s"</span>,pStr);</span><br></pre></td></tr></table></figure>
 
@@ -1544,53 +1544,6 @@
       </tags>
   </entry>
   <entry>
-    <title>枚举</title>
-    <url>/posts/4523/</url>
-    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>枚举是C语言中的一种<strong>构造数据类型</strong>，它可以<strong>让数据更简洁，更易读</strong>，对于<strong>只有几个有限的特定数据</strong>，可以使用枚举(enumeration,简写enum）</p>
-<p>枚举是<strong>一组常量的集合</strong>，包含一组有限的特定的数据</p>
-<p><strong>语法定义格式</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum 枚举名 &#123;枚举元素1,枚举元素2,.....&#125;;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//DAY是枚举类型 包含了7个枚举元素</span></span><br><span class="line">	<span class="keyword">enum</span> DAY</span><br><span class="line">	&#123;</span><br><span class="line">    	MON=<span class="number">1</span>,TUE=<span class="number">2</span>,WED=<span class="number">3</span>,THU=<span class="number">4</span>,FRI=<span class="number">5</span>,SAT=<span class="number">6</span>,SUN=<span class="number">7</span></span><br><span class="line">	&#125;;</span><br><span class="line">	<span class="comment">//day 是枚举变量</span></span><br><span class="line">	<span class="keyword">enum</span> DAY day;</span><br><span class="line">    <span class="comment">//给枚举变量赋值,值是某个枚举元素</span></span><br><span class="line">	day=WED;</span><br><span class="line">    <span class="comment">//每个枚举元素对应一个值 3</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d"</span>,day);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="枚举的遍历及使用"><a href="#枚举的遍历及使用" class="headerlink" title="枚举的遍历及使用"></a>枚举的遍历及使用</h2><p><strong>遍历</strong></p>
-<p>C语言中，<strong>枚举类型</strong>是被当做<code>int</code>或者<code>unsigned int</code>类型来处理的，<strong>枚举类型必须连续是可以实现有条件的遍历</strong>。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">enum</span> day </span><br><span class="line">	&#123;</span><br><span class="line">	<span class="comment">//如果没有给赋值,则会按照顺序赋值</span></span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN;</span><br><span class="line">	&#125;day;</span><br><span class="line">	<span class="comment">//表示定义了一个枚举类型 enum Day,同时定义了一个变量枚举day(类型是 enum day)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(day = MON;day&lt;=SUN;day++)&#123;</span><br><span class="line">       <span class="comment">//要求枚举元素是连续赋值 </span></span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"枚举元素:%d\n"</span>,day);</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="keyword">return</span> o;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>swich 使用枚举</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//定义枚举类型 enum SEASONS</span></span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS seasons;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入你喜欢的季节:1.spring,2.summer,3.autumn,4.winter);"</span>); 		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;season);</span><br><span class="line">	<span class="keyword">switch</span>(season)&#123;</span><br><span class="line">	<span class="keyword">case</span> SPRING: </span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是春天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> SUMMER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是夏天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> AUTUMN:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是秋天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> WINTER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是冬天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"输入有误"</span>); </span><br><span class="line">	&#125;</span><br><span class="line">	getchar();</span><br><span class="line">	getchar();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>使用的注意事项和细节</strong></p>
-<ul>
-<li><p><strong>第一个枚举成员</strong>的<strong>默认值为整型的0</strong>，<strong>后续枚举成员的值</strong>在<strong>前一个成员上加1.</strong></p>
-</li>
-<li><p>在<strong>定义</strong><code>枚举类型</code>时<strong>改变枚举元素的值</strong></p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum DAY&#123;</span><br><span class="line">	&#x2F;&#x2F;如果没有给赋值,会从1开始按照顺序赋值</span><br><span class="line">	MON,TUE,WED,THU&#x3D;9,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line">	&#x2F;&#x2F;定义了一个枚举类型enum DAY,同时定义了一个变量day</span><br><span class="line">	&#x2F;&#x2F;FRI,SAT,SUN 10,11,12</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><strong>枚举变量</strong>的定义的形式</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先定义枚举类型,再定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">enum</span> Day day;</span><br><span class="line"><span class="comment">//定义枚举类型同时定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line"><span class="comment">//省略枚举类型,直接定义枚举变量,这种形式定义的枚举类型只能使用一次</span></span><br><span class="line"><span class="keyword">enum</span> &#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>整数转换为对应的枚举值</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS season;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="number">4</span>;</span><br><span class="line">    season = (<span class="keyword">enum</span> SEASONS)n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"season = %d"</span>,season);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>枚举</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>泛型</title>
     <url>/posts/805/</url>
     <content><![CDATA[<h1 id="1-泛型"><a href="#1-泛型" class="headerlink" title="1.泛型"></a>1.泛型</h1><h2 id="1-1什么是泛型"><a href="#1-1什么是泛型" class="headerlink" title="1.1什么是泛型"></a>1.1什么是泛型</h2><p><strong>泛型的概念</strong></p>
@@ -1755,6 +1708,53 @@
         <tag>Java</tag>
         <tag>集合</tag>
         <tag>泛型</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>枚举</title>
+    <url>/posts/4523/</url>
+    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>枚举是C语言中的一种<strong>构造数据类型</strong>，它可以<strong>让数据更简洁，更易读</strong>，对于<strong>只有几个有限的特定数据</strong>，可以使用枚举(enumeration,简写enum）</p>
+<p>枚举是<strong>一组常量的集合</strong>，包含一组有限的特定的数据</p>
+<p><strong>语法定义格式</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum 枚举名 &#123;枚举元素1,枚举元素2,.....&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//DAY是枚举类型 包含了7个枚举元素</span></span><br><span class="line">	<span class="keyword">enum</span> DAY</span><br><span class="line">	&#123;</span><br><span class="line">    	MON=<span class="number">1</span>,TUE=<span class="number">2</span>,WED=<span class="number">3</span>,THU=<span class="number">4</span>,FRI=<span class="number">5</span>,SAT=<span class="number">6</span>,SUN=<span class="number">7</span></span><br><span class="line">	&#125;;</span><br><span class="line">	<span class="comment">//day 是枚举变量</span></span><br><span class="line">	<span class="keyword">enum</span> DAY day;</span><br><span class="line">    <span class="comment">//给枚举变量赋值,值是某个枚举元素</span></span><br><span class="line">	day=WED;</span><br><span class="line">    <span class="comment">//每个枚举元素对应一个值 3</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d"</span>,day);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="枚举的遍历及使用"><a href="#枚举的遍历及使用" class="headerlink" title="枚举的遍历及使用"></a>枚举的遍历及使用</h2><p><strong>遍历</strong></p>
+<p>C语言中，<strong>枚举类型</strong>是被当做<code>int</code>或者<code>unsigned int</code>类型来处理的，<strong>枚举类型必须连续是可以实现有条件的遍历</strong>。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">enum</span> day </span><br><span class="line">	&#123;</span><br><span class="line">	<span class="comment">//如果没有给赋值,则会按照顺序赋值</span></span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN;</span><br><span class="line">	&#125;day;</span><br><span class="line">	<span class="comment">//表示定义了一个枚举类型 enum Day,同时定义了一个变量枚举day(类型是 enum day)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(day = MON;day&lt;=SUN;day++)&#123;</span><br><span class="line">       <span class="comment">//要求枚举元素是连续赋值 </span></span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"枚举元素:%d\n"</span>,day);</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="keyword">return</span> o;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>swich 使用枚举</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//定义枚举类型 enum SEASONS</span></span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS seasons;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入你喜欢的季节:1.spring,2.summer,3.autumn,4.winter);"</span>); 		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;season);</span><br><span class="line">	<span class="keyword">switch</span>(season)&#123;</span><br><span class="line">	<span class="keyword">case</span> SPRING: </span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是春天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> SUMMER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是夏天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> AUTUMN:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是秋天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> WINTER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是冬天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"输入有误"</span>); </span><br><span class="line">	&#125;</span><br><span class="line">	getchar();</span><br><span class="line">	getchar();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>使用的注意事项和细节</strong></p>
+<ul>
+<li><p><strong>第一个枚举成员</strong>的<strong>默认值为整型的0</strong>，<strong>后续枚举成员的值</strong>在<strong>前一个成员上加1.</strong></p>
+</li>
+<li><p>在<strong>定义</strong><code>枚举类型</code>时<strong>改变枚举元素的值</strong></p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum DAY&#123;</span><br><span class="line">	&#x2F;&#x2F;如果没有给赋值,会从1开始按照顺序赋值</span><br><span class="line">	MON,TUE,WED,THU&#x3D;9,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line">	&#x2F;&#x2F;定义了一个枚举类型enum DAY,同时定义了一个变量day</span><br><span class="line">	&#x2F;&#x2F;FRI,SAT,SUN 10,11,12</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>枚举变量</strong>的定义的形式</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先定义枚举类型,再定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">enum</span> Day day;</span><br><span class="line"><span class="comment">//定义枚举类型同时定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line"><span class="comment">//省略枚举类型,直接定义枚举变量,这种形式定义的枚举类型只能使用一次</span></span><br><span class="line"><span class="keyword">enum</span> &#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>整数转换为对应的枚举值</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS season;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="number">4</span>;</span><br><span class="line">    season = (<span class="keyword">enum</span> SEASONS)n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"season = %d"</span>,season);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>枚举</tag>
       </tags>
   </entry>
   <entry>
