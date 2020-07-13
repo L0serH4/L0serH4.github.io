@@ -13,80 +13,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Github下载加速</title>
-    <url>/posts/79ca/</url>
-    <content><![CDATA[<p><strong>准备条件</strong></p>
-<ul>
-<li>码云(Gitee账号)</li>
-</ul>
-<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
-<ul>
-<li>Git</li>
-</ul>
-<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows/222" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows/222</a></p>
-<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
-<blockquote>
-<p>1.复制项目的网址</p>
-</blockquote>
-<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
-<blockquote>
-<p>2.导入项目到Gitee</p>
-</blockquote>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
-<p><strong>导入后等待页面加载即可</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
-<p><strong>将项目克隆到本地</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
-<p><strong>速度还行</strong></p>
-<p><strong>当我们导入一个比较大的项目时</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
-<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
-<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
-]]></content>
-      <categories>
-        <category>uncategorized</category>
-      </categories>
-      <tags>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java面向对象的三大特性</title>
-    <url>/posts/9d0/</url>
-    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
-</ul>
-<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
-</ul>
-<p>##多态</p>
-<ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>面向对象</tag>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>C语言程序设计概述</title>
     <url>/posts/c5a3/</url>
     <content><![CDATA[<h1 id="C语言程序设计概述"><a href="#C语言程序设计概述" class="headerlink" title="C语言程序设计概述"></a>C语言程序设计概述</h1><h2 id="1-C语言的发展历程"><a href="#1-C语言的发展历程" class="headerlink" title="1.C语言的发展历程"></a>1.C语言的发展历程</h2><ul>
@@ -181,14 +107,52 @@
       </tags>
   </entry>
   <entry>
-    <title>MyBatis</title>
-    <url>/posts/f1de/</url>
-    <content><![CDATA[]]></content>
+    <title>Github下载加速</title>
+    <url>/posts/79ca/</url>
+    <content><![CDATA[<p><strong>准备条件</strong></p>
+<ul>
+<li>码云(Gitee账号)</li>
+</ul>
+<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
+<ul>
+<li>Git</li>
+</ul>
+<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows/222" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows/222</a></p>
+<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
+<blockquote>
+<p>1.复制项目的网址</p>
+</blockquote>
+<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
+<blockquote>
+<p>2.导入项目到Gitee</p>
+</blockquote>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
+<p><strong>导入后等待页面加载即可</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
+<p><strong>将项目克隆到本地</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
+<p><strong>速度还行</strong></p>
+<p><strong>当我们导入一个比较大的项目时</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
+<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
+<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
+]]></content>
       <categories>
-        <category>后端框架</category>
+        <category>uncategorized</category>
       </categories>
       <tags>
-        <tag>MyBatis</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
@@ -282,6 +246,42 @@
       </tags>
   </entry>
   <entry>
+    <title>Java面向对象的三大特性</title>
+    <url>/posts/9d0/</url>
+    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
+</ul>
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
+</ul>
+<p>##多态</p>
+<ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>面向对象</tag>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MyBatis</title>
+    <url>/posts/f1de/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+      </categories>
+      <tags>
+        <tag>MyBatis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Spring</title>
     <url>/posts/46eb/</url>
     <content><![CDATA[]]></content>
@@ -291,18 +291,6 @@
       </categories>
       <tags>
         <tag>Spring</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringCloud</title>
-    <url>/posts/a67e/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringCloud</tag>
       </tags>
   </entry>
   <entry>
@@ -318,6 +306,18 @@
       </tags>
   </entry>
   <entry>
+    <title>SpringCloud</title>
+    <url>/posts/a67e/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
+      </categories>
+      <tags>
+        <tag>SpringCloud</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>SpringMVC</title>
     <url>/posts/12ac/</url>
     <content><![CDATA[]]></content>
@@ -327,6 +327,182 @@
       </categories>
       <tags>
         <tag>SpringMVC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>位运算</title>
+    <url>/posts/ebce/</url>
+    <content><![CDATA[<h3 id="位运算符以及源码-反码-补码"><a href="#位运算符以及源码-反码-补码" class="headerlink" title="位运算符以及源码,反码,补码"></a>位运算符以及源码,反码,补码</h3><ul>
+<li>二进制的最高位是符号位:0表示正数,1表示负数</li>
+<li>正数三码合一,均相同</li>
+<li><strong>负数</strong>的反码 = 符号位不变,其他位取反(0=&gt;1,1=&gt;0)</li>
+<li><strong>负数</strong>的补码 = 反码 + 1</li>
+<li>0的补码,原码都是0,+0的反码 = 0000 0000,-0的补码 = 1111 1111;</li>
+<li><strong>计算机运算</strong>的时候都是以<strong>补码</strong>的方式来运行 原因:可以将正负数统一起来</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>运算规则</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&amp;:按位与</td>
+<td>相同为1,否则为0</td>
+</tr>
+<tr>
+<td>|:按位或</td>
+<td>有1为1,否则为0</td>
+</tr>
+<tr>
+<td>^:按位异或</td>
+<td>不同为1,否则为0</td>
+</tr>
+<tr>
+<td>~:按位取反</td>
+<td>1转换为0,0转换为1</td>
+</tr>
+</tbody></table>
+<p>🌰​举两个例子</p>
+<p><strong>~2:对2取反</strong></p>
+<ul>
+<li>1.2是正数三码合一得到补码:</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#int占4个字节 1个字节等于8位</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#进行取反</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line">#将取反后得到的补码(11111111 11111111 11111111 11111101)转成源码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">反码: 补码 - 1 &#x3D; 11111111 11111111 11111111 11111100</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#对2取反的结果是-3</span><br><span class="line">~2 &#x3D;&gt; -3</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下：</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = ~<span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a = %d"</span>,a);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/66509c6ebf73a738a3e86da02d1cab4f.png" alt="image-20200625172956190"></p>
+<p><strong>2&amp;-3:2对-3进行按位与运算</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#获取2的补码</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#获取-3的源码</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">反码: 11111111 11111111 11111111 11111100</span><br><span class="line">#获取-3的补码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line"></span><br><span class="line">#将2和-3的补码进行运算</span><br><span class="line"> 2的补码: 00000000 00000000 00000000 00000010</span><br><span class="line">-3的补码: 11111111 11111111 11111111 11111101</span><br><span class="line">&amp;: 相同为1,否则为0</span><br><span class="line">#运算结果 为0</span><br><span class="line">00000000 00000000 00000000 00000000</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下:</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">2</span> &amp; <span class="number">-3</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"b = %d"</span>,b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/8739d86e6f646cbbc0daa0318c2a2dfb.png" alt="image-20200625175424053"></p>
+<h3 id="移位运算符"><a href="#移位运算符" class="headerlink" title="移位运算符"></a>移位运算符</h3><p><strong>算术左移&lt;&lt;:</strong> <strong>符号位不变,低位补0</strong> </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3 &lt;&lt; 2，则是将数字3左移2位</span><br><span class="line">#首先把3转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00000011</span><br><span class="line">#把该数字高位(左侧)的两个零移出，其他的数字都朝左平移2位，最后在低位(右侧)的两个空位补零</span><br><span class="line">#转换为十进制是12</span><br><span class="line">0000 0000 0000 0000 0000 0000 0000 1100</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下:</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">3</span> &lt;&lt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c = %d"</span>,c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/ae4bc9b8187b6a5973852f953ff48973.png" alt="image-20200625200949845"></p>
+<p><strong>算术右移&gt;&gt;</strong>: <strong>低位移出(舍弃)，高位的空位补符号位，即正数补零，负数补1。</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">11 &gt;&gt; 2，则是将数字11右移2位</span><br><span class="line">#首先把11转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00001011</span><br><span class="line">#把低位的最后两个数字移出，因为该数字是正数，所以在高位补零</span><br><span class="line">#转换为十进制是2</span><br><span class="line">00000000 00000000 00000000 00000010</span><br><span class="line"></span><br><span class="line">-1 &gt;&gt; 2</span><br><span class="line">#获取-1的源码</span><br><span class="line">10000000 00000000 00000000 00000001</span><br><span class="line">#源码&#x3D;&gt;反码</span><br><span class="line">11111111 11111111 11111111 11111110</span><br><span class="line">#反码&#x3D;&gt;补码</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#移动两位后 (补码)</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#补码&#x3D;&gt;源码</span><br><span class="line">#转换为十进制是-1</span><br><span class="line">10000000 00000000 00000000 00000001</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下:</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> d = <span class="number">11</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> e = <span class="number">-1</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d = %d e = %d"</span>,d,e);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/3499348d49718a15382fb71f28120f1d.png" alt="image-20200625201030080"></p>
+<p>参考连接：</p>
+<ul>
+<li><p><a href="https://baike.so.com/doc/23743705-24299622.html" target="_blank" rel="noopener">https://baike.so.com/doc/23743705-24299622.html</a></p>
+</li>
+<li><p><a href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=57" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1qJ411z7Hf?p=57</a></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>计算机基础知识</tag>
+        <tag>位运算</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>内存分区模型</title>
+    <url>/posts/a132/</url>
+    <content><![CDATA[<p>C++程序在执行时，将内存大方向划分为<strong>4个区域</strong></p>
+<ul>
+<li><code>代码区</code>：存放函数体的<strong>二进制代码</strong>，由<strong>操作系统进行管理</strong></li>
+<li><code>全局区</code>：存放<strong>全局变量</strong>和<strong>静态变量</strong>以及<strong>常量</strong></li>
+<li><code>栈区</code>：<strong>编译器自动分配释放</strong>, 存放<strong>函数的参数值</strong>,<strong>局部变量</strong>等</li>
+<li><code>堆区</code>：<strong>手动分配和释放,没有手动释放</strong>,程序结束时<strong>由操作系统回收</strong></li>
+</ul>
+<p><strong>内存四区意义：</strong></p>
+<p><strong>不同区域存放的数据，赋予不同的生命周期</strong>, 便于开发程序</p>
+<h2 id="程序运行前"><a href="#程序运行前" class="headerlink" title="程序运行前"></a>程序运行前</h2><p>程序编译后，生成了exe可执行程序，<strong>未执行该程序前</strong>分为<strong>两个区域</strong></p>
+<p><strong>代码区：</strong></p>
+<ul>
+<li>存放 CPU 执行的<strong>机器指令(二进制代码)</strong></li>
+<li>代码区是<strong>共享</strong>的，共享的目的是<strong>对于频繁被执行的程序，内存中有一份代码即可</strong></li>
+<li>代码区是<strong>只读</strong>的，使其只读的原因是<strong>防止程序意外地修改了它的指令</strong></li>
+</ul>
+<p><strong>全局区：</strong></p>
+<ul>
+<li><code>全局变量</code>和<code>静态变量</code>存放位置</li>
+<li>全局区还包含了<code>常量区</code>, <code>字符串常量</code>和<code>其他常量</code>也存放在此.</li>
+<li><strong>该区域的数据在程序结束后由操作系统释放</strong></li>
+</ul>
+<p><strong>🌰举例：</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="comment">//全局变量</span></span><br><span class="line"><span class="keyword">int</span> g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//全局常量</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//局部变量</span></span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//打印地址</span></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量a地址为： "</span> &lt;&lt; &amp;a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量b地址为： "</span> &lt;&lt; &amp;b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_a地址为： "</span> &lt;&lt;  &amp;g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_b地址为： "</span> &lt;&lt;  &amp;g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//静态变量</span></span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_a地址为： "</span> &lt;&lt; &amp;s_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_b地址为： "</span> &lt;&lt; &amp;s_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world1"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_a地址为： "</span> &lt;&lt; &amp;c_g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_b地址为： "</span> &lt;&lt; &amp;c_g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_b = <span class="number">10</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_a地址为： "</span> &lt;&lt; &amp;c_l_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_b地址为： "</span> &lt;&lt; &amp;c_l_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>打印结果：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">局部变量a地址为： 0x66fe1c</span><br><span class="line">局部变量b地址为： 0x66fe18</span><br><span class="line">全局变量g_a地址为： 0x404010</span><br><span class="line">全局变量g_b地址为： 0x404014</span><br><span class="line">静态变量s_a地址为： 0x404018</span><br><span class="line">静态变量s_b地址为： 0x40401c</span><br><span class="line">字符串常量地址为： 0x405096</span><br><span class="line">字符串常量地址为： 0x4050a2</span><br><span class="line">全局常量c_g_a地址为： 0x405000</span><br><span class="line">全局常量c_g_b地址为： 0x405004</span><br><span class="line">局部常量c_l_a地址为： 0x66fe14</span><br><span class="line">局部常量c_l_b地址为： 0x66fe10</span><br></pre></td></tr></table></figure>
+
+<p><strong>总结：</strong></p>
+<ul>
+<li>C++中在程序运行前分为<code>全局区</code>和<code>代码区</code></li>
+<li><code>代码区</code>特点是<strong>共享和只读</strong></li>
+<li><code>全局区</code>中存放<code>全局变量</code>、<code>静态变量</code>、<code>常量</code></li>
+<li><code>常量区</code>中存放 <code>const修饰的全局常量</code>  和 <code>字符串常量</code></li>
+</ul>
+<h2 id="程序运行后"><a href="#程序运行后" class="headerlink" title="程序运行后"></a>程序运行后</h2><p><strong>栈区：</strong></p>
+<ul>
+<li>编译器<strong>自动分配释放内存</strong>, 存放函数的<code>参数值</code>,<code>局部变量</code>等</li>
+<li>注意事项：<strong>不要返回局部变量的地址，栈区开辟的数据由编译器自动释放</strong></li>
+</ul>
+<p><strong>🌰举例：</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> * <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">	<span class="keyword">return</span> &amp;a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line">	<span class="comment">//第一次可以打印吃结果的原因:编译器对数据进行了保留</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="comment">//再次使用指针在内存中对数据进行操作时,数据已经消失</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>堆区：</strong></p>
+<ul>
+<li><strong>手动分配释放</strong>,没有释放,<strong>程序结束时由操作系统回收</strong></li>
+<li>C++中主要利用<strong>new在堆区开辟内存</strong></li>
+</ul>
+<p><strong>🌰举例：</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    </span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>总结：</strong></p>
+<ul>
+<li>堆区数据<strong>手动管理开辟和释放</strong></li>
+<li>堆区数据利用<strong>new关键字进行开辟内存</strong></li>
+</ul>
+<h2 id="new操作符"><a href="#new操作符" class="headerlink" title="new操作符"></a>new操作符</h2><ul>
+<li>C++中利用<code>new</code>操作符在堆区开辟数据</li>
+<li>堆区开辟的数据，由程序员手动开辟，手动释放，释放利用操作符 <code>delete</code></li>
+<li>语法：<code>new 数据类型</code></li>
+<li><strong>new创建的数据，会返回该数据对应的类型的指针</strong></li>
+</ul>
+<p><strong>🌰举例：</strong>基本语法</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//利用delete释放堆区数据</span></span><br><span class="line">	<span class="keyword">delete</span> p;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//cout &lt;&lt; *p &lt;&lt; endl; //报错，释放的空间不可访问</span></span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>🌰举例：</strong>：开辟数组</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//堆区开辟数组</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span>* arr = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">10</span>];</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		arr[i] = i + <span class="number">100</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; arr[i] &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//释放数组 delete 后加 []</span></span><br><span class="line">	<span class="keyword">delete</span>[] arr;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​                                                                                    <strong>内存图解</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200712201259.png" alt="image-20200712200817949"></p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1et411b73Z?p=85" target="_blank" rel="noopener" title="黑马程序员C++教程"><i class="far fa-hand-point-right fa-fw"></i> 黑马程序员C++教程 </a>
+</div>
+]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>内存分区模型</tag>
       </tags>
   </entry>
   <entry>
@@ -575,88 +751,16 @@
       </tags>
   </entry>
   <entry>
-    <title>内存分区模型</title>
-    <url>/posts/a132/</url>
-    <content><![CDATA[<p>C++程序在执行时，将内存大方向划分为<strong>4个区域</strong></p>
-<ul>
-<li><code>代码区</code>：存放函数体的<strong>二进制代码</strong>，由<strong>操作系统进行管理</strong></li>
-<li><code>全局区</code>：存放<strong>全局变量</strong>和<strong>静态变量</strong>以及<strong>常量</strong></li>
-<li><code>栈区</code>：<strong>编译器自动分配释放</strong>, 存放<strong>函数的参数值</strong>,<strong>局部变量</strong>等</li>
-<li><code>堆区</code>：<strong>手动分配和释放,没有手动释放</strong>,程序结束时<strong>由操作系统回收</strong></li>
-</ul>
-<p><strong>内存四区意义：</strong></p>
-<p><strong>不同区域存放的数据，赋予不同的生命周期</strong>, 便于开发程序</p>
-<h2 id="程序运行前"><a href="#程序运行前" class="headerlink" title="程序运行前"></a>程序运行前</h2><p>程序编译后，生成了exe可执行程序，<strong>未执行该程序前</strong>分为<strong>两个区域</strong></p>
-<p><strong>代码区：</strong></p>
-<ul>
-<li>存放 CPU 执行的<strong>机器指令(二进制代码)</strong></li>
-<li>代码区是<strong>共享</strong>的，共享的目的是<strong>对于频繁被执行的程序，内存中有一份代码即可</strong></li>
-<li>代码区是<strong>只读</strong>的，使其只读的原因是<strong>防止程序意外地修改了它的指令</strong></li>
-</ul>
-<p><strong>全局区：</strong></p>
-<ul>
-<li><code>全局变量</code>和<code>静态变量</code>存放位置</li>
-<li>全局区还包含了<code>常量区</code>, <code>字符串常量</code>和<code>其他常量</code>也存放在此.</li>
-<li><strong>该区域的数据在程序结束后由操作系统释放</strong></li>
-</ul>
-<p><strong>🌰举例：</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="comment">//全局变量</span></span><br><span class="line"><span class="keyword">int</span> g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//全局常量</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//局部变量</span></span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//打印地址</span></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量a地址为： "</span> &lt;&lt; &amp;a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量b地址为： "</span> &lt;&lt; &amp;b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_a地址为： "</span> &lt;&lt;  &amp;g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_b地址为： "</span> &lt;&lt;  &amp;g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//静态变量</span></span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_a地址为： "</span> &lt;&lt; &amp;s_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_b地址为： "</span> &lt;&lt; &amp;s_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world1"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_a地址为： "</span> &lt;&lt; &amp;c_g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_b地址为： "</span> &lt;&lt; &amp;c_g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_b = <span class="number">10</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_a地址为： "</span> &lt;&lt; &amp;c_l_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_b地址为： "</span> &lt;&lt; &amp;c_l_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>打印结果：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">局部变量a地址为： 0x66fe1c</span><br><span class="line">局部变量b地址为： 0x66fe18</span><br><span class="line">全局变量g_a地址为： 0x404010</span><br><span class="line">全局变量g_b地址为： 0x404014</span><br><span class="line">静态变量s_a地址为： 0x404018</span><br><span class="line">静态变量s_b地址为： 0x40401c</span><br><span class="line">字符串常量地址为： 0x405096</span><br><span class="line">字符串常量地址为： 0x4050a2</span><br><span class="line">全局常量c_g_a地址为： 0x405000</span><br><span class="line">全局常量c_g_b地址为： 0x405004</span><br><span class="line">局部常量c_l_a地址为： 0x66fe14</span><br><span class="line">局部常量c_l_b地址为： 0x66fe10</span><br></pre></td></tr></table></figure>
-
-<p><strong>总结：</strong></p>
-<ul>
-<li>C++中在程序运行前分为<code>全局区</code>和<code>代码区</code></li>
-<li><code>代码区</code>特点是<strong>共享和只读</strong></li>
-<li><code>全局区</code>中存放<code>全局变量</code>、<code>静态变量</code>、<code>常量</code></li>
-<li><code>常量区</code>中存放 <code>const修饰的全局常量</code>  和 <code>字符串常量</code></li>
-</ul>
-<h2 id="程序运行后"><a href="#程序运行后" class="headerlink" title="程序运行后"></a>程序运行后</h2><p><strong>栈区：</strong></p>
-<ul>
-<li>编译器<strong>自动分配释放内存</strong>, 存放函数的<code>参数值</code>,<code>局部变量</code>等</li>
-<li>注意事项：<strong>不要返回局部变量的地址，栈区开辟的数据由编译器自动释放</strong></li>
-</ul>
-<p><strong>🌰举例：</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> * <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">	<span class="keyword">return</span> &amp;a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line">	<span class="comment">//第一次可以打印吃结果的原因:编译器对数据进行了保留</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="comment">//再次使用指针在内存中对数据进行操作时,数据已经消失</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>堆区：</strong></p>
-<ul>
-<li><strong>手动分配释放</strong>,没有释放,<strong>程序结束时由操作系统回收</strong></li>
-<li>C++中主要利用<strong>new在堆区开辟内存</strong></li>
-</ul>
-<p><strong>🌰举例：</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    </span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>总结：</strong></p>
-<ul>
-<li>堆区数据<strong>手动管理开辟和释放</strong></li>
-<li>堆区数据利用<strong>new关键字进行开辟内存</strong></li>
-</ul>
-<h2 id="new操作符"><a href="#new操作符" class="headerlink" title="new操作符"></a>new操作符</h2><ul>
-<li>C++中利用<code>new</code>操作符在堆区开辟数据</li>
-<li>堆区开辟的数据，由程序员手动开辟，手动释放，释放利用操作符 <code>delete</code></li>
-<li>语法：<code>new 数据类型</code></li>
-<li><strong>new创建的数据，会返回该数据对应的类型的指针</strong></li>
-</ul>
-<p><strong>🌰举例：</strong>基本语法</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//利用delete释放堆区数据</span></span><br><span class="line">	<span class="keyword">delete</span> p;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//cout &lt;&lt; *p &lt;&lt; endl; //报错，释放的空间不可访问</span></span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>🌰举例：</strong>：开辟数组</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//堆区开辟数组</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span>* arr = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">10</span>];</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		arr[i] = i + <span class="number">100</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; arr[i] &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//释放数组 delete 后加 []</span></span><br><span class="line">	<span class="keyword">delete</span>[] arr;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>​                                                                                    <strong>内存图解</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200712201259.png" alt="image-20200712200817949"></p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1et411b73Z?p=85" target="_blank" rel="noopener" title="黑马程序员C++教程"><i class="far fa-hand-point-right fa-fw"></i> 黑马程序员C++教程 </a>
-</div>
+    <title>指针</title>
+    <url>/posts/9f93/</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="upload/image-20200701155145887.png" alt="image-20200701155145887"></p>
 ]]></content>
       <categories>
-        <category>C++</category>
+        <category>C</category>
       </categories>
       <tags>
-        <tag>C++</tag>
-        <tag>内存分区模型</tag>
+        <tag>C</tag>
+        <tag>指针</tag>
       </tags>
   </entry>
   <entry>
@@ -678,97 +782,6 @@
       </tags>
   </entry>
   <entry>
-    <title>位运算</title>
-    <url>/posts/ebce/</url>
-    <content><![CDATA[<h3 id="位运算符以及源码-反码-补码"><a href="#位运算符以及源码-反码-补码" class="headerlink" title="位运算符以及源码,反码,补码"></a>位运算符以及源码,反码,补码</h3><ul>
-<li>二进制的最高位是符号位:0表示正数,1表示负数</li>
-<li>正数三码合一,均相同</li>
-<li><strong>负数</strong>的反码 = 符号位不变,其他位取反(0=&gt;1,1=&gt;0)</li>
-<li><strong>负数</strong>的补码 = 反码 + 1</li>
-<li>0的补码,原码都是0,+0的反码 = 0000 0000,-0的补码 = 1111 1111;</li>
-<li><strong>计算机运算</strong>的时候都是以<strong>补码</strong>的方式来运行 原因:可以将正负数统一起来</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>运算规则</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&amp;:按位与</td>
-<td>相同为1,否则为0</td>
-</tr>
-<tr>
-<td>|:按位或</td>
-<td>有1为1,否则为0</td>
-</tr>
-<tr>
-<td>^:按位异或</td>
-<td>不同为1,否则为0</td>
-</tr>
-<tr>
-<td>~:按位取反</td>
-<td>1转换为0,0转换为1</td>
-</tr>
-</tbody></table>
-<p>🌰​举两个例子</p>
-<p><strong>~2:对2取反</strong></p>
-<ul>
-<li>1.2是正数三码合一得到补码:</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#int占4个字节 1个字节等于8位</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#进行取反</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line">#将取反后得到的补码(11111111 11111111 11111111 11111101)转成源码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">反码: 补码 - 1 &#x3D; 11111111 11111111 11111111 11111100</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#对2取反的结果是-3</span><br><span class="line">~2 &#x3D;&gt; -3</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下：</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = ~<span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a = %d"</span>,a);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/66509c6ebf73a738a3e86da02d1cab4f.png" alt="image-20200625172956190"></p>
-<p><strong>2&amp;-3:2对-3进行按位与运算</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#获取2的补码</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#获取-3的源码</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">反码: 11111111 11111111 11111111 11111100</span><br><span class="line">#获取-3的补码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line"></span><br><span class="line">#将2和-3的补码进行运算</span><br><span class="line"> 2的补码: 00000000 00000000 00000000 00000010</span><br><span class="line">-3的补码: 11111111 11111111 11111111 11111101</span><br><span class="line">&amp;: 相同为1,否则为0</span><br><span class="line">#运算结果 为0</span><br><span class="line">00000000 00000000 00000000 00000000</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下:</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">2</span> &amp; <span class="number">-3</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"b = %d"</span>,b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/8739d86e6f646cbbc0daa0318c2a2dfb.png" alt="image-20200625175424053"></p>
-<h3 id="移位运算符"><a href="#移位运算符" class="headerlink" title="移位运算符"></a>移位运算符</h3><p><strong>算术左移&lt;&lt;:</strong> <strong>符号位不变,低位补0</strong> </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3 &lt;&lt; 2，则是将数字3左移2位</span><br><span class="line">#首先把3转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00000011</span><br><span class="line">#把该数字高位(左侧)的两个零移出，其他的数字都朝左平移2位，最后在低位(右侧)的两个空位补零</span><br><span class="line">#转换为十进制是12</span><br><span class="line">0000 0000 0000 0000 0000 0000 0000 1100</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下:</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">3</span> &lt;&lt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c = %d"</span>,c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/ae4bc9b8187b6a5973852f953ff48973.png" alt="image-20200625200949845"></p>
-<p><strong>算术右移&gt;&gt;</strong>: <strong>低位移出(舍弃)，高位的空位补符号位，即正数补零，负数补1。</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">11 &gt;&gt; 2，则是将数字11右移2位</span><br><span class="line">#首先把11转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00001011</span><br><span class="line">#把低位的最后两个数字移出，因为该数字是正数，所以在高位补零</span><br><span class="line">#转换为十进制是2</span><br><span class="line">00000000 00000000 00000000 00000010</span><br><span class="line"></span><br><span class="line">-1 &gt;&gt; 2</span><br><span class="line">#获取-1的源码</span><br><span class="line">10000000 00000000 00000000 00000001</span><br><span class="line">#源码&#x3D;&gt;反码</span><br><span class="line">11111111 11111111 11111111 11111110</span><br><span class="line">#反码&#x3D;&gt;补码</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#移动两位后 (补码)</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#补码&#x3D;&gt;源码</span><br><span class="line">#转换为十进制是-1</span><br><span class="line">10000000 00000000 00000000 00000001</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下:</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> d = <span class="number">11</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> e = <span class="number">-1</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d = %d e = %d"</span>,d,e);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/3499348d49718a15382fb71f28120f1d.png" alt="image-20200625201030080"></p>
-<p>参考连接：</p>
-<ul>
-<li><p><a href="https://baike.so.com/doc/23743705-24299622.html" target="_blank" rel="noopener">https://baike.so.com/doc/23743705-24299622.html</a></p>
-</li>
-<li><p><a href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=57" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1qJ411z7Hf?p=57</a></p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>计算机基础知识</tag>
-        <tag>位运算</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数据结构和算法基本介绍</title>
     <url>/posts/e427/</url>
     <content><![CDATA[]]></content>
@@ -777,43 +790,6 @@
       </categories>
       <tags>
         <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>指针</title>
-    <url>/posts/9f93/</url>
-    <content><![CDATA[<p><img src= "/img/loading.gif" data-src="upload/image-20200701155145887.png" alt="image-20200701155145887"></p>
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>指针</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数组和字符串</title>
-    <url>/posts/2543/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>数组</title>
-    <url>/posts/7ffe/</url>
-    <content><![CDATA[<h2 id="数组介绍"><a href="#数组介绍" class="headerlink" title="数组介绍"></a>数组介绍</h2><p><code>数组</code>可以存放多个<strong>同一类型数据</strong>。数组也是一种数据类型，是<strong>构造类型</strong>。传递是以<strong>引用的方式传递</strong>（即传递的是<strong>地址</strong>）</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//数据类型  数组名 [数组大小] 数组最多可以存放5个int类型的数据</span></span><br><span class="line"><span class="keyword">int</span> arr[<span class="number">5</span>];</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200713100317.png" alt="image-20200713100242676"></p>
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>函数</tag>
       </tags>
   </entry>
   <entry>
@@ -1420,6 +1396,55 @@
         <tag>剑指offer</tag>
         <tag>栈和队列</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>数组</title>
+    <url>/posts/7ffe/</url>
+    <content><![CDATA[<h2 id="数组介绍"><a href="#数组介绍" class="headerlink" title="数组介绍"></a>数组介绍</h2><p><code>数组</code>可以存放多个<strong>同一类型数据</strong>。数组也是一种数据类型，是<strong>构造类型</strong>。传递是以<strong>引用的方式传递</strong>（即传递的是<strong>地址</strong>）</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//数据类型  数组名 [数组大小] 数组最多可以存放5个int类型的数据</span></span><br><span class="line"><span class="keyword">int</span> arr[<span class="number">5</span>];</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="upload/image-20200713102917446.png" alt="image-20200713102917446"></p>
+<ul>
+<li><strong>数组名就代表该数组的首地址</strong>，即arr[0] </li>
+<li>数组的<strong>各个元素</strong>是<strong>连续分布</strong>的，假如arr[0] 的地址是0x6422016  arr[1] 的地址是0x642201A  arr[0] 的地址是0x642201E …… arr[n] 的地址 = arr[n-1]的地址 + int的字节数(4)</li>
+</ul>
+<p><strong>3种初始化数组的方式</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> arr1[<span class="number">3</span>];</span><br><span class="line">	arr1[<span class="number">0</span>] = <span class="number">2077</span>;</span><br><span class="line">	arr1[<span class="number">0</span>] = <span class="number">11</span>;</span><br><span class="line">	arr1[<span class="number">0</span>] = <span class="number">19</span>;</span><br><span class="line">	<span class="keyword">int</span> arr2[<span class="number">3</span>] = &#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> arr2[] = &#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>数组使用注意事项和细节</strong></p>
+<ul>
+<li><p>数组是多个<strong>相同类型数据的组合</strong>，数组声明/定义后，<strong>长度是固定的，不能动态变化</strong></p>
+</li>
+<li><p>数组<strong>创建后没有赋值</strong>，<strong>全局数组默认值0非全局数组初值是机器垃圾值</strong>（即：原来系统分配给这块空间的值）</p>
+</li>
+<li><p>使用数组的步骤1.<strong>定义</strong> 2.给数组各个元素<strong>赋值</strong> 3.<strong>使用</strong>数组，</p>
+</li>
+<li><p>数组的<strong>下标是从0开始</strong>的，不是从1开始</p>
+</li>
+<li><p>数组<strong>下标必须在指定范围内使用</strong>，编译通过，在运行时会因<strong>为数组越界而异常中断</strong></p>
+</li>
+<li><p>C语言的数组属<strong>构造类型</strong>，<strong>引用传递（传递的是地址）</strong>，因此当把一个数组传递给一个函数时或者变量，函数）变量<strong>操作数组会影响到原数组.</strong></p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span> arr[])</span></span>&#123;</span><br><span class="line">    <span class="comment">//2077 + 1</span></span><br><span class="line">    arr[<span class="number">0</span>] = arr[<span class="number">0</span>] + <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> arr[<span class="number">3</span>] = &#123;<span class="number">2077</span>,<span class="number">2078</span>,<span class="number">2079</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i;</span><br><span class="line">    func(arr);</span><br><span class="line">    <span class="comment">//2078,2078,2079</span></span><br><span class="line">    <span class="keyword">for</span>(i = <span class="number">0</span>;i &lt; <span class="number">3</span>;i++)&#123;   </span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"arr[%d] = %d"</span>,i,arr[i]);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200713110227.png" alt="image-20200713110134628"></p>
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>函数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数组和字符串</title>
+    <url>/posts/2543/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
   </entry>
   <entry>
     <title>枚举</title>
