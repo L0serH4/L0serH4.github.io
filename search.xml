@@ -13,18 +13,6 @@
       </tags>
   </entry>
   <entry>
-    <title>IDEA快捷键</title>
-    <url>/posts/aa80/</url>
-    <content><![CDATA[<h2 id="断点调试"><a href="#断点调试" class="headerlink" title="断点调试"></a>断点调试</h2><p><a href="https://www.cnblogs.com/xiemingjun/p/9618427.html" target="_blank" rel="noopener">https://www.cnblogs.com/xiemingjun/p/9618427.html</a></p>
-]]></content>
-      <categories>
-        <category>生产力</category>
-      </categories>
-      <tags>
-        <tag>IDEA</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Github下载加速</title>
     <url>/posts/79ca/</url>
     <content><![CDATA[<p><strong>准备条件</strong></p>
@@ -71,31 +59,6 @@
       </categories>
       <tags>
         <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java面向对象的三大特性</title>
-    <url>/posts/9d0/</url>
-    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
-</ul>
-<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
-</ul>
-<p>##多态</p>
-<ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>面向对象</tag>
-        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -180,6 +143,18 @@
       </categories>
       <tags>
         <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>IDEA快捷键</title>
+    <url>/posts/aa80/</url>
+    <content><![CDATA[<h2 id="断点调试"><a href="#断点调试" class="headerlink" title="断点调试"></a>断点调试</h2><p><a href="https://www.cnblogs.com/xiemingjun/p/9618427.html" target="_blank" rel="noopener">https://www.cnblogs.com/xiemingjun/p/9618427.html</a></p>
+]]></content>
+      <categories>
+        <category>生产力</category>
+      </categories>
+      <tags>
+        <tag>IDEA</tag>
       </tags>
   </entry>
   <entry>
@@ -273,18 +248,6 @@
       </tags>
   </entry>
   <entry>
-    <title>SpringCloud</title>
-    <url>/posts/a67e/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringCloud</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Spring</title>
     <url>/posts/46eb/</url>
     <content><![CDATA[]]></content>
@@ -294,6 +257,42 @@
       </categories>
       <tags>
         <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MyBatis</title>
+    <url>/posts/f1de/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+      </categories>
+      <tags>
+        <tag>MyBatis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java面向对象的三大特性</title>
+    <url>/posts/9d0/</url>
+    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
+</ul>
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
+</ul>
+<p>##多态</p>
+<ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>面向对象</tag>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -309,111 +308,15 @@
       </tags>
   </entry>
   <entry>
-    <title>MyBatis</title>
-    <url>/posts/f1de/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-      </categories>
-      <tags>
-        <tag>MyBatis</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringMVC</title>
-    <url>/posts/12ac/</url>
+    <title>SpringCloud</title>
+    <url>/posts/a67e/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>后端框架</category>
         <category>Spring全家桶</category>
       </categories>
       <tags>
-        <tag>SpringMVC</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>内存分区模型</title>
-    <url>/posts/a132/</url>
-    <content><![CDATA[<p>C++程序在执行时，将内存大方向划分为<strong>4个区域</strong></p>
-<ul>
-<li><code>代码区</code>：存放函数体的<strong>二进制代码</strong>，由<strong>操作系统进行管理</strong></li>
-<li><code>全局区</code>：存放<strong>全局变量</strong>和<strong>静态变量</strong>以及<strong>常量</strong></li>
-<li><code>栈区</code>：<strong>编译器自动分配释放</strong>, 存放<strong>函数的参数值</strong>,<strong>局部变量</strong>等</li>
-<li><code>堆区</code>：<strong>手动分配和释放,没有手动释放</strong>,程序结束时<strong>由操作系统回收</strong></li>
-</ul>
-<p><strong>内存四区意义：</strong></p>
-<p><strong>不同区域存放的数据，赋予不同的生命周期</strong>, 便于开发程序</p>
-<h2 id="程序运行前"><a href="#程序运行前" class="headerlink" title="程序运行前"></a>程序运行前</h2><p>程序编译后，生成了exe可执行程序，<strong>未执行该程序前</strong>分为<strong>两个区域</strong></p>
-<p><strong>代码区：</strong></p>
-<ul>
-<li>存放 CPU 执行的<strong>机器指令(二进制代码)</strong></li>
-<li>代码区是<strong>共享</strong>的，共享的目的是<strong>对于频繁被执行的程序，内存中有一份代码即可</strong></li>
-<li>代码区是<strong>只读</strong>的，使其只读的原因是<strong>防止程序意外地修改了它的指令</strong></li>
-</ul>
-<p><strong>全局区：</strong></p>
-<ul>
-<li><code>全局变量</code>和<code>静态变量</code>存放位置</li>
-<li>全局区还包含了<code>常量区</code>, <code>字符串常量</code>和<code>其他常量</code>也存放在此.</li>
-<li><strong>该区域的数据在程序结束后由操作系统释放</strong></li>
-</ul>
-<p><strong>🌰举例：</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="comment">//全局变量</span></span><br><span class="line"><span class="keyword">int</span> g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//全局常量</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//局部变量</span></span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//打印地址</span></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量a地址为： "</span> &lt;&lt; &amp;a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量b地址为： "</span> &lt;&lt; &amp;b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_a地址为： "</span> &lt;&lt;  &amp;g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_b地址为： "</span> &lt;&lt;  &amp;g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//静态变量</span></span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_a地址为： "</span> &lt;&lt; &amp;s_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_b地址为： "</span> &lt;&lt; &amp;s_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world1"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_a地址为： "</span> &lt;&lt; &amp;c_g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_b地址为： "</span> &lt;&lt; &amp;c_g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_b = <span class="number">10</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_a地址为： "</span> &lt;&lt; &amp;c_l_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_b地址为： "</span> &lt;&lt; &amp;c_l_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>打印结果：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">局部变量a地址为： 0x66fe1c</span><br><span class="line">局部变量b地址为： 0x66fe18</span><br><span class="line">全局变量g_a地址为： 0x404010</span><br><span class="line">全局变量g_b地址为： 0x404014</span><br><span class="line">静态变量s_a地址为： 0x404018</span><br><span class="line">静态变量s_b地址为： 0x40401c</span><br><span class="line">字符串常量地址为： 0x405096</span><br><span class="line">字符串常量地址为： 0x4050a2</span><br><span class="line">全局常量c_g_a地址为： 0x405000</span><br><span class="line">全局常量c_g_b地址为： 0x405004</span><br><span class="line">局部常量c_l_a地址为： 0x66fe14</span><br><span class="line">局部常量c_l_b地址为： 0x66fe10</span><br></pre></td></tr></table></figure>
-
-<p><strong>总结：</strong></p>
-<ul>
-<li>C++中在程序运行前分为<code>全局区</code>和<code>代码区</code></li>
-<li><code>代码区</code>特点是<strong>共享和只读</strong></li>
-<li><code>全局区</code>中存放<code>全局变量</code>、<code>静态变量</code>、<code>常量</code></li>
-<li><code>常量区</code>中存放 <code>const修饰的全局常量</code>  和 <code>字符串常量</code></li>
-</ul>
-<h2 id="程序运行后"><a href="#程序运行后" class="headerlink" title="程序运行后"></a>程序运行后</h2><p><strong>栈区：</strong></p>
-<ul>
-<li>编译器<strong>自动分配释放内存</strong>, 存放函数的<code>参数值</code>,<code>局部变量</code>等</li>
-<li>注意事项：<strong>不要返回局部变量的地址，栈区开辟的数据由编译器自动释放</strong></li>
-</ul>
-<p><strong>🌰举例：</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> * <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">	<span class="keyword">return</span> &amp;a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line">	<span class="comment">//第一次可以打印吃结果的原因:编译器对数据进行了保留</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="comment">//再次使用指针在内存中对数据进行操作时,数据已经消失</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>堆区：</strong></p>
-<ul>
-<li><strong>手动分配释放</strong>,没有释放,<strong>程序结束时由操作系统回收</strong></li>
-<li>C++中主要利用<strong>new在堆区开辟内存</strong></li>
-</ul>
-<p><strong>🌰举例：</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    </span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>总结：</strong></p>
-<ul>
-<li>堆区数据<strong>手动管理开辟和释放</strong></li>
-<li>堆区数据利用<strong>new关键字进行开辟内存</strong></li>
-</ul>
-<h2 id="new操作符"><a href="#new操作符" class="headerlink" title="new操作符"></a>new操作符</h2><ul>
-<li>C++中利用<code>new</code>操作符在堆区开辟数据</li>
-<li>堆区开辟的数据，由程序员手动开辟，手动释放，释放利用操作符 <code>delete</code></li>
-<li>语法：<code>new 数据类型</code></li>
-<li><strong>new创建的数据，会返回该数据对应的类型的指针</strong></li>
-</ul>
-<p><strong>🌰举例：</strong>基本语法</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//利用delete释放堆区数据</span></span><br><span class="line">	<span class="keyword">delete</span> p;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//cout &lt;&lt; *p &lt;&lt; endl; //报错，释放的空间不可访问</span></span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>🌰举例：</strong>：开辟数组</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//堆区开辟数组</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span>* arr = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">10</span>];</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		arr[i] = i + <span class="number">100</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; arr[i] &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//释放数组 delete 后加 []</span></span><br><span class="line">	<span class="keyword">delete</span>[] arr;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>​                                                                                    <strong>内存图解</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200712201259.png" alt="image-20200712200817949"></p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1et411b73Z?p=85" target="_blank" rel="noopener" title="黑马程序员C++教程"><i class="far fa-hand-point-right fa-fw"></i> 黑马程序员C++教程 </a>
-</div>
-]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>内存分区模型</tag>
+        <tag>SpringCloud</tag>
       </tags>
   </entry>
   <entry>
@@ -662,21 +565,100 @@
       </tags>
   </entry>
   <entry>
-    <title>开源项目推荐</title>
-    <url>/posts/aaf6/</url>
-    <content><![CDATA[<h2 id="1-编程语言"><a href="#1-编程语言" class="headerlink" title="1.编程语言"></a>1.编程语言</h2><h3 id="1-1Java"><a href="#1-1Java" class="headerlink" title="1.1Java"></a>1.1Java</h3><ul>
-<li>1.<code>JavaGuide</code></li>
+    <title>内存分区模型</title>
+    <url>/posts/a132/</url>
+    <content><![CDATA[<p>C++程序在执行时，将内存大方向划分为<strong>4个区域</strong></p>
+<ul>
+<li><code>代码区</code>：存放函数体的<strong>二进制代码</strong>，由<strong>操作系统进行管理</strong></li>
+<li><code>全局区</code>：存放<strong>全局变量</strong>和<strong>静态变量</strong>以及<strong>常量</strong></li>
+<li><code>栈区</code>：<strong>编译器自动分配释放</strong>, 存放<strong>函数的参数值</strong>,<strong>局部变量</strong>等</li>
+<li><code>堆区</code>：<strong>手动分配和释放,没有手动释放</strong>,程序结束时<strong>由操作系统回收</strong></li>
 </ul>
-<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
-<h2 id="2-数据结构和算法"><a href="#2-数据结构和算法" class="headerlink" title="2.数据结构和算法"></a>2.数据结构和算法</h2><p>2.1<code>fucking-algorithm</code></p>
-<p><a href="https://github.com/labuladong/fucking-algorithm" target="_blank" rel="noopener">https://github.com/labuladong/fucking-algorithm</a></p>
+<p><strong>内存四区意义：</strong></p>
+<p><strong>不同区域存放的数据，赋予不同的生命周期</strong>, 便于开发程序</p>
+<h2 id="程序运行前"><a href="#程序运行前" class="headerlink" title="程序运行前"></a>程序运行前</h2><p>程序编译后，生成了exe可执行程序，<strong>未执行该程序前</strong>分为<strong>两个区域</strong></p>
+<p><strong>代码区：</strong></p>
+<ul>
+<li>存放 CPU 执行的<strong>机器指令(二进制代码)</strong></li>
+<li>代码区是<strong>共享</strong>的，共享的目的是<strong>对于频繁被执行的程序，内存中有一份代码即可</strong></li>
+<li>代码区是<strong>只读</strong>的，使其只读的原因是<strong>防止程序意外地修改了它的指令</strong></li>
+</ul>
+<p><strong>全局区：</strong></p>
+<ul>
+<li><code>全局变量</code>和<code>静态变量</code>存放位置</li>
+<li>全局区还包含了<code>常量区</code>, <code>字符串常量</code>和<code>其他常量</code>也存放在此.</li>
+<li><strong>该区域的数据在程序结束后由操作系统释放</strong></li>
+</ul>
+<p><strong>🌰举例：</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="comment">//全局变量</span></span><br><span class="line"><span class="keyword">int</span> g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//全局常量</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_a = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> c_g_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//局部变量</span></span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//打印地址</span></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量a地址为： "</span> &lt;&lt; &amp;a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部变量b地址为： "</span> &lt;&lt; &amp;b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_a地址为： "</span> &lt;&lt;  &amp;g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局变量g_b地址为： "</span> &lt;&lt;  &amp;g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//静态变量</span></span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> s_b = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_a地址为： "</span> &lt;&lt; &amp;s_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"静态变量s_b地址为： "</span> &lt;&lt; &amp;s_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"字符串常量地址为： "</span> &lt;&lt; &amp;<span class="string">"hello world1"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_a地址为： "</span> &lt;&lt; &amp;c_g_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"全局常量c_g_b地址为： "</span> &lt;&lt; &amp;c_g_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">const</span> <span class="keyword">int</span> c_l_b = <span class="number">10</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_a地址为： "</span> &lt;&lt; &amp;c_l_a &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"局部常量c_l_b地址为： "</span> &lt;&lt; &amp;c_l_b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">    system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>打印结果：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">局部变量a地址为： 0x66fe1c</span><br><span class="line">局部变量b地址为： 0x66fe18</span><br><span class="line">全局变量g_a地址为： 0x404010</span><br><span class="line">全局变量g_b地址为： 0x404014</span><br><span class="line">静态变量s_a地址为： 0x404018</span><br><span class="line">静态变量s_b地址为： 0x40401c</span><br><span class="line">字符串常量地址为： 0x405096</span><br><span class="line">字符串常量地址为： 0x4050a2</span><br><span class="line">全局常量c_g_a地址为： 0x405000</span><br><span class="line">全局常量c_g_b地址为： 0x405004</span><br><span class="line">局部常量c_l_a地址为： 0x66fe14</span><br><span class="line">局部常量c_l_b地址为： 0x66fe10</span><br></pre></td></tr></table></figure>
+
+<p><strong>总结：</strong></p>
+<ul>
+<li>C++中在程序运行前分为<code>全局区</code>和<code>代码区</code></li>
+<li><code>代码区</code>特点是<strong>共享和只读</strong></li>
+<li><code>全局区</code>中存放<code>全局变量</code>、<code>静态变量</code>、<code>常量</code></li>
+<li><code>常量区</code>中存放 <code>const修饰的全局常量</code>  和 <code>字符串常量</code></li>
+</ul>
+<h2 id="程序运行后"><a href="#程序运行后" class="headerlink" title="程序运行后"></a>程序运行后</h2><p><strong>栈区：</strong></p>
+<ul>
+<li>编译器<strong>自动分配释放内存</strong>, 存放函数的<code>参数值</code>,<code>局部变量</code>等</li>
+<li>注意事项：<strong>不要返回局部变量的地址，栈区开辟的数据由编译器自动释放</strong></li>
+</ul>
+<p><strong>🌰举例：</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> * <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">	<span class="keyword">return</span> &amp;a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line">	<span class="comment">//第一次可以打印吃结果的原因:编译器对数据进行了保留</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="comment">//再次使用指针在内存中对数据进行操作时,数据已经消失</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>堆区：</strong></p>
+<ul>
+<li><strong>手动分配释放</strong>,没有释放,<strong>程序结束时由操作系统回收</strong></li>
+<li>C++中主要利用<strong>new在堆区开辟内存</strong></li>
+</ul>
+<p><strong>🌰举例：</strong></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    </span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>总结：</strong></p>
+<ul>
+<li>堆区数据<strong>手动管理开辟和释放</strong></li>
+<li>堆区数据利用<strong>new关键字进行开辟内存</strong></li>
+</ul>
+<h2 id="new操作符"><a href="#new操作符" class="headerlink" title="new操作符"></a>new操作符</h2><ul>
+<li>C++中利用<code>new</code>操作符在堆区开辟数据</li>
+<li>堆区开辟的数据，由程序员手动开辟，手动释放，释放利用操作符 <code>delete</code></li>
+<li>语法：<code>new 数据类型</code></li>
+<li><strong>new创建的数据，会返回该数据对应的类型的指针</strong></li>
+</ul>
+<p><strong>🌰举例：</strong>基本语法</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span>* a = <span class="keyword">new</span> <span class="keyword">int</span>(<span class="number">10</span>);</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span> *p = func();</span><br><span class="line"></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; *p &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//利用delete释放堆区数据</span></span><br><span class="line">	<span class="keyword">delete</span> p;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//cout &lt;&lt; *p &lt;&lt; endl; //报错，释放的空间不可访问</span></span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>🌰举例：</strong>：开辟数组</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//堆区开辟数组</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">int</span>* arr = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">10</span>];</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		arr[i] = i + <span class="number">100</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; arr[i] &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//释放数组 delete 后加 []</span></span><br><span class="line">	<span class="keyword">delete</span>[] arr;</span><br><span class="line"></span><br><span class="line">	system(<span class="string">"pause"</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​                                                                                    <strong>内存图解</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200712201259.png" alt="image-20200712200817949"></p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1et411b73Z?p=85" target="_blank" rel="noopener" title="黑马程序员C++教程"><i class="far fa-hand-point-right fa-fw"></i> 黑马程序员C++教程 </a>
+</div>
 ]]></content>
       <categories>
-        <category>开源项目</category>
+        <category>C++</category>
       </categories>
       <tags>
-        <tag>Github</tag>
-        <tag>开源项目</tag>
+        <tag>C++</tag>
+        <tag>内存分区模型</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringMVC</title>
+    <url>/posts/12ac/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
+      </categories>
+      <tags>
+        <tag>SpringMVC</tag>
       </tags>
   </entry>
   <entry>
@@ -767,6 +749,24 @@
       <tags>
         <tag>计算机基础知识</tag>
         <tag>位运算</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开源项目推荐</title>
+    <url>/posts/aaf6/</url>
+    <content><![CDATA[<h2 id="1-编程语言"><a href="#1-编程语言" class="headerlink" title="1.编程语言"></a>1.编程语言</h2><h3 id="1-1Java"><a href="#1-1Java" class="headerlink" title="1.1Java"></a>1.1Java</h3><ul>
+<li>1.<code>JavaGuide</code></li>
+</ul>
+<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
+<h2 id="2-数据结构和算法"><a href="#2-数据结构和算法" class="headerlink" title="2.数据结构和算法"></a>2.数据结构和算法</h2><p>2.1<code>fucking-algorithm</code></p>
+<p><a href="https://github.com/labuladong/fucking-algorithm" target="_blank" rel="noopener">https://github.com/labuladong/fucking-algorithm</a></p>
+]]></content>
+      <categories>
+        <category>开源项目</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
+        <tag>开源项目</tag>
       </tags>
   </entry>
   <entry>
@@ -1488,6 +1488,37 @@
       </tags>
   </entry>
   <entry>
+    <title>数据结构和算法基本介绍</title>
+    <url>/posts/e427/</url>
+    <content><![CDATA[<h2 id="数据结构及相关概念"><a href="#数据结构及相关概念" class="headerlink" title="数据结构及相关概念"></a>数据结构及相关概念</h2><p>程序设计的实质是<code>数据表示</code>和<code>数据处理</code></p>
+<ul>
+<li><p><code>数据表示</code>的核心是<code>数据结构</code></p>
+</li>
+<li><p><code>数据处理</code>的核心是<code>算法</code></p>
+</li>
+</ul>
+<p><strong>程序 = 数据结构 + 算法</strong></p>
+<p>计算机求解的问题分为数值问题和非数值问题</p>
+<p><strong>非数据问题的数据组织和处理</strong></p>
+<ul>
+<li><p>数据的<strong>逻辑结构</strong>：<code>线性表，树，图</code>等数据结构<strong>核心是如何组织待处理的数据及数据之间的关系</strong></p>
+</li>
+<li><p>数据的<strong>存储结构</strong>：如何将<code>线性表，树，图</code>等数据结构存储到计算机的存储器中<strong>核心是如何有效存储数据及数据之间的逻辑关系</strong></p>
+</li>
+<li><p><strong>算法</strong>：如何基<strong>于数据的某种存储结构</strong>实现<strong>增加，修改，删除，查找</strong>等基本操作,<strong>核心是如何有效处理地处理数据</strong></p>
+</li>
+<li><p>常用<strong>数据处理技术</strong>：<code>查找，排序，索引</code> </p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数组</title>
     <url>/posts/7ffe/</url>
     <content><![CDATA[<h2 id="数组介绍"><a href="#数组介绍" class="headerlink" title="数组介绍"></a>数组介绍</h2><p><code>数组</code>可以存放多个<strong>同一类型数据</strong>。数组也是一种数据类型，是<strong>构造类型</strong>。传递是以<strong>引用的方式传递</strong>（即传递的是<strong>地址</strong>）</p>
@@ -1623,37 +1654,6 @@
       <tags>
         <tag>C</tag>
         <tag>函数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构和算法基本介绍</title>
-    <url>/posts/e427/</url>
-    <content><![CDATA[<h2 id="数据结构及相关概念"><a href="#数据结构及相关概念" class="headerlink" title="数据结构及相关概念"></a>数据结构及相关概念</h2><p>程序设计的实质是<code>数据表示</code>和<code>数据处理</code></p>
-<ul>
-<li><p><code>数据表示</code>的核心是<code>数据结构</code></p>
-</li>
-<li><p><code>数据处理</code>的核心是<code>算法</code></p>
-</li>
-</ul>
-<p><strong>程序 = 数据结构 + 算法</strong></p>
-<p>计算机求解的问题分为数值问题和非数值问题</p>
-<p><strong>非数据问题的数据组织和处理</strong></p>
-<ul>
-<li><p>数据的<strong>逻辑结构</strong>：<code>线性表，树，图</code>等数据结构<strong>核心是如何组织待处理的数据及数据之间的关系</strong></p>
-</li>
-<li><p>数据的<strong>存储结构</strong>：如何将<code>线性表，树，图</code>等数据结构存储到计算机的存储器中<strong>核心是如何有效存储数据及数据之间的逻辑关系</strong></p>
-</li>
-<li><p><strong>算法</strong>：如何基<strong>于数据的某种存储结构</strong>实现<strong>增加，修改，删除，查找</strong>等基本操作,<strong>核心是如何有效处理地处理数据</strong></p>
-</li>
-<li><p>常用<strong>数据处理技术</strong>：<code>查找，排序，索引</code> </p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
@@ -1856,6 +1856,107 @@
       </tags>
   </entry>
   <entry>
+    <title>栈和队列</title>
+    <url>/posts/7712/</url>
+    <content><![CDATA[<h1 id="1-栈和队列"><a href="#1-栈和队列" class="headerlink" title="1.栈和队列"></a>1.栈和队列</h1><p>在数组中，我们可以通过索引访问<code>随机</code>元素。 但是，在某些情况下，我们可能想要限制处理顺序。</p>
+<p>两种不同的处理顺序，<code>先入先出</code>和<code>后入先出</code>；以及两个相应的线性数据结构，<code>队列</code>和<code>栈</code>。</p>
+<h3 id="示例-队列"><a href="#示例-队列" class="headerlink" title="示例 - 队列"></a>示例 - 队列</h3><p><strong>先入先出的数据结构</strong></p>
+<hr>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/9e25e27f353f85d8ea00d178be89ee1f.png" alt="screen-shot-2018-05-03-at-151021">首先处理添加到队列中的<code>第一个元素</code>添加到<code>队列</code></p>
+<p>如上图所示，队列是典型的 <strong>FIFO(First Input First Output)</strong> 数据结构。插入（insert）操作也称作入队（enqueue），新元素始终被添加在<code>队列的末尾</code>。 删除（delete）操作也被称为出队（dequeue)。 你只能移除<code>第一个元素</code>。</p>
+<hr>
+<ul>
+<li>入队： <code>Enqueue</code> 将新元素 6 添加到队列中。</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/b9db84785bc5c01963ef43cdf7baa40f.png" alt="screen-shot-2018-05-02-at-174355"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/646bd68a8314b465bd264fdff9c3cf53.png" alt="screen-shot-2018-05-02-at-172840">  Enqueue</p>
+<ul>
+<li><p>出队：<code>Dequeue</code> 查看将删除元素。</p>
+<p>Dequeue</p>
+</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/646bd68a8314b465bd264fdff9c3cf53.png" alt="screen-shot-2018-05-02-at-172840"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703092516.png" alt="screen-shot-2018-05-02-at-175409"></p>
+<h4 id="剑指-Offer-59-I-滑动窗口的最大值"><a href="#剑指-Offer-59-I-滑动窗口的最大值" class="headerlink" title="剑指 Offer 59 - I. 滑动窗口的最大值"></a><a href="https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/" target="_blank" rel="noopener">剑指 Offer 59 - I. 滑动窗口的最大值</a></h4><p>给定一个数组 <code>nums</code> 和滑动窗口的大小 <code>k</code>，请找出所有滑动窗口里的最大值。</p>
+<ul>
+<li>难度简单</li>
+</ul>
+<p><strong>示例:</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: nums &#x3D; [1,3,-1,-3,5,3,6,7], 和 k &#x3D; 3</span><br><span class="line">输出: [3,3,5,5,6,7] </span><br><span class="line">解释: </span><br><span class="line"></span><br><span class="line">  滑动窗口的位置                最大值</span><br><span class="line">---------------               -----</span><br><span class="line">[1  3  -1] -3  5  3  6  7       3</span><br><span class="line"> 1 [3  -1  -3] 5  3  6  7       3</span><br><span class="line"> 1  3 [-1  -3  5] 3  6  7       5</span><br><span class="line"> 1  3  -1 [-3  5  3] 6  7       5</span><br><span class="line"> 1  3  -1  -3 [5  3  6] 7       6</span><br><span class="line"> 1  3  -1  -3  5 [3  6  7]      7</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>提示：</strong></p>
+<p>你可以假设 <em>k</em> 总是有效的，在输入数组不为空的情况下，1 ≤ k ≤ 输入数组的大小。</p>
+<p>🔗<a href="https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/solution/mian-shi-ti-59-i-hua-dong-chuang-kou-de-zui-da-1-6/" target="_blank" rel="noopener">题解参考链接</a></p>
+<h3 id="示例-栈"><a href="#示例-栈" class="headerlink" title="示例 - 栈"></a>示例 - 栈</h3><p>与<code>队列</code>不同<code>栈</code>是一个 <strong>LIFO(Last In First Out )</strong>  数据结构。通常，</p>
+<p>插入操作,入栈 <code>push</code> ,与队列类似，总是在<strong>堆栈的末尾添加一个新元素</strong></p>
+<p>举例说明🌰</p>
+<ul>
+<li>入栈顺序 1=&gt;2 =&gt;3 =&gt;4 =&gt;5</li>
+</ul>
+<p>删除操作,出栈 <code>pop</code> ，元素始终<strong>栈堆的末尾弹出</strong></p>
+<p>举例说明🌰</p>
+<ul>
+<li>入栈顺序 5=&gt;4 =&gt;3 =&gt;2 =&gt;1</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703095049.png" alt="screen-shot-2018-06-02-at-203523"></p>
+<h4 id="剑指-Offer-09-用两个栈实现队列"><a href="#剑指-Offer-09-用两个栈实现队列" class="headerlink" title="剑指 Offer 09. 用两个栈实现队列"></a><a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/" target="_blank" rel="noopener">剑指 Offer 09. 用两个栈实现队列</a></h4><ul>
+<li>难度简单</li>
+</ul>
+<p>用两个栈实现一个队列。队列的声明如下，请实现它的两个函数 <code>appendTail</code> 和 <code>deleteHead</code> ，分别完成在<strong>队列尾部插入</strong>整数和在<strong>队列头部删除整数</strong>的功能。(若队列中没有元素，<code>deleteHead</code> 操作返回 -1 )</p>
+<p><strong>示例 1：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line">[&quot;CQueue&quot;,&quot;appendTail&quot;,&quot;deleteHead&quot;,&quot;deleteHead&quot;]</span><br><span class="line">[[],[3],[],[]]</span><br><span class="line">输出：[null,null,3,-1]</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line">[&quot;CQueue&quot;,&quot;deleteHead&quot;,&quot;appendTail&quot;,&quot;appendTail&quot;,&quot;deleteHead&quot;,&quot;deleteHead&quot;]</span><br><span class="line">[[],[],[5],[2],[],[]]</span><br><span class="line">输出：[null,-1,null,null,5,2]</span><br></pre></td></tr></table></figure>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>1 &lt;= values &lt;= 10000</code></li>
+<li><code>最多会对 appendTail、deleteHead 进行 10000 次调用</code></li>
+</ul>
+<p>🔗<a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/solution/mian-shi-ti-09-yong-liang-ge-zhan-shi-xian-dui-l-2/" target="_blank" rel="noopener">题解参考链接</a></p>
+<h4 id="剑指-Offer-30-包含min函数的栈"><a href="#剑指-Offer-30-包含min函数的栈" class="headerlink" title="剑指 Offer 30. 包含min函数的栈"></a><a href="https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/" target="_blank" rel="noopener">剑指 Offer 30. 包含min函数的栈</a></h4><ul>
+<li>难度简单</li>
+</ul>
+<p>定义栈的数据结构，请在该类型中实现一个能够得到栈的最小元素的 min 函数在该栈中，调用 min、push 及 pop 的时间复杂度都是 O(1)。</p>
+<p><strong>示例:</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">MinStack minStack &#x3D; new MinStack();</span><br><span class="line">minStack.push(-2);</span><br><span class="line">minStack.push(0);</span><br><span class="line">minStack.push(-3);</span><br><span class="line">minStack.min();   --&gt; 返回 -3.</span><br><span class="line">minStack.pop();</span><br><span class="line">minStack.top();      --&gt; 返回 0.</span><br><span class="line">minStack.min();   --&gt; 返回 -2.</span><br></pre></td></tr></table></figure>
+
+<p><strong>提示：</strong></p>
+<ol>
+<li>各函数的调用总次数不超过 20000 次</li>
+</ol>
+<p>🔗<a href="https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/solution/mian-shi-ti-30-bao-han-minhan-shu-de-zhan-fu-zhu-z/" target="_blank" rel="noopener">题解参考链接</a></p>
+<h4 id="剑指-Offer-59-II-队列的最大值"><a href="#剑指-Offer-59-II-队列的最大值" class="headerlink" title="剑指 Offer 59 - II. 队列的最大值"></a><a href="https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/" target="_blank" rel="noopener">剑指 Offer 59 - II. 队列的最大值</a></h4><ul>
+<li>难度中等</li>
+</ul>
+<p>请定义一个队列并实现函数 <code>max_value</code> 得到队列里的最大值，要求函数<code>max_value</code>、<code>push_back</code> 和 <code>pop_front</code> 的<strong>均摊</strong>时间复杂度都是O(1)。</p>
+<p>若队列为空，<code>pop_front</code> 和 <code>max_value</code> 需要返回 -1</p>
+<p><strong>示例 1：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: </span><br><span class="line">[&quot;MaxQueue&quot;,&quot;push_back&quot;,&quot;push_back&quot;,&quot;max_value&quot;,&quot;pop_front&quot;,&quot;max_value&quot;]</span><br><span class="line">[[],[1],[2],[],[],[]]</span><br><span class="line">输出: [null,null,null,2,1,2]</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: </span><br><span class="line">[&quot;MaxQueue&quot;,&quot;pop_front&quot;,&quot;max_value&quot;]</span><br><span class="line">[[],[],[]]</span><br><span class="line">输出: [null,-1,-1]</span><br></pre></td></tr></table></figure>
+
+<p><strong>限制：</strong></p>
+<ul>
+<li><code>1 &lt;= push_back,pop_front,max_value的总操作数 &lt;= 10000</code></li>
+<li><code>1 &lt;= value &lt;= 10^5</code></li>
+</ul>
+<p>🔗<a href="https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/ru-he-jie-jue-o1-fu-za-du-de-api-she-ji-ti-by-z1m/" target="_blank" rel="noopener">题解参考链接</a></p>
+]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>剑指offer</tag>
+        <tag>栈和队列</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>泛型</title>
     <url>/posts/805/</url>
     <content><![CDATA[<h1 id="1-泛型"><a href="#1-泛型" class="headerlink" title="1.泛型"></a>1.泛型</h1><h2 id="1-1什么是泛型"><a href="#1-1什么是泛型" class="headerlink" title="1.1什么是泛型"></a>1.1什么是泛型</h2><p><strong>泛型的概念</strong></p>
@@ -2020,107 +2121,6 @@
         <tag>Java</tag>
         <tag>集合</tag>
         <tag>泛型</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>栈和队列</title>
-    <url>/posts/7712/</url>
-    <content><![CDATA[<h1 id="1-栈和队列"><a href="#1-栈和队列" class="headerlink" title="1.栈和队列"></a>1.栈和队列</h1><p>在数组中，我们可以通过索引访问<code>随机</code>元素。 但是，在某些情况下，我们可能想要限制处理顺序。</p>
-<p>两种不同的处理顺序，<code>先入先出</code>和<code>后入先出</code>；以及两个相应的线性数据结构，<code>队列</code>和<code>栈</code>。</p>
-<h3 id="示例-队列"><a href="#示例-队列" class="headerlink" title="示例 - 队列"></a>示例 - 队列</h3><p><strong>先入先出的数据结构</strong></p>
-<hr>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/9e25e27f353f85d8ea00d178be89ee1f.png" alt="screen-shot-2018-05-03-at-151021">首先处理添加到队列中的<code>第一个元素</code>添加到<code>队列</code></p>
-<p>如上图所示，队列是典型的 <strong>FIFO(First Input First Output)</strong> 数据结构。插入（insert）操作也称作入队（enqueue），新元素始终被添加在<code>队列的末尾</code>。 删除（delete）操作也被称为出队（dequeue)。 你只能移除<code>第一个元素</code>。</p>
-<hr>
-<ul>
-<li>入队： <code>Enqueue</code> 将新元素 6 添加到队列中。</li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/b9db84785bc5c01963ef43cdf7baa40f.png" alt="screen-shot-2018-05-02-at-174355"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/646bd68a8314b465bd264fdff9c3cf53.png" alt="screen-shot-2018-05-02-at-172840">  Enqueue</p>
-<ul>
-<li><p>出队：<code>Dequeue</code> 查看将删除元素。</p>
-<p>Dequeue</p>
-</li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/646bd68a8314b465bd264fdff9c3cf53.png" alt="screen-shot-2018-05-02-at-172840"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703092516.png" alt="screen-shot-2018-05-02-at-175409"></p>
-<h4 id="剑指-Offer-59-I-滑动窗口的最大值"><a href="#剑指-Offer-59-I-滑动窗口的最大值" class="headerlink" title="剑指 Offer 59 - I. 滑动窗口的最大值"></a><a href="https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/" target="_blank" rel="noopener">剑指 Offer 59 - I. 滑动窗口的最大值</a></h4><p>给定一个数组 <code>nums</code> 和滑动窗口的大小 <code>k</code>，请找出所有滑动窗口里的最大值。</p>
-<ul>
-<li>难度简单</li>
-</ul>
-<p><strong>示例:</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: nums &#x3D; [1,3,-1,-3,5,3,6,7], 和 k &#x3D; 3</span><br><span class="line">输出: [3,3,5,5,6,7] </span><br><span class="line">解释: </span><br><span class="line"></span><br><span class="line">  滑动窗口的位置                最大值</span><br><span class="line">---------------               -----</span><br><span class="line">[1  3  -1] -3  5  3  6  7       3</span><br><span class="line"> 1 [3  -1  -3] 5  3  6  7       3</span><br><span class="line"> 1  3 [-1  -3  5] 3  6  7       5</span><br><span class="line"> 1  3  -1 [-3  5  3] 6  7       5</span><br><span class="line"> 1  3  -1  -3 [5  3  6] 7       6</span><br><span class="line"> 1  3  -1  -3  5 [3  6  7]      7</span><br></pre></td></tr></table></figure>
-
-
-
-<p><strong>提示：</strong></p>
-<p>你可以假设 <em>k</em> 总是有效的，在输入数组不为空的情况下，1 ≤ k ≤ 输入数组的大小。</p>
-<p>🔗<a href="https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/solution/mian-shi-ti-59-i-hua-dong-chuang-kou-de-zui-da-1-6/" target="_blank" rel="noopener">题解参考链接</a></p>
-<h3 id="示例-栈"><a href="#示例-栈" class="headerlink" title="示例 - 栈"></a>示例 - 栈</h3><p>与<code>队列</code>不同<code>栈</code>是一个 <strong>LIFO(Last In First Out )</strong>  数据结构。通常，</p>
-<p>插入操作,入栈 <code>push</code> ,与队列类似，总是在<strong>堆栈的末尾添加一个新元素</strong></p>
-<p>举例说明🌰</p>
-<ul>
-<li>入栈顺序 1=&gt;2 =&gt;3 =&gt;4 =&gt;5</li>
-</ul>
-<p>删除操作,出栈 <code>pop</code> ，元素始终<strong>栈堆的末尾弹出</strong></p>
-<p>举例说明🌰</p>
-<ul>
-<li>入栈顺序 5=&gt;4 =&gt;3 =&gt;2 =&gt;1</li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703095049.png" alt="screen-shot-2018-06-02-at-203523"></p>
-<h4 id="剑指-Offer-09-用两个栈实现队列"><a href="#剑指-Offer-09-用两个栈实现队列" class="headerlink" title="剑指 Offer 09. 用两个栈实现队列"></a><a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/" target="_blank" rel="noopener">剑指 Offer 09. 用两个栈实现队列</a></h4><ul>
-<li>难度简单</li>
-</ul>
-<p>用两个栈实现一个队列。队列的声明如下，请实现它的两个函数 <code>appendTail</code> 和 <code>deleteHead</code> ，分别完成在<strong>队列尾部插入</strong>整数和在<strong>队列头部删除整数</strong>的功能。(若队列中没有元素，<code>deleteHead</code> 操作返回 -1 )</p>
-<p><strong>示例 1：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line">[&quot;CQueue&quot;,&quot;appendTail&quot;,&quot;deleteHead&quot;,&quot;deleteHead&quot;]</span><br><span class="line">[[],[3],[],[]]</span><br><span class="line">输出：[null,null,3,-1]</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 2：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line">[&quot;CQueue&quot;,&quot;deleteHead&quot;,&quot;appendTail&quot;,&quot;appendTail&quot;,&quot;deleteHead&quot;,&quot;deleteHead&quot;]</span><br><span class="line">[[],[],[5],[2],[],[]]</span><br><span class="line">输出：[null,-1,null,null,5,2]</span><br></pre></td></tr></table></figure>
-
-<p><strong>提示：</strong></p>
-<ul>
-<li><code>1 &lt;= values &lt;= 10000</code></li>
-<li><code>最多会对 appendTail、deleteHead 进行 10000 次调用</code></li>
-</ul>
-<p>🔗<a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/solution/mian-shi-ti-09-yong-liang-ge-zhan-shi-xian-dui-l-2/" target="_blank" rel="noopener">题解参考链接</a></p>
-<h4 id="剑指-Offer-30-包含min函数的栈"><a href="#剑指-Offer-30-包含min函数的栈" class="headerlink" title="剑指 Offer 30. 包含min函数的栈"></a><a href="https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/" target="_blank" rel="noopener">剑指 Offer 30. 包含min函数的栈</a></h4><ul>
-<li>难度简单</li>
-</ul>
-<p>定义栈的数据结构，请在该类型中实现一个能够得到栈的最小元素的 min 函数在该栈中，调用 min、push 及 pop 的时间复杂度都是 O(1)。</p>
-<p><strong>示例:</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">MinStack minStack &#x3D; new MinStack();</span><br><span class="line">minStack.push(-2);</span><br><span class="line">minStack.push(0);</span><br><span class="line">minStack.push(-3);</span><br><span class="line">minStack.min();   --&gt; 返回 -3.</span><br><span class="line">minStack.pop();</span><br><span class="line">minStack.top();      --&gt; 返回 0.</span><br><span class="line">minStack.min();   --&gt; 返回 -2.</span><br></pre></td></tr></table></figure>
-
-<p><strong>提示：</strong></p>
-<ol>
-<li>各函数的调用总次数不超过 20000 次</li>
-</ol>
-<p>🔗<a href="https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/solution/mian-shi-ti-30-bao-han-minhan-shu-de-zhan-fu-zhu-z/" target="_blank" rel="noopener">题解参考链接</a></p>
-<h4 id="剑指-Offer-59-II-队列的最大值"><a href="#剑指-Offer-59-II-队列的最大值" class="headerlink" title="剑指 Offer 59 - II. 队列的最大值"></a><a href="https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/" target="_blank" rel="noopener">剑指 Offer 59 - II. 队列的最大值</a></h4><ul>
-<li>难度中等</li>
-</ul>
-<p>请定义一个队列并实现函数 <code>max_value</code> 得到队列里的最大值，要求函数<code>max_value</code>、<code>push_back</code> 和 <code>pop_front</code> 的<strong>均摊</strong>时间复杂度都是O(1)。</p>
-<p>若队列为空，<code>pop_front</code> 和 <code>max_value</code> 需要返回 -1</p>
-<p><strong>示例 1：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: </span><br><span class="line">[&quot;MaxQueue&quot;,&quot;push_back&quot;,&quot;push_back&quot;,&quot;max_value&quot;,&quot;pop_front&quot;,&quot;max_value&quot;]</span><br><span class="line">[[],[1],[2],[],[],[]]</span><br><span class="line">输出: [null,null,null,2,1,2]</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 2：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: </span><br><span class="line">[&quot;MaxQueue&quot;,&quot;pop_front&quot;,&quot;max_value&quot;]</span><br><span class="line">[[],[],[]]</span><br><span class="line">输出: [null,-1,-1]</span><br></pre></td></tr></table></figure>
-
-<p><strong>限制：</strong></p>
-<ul>
-<li><code>1 &lt;= push_back,pop_front,max_value的总操作数 &lt;= 10000</code></li>
-<li><code>1 &lt;= value &lt;= 10^5</code></li>
-</ul>
-<p>🔗<a href="https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/ru-he-jie-jue-o1-fu-za-du-de-api-she-ji-ti-by-z1m/" target="_blank" rel="noopener">题解参考链接</a></p>
-]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>剑指offer</tag>
-        <tag>栈和队列</tag>
       </tags>
   </entry>
   <entry>
