@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>C++面向对象的三大特性</title>
+    <url>/posts/ac27/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>面向对象</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C语言程序设计概述</title>
     <url>/posts/c5a3/</url>
     <content><![CDATA[<h1 id="C语言程序设计概述"><a href="#C语言程序设计概述" class="headerlink" title="C语言程序设计概述"></a>C语言程序设计概述</h1><h2 id="1-C语言的发展历程"><a href="#1-C语言的发展历程" class="headerlink" title="1.C语言的发展历程"></a>1.C语言的发展历程</h2><ul>
@@ -82,18 +94,6 @@
       </categories>
       <tags>
         <tag>C</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++面向对象的三大特性</title>
-    <url>/posts/ac27/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>面向对象</tag>
       </tags>
   </entry>
   <entry>
@@ -197,7 +197,7 @@
 <ul>
 <li>Git</li>
 </ul>
-<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows/222" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows/222</a></p>
+<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows</a></p>
 <h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
 <p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
 <blockquote>
@@ -273,15 +273,15 @@
       </tags>
   </entry>
   <entry>
-    <title>SpringBoot</title>
-    <url>/posts/83dd/</url>
+    <title>Spring</title>
+    <url>/posts/46eb/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>后端框架</category>
         <category>Spring全家桶</category>
       </categories>
       <tags>
-        <tag>SpringBoot</tag>
+        <tag>Spring</tag>
       </tags>
   </entry>
   <entry>
@@ -293,6 +293,18 @@
       </categories>
       <tags>
         <tag>MyBatis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringBoot</title>
+    <url>/posts/83dd/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
+      </categories>
+      <tags>
+        <tag>SpringBoot</tag>
       </tags>
   </entry>
   <entry>
@@ -308,15 +320,46 @@
       </tags>
   </entry>
   <entry>
-    <title>Spring</title>
-    <url>/posts/46eb/</url>
+    <title>SpringMVC</title>
+    <url>/posts/12ac/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>后端框架</category>
         <category>Spring全家桶</category>
       </categories>
       <tags>
-        <tag>Spring</tag>
+        <tag>SpringMVC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Win10快捷键</title>
+    <url>/posts/e5dc/</url>
+    <content><![CDATA[<p>1.创建虚拟桌面</p>
+<p>Win+Alt+D / Win+Tab(可以通过鼠标操作虚拟桌面的创建、切换与删除)</p>
+<p>Win+Ctrl+F4 关闭当前虚拟桌面</p>
+<p>2.窗口最小化</p>
+<p>Win+M 窗口最小化 Win+D 可在最小化全部窗口与恢复全部窗口状态 间自由切换</p>
+<p>3.应用切换<br>Ctrl+Alt+Tab显示当前桌面运行的所有应用程序 Ctrl+Tab 切换任务</p>
+<p>4.屏幕截图</p>
+<p>Win + PrtSc/PrtSc /Win + Shift + S</p>
+<p>5.任务管理器</p>
+<p>Ctrl+Shift+Esc</p>
+<p>6.文件资源管理器</p>
+<p>Win+E </p>
+<p>7.操作中心</p>
+<p>win+A</p>
+<p>8.打开设置</p>
+<p>Win+I</p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.jb51.net/os/win10/226560.html" target="_blank" rel="noopener" title="Win10快捷键大全"><i class="far fa-hand-point-right fa-fw"></i> Win10快捷键大全 </a>
+</div>
+
+]]></content>
+      <categories>
+        <category>生产力</category>
+      </categories>
+      <tags>
+        <tag>Win10</tag>
       </tags>
   </entry>
   <entry>
@@ -402,6 +445,96 @@
       <tags>
         <tag>C++</tag>
         <tag>内存分区模型</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>位运算</title>
+    <url>/posts/ebce/</url>
+    <content><![CDATA[<h3 id="位运算符以及源码-反码-补码"><a href="#位运算符以及源码-反码-补码" class="headerlink" title="位运算符以及源码,反码,补码"></a>位运算符以及源码,反码,补码</h3><ul>
+<li>二进制的最高位是符号位:0表示正数,1表示负数</li>
+<li>正数三码合一,均相同</li>
+<li><strong>负数</strong>的反码 = 符号位不变,其他位取反(0=&gt;1,1=&gt;0)</li>
+<li><strong>负数</strong>的补码 = 反码 + 1</li>
+<li>0的补码,原码都是0,+0的反码 = 0000 0000,-0的补码 = 1111 1111;</li>
+<li><strong>计算机运算</strong>的时候都是以<strong>补码</strong>的方式来运行 原因:可以将正负数统一起来</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>运算规则</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&amp;:按位与</td>
+<td>相同为1,否则为0</td>
+</tr>
+<tr>
+<td>|:按位或</td>
+<td>有1为1,否则为0</td>
+</tr>
+<tr>
+<td>^:按位异或</td>
+<td>不同为1,否则为0</td>
+</tr>
+<tr>
+<td>~:按位取反</td>
+<td>1转换为0,0转换为1</td>
+</tr>
+</tbody></table>
+<p>🌰​举两个例子</p>
+<p><strong>~2:对2取反</strong></p>
+<ul>
+<li>1.2是正数三码合一得到补码:</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#int占4个字节 1个字节等于8位</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#进行取反</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line">#将取反后得到的补码(11111111 11111111 11111111 11111101)转成源码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">反码: 补码 - 1 &#x3D; 11111111 11111111 11111111 11111100</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#对2取反的结果是-3</span><br><span class="line">~2 &#x3D;&gt; -3</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下：</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = ~<span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a = %d"</span>,a);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/66509c6ebf73a738a3e86da02d1cab4f.png" alt="image-20200625172956190"></p>
+<p><strong>2&amp;-3:2对-3进行按位与运算</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#获取2的补码</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#获取-3的源码</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">反码: 11111111 11111111 11111111 11111100</span><br><span class="line">#获取-3的补码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line"></span><br><span class="line">#将2和-3的补码进行运算</span><br><span class="line"> 2的补码: 00000000 00000000 00000000 00000010</span><br><span class="line">-3的补码: 11111111 11111111 11111111 11111101</span><br><span class="line">&amp;: 相同为1,否则为0</span><br><span class="line">#运算结果 为0</span><br><span class="line">00000000 00000000 00000000 00000000</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下:</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">2</span> &amp; <span class="number">-3</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"b = %d"</span>,b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/8739d86e6f646cbbc0daa0318c2a2dfb.png" alt="image-20200625175424053"></p>
+<h3 id="移位运算符"><a href="#移位运算符" class="headerlink" title="移位运算符"></a>移位运算符</h3><p><strong>算术左移&lt;&lt;:</strong> <strong>符号位不变,低位补0</strong> </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3 &lt;&lt; 2，则是将数字3左移2位</span><br><span class="line">#首先把3转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00000011</span><br><span class="line">#把该数字高位(左侧)的两个零移出，其他的数字都朝左平移2位，最后在低位(右侧)的两个空位补零</span><br><span class="line">#转换为十进制是12</span><br><span class="line">0000 0000 0000 0000 0000 0000 0000 1100</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下:</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">3</span> &lt;&lt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c = %d"</span>,c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/ae4bc9b8187b6a5973852f953ff48973.png" alt="image-20200625200949845"></p>
+<p><strong>算术右移&gt;&gt;</strong>: <strong>低位移出(舍弃)，高位的空位补符号位，即正数补零，负数补1。</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">11 &gt;&gt; 2，则是将数字11右移2位</span><br><span class="line">#首先把11转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00001011</span><br><span class="line">#把低位的最后两个数字移出，因为该数字是正数，所以在高位补零</span><br><span class="line">#转换为十进制是2</span><br><span class="line">00000000 00000000 00000000 00000010</span><br><span class="line"></span><br><span class="line">-1 &gt;&gt; 2</span><br><span class="line">#获取-1的源码</span><br><span class="line">10000000 00000000 00000000 00000001</span><br><span class="line">#源码&#x3D;&gt;反码</span><br><span class="line">11111111 11111111 11111111 11111110</span><br><span class="line">#反码&#x3D;&gt;补码</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#移动两位后 (补码)</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#补码&#x3D;&gt;源码</span><br><span class="line">#转换为十进制是-1</span><br><span class="line">10000000 00000000 00000000 00000001</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>代码如下:</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> d = <span class="number">11</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> e = <span class="number">-1</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d = %d e = %d"</span>,d,e);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/3499348d49718a15382fb71f28120f1d.png" alt="image-20200625201030080"></p>
+<ul>
+<li><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2></li>
+</ul>
+<div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=57" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
+<a class="btn-beautify button--animated outline green larger" href="https://baike.so.com/doc/23743705-24299622.html" target="_blank" rel="noopener" title="360百科"><i class="far fa-hand-point-right fa-fw"></i> 360百科 </a>
+</div>]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>计算机基础知识</tag>
+        <tag>位运算</tag>
       </tags>
   </entry>
   <entry>
@@ -650,18 +783,6 @@
       </tags>
   </entry>
   <entry>
-    <title>SpringMVC</title>
-    <url>/posts/12ac/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringMVC</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开源项目推荐</title>
     <url>/posts/aaf6/</url>
     <content><![CDATA[<h2 id="1-编程语言"><a href="#1-编程语言" class="headerlink" title="1.编程语言"></a>1.编程语言</h2><h3 id="1-1Java"><a href="#1-1Java" class="headerlink" title="1.1Java"></a>1.1Java</h3><ul>
@@ -889,158 +1010,6 @@
       <tags>
         <tag>C</tag>
         <tag>指针</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Win10快捷键</title>
-    <url>/posts/e5dc/</url>
-    <content><![CDATA[<p>1.创建虚拟桌面</p>
-<p>Win+Alt+D / Win+Tab(可以通过鼠标操作虚拟桌面的创建、切换与删除)</p>
-<p>Win+Ctrl+F4 关闭当前虚拟桌面</p>
-<p>2.窗口最小化</p>
-<p>Win+M 窗口最小化 Win+D 可在最小化全部窗口与恢复全部窗口状态 间自由切换</p>
-<p>3.应用切换<br>Ctrl+Alt+Tab显示当前桌面运行的所有应用程序 Ctrl+Tab 切换任务</p>
-<p>4.屏幕截图</p>
-<p>Win + PrtSc/PrtSc /Win + Shift + S</p>
-<p>5.任务管理器</p>
-<p>Ctrl+Shift+Esc</p>
-<p>6.文件资源管理器</p>
-<p>Win+E </p>
-<p>7.操作中心</p>
-<p>win+A</p>
-<p>8.打开设置</p>
-<p>Win+I</p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.jb51.net/os/win10/226560.html" target="_blank" rel="noopener" title="Win10快捷键大全"><i class="far fa-hand-point-right fa-fw"></i> Win10快捷键大全 </a>
-</div>
-
-]]></content>
-      <categories>
-        <category>生产力</category>
-      </categories>
-      <tags>
-        <tag>Win10</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>位运算</title>
-    <url>/posts/ebce/</url>
-    <content><![CDATA[<h3 id="位运算符以及源码-反码-补码"><a href="#位运算符以及源码-反码-补码" class="headerlink" title="位运算符以及源码,反码,补码"></a>位运算符以及源码,反码,补码</h3><ul>
-<li>二进制的最高位是符号位:0表示正数,1表示负数</li>
-<li>正数三码合一,均相同</li>
-<li><strong>负数</strong>的反码 = 符号位不变,其他位取反(0=&gt;1,1=&gt;0)</li>
-<li><strong>负数</strong>的补码 = 反码 + 1</li>
-<li>0的补码,原码都是0,+0的反码 = 0000 0000,-0的补码 = 1111 1111;</li>
-<li><strong>计算机运算</strong>的时候都是以<strong>补码</strong>的方式来运行 原因:可以将正负数统一起来</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>运算规则</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&amp;:按位与</td>
-<td>相同为1,否则为0</td>
-</tr>
-<tr>
-<td>|:按位或</td>
-<td>有1为1,否则为0</td>
-</tr>
-<tr>
-<td>^:按位异或</td>
-<td>不同为1,否则为0</td>
-</tr>
-<tr>
-<td>~:按位取反</td>
-<td>1转换为0,0转换为1</td>
-</tr>
-</tbody></table>
-<p>🌰​举两个例子</p>
-<p><strong>~2:对2取反</strong></p>
-<ul>
-<li>1.2是正数三码合一得到补码:</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#int占4个字节 1个字节等于8位</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#进行取反</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line">#将取反后得到的补码(11111111 11111111 11111111 11111101)转成源码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">反码: 补码 - 1 &#x3D; 11111111 11111111 11111111 11111100</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#对2取反的结果是-3</span><br><span class="line">~2 &#x3D;&gt; -3</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下：</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = ~<span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"a = %d"</span>,a);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/66509c6ebf73a738a3e86da02d1cab4f.png" alt="image-20200625172956190"></p>
-<p><strong>2&amp;-3:2对-3进行按位与运算</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#获取2的补码</span><br><span class="line">补码: 00000000 00000000 00000000 00000010</span><br><span class="line">#获取-3的源码</span><br><span class="line">源码: 10000000 00000000 00000000 00000011</span><br><span class="line">#负数的反码 &#x3D; 符号位不变,其他位取反(0&#x3D;&gt;1,1&#x3D;&gt;0)</span><br><span class="line">反码: 11111111 11111111 11111111 11111100</span><br><span class="line">#获取-3的补码</span><br><span class="line">#负数的补码 &#x3D; 反码 + 1</span><br><span class="line">补码: 11111111 11111111 11111111 11111101</span><br><span class="line"></span><br><span class="line">#将2和-3的补码进行运算</span><br><span class="line"> 2的补码: 00000000 00000000 00000000 00000010</span><br><span class="line">-3的补码: 11111111 11111111 11111111 11111101</span><br><span class="line">&amp;: 相同为1,否则为0</span><br><span class="line">#运算结果 为0</span><br><span class="line">00000000 00000000 00000000 00000000</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下:</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> b = <span class="number">2</span> &amp; <span class="number">-3</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"b = %d"</span>,b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/8739d86e6f646cbbc0daa0318c2a2dfb.png" alt="image-20200625175424053"></p>
-<h3 id="移位运算符"><a href="#移位运算符" class="headerlink" title="移位运算符"></a>移位运算符</h3><p><strong>算术左移&lt;&lt;:</strong> <strong>符号位不变,低位补0</strong> </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3 &lt;&lt; 2，则是将数字3左移2位</span><br><span class="line">#首先把3转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00000011</span><br><span class="line">#把该数字高位(左侧)的两个零移出，其他的数字都朝左平移2位，最后在低位(右侧)的两个空位补零</span><br><span class="line">#转换为十进制是12</span><br><span class="line">0000 0000 0000 0000 0000 0000 0000 1100</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下:</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">3</span> &lt;&lt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"c = %d"</span>,c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/ae4bc9b8187b6a5973852f953ff48973.png" alt="image-20200625200949845"></p>
-<p><strong>算术右移&gt;&gt;</strong>: <strong>低位移出(舍弃)，高位的空位补符号位，即正数补零，负数补1。</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">11 &gt;&gt; 2，则是将数字11右移2位</span><br><span class="line">#首先把11转换为二进制数字</span><br><span class="line">00000000 00000000 00000000 00001011</span><br><span class="line">#把低位的最后两个数字移出，因为该数字是正数，所以在高位补零</span><br><span class="line">#转换为十进制是2</span><br><span class="line">00000000 00000000 00000000 00000010</span><br><span class="line"></span><br><span class="line">-1 &gt;&gt; 2</span><br><span class="line">#获取-1的源码</span><br><span class="line">10000000 00000000 00000000 00000001</span><br><span class="line">#源码&#x3D;&gt;反码</span><br><span class="line">11111111 11111111 11111111 11111110</span><br><span class="line">#反码&#x3D;&gt;补码</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#移动两位后 (补码)</span><br><span class="line">11111111 11111111 11111111 11111111</span><br><span class="line">#补码&#x3D;&gt;源码</span><br><span class="line">#转换为十进制是-1</span><br><span class="line">10000000 00000000 00000000 00000001</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>代码如下:</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> d = <span class="number">11</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">int</span> e = <span class="number">-1</span> &gt;&gt; <span class="number">2</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d = %d e = %d"</span>,d,e);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/25/3499348d49718a15382fb71f28120f1d.png" alt="image-20200625201030080"></p>
-<ul>
-<li><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2></li>
-</ul>
-<div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=57" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
-<a class="btn-beautify button--animated outline green larger" href="https://baike.so.com/doc/23743705-24299622.html" target="_blank" rel="noopener" title="360百科"><i class="far fa-hand-point-right fa-fw"></i> 360百科 </a>
-</div>]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>计算机基础知识</tag>
-        <tag>位运算</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构和算法基本介绍</title>
-    <url>/posts/e427/</url>
-    <content><![CDATA[<h2 id="数据结构及相关概念"><a href="#数据结构及相关概念" class="headerlink" title="数据结构及相关概念"></a>数据结构及相关概念</h2><p>程序设计的实质是<code>数据表示</code>和<code>数据处理</code></p>
-<ul>
-<li><p><code>数据表示</code>的核心是<code>数据结构</code></p>
-</li>
-<li><p><code>数据处理</code>的核心是<code>算法</code></p>
-</li>
-</ul>
-<p><strong>程序 = 数据结构 + 算法</strong></p>
-<p>计算机求解的问题分为数值问题和非数值问题</p>
-<p><strong>非数据问题的数据组织和处理</strong></p>
-<ul>
-<li><p>数据的<strong>逻辑结构</strong>：<code>线性表，树，图</code>等数据结构<strong>核心是如何组织待处理的数据及数据之间的关系</strong></p>
-</li>
-<li><p>数据的<strong>存储结构</strong>：如何将<code>线性表，树，图</code>等数据结构存储到计算机的存储器中<strong>核心是如何有效存储数据及数据之间的逻辑关系</strong></p>
-</li>
-<li><p><strong>算法</strong>：如何基<strong>于数据的某种存储结构</strong>实现<strong>增加，修改，删除，查找</strong>等基本操作,<strong>核心是如何有效处理地处理数据</strong></p>
-</li>
-<li><p>常用<strong>数据处理技术</strong>：<code>查找，排序，索引</code> </p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
@@ -1700,6 +1669,86 @@
       </tags>
   </entry>
   <entry>
+    <title>枚举</title>
+    <url>/posts/4523/</url>
+    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>枚举是C语言中的一种<strong>构造数据类型</strong>，它可以<strong>让数据更简洁，更易读</strong>，对于<strong>只有几个有限的特定数据</strong>，可以使用枚举(enumeration,简写enum）</p>
+<p>枚举是<strong>一组常量的集合</strong>，包含一组有限的特定的数据</p>
+<p><strong>语法定义格式</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum 枚举名 &#123;枚举元素1,枚举元素2,.....&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//DAY是枚举类型 包含了7个枚举元素</span></span><br><span class="line">	<span class="keyword">enum</span> DAY</span><br><span class="line">	&#123;</span><br><span class="line">    	MON=<span class="number">1</span>,TUE=<span class="number">2</span>,WED=<span class="number">3</span>,THU=<span class="number">4</span>,FRI=<span class="number">5</span>,SAT=<span class="number">6</span>,SUN=<span class="number">7</span></span><br><span class="line">	&#125;;</span><br><span class="line">	<span class="comment">//day 是枚举变量</span></span><br><span class="line">	<span class="keyword">enum</span> DAY day;</span><br><span class="line">    <span class="comment">//给枚举变量赋值,值是某个枚举元素</span></span><br><span class="line">	day=WED;</span><br><span class="line">    <span class="comment">//每个枚举元素对应一个值 3</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d"</span>,day);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="枚举的遍历及使用"><a href="#枚举的遍历及使用" class="headerlink" title="枚举的遍历及使用"></a>枚举的遍历及使用</h2><p><strong>遍历</strong></p>
+<p>C语言中，<strong>枚举类型</strong>是被当做<code>int</code>或者<code>unsigned int</code>类型来处理的，<strong>枚举类型必须连续是可以实现有条件的遍历</strong>。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">enum</span> day </span><br><span class="line">	&#123;</span><br><span class="line">	<span class="comment">//如果没有给赋值,则会按照顺序赋值</span></span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN;</span><br><span class="line">	&#125;day;</span><br><span class="line">	<span class="comment">//表示定义了一个枚举类型 enum Day,同时定义了一个变量枚举day(类型是 enum day)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(day = MON;day&lt;=SUN;day++)&#123;</span><br><span class="line">       <span class="comment">//要求枚举元素是连续赋值 </span></span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"枚举元素:%d\n"</span>,day);</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="keyword">return</span> o;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>swich 使用枚举</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//定义枚举类型 enum SEASONS</span></span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS seasons;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入你喜欢的季节:1.spring,2.summer,3.autumn,4.winter);"</span>); 		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;season);</span><br><span class="line">	<span class="keyword">switch</span>(season)&#123;</span><br><span class="line">	<span class="keyword">case</span> SPRING: </span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是春天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> SUMMER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是夏天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> AUTUMN:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是秋天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> WINTER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是冬天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"输入有误"</span>); </span><br><span class="line">	&#125;</span><br><span class="line">	getchar();</span><br><span class="line">	getchar();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>使用的注意事项和细节</strong></p>
+<ul>
+<li><p><strong>第一个枚举成员</strong>的<strong>默认值为整型的0</strong>，<strong>后续枚举成员的值</strong>在<strong>前一个成员上加1.</strong></p>
+</li>
+<li><p>在<strong>定义</strong><code>枚举类型</code>时<strong>改变枚举元素的值</strong></p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum DAY&#123;</span><br><span class="line">	&#x2F;&#x2F;如果没有给赋值,会从1开始按照顺序赋值</span><br><span class="line">	MON,TUE,WED,THU&#x3D;9,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line">	&#x2F;&#x2F;定义了一个枚举类型enum DAY,同时定义了一个变量day</span><br><span class="line">	&#x2F;&#x2F;FRI,SAT,SUN 10,11,12</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>枚举变量</strong>的定义的形式</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先定义枚举类型,再定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">enum</span> Day day;</span><br><span class="line"><span class="comment">//定义枚举类型同时定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line"><span class="comment">//省略枚举类型,直接定义枚举变量,这种形式定义的枚举类型只能使用一次</span></span><br><span class="line"><span class="keyword">enum</span> &#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>整数转换为对应的枚举值</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS season;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="number">4</span>;</span><br><span class="line">    season = (<span class="keyword">enum</span> SEASONS)n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"season = %d"</span>,season);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=88" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
+</div>
+
+
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>枚举</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构和算法基本介绍</title>
+    <url>/posts/e427/</url>
+    <content><![CDATA[<h2 id="数据结构及相关概念"><a href="#数据结构及相关概念" class="headerlink" title="数据结构及相关概念"></a>数据结构及相关概念</h2><p>程序设计的实质是<code>数据表示</code>和<code>数据处理</code></p>
+<ul>
+<li><p><code>数据表示</code>的核心是<code>数据结构</code></p>
+</li>
+<li><p><code>数据处理</code>的核心是<code>算法</code></p>
+</li>
+</ul>
+<p><strong>程序 = 数据结构 + 算法</strong></p>
+<p>计算机求解的问题分为数值问题和非数值问题</p>
+<p><strong>非数据问题的数据组织和处理</strong></p>
+<ul>
+<li><p>数据的<strong>逻辑结构</strong>：<code>线性表，树，图</code>等数据结构<strong>核心是如何组织待处理的数据及数据之间的关系</strong></p>
+</li>
+<li><p>数据的<strong>存储结构</strong>：如何将<code>线性表，树，图</code>等数据结构存储到计算机的存储器中<strong>核心是如何有效存储数据及数据之间的逻辑关系</strong></p>
+</li>
+<li><p><strong>算法</strong>：如何基<strong>于数据的某种存储结构</strong>实现<strong>增加，修改，删除，查找</strong>等基本操作,<strong>核心是如何有效处理地处理数据</strong></p>
+</li>
+<li><p>常用<strong>数据处理技术</strong>：<code>查找，排序，索引</code> </p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数组</title>
     <url>/posts/7ffe/</url>
     <content><![CDATA[<h2 id="数组介绍"><a href="#数组介绍" class="headerlink" title="数组介绍"></a>数组介绍</h2><p><code>数组</code>可以存放多个<strong>同一类型数据</strong>。数组也是一种数据类型，是<strong>构造类型</strong>。传递是以<strong>引用的方式传递</strong>（即传递的是<strong>地址</strong>）</p>
@@ -1838,55 +1887,6 @@
       </tags>
   </entry>
   <entry>
-    <title>枚举</title>
-    <url>/posts/4523/</url>
-    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>枚举是C语言中的一种<strong>构造数据类型</strong>，它可以<strong>让数据更简洁，更易读</strong>，对于<strong>只有几个有限的特定数据</strong>，可以使用枚举(enumeration,简写enum）</p>
-<p>枚举是<strong>一组常量的集合</strong>，包含一组有限的特定的数据</p>
-<p><strong>语法定义格式</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum 枚举名 &#123;枚举元素1,枚举元素2,.....&#125;;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//DAY是枚举类型 包含了7个枚举元素</span></span><br><span class="line">	<span class="keyword">enum</span> DAY</span><br><span class="line">	&#123;</span><br><span class="line">    	MON=<span class="number">1</span>,TUE=<span class="number">2</span>,WED=<span class="number">3</span>,THU=<span class="number">4</span>,FRI=<span class="number">5</span>,SAT=<span class="number">6</span>,SUN=<span class="number">7</span></span><br><span class="line">	&#125;;</span><br><span class="line">	<span class="comment">//day 是枚举变量</span></span><br><span class="line">	<span class="keyword">enum</span> DAY day;</span><br><span class="line">    <span class="comment">//给枚举变量赋值,值是某个枚举元素</span></span><br><span class="line">	day=WED;</span><br><span class="line">    <span class="comment">//每个枚举元素对应一个值 3</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d"</span>,day);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="枚举的遍历及使用"><a href="#枚举的遍历及使用" class="headerlink" title="枚举的遍历及使用"></a>枚举的遍历及使用</h2><p><strong>遍历</strong></p>
-<p>C语言中，<strong>枚举类型</strong>是被当做<code>int</code>或者<code>unsigned int</code>类型来处理的，<strong>枚举类型必须连续是可以实现有条件的遍历</strong>。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">enum</span> day </span><br><span class="line">	&#123;</span><br><span class="line">	<span class="comment">//如果没有给赋值,则会按照顺序赋值</span></span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN;</span><br><span class="line">	&#125;day;</span><br><span class="line">	<span class="comment">//表示定义了一个枚举类型 enum Day,同时定义了一个变量枚举day(类型是 enum day)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(day = MON;day&lt;=SUN;day++)&#123;</span><br><span class="line">       <span class="comment">//要求枚举元素是连续赋值 </span></span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"枚举元素:%d\n"</span>,day);</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="keyword">return</span> o;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>swich 使用枚举</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//定义枚举类型 enum SEASONS</span></span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS seasons;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入你喜欢的季节:1.spring,2.summer,3.autumn,4.winter);"</span>); 		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;season);</span><br><span class="line">	<span class="keyword">switch</span>(season)&#123;</span><br><span class="line">	<span class="keyword">case</span> SPRING: </span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是春天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> SUMMER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是夏天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> AUTUMN:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是秋天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> WINTER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是冬天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"输入有误"</span>); </span><br><span class="line">	&#125;</span><br><span class="line">	getchar();</span><br><span class="line">	getchar();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>使用的注意事项和细节</strong></p>
-<ul>
-<li><p><strong>第一个枚举成员</strong>的<strong>默认值为整型的0</strong>，<strong>后续枚举成员的值</strong>在<strong>前一个成员上加1.</strong></p>
-</li>
-<li><p>在<strong>定义</strong><code>枚举类型</code>时<strong>改变枚举元素的值</strong></p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum DAY&#123;</span><br><span class="line">	&#x2F;&#x2F;如果没有给赋值,会从1开始按照顺序赋值</span><br><span class="line">	MON,TUE,WED,THU&#x3D;9,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line">	&#x2F;&#x2F;定义了一个枚举类型enum DAY,同时定义了一个变量day</span><br><span class="line">	&#x2F;&#x2F;FRI,SAT,SUN 10,11,12</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><strong>枚举变量</strong>的定义的形式</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先定义枚举类型,再定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">enum</span> Day day;</span><br><span class="line"><span class="comment">//定义枚举类型同时定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line"><span class="comment">//省略枚举类型,直接定义枚举变量,这种形式定义的枚举类型只能使用一次</span></span><br><span class="line"><span class="keyword">enum</span> &#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>整数转换为对应的枚举值</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS season;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="number">4</span>;</span><br><span class="line">    season = (<span class="keyword">enum</span> SEASONS)n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"season = %d"</span>,season);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=88" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
-</div>
-
-
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>枚举</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>栈和队列</title>
     <url>/posts/7712/</url>
     <content><![CDATA[<h1 id="1-栈和队列"><a href="#1-栈和队列" class="headerlink" title="1.栈和队列"></a>1.栈和队列</h1><p>在数组中，我们可以通过索引访问<code>随机</code>元素。 但是，在某些情况下，我们可能想要限制处理顺序。</p>
@@ -1988,170 +1988,230 @@
       </tags>
   </entry>
   <entry>
-    <title>预处理命令</title>
-    <url>/posts/3c59/</url>
-    <content><![CDATA[<h2 id="预处理命令基本介绍"><a href="#预处理命令基本介绍" class="headerlink" title="预处理命令基本介绍"></a><strong>预处理命令基本介绍</strong></h2><ul>
-<li><p>使用库函数之前，应该用<code>#include</code>引入对应的头文件。这种<strong>以#号开头的命令称为预处理命令。</strong></p>
+    <title>泛型</title>
+    <url>/posts/805/</url>
+    <content><![CDATA[<h1 id="1-泛型"><a href="#1-泛型" class="headerlink" title="1.泛型"></a>1.泛型</h1><h2 id="1-1什么是泛型"><a href="#1-1什么是泛型" class="headerlink" title="1.1什么是泛型"></a>1.1什么是泛型</h2><p><strong>泛型的概念</strong></p>
+<ul>
+<li><p>Java 泛型（generics）是 <code>JDK 5</code> 中引入的一个新特性,考虑到<code>向前兼容</code>，编译器是<strong>允许非泛型集合与泛型集合互相赋值</strong> ,泛型提供了<strong>编译时类型安全检测机制</strong>，该机制允许程序在编译时检测到非法的类型。</p>
 </li>
-<li><p>这些在编译之前对<strong>源文件</strong>进行简单加工的过程，就称为<strong>预处理（即预先处理、提前处理）</strong></p>
-</li>
-<li><p>预处理主要是处理以#开头的命令，预处理命令要放<strong>在所有函数之外</strong>，<strong>一般都放在源文件的前面</strong></p>
-</li>
-<li><p>预处理由<strong>预处理程序</strong>完成。当<strong>对源文件进行编译</strong>时，系统将<strong>自动调用预处理程序</strong>对源程序中的预处理部分作处理，<strong>处理完毕自动进入对源程序的编译</strong></p>
-</li>
-<li><p>C语言提供了多种预处理功能，如<code>宏定义</code>、<code>文件包含</code>、<code>条件编译</code>等，合理地使用会使程序便于<strong>阅读修改、移植和调试，也有利于模块化程序设计</strong></p>
-</li>
-<li><p><code>Windows平台</code>下<strong>暂停函数</strong>的原型是 <code>void Sleep(DWORD dwMilliseconds)</code>，参数的<strong>单位是“毫秒”</strong>，位于<code>&lt; windows.h&gt;</code>头文件。</p>
-</li>
-<li><p><code>Linux平台</code>下<strong>暂停函数</strong>的原型是 <code>unsigned int sleep(unsigned int seconds)</code>,参数的<strong>单位是“秒”</strong>，位于<code>&lt; unistd.h&gt;</code>头文件</p>
-</li>
-<li><p>.#if、#elif、#endif就是预处理命令，它们都是在<strong>编译之前由预处理程序</strong>来执行的。</p>
+<li><p>泛型的<strong>本质</strong>是<strong>参数化类型</strong>,也就是说<strong>所操作的数据类型被指定为一个参数</strong>,泛型的<strong>参数只可以代表类</strong>，不能代表个别对象。由于 Java <strong>泛型的类型参数之实际类型在编译时会被消除</strong>，<strong>所以无法在运行时得知其类型参数的类型</strong>。</p>
 </li>
 </ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;windows.h&gt;</span></span></span><br><span class="line"><span class="comment">//windows平台#include&lt;windows.h&gt;</span></span><br><span class="line">#if_WIN32</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;windows.h&gt;</span></span></span><br><span class="line"><span class="comment">//Linux平台#include&lt;unistd.h&gt;</span></span><br><span class="line">#elif_linux_</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> </span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//不同的平台下调用不同的函数</span></span><br><span class="line">	#if_WIN32</span><br><span class="line">	Sleep(<span class="number">5000</span>);</span><br><span class="line">	#elif_linux_</span><br><span class="line">	Sleep(<span class="number">5</span>);</span><br><span class="line">	<span class="built_in">puts</span>(<span class="string">"cyberpunk2077"</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>参数化类型</strong></p>
+<ul>
+<li><p><strong>将类型由原来的具体的类型参数化</strong>，然后在<strong>使用/调用时传入具体的类型</strong>这种参数类型可以用在类、方法和接口中，分别被称为<code>泛型类、泛型方法、泛型接口</code></p>
+</li>
+<li><p>编译器在<strong>编译泛型时会自动加入类型转换的编码</strong>，故<strong>运行速度不会因为使用泛型而加快</strong></p>
+</li>
+</ul>
+<p><strong>泛型定义格式</strong></p>
+<ul>
+<li>&lt;类型&gt;：指定一种类型的格式。这里的类型可以看成是<strong>形参</strong></li>
+<li>&lt;类型1类型2…&gt;：指定<strong>多种类型的格式，多种类型之间用逗号隔开</strong>。这里的类型可以看成是形参将来具体调用时候给定的类型可以看成是实参，并且<strong>实参的类型只能是引用数据类型（类,接口,数组）</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericParadigmDemo</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建集合对象</span></span><br><span class="line">        Collection c = <span class="keyword">new</span> ArrayList();</span><br><span class="line">        c.add(<span class="string">"数据结构和算法"</span>);</span><br><span class="line">        c.add(<span class="string">"C语言程序设计"</span>);</span><br><span class="line">        c.add(<span class="string">"Java入门到放弃"</span>);</span><br><span class="line">       </span><br><span class="line">        <span class="comment">//遍历集合</span></span><br><span class="line">        <span class="keyword">for</span> (Object o : c) &#123;</span><br><span class="line">            System.out.println(o);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="宏定义"><a href="#宏定义" class="headerlink" title="宏定义"></a>宏定义</h2><p><strong>基本介绍</strong></p>
-<ul>
-<li>1.<code>#define</code>叫做<strong>宏定义命令</strong>，#表示这是一条预处理命令)。所谓宏定义，就是<strong>用一个标识符来表示一个字符串</strong>，在代码中<strong>出现了该标识符</strong>，那么就<strong>全部替换成指定的字符串</strong></li>
-<li>2.宏名是标识符的一种，<strong>命名规则和变量相同</strong>。<strong>字符串</strong>可以是<code>数字</code>、<code>表达式</code>、<code>if语句</code>、<code>函数</code>等</li>
-<li>3.<code>#define</code>    宏名  字符串  </li>
-<li>4.这里所说的字符串是<strong>一般意义上的字符序列</strong>，<strong>不和C语言中的字符串等同</strong>，<strong>不需要双引号</strong></li>
-<li>5.程序中反复使用的表达式就可以使用宏定义</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> N 100</span></span><br></pre></td></tr></table></figure>
+<p><strong>修改代码</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">c.add(<span class="number">1379</span>);</span><br><span class="line">String str  = (String) it.next();</span><br></pre></td></tr></table></figure>
 
-<ul>
-<li>N为<strong>宏名</strong>，100是<strong>宏的内容(宏所表示的字符串)</strong>。<strong>预处理阶段</strong>，对程序中<strong>所有出现的“宏名”</strong>，<code>预处理器</code>都会用宏定义中的字符串去代换，<strong>称为“宏替换”或“宏展开”。</strong></li>
-<li><strong>宏定义</strong>是由<strong>源程序中的宏定义命令#define</strong>完成的，<strong>宏替换</strong>是由<strong>预处理程序</strong>完成的</li>
-</ul>
-<p>🌰<strong>举例</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//宏定义，宏名M，对应的字符串（n*n+3*n）</span></span><br><span class="line"><span class="comment">//注意：如果宏对应的字符串有（），那么就不能省略</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> M (n*n+3*n)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum,n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Input a number:"</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(%d<span class="string">",&amp;n);</span></span><br><span class="line"><span class="string">    //宏展开 3*(n*n+3*n）+4*(n*n+3*n)+5(n*n+3*n); </span></span><br><span class="line"><span class="string">    sum=3*M+4*M+5*M;</span></span><br><span class="line"><span class="string">    printf("</span>sum=%d\n<span class="string">";sum);</span></span><br><span class="line"><span class="string">    return 0;      </span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericParadigmDemo</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建集合对象</span></span><br><span class="line">        Collection c = <span class="keyword">new</span> ArrayList();</span><br><span class="line">        c.add(<span class="string">"数据结构和算法"</span>);</span><br><span class="line">        c.add(<span class="string">"C语言程序设计"</span>);</span><br><span class="line">        c.add(<span class="string">"Java入门到放弃"</span>);</span><br><span class="line">        c.add(<span class="number">1379</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//遍历集合</span></span><br><span class="line">        <span class="keyword">for</span> (Object o : c) &#123;</span><br><span class="line">            <span class="comment">//Object obj = it.next();</span></span><br><span class="line">            <span class="comment">//System.out.println(obj);</span></span><br><span class="line">            String str = (String) o;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><strong>宏定义注意事项和细节</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/27/8ad03da66217574b46ae446756602527.png" alt="image-20200627133508630"></p>
+<p><strong>运行后出现</strong><code>ClassCastException</code></p>
 <ul>
-<li>宏展开的过程，只是一种<strong>简单的替换</strong>。<strong>字符串中可以含任何字符，它可以是常数、表达式、if语句、函数等</strong>，<code>预处理程序</code>对它<strong>不作任何检査，只能在宏展开编译后的源程序时发现错误</strong></li>
-<li>宏定义不是说明或语句，在<strong>行末不必加分号</strong>，如加上分号则连分号也一起替换</li>
-<li>宏定义必须<strong>写在函数之外</strong>，<strong>作用域为宏定义命令起到源程序结束</strong>。如要<strong>终止其作用域</strong>可使用<code>#undef</code>命令</li>
-<li>代码中的<strong>宏名被引号包围，预处理程序不对其作宏代替</strong></li>
-<li>宏定义<strong>允许嵌套</strong>，在宏定义的字符串中<strong>可以使用已经定义的宏名</strong>，在宏展开时由预处理程序层层代换</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PI 3.1415926</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> s PI*y*y</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%f"</span>,S);</span><br><span class="line"><span class="comment">//在宏替换后变为：</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%f"</span>,<span class="number">3.1415926</span>*y*y);</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>习惯上宏名用<strong>大写字母</strong>表示，以便于与变量区别。但<strong>也允许用小写字母</strong></li>
-<li>可用宏定义表示数据类型，使书写方便</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> UINT unsigned int </span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//宏替换 unsigned int a,b;</span></span><br><span class="line">	UNIT a,b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><strong>宏定义表示</strong>数据类型和用 <code>typedef</code>定义数据说明符的区别：<ul>
-<li>宏定义只是<strong>简单的字符串替换</strong>，由<strong>预处理器来处理</strong>;</li>
-<li>typedef是在<strong>编译阶段由编译器处理</strong>的，它并不是简单的字符串替换，而<strong>给原有的数据类型起一个新的名字，将它作为一种新的数据类型。</strong></li>
-</ul>
+<li><p>原因  c.add(1379)存储的是Integer类型,for循环里面的是String 类型不匹配</p>
+</li>
+<li><p>集合未指定数据类型</p>
+</li>
+<li><p>程序包含了<code>ClassCastException</code></p>
 </li>
 </ul>
-<h3 id="带参数的宏定义"><a href="#带参数的宏定义" class="headerlink" title="带参数的宏定义"></a>带参数的宏定义</h3><p><strong>基本介绍</strong></p>
-<ul>
-<li><p>C语言允许宏带有参数。在<strong>宏定义</strong>中的参数称为<code>“形式参数”</code>，在<strong>宏调用</strong>中的参数称为<code>“实际参数”</code>，这点和函数有些类似</p>
-</li>
-<li><p>对带参数的宏，在展开过程中不仅要进行字符串替换，还要用<strong>实参去替换形参</strong></p>
-</li>
-<li><p><strong>带参宏定义</strong>的一般形式为#define 宏名(形参列表) 字符串，在字符串中可以含有各个形参</p>
-</li>
-<li><p><strong>带参宏调用</strong>的一般形式为：<code>宏名(实参列表)</code>;</p>
-</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//1.MAX就是带参数的宏</span></span><br><span class="line"><span class="comment">//2.(a,b)就是形参</span></span><br><span class="line"><span class="comment">//3.(a&gt;b)?a:b 是带参数的宏对应字符串，该字符串中可以使用形参</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX(a,b)(a&gt;b) ? a:b </span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> x,y,<span class="built_in">max</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"input two numbers:"</span>);</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d %d”,&amp;x,&amp;y);</span></span><br><span class="line"><span class="string">	//1.MAX(x,y);调用带参数宏定义</span></span><br><span class="line"><span class="string">	//2.在宏替换时(预处理,由预处理器)，会进行字符串的替换，同时会使用实参，去替换形参</span></span><br><span class="line"><span class="string">	//3.即MAX(x,y) 宏替换后 (x&gt;y)?x:y </span></span><br><span class="line"><span class="string">	max = MAX(x,y);</span></span><br><span class="line"><span class="string">    printf（"</span><span class="built_in">max</span>=%d\n<span class="string">",max);</span></span><br><span class="line"><span class="string">	getchar();</span></span><br><span class="line"><span class="string">    getchar();</span></span><br><span class="line"><span class="string">    return 0;</span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
+<p><strong>解决方法</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Collection&lt;String&gt; c &#x3D; new ArrayList&lt;String&gt;();</span><br></pre></td></tr></table></figure>
 
-<p><strong>带参宏定义的注意事项和细节</strong></p>
-<ul>
-<li>带参宏定义中，形参之间可以出现空格，但是宏名和形参列表之间不能有空格出现</li>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/27/13c091f1900ba0c4c0fec3bd207aa91f.png" alt="image-20200627150124943"></p>
+<p><strong>使用泛型将运行时的异常提到了编译期</strong></p>
+<p>如果使用<code>迭代器遍历</code>集合</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Iterator it = c.iterator();</span><br><span class="line"><span class="keyword">while</span> (it.hasNext())&#123;</span><br><span class="line">     <span class="comment">//向上转型</span></span><br><span class="line">     String str = (String)it.next();</span><br><span class="line">     System.out.println(str);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>使用泛型后,<strong>避免了强制类型转换</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Iterator&lt;String&gt; it = c.iterator();</span><br><span class="line"><span class="keyword">while</span> (it.hasNext())&#123;</span><br><span class="line">    String str = it.next();</span><br><span class="line">    System.out.println(str);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="1-2泛型类"><a href="#1-2泛型类" class="headerlink" title="1.2泛型类"></a>1.2泛型类</h2><ul>
+<li><strong>泛型类</strong>的定义格式</li>
+<li>修饰符 class 类名 &lt;类型&gt;{}</li>
 </ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX(a,b)(a&gt;b)?a:b</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX (a,b)(a&gt;b)?a:b</span></span><br><span class="line"><span class="comment">//如果写成了MAX (a,b)(a&gt;b)?a:b将被认为是无参宏定义，</span></span><br><span class="line"><span class="comment">//宏名MAX代表字符串(a,b)(a&gt;b)?a:b 而不是:MAX(a,b)代表(a&gt;b)?a:b</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//T表示任意标识,常见的T,E,K,V</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="1-2-1普通方法"><a href="#1-2-1普通方法" class="headerlink" title="1.2.1普通方法"></a>1.2.1普通方法</h3><ul>
+<li>Game游戏类</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li><strong>带参宏定义</strong>中，<strong>不会为形式参数分配内存</strong>，因此<strong>不必指明数据类型</strong>。而在<strong>宏调用</strong>中，<strong>实参包含了具体的数据，要去替换形参</strong>，因此实参必须要指明数据类型</li>
-<li>在宏定义中，<strong>字符串内的形参</strong>通常要<strong>用括号括起来</strong>以避免出错</li>
+<li>Player玩家类</li>
 </ul>
-<h3 id="带参宏定义和函数的区别"><a href="#带参宏定义和函数的区别" class="headerlink" title="带参宏定义和函数的区别"></a>带参宏定义和函数的区别</h3><ul>
-<li><code>宏展开</code>仅仅是<strong>字符串的替换</strong>，<strong>不会对表达式进行计算</strong>；宏在<strong>编译之前就被处理掉</strong>，<strong>没有机会参与编译</strong>，<strong>也不会占用内存。</strong></li>
-<li><code>函数</code>是一段可以重复使用的代码，<strong>会被编译</strong>，会给它<strong>分配内存</strong>，每次调用函数，就是<strong>执行这块内存中的代码</strong></li>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Player</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Integer age;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Integer <span class="title">getAge</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> age;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span> <span class="params">(Integer age)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.age = age;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Test测试类</li>
 </ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Player p = <span class="keyword">new</span> Player();</span><br><span class="line">        p.setAge(<span class="number">18</span>);</span><br><span class="line">        System.out.println(p.getAge());</span><br><span class="line"></span><br><span class="line">        Game g = <span class="keyword">new</span> Game();</span><br><span class="line">        g.setName(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        System.out.println(g.getName());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>使用泛型让一个方法<strong>接受不同的参数类型</strong></p>
+<p>修改<code>Game</code>为泛型类</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> T t;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> T <span class="title">getT</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> t;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setT</span><span class="params">(T t)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.t = t;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>修改<code>Test</code>类 </p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//设置泛型参数为String</span></span><br><span class="line">Game&lt;String&gt; g = <span class="keyword">new</span> Game&lt;String&gt;();</span><br><span class="line">g.setT(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">System.out.println(g1.getT());</span><br><span class="line"><span class="comment">//设置泛型参数为Ineger</span></span><br><span class="line">Game&lt;Integer&gt; g2 = <span class="keyword">new</span> Game&lt;Integer&gt;();</span><br><span class="line">g2.setT(<span class="number">18</span>);</span><br><span class="line">System.out.println(g2.getT());</span><br></pre></td></tr></table></figure>
+
+<p><strong>实现了相同效果,减少了一个类的创建</strong></p>
+<h3 id="1-2-2方法重载"><a href="#1-2-2方法重载" class="headerlink" title="1.2.2方法重载"></a>1.2.2方法重载</h3><ul>
+<li>1.创建一个Game类(重载)</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(String name)</span></span>&#123;</span><br><span class="line">        System.out.println(name);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(Integer price)</span></span>&#123;</span><br><span class="line">        System.out.println(price);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(<span class="keyword">boolean</span> ontime)</span></span>&#123;</span><br><span class="line">        System.out.println(ontime);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>2.Test类</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    Game g = <span class="keyword">new</span> Game();</span><br><span class="line">    g.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">    g.attribute(<span class="number">298</span>);</span><br><span class="line">    g.attribute(<span class="keyword">false</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>3.如果再次添加属性,需要Game类中添加,才能使得新添加的属性生效</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(<span class="keyword">double</span> time)</span></span>&#123;</span><br><span class="line">        System.out.println(time);</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">g.attribute(<span class="number">2020.11</span>);</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>使用泛型类改进</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;</span><br><span class="line">        System.out.println(t);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game&lt;String&gt; g1 = <span class="keyword">new</span> Game&lt;String&gt;();</span><br><span class="line">        g1.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        Game&lt;Integer&gt; g2 = <span class="keyword">new</span> Game&lt;Integer&gt;();</span><br><span class="line">        g2.attribute(<span class="number">298</span>);</span><br><span class="line">        Game&lt;Boolean&gt; g3 = <span class="keyword">new</span> Game&lt;Boolean&gt;();</span><br><span class="line">        g3.attribute(<span class="keyword">false</span>);</span><br><span class="line">        Game&lt;Double&gt; g4 = <span class="keyword">new</span> Game&lt;Double&gt;();</span><br><span class="line">        g4.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="1-3泛型方法"><a href="#1-3泛型方法" class="headerlink" title="1.3泛型方法"></a>1.3泛型方法</h2><ul>
+<li><strong>泛型方法</strong>的定义格式</li>
+<li>修饰符&lt;类型&gt; 返回值类型 方法名 （类型 变量名){ }</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> &lt;T&gt; <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>Game</code>类 调用方法时才明确参数的类型</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> &lt;T&gt; <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;</span><br><span class="line">        System.out.println(t);        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Test类</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game g = <span class="keyword">new</span> Game();</span><br><span class="line">        g.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        g.attribute(<span class="number">298</span>);</span><br><span class="line">        g.attribute(<span class="keyword">false</span>);</span><br><span class="line">        g.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="1-4泛型接口"><a href="#1-4泛型接口" class="headerlink" title="1.4泛型接口"></a>1.4泛型接口</h2><ul>
+<li><strong>泛型接口</strong>的定义格式</li>
+<li>修饰符 interface 接口名&lt;类型&gt;{ }</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt;</span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>泛型接口</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p><strong>测试类无法直接使用接口,接口没有<code>实例化</code></strong></p>
+</li>
+<li><p>创建<strong>接口的实现类</strong></p>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GameImpl</span>&lt;<span class="title">T</span>&gt; <span class="keyword">implements</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span> </span>&#123;</span><br><span class="line">        System.out.println(t);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>Test</code>类</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game&lt;String&gt; g1 = <span class="keyword">new</span> GameImpl&lt;String&gt;();</span><br><span class="line">        g1.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        Game&lt;Integer&gt; g2 = <span class="keyword">new</span> GameImpl&lt;Integer&gt;();</span><br><span class="line">        g2.attribute(<span class="number">298</span>);</span><br><span class="line">        Game&lt;Boolean&gt; g3 = <span class="keyword">new</span> GameImpl&lt;Boolean&gt;();</span><br><span class="line">        g3.attribute(<span class="keyword">false</span>);</span><br><span class="line">        Game&lt;Double&gt; g4 = <span class="keyword">new</span> GameImpl&lt;Double&gt;();</span><br><span class="line">        g4.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li>参考连接</li>
+<li><a href="https://www.bilibili.com/video/BV1gb411F76B?p=252" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1gb411F76B?p=252</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>集合</tag>
+        <tag>泛型</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>结构体和共用体</title>
+    <url>/posts/d9a0/</url>
+    <content><![CDATA[<h2 id="结构体基本介绍"><a href="#结构体基本介绍" class="headerlink" title="结构体基本介绍"></a>结构体基本介绍</h2><p><code>结构体</code>和<code>结构体变量</code>的区别和联系</p>
+<ul>
+<li><code>结构体</code>是<strong>自定义的数据类型</strong>，表示的是一种数据类型 (Game 是数据类型 name是变量)</li>
+<li><code>结构体变量</code>代表一个具体变量 int price(int是数据类型 price是变量);</li>
+</ul>
+<p><strong>成员基本介绍</strong></p>
+<ul>
+<li><p><code>成员</code>或<code>结构体包含的变量</code> 说法不同</p>
+</li>
+<li><p>成员是结构体的一个组成部分，<strong>一般是基本数据类型</strong>、也可以是<code>数组</code>、<code>指针</code>、<code>结构体</code>等。</p>
+</li>
+</ul>
+<p><strong>注意事项和细节说明</strong></p>
+<ul>
+<li>成员声明语法同变量 <code>数据类型</code>   <code>成员名</code></li>
+<li>字段的类型可以为：<code>基本类型</code>、<code>数组或指针</code>、<code>结构体</code>等</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//结构体声明</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> 结构体名称&#123;</span></span><br><span class="line">  <span class="comment">//结构体名首字母大写</span></span><br><span class="line">  成员列表...</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//创建结构体 Game 数据类型</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">        <span class="keyword">char</span> *name;</span><br><span class="line">        <span class="keyword">int</span> price;</span><br><span class="line">        <span class="keyword">char</span> *time;</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="comment">//使用结构体创建变量</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">    <span class="comment">//给变量的成员赋值</span></span><br><span class="line">    game1.name = <span class="string">"CyberPunk2077"</span>;</span><br><span class="line">    game1.price = <span class="number">298</span>;</span><br><span class="line">    game1.time = <span class="string">"2020.11.19"</span>;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game2</span>;</span></span><br><span class="line">    game2.name = <span class="string">"Watch Dogs: Legion"</span>;</span><br><span class="line">    game2.price = <span class="number">298</span>;</span><br><span class="line">    game2.time = <span class="string">"2020.10.29"</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s\n"</span>,game1.name,game1.price,game1.time);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s"</span>,game2.name,game2.price,game2.time);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200716163649.png" alt="image-20200716163618173"></p>
+<h3 id="结构体的创建"><a href="#结构体的创建" class="headerlink" title="结构体的创建"></a>结构体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先创建结构体</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//使用结构体创建变量</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体的同时定义结构体变量并初始化</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125; game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;,game2 = &#123;<span class="string">"Watch Dogs: Legion"</span>,<span class="number">298</span>,<span class="string">"2020.10.29"</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体变量时整体赋值</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span> = &#123;</span><span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><strong>错误示范</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><strong>结构体定义的变量的数量确定</strong>时可以使用<strong>匿名结构体</strong>方式创建</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;game1,game2;</span><br></pre></td></tr></table></figure>
+
+<h2 id="公用体基本介绍"><a href="#公用体基本介绍" class="headerlink" title="公用体基本介绍"></a>公用体基本介绍</h2><ul>
+<li><code>共用体(Union)</code>属于<strong>构造类型</strong>，它可以<strong>包含多个类型不同的成员</strong>。和结构体非常类似，但是也有<strong>不同的地方共用体有时也被称为联合或者联合体</strong>，定义格式为</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">union</span> 共用体名&#123;</span><br><span class="line">成员列表...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>结构体</code>和<code>共用体</code>的<strong>区别</strong>在于：<code>结构体</code>的各个成员会<strong>占用不同的内存</strong>，<strong>互相之间没有影响</strong>；而<code>共用体</code>的所有成员<strong>占用同一段内存</strong>，<strong>修改一个成员会影响其余所有成员</strong>并<strong>以空间最大的成员为准</strong></li>
+</ul>
+<h3 id="共用体的创建"><a href="#共用体的创建" class="headerlink" title="共用体的创建"></a>共用体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//方法一</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">union</span> data d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法二</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法三</span></span><br><span class="line"><span class="keyword">union</span> &#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br></pre></td></tr></table></figure>
+
 <p><strong>🌰举例</strong></p>
-<ul>
-<li>函数计算平方值</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">SQ</span><span class="params">(<span class="keyword">int</span> y)</span></span>&#123;</span><br><span class="line">	 <span class="keyword">return</span> ((y) *(y));</span><br><span class="line">&#125;</span><br><span class="line">   </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(i&lt;=<span class="number">5</span>)&#123;</span><br><span class="line">    	<span class="comment">//1,4,9,16,25</span></span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"%d ^2=%d\n"</span>,(i<span class="number">-1</span>),SQ(i++));</span><br><span class="line">    &#125;</span><br><span class="line">    system(<span class="string">"pause"</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">union</span> data&#123; <span class="comment">// data 就是一个共用体(内存布局)， 包含三个成员, 共享数据空间, 该空间的大小以占用最大的成员为准</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">	short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//定义两个一个 共用体变量  a</span></span><br><span class="line">	<span class="keyword">union</span> data a; </span><br><span class="line">    <span class="comment">// 4, 4</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %d\n"</span>, <span class="keyword">sizeof</span>(a), <span class="keyword">sizeof</span>(<span class="keyword">union</span> data));</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0100 0000(1个字节8位数字) </span></span><br><span class="line">	a.n = <span class="number">0x40</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 64 a.ch ==&gt; @ 根据ASCII表 找到64 对应的字符@ a.m==&gt;64 short也是整型并且字节数大于64储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//字符9 根据ASCII表找到对应的2进制 0011 1001存储在内存中 </span></span><br><span class="line">	a.ch = <span class="string">'9'</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 57 0011 1001覆盖了原先的0100 0000 a.m==&gt;57 short也是整型并且字节数大于57储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0010 0000 0101 1001(1个字节8位数字) </span></span><br><span class="line">	a.m = <span class="number">0x2059</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt;8281 2进制==&gt;10进制输出 a.ch==&gt;Y ch只占一个字节 0101 1001 转化为10进制 89 对应ASCII表的字符Y</span></span><br><span class="line">    <span class="comment">//a.m ==&gt;8281 short也是整型并且字节数等于于8281存储的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 (1个字节8位数字) 0011 1110 0010 0101 1010 1101 0101 0100</span></span><br><span class="line">	a.n = <span class="number">0x3E25AD54</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt; 2进制==&gt;10进制输出1042656596 a.ch 只看最后一个字节存储的2进制0101 0100 转化为10进制 84 对应ASCII表的字符T</span></span><br><span class="line">    <span class="comment">//a.m==&gt; 44372只看最后两个字节存储的1010 1101 0101 0100 转换为10进制输出44382</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">	getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<ul>
-<li>宏定义计算平方值</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> SQ((y)*(y))</span></span><br><span class="line">   </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(i&lt;=<span class="number">5</span>)&#123;</span><br><span class="line">    	<span class="comment">//1,9,25 进入循环三次</span></span><br><span class="line">        <span class="comment">//SQ(i++)宏展开 ((i++)*(i++))</span></span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"%d ^2=%d\n"</span>,(i<span class="number">-1</span>),SQ(i++));</span><br><span class="line">    &#125;</span><br><span class="line">    system(<span class="string">"pause"</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="预处理命令总结"><a href="#预处理命令总结" class="headerlink" title="预处理命令总结"></a>预处理命令总结</h2><p><code>预处理指令</code>是<strong>以#号开头的代码行</strong>,#后是指令关键字，(#include  空白字符  &lt;&gt;)在关键字和#号之间允许存在任意个数的空白字符，整行语句构成了一条预处理指令，该<strong>指令将在编译器进行编译之前对源代码做某些转换</strong></p>
-<p>​                                                                                  <strong>常见预处理指令</strong></p>
-<table>
-<thead>
-<tr>
-<th>指令</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>#</td>
-<td>空指令</td>
-</tr>
-<tr>
-<td>#include</td>
-<td>包含一个源代码文件</td>
-</tr>
-<tr>
-<td>#define</td>
-<td>定义宏</td>
-</tr>
-<tr>
-<td>#undef</td>
-<td>取消已定义的宏</td>
-</tr>
-<tr>
-<td>#if</td>
-<td>如果给定条件为真，则编译下面代码</td>
-</tr>
-<tr>
-<td>#ifdef</td>
-<td>如果宏已经定义，则编译下面代码</td>
-</tr>
-<tr>
-<td>#ifndef</td>
-<td>如果宏没有定义，则编译下面代码</td>
-</tr>
-<tr>
-<td>#elif</td>
-<td>如果前面的#给定条件不为真，当前条件为真，则编译下面代码</td>
-</tr>
-<tr>
-<td>#endif</td>
-<td>结束一个#if…#else条件编译块</td>
-</tr>
-</tbody></table>
-<p><strong>预处理指令使用注意事项</strong></p>
-<ul>
-<li><strong>预处理功能是C语言特有的功能</strong>，对源程序正式编译前<strong>由预处理程序</strong>完成的，程序中<strong>用预处理命令</strong>来调用功能。</li>
-<li>宏定义可以带有参数，<strong>宏调用时是以实参代换形参，不是“值传送”</strong></li>
-<li>为了避免宏代换时发生错误，<code>宏定义</code>中的<strong>字符串应加括号</strong>，<code>字符串</code>中出现的<strong>形式参数两边也应加括号</strong></li>
-<li><strong>文件包含</strong>是预处理的一个重要功能，可以<strong>把多个源文件连接成一个源文件进行编译</strong>，结果将<strong>生成一个目标文件</strong></li>
-<li><code>条件编译</code>允许只编译源程序中满足条件的程序段，生成的目标程序较小，<strong>减少内存的开销</strong>并<strong>提髙程序的效率</strong>。</li>
-<li><code>预处理</code>功能便于程序的<strong>修改、阅读、移植和调试，也便于实现模块化程序设计</strong></li>
-</ul>
+<p><strong>内存图解</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200717175628.png" alt="image-20200717175621397"></p>
 <h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=111" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
-</div>]]></content>
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=147" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
+</div>
+
+]]></content>
       <categories>
         <category>C</category>
       </categories>
       <tags>
-        <tag>C</tag>
-        <tag>预处理命令</tag>
+        <tag>结构体和共用体</tag>
       </tags>
   </entry>
   <entry>
@@ -2351,230 +2411,170 @@
       </tags>
   </entry>
   <entry>
-    <title>结构体和共用体</title>
-    <url>/posts/d9a0/</url>
-    <content><![CDATA[<h2 id="结构体基本介绍"><a href="#结构体基本介绍" class="headerlink" title="结构体基本介绍"></a>结构体基本介绍</h2><p><code>结构体</code>和<code>结构体变量</code>的区别和联系</p>
-<ul>
-<li><code>结构体</code>是<strong>自定义的数据类型</strong>，表示的是一种数据类型 (Game 是数据类型 name是变量)</li>
-<li><code>结构体变量</code>代表一个具体变量 int price(int是数据类型 price是变量);</li>
-</ul>
-<p><strong>成员基本介绍</strong></p>
-<ul>
-<li><p><code>成员</code>或<code>结构体包含的变量</code> 说法不同</p>
+    <title>预处理命令</title>
+    <url>/posts/3c59/</url>
+    <content><![CDATA[<h2 id="预处理命令基本介绍"><a href="#预处理命令基本介绍" class="headerlink" title="预处理命令基本介绍"></a><strong>预处理命令基本介绍</strong></h2><ul>
+<li><p>使用库函数之前，应该用<code>#include</code>引入对应的头文件。这种<strong>以#号开头的命令称为预处理命令。</strong></p>
 </li>
-<li><p>成员是结构体的一个组成部分，<strong>一般是基本数据类型</strong>、也可以是<code>数组</code>、<code>指针</code>、<code>结构体</code>等。</p>
+<li><p>这些在编译之前对<strong>源文件</strong>进行简单加工的过程，就称为<strong>预处理（即预先处理、提前处理）</strong></p>
+</li>
+<li><p>预处理主要是处理以#开头的命令，预处理命令要放<strong>在所有函数之外</strong>，<strong>一般都放在源文件的前面</strong></p>
+</li>
+<li><p>预处理由<strong>预处理程序</strong>完成。当<strong>对源文件进行编译</strong>时，系统将<strong>自动调用预处理程序</strong>对源程序中的预处理部分作处理，<strong>处理完毕自动进入对源程序的编译</strong></p>
+</li>
+<li><p>C语言提供了多种预处理功能，如<code>宏定义</code>、<code>文件包含</code>、<code>条件编译</code>等，合理地使用会使程序便于<strong>阅读修改、移植和调试，也有利于模块化程序设计</strong></p>
+</li>
+<li><p><code>Windows平台</code>下<strong>暂停函数</strong>的原型是 <code>void Sleep(DWORD dwMilliseconds)</code>，参数的<strong>单位是“毫秒”</strong>，位于<code>&lt; windows.h&gt;</code>头文件。</p>
+</li>
+<li><p><code>Linux平台</code>下<strong>暂停函数</strong>的原型是 <code>unsigned int sleep(unsigned int seconds)</code>,参数的<strong>单位是“秒”</strong>，位于<code>&lt; unistd.h&gt;</code>头文件</p>
+</li>
+<li><p>.#if、#elif、#endif就是预处理命令，它们都是在<strong>编译之前由预处理程序</strong>来执行的。</p>
 </li>
 </ul>
-<p><strong>注意事项和细节说明</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;windows.h&gt;</span></span></span><br><span class="line"><span class="comment">//windows平台#include&lt;windows.h&gt;</span></span><br><span class="line">#if_WIN32</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;windows.h&gt;</span></span></span><br><span class="line"><span class="comment">//Linux平台#include&lt;unistd.h&gt;</span></span><br><span class="line">#elif_linux_</span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span> </span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//不同的平台下调用不同的函数</span></span><br><span class="line">	#if_WIN32</span><br><span class="line">	Sleep(<span class="number">5000</span>);</span><br><span class="line">	#elif_linux_</span><br><span class="line">	Sleep(<span class="number">5</span>);</span><br><span class="line">	<span class="built_in">puts</span>(<span class="string">"cyberpunk2077"</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="宏定义"><a href="#宏定义" class="headerlink" title="宏定义"></a>宏定义</h2><p><strong>基本介绍</strong></p>
 <ul>
-<li>成员声明语法同变量 <code>数据类型</code>   <code>成员名</code></li>
-<li>字段的类型可以为：<code>基本类型</code>、<code>数组或指针</code>、<code>结构体</code>等</li>
+<li>1.<code>#define</code>叫做<strong>宏定义命令</strong>，#表示这是一条预处理命令)。所谓宏定义，就是<strong>用一个标识符来表示一个字符串</strong>，在代码中<strong>出现了该标识符</strong>，那么就<strong>全部替换成指定的字符串</strong></li>
+<li>2.宏名是标识符的一种，<strong>命名规则和变量相同</strong>。<strong>字符串</strong>可以是<code>数字</code>、<code>表达式</code>、<code>if语句</code>、<code>函数</code>等</li>
+<li>3.<code>#define</code>    宏名  字符串  </li>
+<li>4.这里所说的字符串是<strong>一般意义上的字符序列</strong>，<strong>不和C语言中的字符串等同</strong>，<strong>不需要双引号</strong></li>
+<li>5.程序中反复使用的表达式就可以使用宏定义</li>
 </ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//结构体声明</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> 结构体名称&#123;</span></span><br><span class="line">  <span class="comment">//结构体名首字母大写</span></span><br><span class="line">  成员列表...</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//创建结构体 Game 数据类型</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">        <span class="keyword">char</span> *name;</span><br><span class="line">        <span class="keyword">int</span> price;</span><br><span class="line">        <span class="keyword">char</span> *time;</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="comment">//使用结构体创建变量</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">    <span class="comment">//给变量的成员赋值</span></span><br><span class="line">    game1.name = <span class="string">"CyberPunk2077"</span>;</span><br><span class="line">    game1.price = <span class="number">298</span>;</span><br><span class="line">    game1.time = <span class="string">"2020.11.19"</span>;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game2</span>;</span></span><br><span class="line">    game2.name = <span class="string">"Watch Dogs: Legion"</span>;</span><br><span class="line">    game2.price = <span class="number">298</span>;</span><br><span class="line">    game2.time = <span class="string">"2020.10.29"</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s\n"</span>,game1.name,game1.price,game1.time);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s"</span>,game2.name,game2.price,game2.time);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200716163649.png" alt="image-20200716163618173"></p>
-<h3 id="结构体的创建"><a href="#结构体的创建" class="headerlink" title="结构体的创建"></a>结构体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先创建结构体</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//使用结构体创建变量</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体的同时定义结构体变量并初始化</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125; game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;,game2 = &#123;<span class="string">"Watch Dogs: Legion"</span>,<span class="number">298</span>,<span class="string">"2020.10.29"</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体变量时整体赋值</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span> = &#123;</span><span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
-
-<p><strong>错误示范</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
-
-<p><strong>结构体定义的变量的数量确定</strong>时可以使用<strong>匿名结构体</strong>方式创建</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;game1,game2;</span><br></pre></td></tr></table></figure>
-
-<h2 id="公用体基本介绍"><a href="#公用体基本介绍" class="headerlink" title="公用体基本介绍"></a>公用体基本介绍</h2><ul>
-<li><code>共用体(Union)</code>属于<strong>构造类型</strong>，它可以<strong>包含多个类型不同的成员</strong>。和结构体非常类似，但是也有<strong>不同的地方共用体有时也被称为联合或者联合体</strong>，定义格式为</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">union</span> 共用体名&#123;</span><br><span class="line">成员列表...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> N 100</span></span><br></pre></td></tr></table></figure>
 
 <ul>
-<li><code>结构体</code>和<code>共用体</code>的<strong>区别</strong>在于：<code>结构体</code>的各个成员会<strong>占用不同的内存</strong>，<strong>互相之间没有影响</strong>；而<code>共用体</code>的所有成员<strong>占用同一段内存</strong>，<strong>修改一个成员会影响其余所有成员</strong>并<strong>以空间最大的成员为准</strong></li>
+<li>N为<strong>宏名</strong>，100是<strong>宏的内容(宏所表示的字符串)</strong>。<strong>预处理阶段</strong>，对程序中<strong>所有出现的“宏名”</strong>，<code>预处理器</code>都会用宏定义中的字符串去代换，<strong>称为“宏替换”或“宏展开”。</strong></li>
+<li><strong>宏定义</strong>是由<strong>源程序中的宏定义命令#define</strong>完成的，<strong>宏替换</strong>是由<strong>预处理程序</strong>完成的</li>
 </ul>
-<h3 id="共用体的创建"><a href="#共用体的创建" class="headerlink" title="共用体的创建"></a>共用体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//方法一</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">union</span> data d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法二</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法三</span></span><br><span class="line"><span class="keyword">union</span> &#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br></pre></td></tr></table></figure>
+<p>🌰<strong>举例</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//宏定义，宏名M，对应的字符串（n*n+3*n）</span></span><br><span class="line"><span class="comment">//注意：如果宏对应的字符串有（），那么就不能省略</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> M (n*n+3*n)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum,n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Input a number:"</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(%d<span class="string">",&amp;n);</span></span><br><span class="line"><span class="string">    //宏展开 3*(n*n+3*n）+4*(n*n+3*n)+5(n*n+3*n); </span></span><br><span class="line"><span class="string">    sum=3*M+4*M+5*M;</span></span><br><span class="line"><span class="string">    printf("</span>sum=%d\n<span class="string">";sum);</span></span><br><span class="line"><span class="string">    return 0;      </span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
 
+<p><strong>宏定义注意事项和细节</strong></p>
+<ul>
+<li>宏展开的过程，只是一种<strong>简单的替换</strong>。<strong>字符串中可以含任何字符，它可以是常数、表达式、if语句、函数等</strong>，<code>预处理程序</code>对它<strong>不作任何检査，只能在宏展开编译后的源程序时发现错误</strong></li>
+<li>宏定义不是说明或语句，在<strong>行末不必加分号</strong>，如加上分号则连分号也一起替换</li>
+<li>宏定义必须<strong>写在函数之外</strong>，<strong>作用域为宏定义命令起到源程序结束</strong>。如要<strong>终止其作用域</strong>可使用<code>#undef</code>命令</li>
+<li>代码中的<strong>宏名被引号包围，预处理程序不对其作宏代替</strong></li>
+<li>宏定义<strong>允许嵌套</strong>，在宏定义的字符串中<strong>可以使用已经定义的宏名</strong>，在宏展开时由预处理程序层层代换</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> PI 3.1415926</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> s PI*y*y</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%f"</span>,S);</span><br><span class="line"><span class="comment">//在宏替换后变为：</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%f"</span>,<span class="number">3.1415926</span>*y*y);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>习惯上宏名用<strong>大写字母</strong>表示，以便于与变量区别。但<strong>也允许用小写字母</strong></li>
+<li>可用宏定义表示数据类型，使书写方便</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> UINT unsigned int </span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//宏替换 unsigned int a,b;</span></span><br><span class="line">	UNIT a,b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>宏定义表示</strong>数据类型和用 <code>typedef</code>定义数据说明符的区别：<ul>
+<li>宏定义只是<strong>简单的字符串替换</strong>，由<strong>预处理器来处理</strong>;</li>
+<li>typedef是在<strong>编译阶段由编译器处理</strong>的，它并不是简单的字符串替换，而<strong>给原有的数据类型起一个新的名字，将它作为一种新的数据类型。</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="带参数的宏定义"><a href="#带参数的宏定义" class="headerlink" title="带参数的宏定义"></a>带参数的宏定义</h3><p><strong>基本介绍</strong></p>
+<ul>
+<li><p>C语言允许宏带有参数。在<strong>宏定义</strong>中的参数称为<code>“形式参数”</code>，在<strong>宏调用</strong>中的参数称为<code>“实际参数”</code>，这点和函数有些类似</p>
+</li>
+<li><p>对带参数的宏，在展开过程中不仅要进行字符串替换，还要用<strong>实参去替换形参</strong></p>
+</li>
+<li><p><strong>带参宏定义</strong>的一般形式为#define 宏名(形参列表) 字符串，在字符串中可以含有各个形参</p>
+</li>
+<li><p><strong>带参宏调用</strong>的一般形式为：<code>宏名(实参列表)</code>;</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//1.MAX就是带参数的宏</span></span><br><span class="line"><span class="comment">//2.(a,b)就是形参</span></span><br><span class="line"><span class="comment">//3.(a&gt;b)?a:b 是带参数的宏对应字符串，该字符串中可以使用形参</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX(a,b)(a&gt;b) ? a:b </span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> x,y,<span class="built_in">max</span>;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"input two numbers:"</span>);</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d %d”,&amp;x,&amp;y);</span></span><br><span class="line"><span class="string">	//1.MAX(x,y);调用带参数宏定义</span></span><br><span class="line"><span class="string">	//2.在宏替换时(预处理,由预处理器)，会进行字符串的替换，同时会使用实参，去替换形参</span></span><br><span class="line"><span class="string">	//3.即MAX(x,y) 宏替换后 (x&gt;y)?x:y </span></span><br><span class="line"><span class="string">	max = MAX(x,y);</span></span><br><span class="line"><span class="string">    printf（"</span><span class="built_in">max</span>=%d\n<span class="string">",max);</span></span><br><span class="line"><span class="string">	getchar();</span></span><br><span class="line"><span class="string">    getchar();</span></span><br><span class="line"><span class="string">    return 0;</span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>带参宏定义的注意事项和细节</strong></p>
+<ul>
+<li>带参宏定义中，形参之间可以出现空格，但是宏名和形参列表之间不能有空格出现</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX(a,b)(a&gt;b)?a:b</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAX (a,b)(a&gt;b)?a:b</span></span><br><span class="line"><span class="comment">//如果写成了MAX (a,b)(a&gt;b)?a:b将被认为是无参宏定义，</span></span><br><span class="line"><span class="comment">//宏名MAX代表字符串(a,b)(a&gt;b)?a:b 而不是:MAX(a,b)代表(a&gt;b)?a:b</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>带参宏定义</strong>中，<strong>不会为形式参数分配内存</strong>，因此<strong>不必指明数据类型</strong>。而在<strong>宏调用</strong>中，<strong>实参包含了具体的数据，要去替换形参</strong>，因此实参必须要指明数据类型</li>
+<li>在宏定义中，<strong>字符串内的形参</strong>通常要<strong>用括号括起来</strong>以避免出错</li>
+</ul>
+<h3 id="带参宏定义和函数的区别"><a href="#带参宏定义和函数的区别" class="headerlink" title="带参宏定义和函数的区别"></a>带参宏定义和函数的区别</h3><ul>
+<li><code>宏展开</code>仅仅是<strong>字符串的替换</strong>，<strong>不会对表达式进行计算</strong>；宏在<strong>编译之前就被处理掉</strong>，<strong>没有机会参与编译</strong>，<strong>也不会占用内存。</strong></li>
+<li><code>函数</code>是一段可以重复使用的代码，<strong>会被编译</strong>，会给它<strong>分配内存</strong>，每次调用函数，就是<strong>执行这块内存中的代码</strong></li>
+</ul>
 <p><strong>🌰举例</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">union</span> data&#123; <span class="comment">// data 就是一个共用体(内存布局)， 包含三个成员, 共享数据空间, 该空间的大小以占用最大的成员为准</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">	short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//定义两个一个 共用体变量  a</span></span><br><span class="line">	<span class="keyword">union</span> data a; </span><br><span class="line">    <span class="comment">// 4, 4</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %d\n"</span>, <span class="keyword">sizeof</span>(a), <span class="keyword">sizeof</span>(<span class="keyword">union</span> data));</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0100 0000(1个字节8位数字) </span></span><br><span class="line">	a.n = <span class="number">0x40</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 64 a.ch ==&gt; @ 根据ASCII表 找到64 对应的字符@ a.m==&gt;64 short也是整型并且字节数大于64储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//字符9 根据ASCII表找到对应的2进制 0011 1001存储在内存中 </span></span><br><span class="line">	a.ch = <span class="string">'9'</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 57 0011 1001覆盖了原先的0100 0000 a.m==&gt;57 short也是整型并且字节数大于57储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0010 0000 0101 1001(1个字节8位数字) </span></span><br><span class="line">	a.m = <span class="number">0x2059</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt;8281 2进制==&gt;10进制输出 a.ch==&gt;Y ch只占一个字节 0101 1001 转化为10进制 89 对应ASCII表的字符Y</span></span><br><span class="line">    <span class="comment">//a.m ==&gt;8281 short也是整型并且字节数等于于8281存储的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 (1个字节8位数字) 0011 1110 0010 0101 1010 1101 0101 0100</span></span><br><span class="line">	a.n = <span class="number">0x3E25AD54</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt; 2进制==&gt;10进制输出1042656596 a.ch 只看最后一个字节存储的2进制0101 0100 转化为10进制 84 对应ASCII表的字符T</span></span><br><span class="line">    <span class="comment">//a.m==&gt; 44372只看最后两个字节存储的1010 1101 0101 0100 转换为10进制输出44382</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">	getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>函数计算平方值</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">SQ</span><span class="params">(<span class="keyword">int</span> y)</span></span>&#123;</span><br><span class="line">	 <span class="keyword">return</span> ((y) *(y));</span><br><span class="line">&#125;</span><br><span class="line">   </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(i&lt;=<span class="number">5</span>)&#123;</span><br><span class="line">    	<span class="comment">//1,4,9,16,25</span></span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"%d ^2=%d\n"</span>,(i<span class="number">-1</span>),SQ(i++));</span><br><span class="line">    &#125;</span><br><span class="line">    system(<span class="string">"pause"</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><strong>内存图解</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200717175628.png" alt="image-20200717175621397"></p>
+<ul>
+<li>宏定义计算平方值</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> SQ((y)*(y))</span></span><br><span class="line">   </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(i&lt;=<span class="number">5</span>)&#123;</span><br><span class="line">    	<span class="comment">//1,9,25 进入循环三次</span></span><br><span class="line">        <span class="comment">//SQ(i++)宏展开 ((i++)*(i++))</span></span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"%d ^2=%d\n"</span>,(i<span class="number">-1</span>),SQ(i++));</span><br><span class="line">    &#125;</span><br><span class="line">    system(<span class="string">"pause"</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="预处理命令总结"><a href="#预处理命令总结" class="headerlink" title="预处理命令总结"></a>预处理命令总结</h2><p><code>预处理指令</code>是<strong>以#号开头的代码行</strong>,#后是指令关键字，(#include  空白字符  &lt;&gt;)在关键字和#号之间允许存在任意个数的空白字符，整行语句构成了一条预处理指令，该<strong>指令将在编译器进行编译之前对源代码做某些转换</strong></p>
+<p>​                                                                                  <strong>常见预处理指令</strong></p>
+<table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>#</td>
+<td>空指令</td>
+</tr>
+<tr>
+<td>#include</td>
+<td>包含一个源代码文件</td>
+</tr>
+<tr>
+<td>#define</td>
+<td>定义宏</td>
+</tr>
+<tr>
+<td>#undef</td>
+<td>取消已定义的宏</td>
+</tr>
+<tr>
+<td>#if</td>
+<td>如果给定条件为真，则编译下面代码</td>
+</tr>
+<tr>
+<td>#ifdef</td>
+<td>如果宏已经定义，则编译下面代码</td>
+</tr>
+<tr>
+<td>#ifndef</td>
+<td>如果宏没有定义，则编译下面代码</td>
+</tr>
+<tr>
+<td>#elif</td>
+<td>如果前面的#给定条件不为真，当前条件为真，则编译下面代码</td>
+</tr>
+<tr>
+<td>#endif</td>
+<td>结束一个#if…#else条件编译块</td>
+</tr>
+</tbody></table>
+<p><strong>预处理指令使用注意事项</strong></p>
+<ul>
+<li><strong>预处理功能是C语言特有的功能</strong>，对源程序正式编译前<strong>由预处理程序</strong>完成的，程序中<strong>用预处理命令</strong>来调用功能。</li>
+<li>宏定义可以带有参数，<strong>宏调用时是以实参代换形参，不是“值传送”</strong></li>
+<li>为了避免宏代换时发生错误，<code>宏定义</code>中的<strong>字符串应加括号</strong>，<code>字符串</code>中出现的<strong>形式参数两边也应加括号</strong></li>
+<li><strong>文件包含</strong>是预处理的一个重要功能，可以<strong>把多个源文件连接成一个源文件进行编译</strong>，结果将<strong>生成一个目标文件</strong></li>
+<li><code>条件编译</code>允许只编译源程序中满足条件的程序段，生成的目标程序较小，<strong>减少内存的开销</strong>并<strong>提髙程序的效率</strong>。</li>
+<li><code>预处理</code>功能便于程序的<strong>修改、阅读、移植和调试，也便于实现模块化程序设计</strong></li>
+</ul>
 <h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=147" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
-</div>
-
-]]></content>
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=111" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
+</div>]]></content>
       <categories>
         <category>C</category>
       </categories>
       <tags>
-        <tag>结构体和共用体</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>泛型</title>
-    <url>/posts/805/</url>
-    <content><![CDATA[<h1 id="1-泛型"><a href="#1-泛型" class="headerlink" title="1.泛型"></a>1.泛型</h1><h2 id="1-1什么是泛型"><a href="#1-1什么是泛型" class="headerlink" title="1.1什么是泛型"></a>1.1什么是泛型</h2><p><strong>泛型的概念</strong></p>
-<ul>
-<li><p>Java 泛型（generics）是 <code>JDK 5</code> 中引入的一个新特性,考虑到<code>向前兼容</code>，编译器是<strong>允许非泛型集合与泛型集合互相赋值</strong> ,泛型提供了<strong>编译时类型安全检测机制</strong>，该机制允许程序在编译时检测到非法的类型。</p>
-</li>
-<li><p>泛型的<strong>本质</strong>是<strong>参数化类型</strong>,也就是说<strong>所操作的数据类型被指定为一个参数</strong>,泛型的<strong>参数只可以代表类</strong>，不能代表个别对象。由于 Java <strong>泛型的类型参数之实际类型在编译时会被消除</strong>，<strong>所以无法在运行时得知其类型参数的类型</strong>。</p>
-</li>
-</ul>
-<p><strong>参数化类型</strong></p>
-<ul>
-<li><p><strong>将类型由原来的具体的类型参数化</strong>，然后在<strong>使用/调用时传入具体的类型</strong>这种参数类型可以用在类、方法和接口中，分别被称为<code>泛型类、泛型方法、泛型接口</code></p>
-</li>
-<li><p>编译器在<strong>编译泛型时会自动加入类型转换的编码</strong>，故<strong>运行速度不会因为使用泛型而加快</strong></p>
-</li>
-</ul>
-<p><strong>泛型定义格式</strong></p>
-<ul>
-<li>&lt;类型&gt;：指定一种类型的格式。这里的类型可以看成是<strong>形参</strong></li>
-<li>&lt;类型1类型2…&gt;：指定<strong>多种类型的格式，多种类型之间用逗号隔开</strong>。这里的类型可以看成是形参将来具体调用时候给定的类型可以看成是实参，并且<strong>实参的类型只能是引用数据类型（类,接口,数组）</strong></li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericParadigmDemo</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建集合对象</span></span><br><span class="line">        Collection c = <span class="keyword">new</span> ArrayList();</span><br><span class="line">        c.add(<span class="string">"数据结构和算法"</span>);</span><br><span class="line">        c.add(<span class="string">"C语言程序设计"</span>);</span><br><span class="line">        c.add(<span class="string">"Java入门到放弃"</span>);</span><br><span class="line">       </span><br><span class="line">        <span class="comment">//遍历集合</span></span><br><span class="line">        <span class="keyword">for</span> (Object o : c) &#123;</span><br><span class="line">            System.out.println(o);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>修改代码</strong></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">c.add(<span class="number">1379</span>);</span><br><span class="line">String str  = (String) it.next();</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericParadigmDemo</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建集合对象</span></span><br><span class="line">        Collection c = <span class="keyword">new</span> ArrayList();</span><br><span class="line">        c.add(<span class="string">"数据结构和算法"</span>);</span><br><span class="line">        c.add(<span class="string">"C语言程序设计"</span>);</span><br><span class="line">        c.add(<span class="string">"Java入门到放弃"</span>);</span><br><span class="line">        c.add(<span class="number">1379</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//遍历集合</span></span><br><span class="line">        <span class="keyword">for</span> (Object o : c) &#123;</span><br><span class="line">            <span class="comment">//Object obj = it.next();</span></span><br><span class="line">            <span class="comment">//System.out.println(obj);</span></span><br><span class="line">            String str = (String) o;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/27/8ad03da66217574b46ae446756602527.png" alt="image-20200627133508630"></p>
-<p><strong>运行后出现</strong><code>ClassCastException</code></p>
-<ul>
-<li><p>原因  c.add(1379)存储的是Integer类型,for循环里面的是String 类型不匹配</p>
-</li>
-<li><p>集合未指定数据类型</p>
-</li>
-<li><p>程序包含了<code>ClassCastException</code></p>
-</li>
-</ul>
-<p><strong>解决方法</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Collection&lt;String&gt; c &#x3D; new ArrayList&lt;String&gt;();</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/27/13c091f1900ba0c4c0fec3bd207aa91f.png" alt="image-20200627150124943"></p>
-<p><strong>使用泛型将运行时的异常提到了编译期</strong></p>
-<p>如果使用<code>迭代器遍历</code>集合</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Iterator it = c.iterator();</span><br><span class="line"><span class="keyword">while</span> (it.hasNext())&#123;</span><br><span class="line">     <span class="comment">//向上转型</span></span><br><span class="line">     String str = (String)it.next();</span><br><span class="line">     System.out.println(str);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>使用泛型后,<strong>避免了强制类型转换</strong></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Iterator&lt;String&gt; it = c.iterator();</span><br><span class="line"><span class="keyword">while</span> (it.hasNext())&#123;</span><br><span class="line">    String str = it.next();</span><br><span class="line">    System.out.println(str);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="1-2泛型类"><a href="#1-2泛型类" class="headerlink" title="1.2泛型类"></a>1.2泛型类</h2><ul>
-<li><strong>泛型类</strong>的定义格式</li>
-<li>修饰符 class 类名 &lt;类型&gt;{}</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//T表示任意标识,常见的T,E,K,V</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="1-2-1普通方法"><a href="#1-2-1普通方法" class="headerlink" title="1.2.1普通方法"></a>1.2.1普通方法</h3><ul>
-<li>Game游戏类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>Player玩家类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Player</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Integer age;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Integer <span class="title">getAge</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> age;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span> <span class="params">(Integer age)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.age = age;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>Test测试类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Player p = <span class="keyword">new</span> Player();</span><br><span class="line">        p.setAge(<span class="number">18</span>);</span><br><span class="line">        System.out.println(p.getAge());</span><br><span class="line"></span><br><span class="line">        Game g = <span class="keyword">new</span> Game();</span><br><span class="line">        g.setName(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        System.out.println(g.getName());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>使用泛型让一个方法<strong>接受不同的参数类型</strong></p>
-<p>修改<code>Game</code>为泛型类</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> T t;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> T <span class="title">getT</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> t;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setT</span><span class="params">(T t)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.t = t;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>修改<code>Test</code>类 </p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//设置泛型参数为String</span></span><br><span class="line">Game&lt;String&gt; g = <span class="keyword">new</span> Game&lt;String&gt;();</span><br><span class="line">g.setT(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">System.out.println(g1.getT());</span><br><span class="line"><span class="comment">//设置泛型参数为Ineger</span></span><br><span class="line">Game&lt;Integer&gt; g2 = <span class="keyword">new</span> Game&lt;Integer&gt;();</span><br><span class="line">g2.setT(<span class="number">18</span>);</span><br><span class="line">System.out.println(g2.getT());</span><br></pre></td></tr></table></figure>
-
-<p><strong>实现了相同效果,减少了一个类的创建</strong></p>
-<h3 id="1-2-2方法重载"><a href="#1-2-2方法重载" class="headerlink" title="1.2.2方法重载"></a>1.2.2方法重载</h3><ul>
-<li>1.创建一个Game类(重载)</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(String name)</span></span>&#123;</span><br><span class="line">        System.out.println(name);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(Integer price)</span></span>&#123;</span><br><span class="line">        System.out.println(price);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(<span class="keyword">boolean</span> ontime)</span></span>&#123;</span><br><span class="line">        System.out.println(ontime);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>2.Test类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    Game g = <span class="keyword">new</span> Game();</span><br><span class="line">    g.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">    g.attribute(<span class="number">298</span>);</span><br><span class="line">    g.attribute(<span class="keyword">false</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>3.如果再次添加属性,需要Game类中添加,才能使得新添加的属性生效</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(<span class="keyword">double</span> time)</span></span>&#123;</span><br><span class="line">        System.out.println(time);</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">g.attribute(<span class="number">2020.11</span>);</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>使用泛型类改进</p>
-</blockquote>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;</span><br><span class="line">        System.out.println(t);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game&lt;String&gt; g1 = <span class="keyword">new</span> Game&lt;String&gt;();</span><br><span class="line">        g1.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        Game&lt;Integer&gt; g2 = <span class="keyword">new</span> Game&lt;Integer&gt;();</span><br><span class="line">        g2.attribute(<span class="number">298</span>);</span><br><span class="line">        Game&lt;Boolean&gt; g3 = <span class="keyword">new</span> Game&lt;Boolean&gt;();</span><br><span class="line">        g3.attribute(<span class="keyword">false</span>);</span><br><span class="line">        Game&lt;Double&gt; g4 = <span class="keyword">new</span> Game&lt;Double&gt;();</span><br><span class="line">        g4.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="1-3泛型方法"><a href="#1-3泛型方法" class="headerlink" title="1.3泛型方法"></a>1.3泛型方法</h2><ul>
-<li><strong>泛型方法</strong>的定义格式</li>
-<li>修饰符&lt;类型&gt; 返回值类型 方法名 （类型 变量名){ }</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> &lt;T&gt; <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>Game</code>类 调用方法时才明确参数的类型</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> &lt;T&gt; <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;</span><br><span class="line">        System.out.println(t);        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>Test类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game g = <span class="keyword">new</span> Game();</span><br><span class="line">        g.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        g.attribute(<span class="number">298</span>);</span><br><span class="line">        g.attribute(<span class="keyword">false</span>);</span><br><span class="line">        g.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="1-4泛型接口"><a href="#1-4泛型接口" class="headerlink" title="1.4泛型接口"></a>1.4泛型接口</h2><ul>
-<li><strong>泛型接口</strong>的定义格式</li>
-<li>修饰符 interface 接口名&lt;类型&gt;{ }</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt;</span>&#123;&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>泛型接口</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><p><strong>测试类无法直接使用接口,接口没有<code>实例化</code></strong></p>
-</li>
-<li><p>创建<strong>接口的实现类</strong></p>
-</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GameImpl</span>&lt;<span class="title">T</span>&gt; <span class="keyword">implements</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span> </span>&#123;</span><br><span class="line">        System.out.println(t);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>Test</code>类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game&lt;String&gt; g1 = <span class="keyword">new</span> GameImpl&lt;String&gt;();</span><br><span class="line">        g1.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        Game&lt;Integer&gt; g2 = <span class="keyword">new</span> GameImpl&lt;Integer&gt;();</span><br><span class="line">        g2.attribute(<span class="number">298</span>);</span><br><span class="line">        Game&lt;Boolean&gt; g3 = <span class="keyword">new</span> GameImpl&lt;Boolean&gt;();</span><br><span class="line">        g3.attribute(<span class="keyword">false</span>);</span><br><span class="line">        Game&lt;Double&gt; g4 = <span class="keyword">new</span> GameImpl&lt;Double&gt;();</span><br><span class="line">        g4.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<ul>
-<li>参考连接</li>
-<li><a href="https://www.bilibili.com/video/BV1gb411F76B?p=252" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1gb411F76B?p=252</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>集合</tag>
-        <tag>泛型</tag>
+        <tag>C</tag>
+        <tag>预处理命令</tag>
       </tags>
   </entry>
 </search>
