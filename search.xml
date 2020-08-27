@@ -13,90 +13,6 @@
       </tags>
   </entry>
   <entry>
-    <title>C语言程序设计概述</title>
-    <url>/posts/c5a3/</url>
-    <content><![CDATA[<h1 id="C语言程序设计概述"><a href="#C语言程序设计概述" class="headerlink" title="C语言程序设计概述"></a>C语言程序设计概述</h1><h2 id="1-C语言的发展历程"><a href="#1-C语言的发展历程" class="headerlink" title="1.C语言的发展历程"></a>1.C语言的发展历程</h2><ul>
-<li>1.为什么发明C语言：C语言的诞生是和UNIX操作系统的开发密不可分的，原先的UNⅨX操作系统都是用汇编语言写的，1973年UNIX操作系统的核心用C语言改写，从此以后，C语言成为编写操作系统的主要语言</li>
-<li>2.C语言对其它语言的影响：很多编程语言都深受C语言的影响，比如C艹（原先是C语言的一个扩展）、C#、 Java、PHP、 Javascript、Perl、LPC和UNIX的 C Shell等</li>
-<li>掌握C语言的人，再学其它编程语言，大多能很快上手，触类旁通，很多大学将C语言作为计算机教学的入门</li>
-<li>C语言之父 <strong>丹尼斯·麦卡利斯泰尔·里奇</strong>（英语：<strong>Dennis MacAlistair Ritchie</strong></li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703203727.png" alt="1-15030119511M02"></p>
-<p><strong>程序：</strong></p>
-<ul>
-<li>为了<code>计算机</code><strong>执行某些操作或解决某个问题</strong>而编写的一系列<strong>有序指令的集合</strong></li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//引入头文件</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio h&gt;</span></span></span><br><span class="line"><span class="comment">//main函数，是程序的执行入口，即程序是从main函数开始执行</span></span><br><span class="line"><span class="comment">//void表示main函数没有返回值</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//函数体</span></span><br><span class="line">    <span class="comment">//printf是一个函数，需要是一个头文件才能使用</span></span><br><span class="line">    <span class="comment">//printf是在&lt; stdio. h&gt;，需要引入该头文件</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello, world!"</span>);</span><br><span class="line">    <span class="comment">//让窗口停留</span></span><br><span class="line">    getchar;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="2-C语言的特点"><a href="#2-C语言的特点" class="headerlink" title="2.C语言的特点"></a>2.C语言的特点</h2><ul>
-<li>代码级别的<strong>跨平台</strong>：由于标准的存在，使得几乎同样的C代码可用于多种操作系统，如 Windows、DOS、UNIX等等；也适用于多种机型。</li>
-<li><strong>允许直接访问物理地址</strong>，<strong>对硬件进行操作</strong> 因此它<strong>既具有高级语言的功能</strong>，<strong>又具有低级语言的许多功能</strong>，C语言可用来写系统软件（比如操作系统，数据库，杀毒软件，防火墙，驱动，服务器程序）。</li>
-<li>C语言是一个有<strong>结构化程序设计</strong>、具有<strong>变量作用域（ variable scope）</strong>以及<strong>递归功能</strong>的过程式语言</li>
-<li>C语言<code>传递参数</code>可以是<code>值传递</code>（ pass by value，值），也可以<code>传递指针</code>（ a pointer passed by value，地址）也叫<code>引用传递</code></li>
-<li>C语言中，没有对象，不同的变量类型可以用结构体（ struct）组合在一起</li>
-<li>预编译处理（ preprocessor），生成目标代码质量高，程序执行效率高</li>
-</ul>
-<h2 id="3-C语言运行机制"><a href="#3-C语言运行机制" class="headerlink" title="3.C语言运行机制"></a>3.C语言运行机制</h2><p><strong>C程序运行机制过程</strong></p>
-<ul>
-<li><p>1.编辑：比如编写我们的 hello. c文件，就是<code>源代码</code>,</p>
-</li>
-<li><p>2.编译：将 <code>hello.c</code>程序通过编译器将其编译成<code>目标文件(hell.obj)</code>在<strong>计算机底层</strong>执行</p>
-</li>
-<li><p>3.链接：将目标文件 hello. obj + <code>库文件</code>生成可执行文件(My ProjectoR.exe)<strong>计算机底层</strong>执行</p>
-<p>链接库文件的原因：我们的C程序中会使用<code>C程序库</code>的内容，比如&lt; stdio.h&gt;&lt; stdlib. h&gt;中的函数printf system（）等等，这些函数不是程序员自己写的，而是C程序库中提供的,</p>
-<p>链接链接后，生成的exe文件，会比obj文件更大</p>
-</li>
-<li><p>4.运行：执行<code>exe</code>文件，得到运行结果</p>
-<p>​                                            <strong>运行机制图解</strong></p>
-</li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704093956.png" alt="image-20200704093722914"></p>
-<h2 id="4-转义字符"><a href="#4-转义字符" class="headerlink" title="4.转义字符"></a>4.转义字符</h2><table>
-<thead>
-<tr>
-<th>转义字符</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>\t</td>
-<td>一个制表符,用于格式对齐</td>
-</tr>
-<tr>
-<td>\n</td>
-<td>换行符</td>
-</tr>
-<tr>
-<td>\\</td>
-<td>表示一个\反斜杠</td>
-</tr>
-<tr>
-<td>\“</td>
-<td>表示一个”</td>
-</tr>
-<tr>
-<td>\‘</td>
-<td>表示一个’</td>
-</tr>
-<tr>
-<td>\r</td>
-<td>表示回车</td>
-</tr>
-</tbody></table>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=4" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
-<a class="btn-beautify button--animated outline green larger" href="https://www.runoob.com/cprogramming/c-standard-library.html" target="_blank" rel="noopener" title="C语言标准库参考手册"><i class="far fa-hand-point-right fa-fw"></i> C语言标准库参考手册 </a>
-</div>]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>IDEA快捷键</title>
     <url>/posts/aa80/</url>
     <content><![CDATA[<h2 id="断点调试"><a href="#断点调试" class="headerlink" title="断点调试"></a>断点调试</h2><p><a href="https://www.cnblogs.com/xiemingjun/p/9618427.html" target="_blank" rel="noopener">https://www.cnblogs.com/xiemingjun/p/9618427.html</a></p>
@@ -106,6 +22,174 @@
       </categories>
       <tags>
         <tag>IDEA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C语言易错点</title>
+    <url>/posts/9db8/</url>
+    <content><![CDATA[<h2 id="语法基础"><a href="#语法基础" class="headerlink" title="语法基础"></a>语法基础</h2><ul>
+<li><p><strong>getchar()函数</strong>从终端读取一个字符（一次只读取一个字符）并将其作为整数返回</p>
+</li>
+<li><p><strong>所有C语句必须以分号结尾。</strong></p>
+</li>
+</ul>
+<p><strong>C语言关键字</strong></p>
+<table>
+<thead>
+<tr>
+<th>关键字</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>auto</td>
+<td>声明自动变量</td>
+</tr>
+<tr>
+<td>short</td>
+<td>声明短整型变量或函数</td>
+</tr>
+<tr>
+<td>int</td>
+<td>声明整型变量或函数</td>
+</tr>
+<tr>
+<td>long</td>
+<td>声明长整型变量或函数</td>
+</tr>
+<tr>
+<td>float</td>
+<td>声明浮点型变量或函数</td>
+</tr>
+<tr>
+<td>double</td>
+<td>声明双精度变量或函数</td>
+</tr>
+<tr>
+<td>char</td>
+<td>声明字符型变量或函数</td>
+</tr>
+<tr>
+<td>struct</td>
+<td>声明结构体变量或函数</td>
+</tr>
+<tr>
+<td>union</td>
+<td>声明共用数据类型</td>
+</tr>
+<tr>
+<td>enum</td>
+<td>声明枚举类型</td>
+</tr>
+<tr>
+<td>typedef</td>
+<td>用以给数据类型取别名</td>
+</tr>
+<tr>
+<td>const</td>
+<td>声明只读变量</td>
+</tr>
+<tr>
+<td>unsigned</td>
+<td>声明无符号类型变量或函数</td>
+</tr>
+<tr>
+<td>signed</td>
+<td>声明有符号类型变量或函数</td>
+</tr>
+<tr>
+<td>extern</td>
+<td>声明变量是在其他文件正声明</td>
+</tr>
+<tr>
+<td><strong>register</strong></td>
+<td>声明寄存器变量</td>
+</tr>
+<tr>
+<td>static</td>
+<td>声明静态变量</td>
+</tr>
+<tr>
+<td>volatile</td>
+<td>说明变量在程序执行中可被隐含地改变</td>
+</tr>
+<tr>
+<td>void</td>
+<td>声明函数无返回值或无参数，声明无类型指针</td>
+</tr>
+<tr>
+<td>if</td>
+<td>条件语句</td>
+</tr>
+<tr>
+<td>else</td>
+<td>条件语句否定分支（与 if 连用）</td>
+</tr>
+<tr>
+<td>switch</td>
+<td>用于开关语句</td>
+</tr>
+<tr>
+<td>case</td>
+<td>开关语句分支</td>
+</tr>
+<tr>
+<td>for</td>
+<td>一种循环语句</td>
+</tr>
+<tr>
+<td>do</td>
+<td>循环语句的循环体</td>
+</tr>
+<tr>
+<td>while</td>
+<td>循环语句的循环条件</td>
+</tr>
+<tr>
+<td>goto</td>
+<td>无条件跳转语句</td>
+</tr>
+<tr>
+<td>continue</td>
+<td>结束当前循环，开始下一轮循环</td>
+</tr>
+<tr>
+<td>break</td>
+<td>跳出当前循环</td>
+</tr>
+<tr>
+<td>default</td>
+<td>开关语句中的“其他”分支</td>
+</tr>
+<tr>
+<td>sizeof</td>
+<td>计算数据类型长度</td>
+</tr>
+<tr>
+<td>return</td>
+<td>子程序返回语句（可以带参数，也可不带参数）循环条件</td>
+</tr>
+</tbody></table>
+<ul>
+<li><p><strong>实型数据也称为浮点数或实数</strong></p>
+</li>
+<li><p><code>int</code>C语言中数据类型的合法值范围是-32768-32767</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">int</span> j = <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">switch</span>(i)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">1</span>: <span class="built_in">printf</span>(<span class="string">"one"</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> j: <span class="built_in">printf</span>(<span class="string">"two"</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>错误，常量表达式需要代替j。将j改为2</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="number">5</span> + <span class="string">"Good Morning"</span>);</span><br><span class="line"><span class="comment">//Good Morning</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>跳过后面的字符串的5个字符，然后打印字符串。</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> a =<span class="number">10</span>;</span><br><span class="line">    <span class="keyword">if</span>(a = <span class="number">5</span>)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"hello"</span>);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"bye"</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//a=5 赋值操作 输出hello</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -131,75 +215,6 @@
       <tags>
         <tag>面向对象</tag>
         <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github下载加速</title>
-    <url>/posts/79ca/</url>
-    <content><![CDATA[<p><strong>准备条件</strong></p>
-<ul>
-<li>码云(Gitee账号)</li>
-</ul>
-<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
-<ul>
-<li>Git</li>
-</ul>
-<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows</a></p>
-<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
-<blockquote>
-<p>1.复制项目的网址</p>
-</blockquote>
-<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
-<blockquote>
-<p>2.导入项目到Gitee</p>
-</blockquote>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
-<p><strong>导入后等待页面加载即可</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
-<p><strong>将项目克隆到本地</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
-<p><strong>速度还行</strong></p>
-<p><strong>当我们导入一个比较大的项目时</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
-<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
-<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
-<h2 id="1-仓库名称"><a href="#1-仓库名称" class="headerlink" title="1.仓库名称"></a>1.仓库名称</h2><ul>
-<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
-<p>in:name springboot stars:&gt;3000 forks:&gt;4000<br>in:name 项目名称 stars:数量 forks:数量</p>
-</blockquote>
-</li>
-</ul>
-<h2 id="2-Readme-md文件"><a href="#2-Readme-md文件" class="headerlink" title="2.Readme.md文件"></a>2.Readme.md文件</h2><ul>
-<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
-<p>in:readme spring boot stars:&gt;3000 forks:&gt;4000<br>in:readme 项目名称 stars:数量 forks:数量</p>
-</blockquote>
-</li>
-</ul>
-<h2 id="3-描述文件"><a href="#3-描述文件" class="headerlink" title="3.描述文件"></a>3.描述文件</h2><ul>
-<li>微服务项目 stars&gt;1000 语言为java 最后一次更新时间再2019-09-01之后<blockquote>
-<p>in:description 微服务 stars:&gt;1000 language:java pushed:&gt;2019-09-01<br>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
-</blockquote>
-</li>
-</ul>
-<p>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
-<p><strong>Github官方使用文档</strong><br><a href="https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories" target="_blank" rel="noopener">https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories</a></p>
-]]></content>
-      <categories>
-        <category>生产力</category>
-      </categories>
-      <tags>
-        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
@@ -292,6 +307,90 @@
       </tags>
   </entry>
   <entry>
+    <title>C语言程序设计概述</title>
+    <url>/posts/c5a3/</url>
+    <content><![CDATA[<h1 id="C语言程序设计概述"><a href="#C语言程序设计概述" class="headerlink" title="C语言程序设计概述"></a>C语言程序设计概述</h1><h2 id="1-C语言的发展历程"><a href="#1-C语言的发展历程" class="headerlink" title="1.C语言的发展历程"></a>1.C语言的发展历程</h2><ul>
+<li>1.为什么发明C语言：C语言的诞生是和UNIX操作系统的开发密不可分的，原先的UNⅨX操作系统都是用汇编语言写的，1973年UNIX操作系统的核心用C语言改写，从此以后，C语言成为编写操作系统的主要语言</li>
+<li>2.C语言对其它语言的影响：很多编程语言都深受C语言的影响，比如C艹（原先是C语言的一个扩展）、C#、 Java、PHP、 Javascript、Perl、LPC和UNIX的 C Shell等</li>
+<li>掌握C语言的人，再学其它编程语言，大多能很快上手，触类旁通，很多大学将C语言作为计算机教学的入门</li>
+<li>C语言之父 <strong>丹尼斯·麦卡利斯泰尔·里奇</strong>（英语：<strong>Dennis MacAlistair Ritchie</strong></li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703203727.png" alt="1-15030119511M02"></p>
+<p><strong>程序：</strong></p>
+<ul>
+<li>为了<code>计算机</code><strong>执行某些操作或解决某个问题</strong>而编写的一系列<strong>有序指令的集合</strong></li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//引入头文件</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio h&gt;</span></span></span><br><span class="line"><span class="comment">//main函数，是程序的执行入口，即程序是从main函数开始执行</span></span><br><span class="line"><span class="comment">//void表示main函数没有返回值</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//函数体</span></span><br><span class="line">    <span class="comment">//printf是一个函数，需要是一个头文件才能使用</span></span><br><span class="line">    <span class="comment">//printf是在&lt; stdio. h&gt;，需要引入该头文件</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"hello, world!"</span>);</span><br><span class="line">    <span class="comment">//让窗口停留</span></span><br><span class="line">    getchar;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="2-C语言的特点"><a href="#2-C语言的特点" class="headerlink" title="2.C语言的特点"></a>2.C语言的特点</h2><ul>
+<li>代码级别的<strong>跨平台</strong>：由于标准的存在，使得几乎同样的C代码可用于多种操作系统，如 Windows、DOS、UNIX等等；也适用于多种机型。</li>
+<li><strong>允许直接访问物理地址</strong>，<strong>对硬件进行操作</strong> 因此它<strong>既具有高级语言的功能</strong>，<strong>又具有低级语言的许多功能</strong>，C语言可用来写系统软件（比如操作系统，数据库，杀毒软件，防火墙，驱动，服务器程序）。</li>
+<li>C语言是一个有<strong>结构化程序设计</strong>、具有<strong>变量作用域（ variable scope）</strong>以及<strong>递归功能</strong>的过程式语言</li>
+<li>C语言<code>传递参数</code>可以是<code>值传递</code>（ pass by value，值），也可以<code>传递指针</code>（ a pointer passed by value，地址）也叫<code>引用传递</code></li>
+<li>C语言中，没有对象，不同的变量类型可以用结构体（ struct）组合在一起</li>
+<li>预编译处理（ preprocessor），生成目标代码质量高，程序执行效率高</li>
+</ul>
+<h2 id="3-C语言运行机制"><a href="#3-C语言运行机制" class="headerlink" title="3.C语言运行机制"></a>3.C语言运行机制</h2><p><strong>C程序运行机制过程</strong></p>
+<ul>
+<li><p>1.编辑：比如编写我们的 hello. c文件，就是<code>源代码</code>,</p>
+</li>
+<li><p>2.编译：将 <code>hello.c</code>程序通过编译器将其编译成<code>目标文件(hell.obj)</code>在<strong>计算机底层</strong>执行</p>
+</li>
+<li><p>3.链接：将目标文件 hello. obj + <code>库文件</code>生成可执行文件(My ProjectoR.exe)<strong>计算机底层</strong>执行</p>
+<p>链接库文件的原因：我们的C程序中会使用<code>C程序库</code>的内容，比如&lt; stdio.h&gt;&lt; stdlib. h&gt;中的函数printf system（）等等，这些函数不是程序员自己写的，而是C程序库中提供的,</p>
+<p>链接链接后，生成的exe文件，会比obj文件更大</p>
+</li>
+<li><p>4.运行：执行<code>exe</code>文件，得到运行结果</p>
+<p>​                                            <strong>运行机制图解</strong></p>
+</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704093956.png" alt="image-20200704093722914"></p>
+<h2 id="4-转义字符"><a href="#4-转义字符" class="headerlink" title="4.转义字符"></a>4.转义字符</h2><table>
+<thead>
+<tr>
+<th>转义字符</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>\t</td>
+<td>一个制表符,用于格式对齐</td>
+</tr>
+<tr>
+<td>\n</td>
+<td>换行符</td>
+</tr>
+<tr>
+<td>\\</td>
+<td>表示一个\反斜杠</td>
+</tr>
+<tr>
+<td>\“</td>
+<td>表示一个”</td>
+</tr>
+<tr>
+<td>\‘</td>
+<td>表示一个’</td>
+</tr>
+<tr>
+<td>\r</td>
+<td>表示回车</td>
+</tr>
+</tbody></table>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=4" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
+<a class="btn-beautify button--animated outline green larger" href="https://www.runoob.com/cprogramming/c-standard-library.html" target="_blank" rel="noopener" title="C语言标准库参考手册"><i class="far fa-hand-point-right fa-fw"></i> C语言标准库参考手册 </a>
+</div>]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Spring</title>
     <url>/posts/46eb/</url>
     <content><![CDATA[]]></content>
@@ -301,6 +400,18 @@
       </categories>
       <tags>
         <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringBoot</title>
+    <url>/posts/83dd/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
+      </categories>
+      <tags>
+        <tag>SpringBoot</tag>
       </tags>
   </entry>
   <entry>
@@ -328,15 +439,109 @@
       </tags>
   </entry>
   <entry>
-    <title>SpringBoot</title>
-    <url>/posts/83dd/</url>
-    <content><![CDATA[]]></content>
+    <title>Nginx配置SSL证书</title>
+    <url>/posts/27ab/</url>
+    <content><![CDATA[<blockquote>
+<p>环境</p>
+</blockquote>
+<ul>
+<li>阿里云 centos7.7</li>
+<li>SSL证书</li>
+<li>Nginx/1.17.9</li>
+<li>一个解析好的域名</li>
+<li>Xshell 和 Xftp</li>
+</ul>
+<p><strong>Nginx安装SSL官网文档:</strong><br><a href="https://help.aliyun.com/document_detail/98728.html?spm=5176.2020520163.0.0.113156a7LfBJvD" target="_blank" rel="noopener">https://help.aliyun.com/document_detail/98728.html?spm=5176.2020520163.0.0.113156a7LfBJvD</a></p>
+<p><strong>开始配置</strong></p>
+<ul>
+<li>在Nginx安装目录（默认Nginx安装目录为/usr/local/nginx/conf）下创建cert目录，并将下载的证书文件和密钥文件拷贝到cert目录中。</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://i.loli.net/2020/04/30/YEZrqlSAVxCwpFG.png" alt="image.png"></p>
+<p><strong>编辑nginx配置文件</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># HTTPS server</span></span><br><span class="line">   server &#123;</span><br><span class="line">       listen        443 ssl;</span><br><span class="line">       server_name   www.crow1024.top;</span><br><span class="line">   </span><br><span class="line">       ssl_certificate      cert/3816266_www.crow1024.top.pem;</span><br><span class="line">       ssl_certificate_key  cert/3816266_www.crow1024.top.key;</span><br><span class="line">   </span><br><span class="line">       ssl_session_cache    shared:SSL:1m;</span><br><span class="line">       ssl_session_timeout  5m;</span><br><span class="line">   </span><br><span class="line">       ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;</span><br><span class="line">   	ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">       ssl_prefer_server_ciphers  on;</span><br><span class="line">   </span><br><span class="line">       location / &#123;</span><br><span class="line">           root   html;</span><br><span class="line">    proxy_set_header HOST <span class="variable">$host</span>;</span><br><span class="line">           proxy_set_header X-Forwarded-Proto <span class="variable">$scheme</span>;</span><br><span class="line">           proxy_set_header X-Real-IP <span class="variable">$remote_addr</span>;</span><br><span class="line">           proxy_set_header X-Forwarded-For <span class="variable">$proxy_add_x_forwarded_for</span>;		</span><br><span class="line">    proxy_pass http://127.0.0.1:8090;</span><br><span class="line">           index  index.html index.htm;</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+<p><strong>location中注意点</strong></p>
+<ul>
+<li>http后面没有s</li>
+<li>加上halo的默认端口号<br><img src= "/img/loading.gif" data-src="https://i.loli.net/2020/04/30/GYWplMZtP9eNrQH.png" alt="image.png"></li>
+</ul>
+<p><strong>保存退出切换到sbin目录下</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[root@crow ~]<span class="comment"># cd /usr/local/nginx/sbin</span></span><br><span class="line"><span class="comment"># 停止nginx服务</span></span><br><span class="line">./nginx -s stop</span><br><span class="line"><span class="comment"># 启动nginx</span></span><br><span class="line">./nginx</span><br></pre></td></tr></table></figure>
+<p><strong>打开浏览器就可以直接通过域名访问</strong></p>
+]]></content>
       <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
+        <category>服务器</category>
       </categories>
       <tags>
-        <tag>SpringBoot</tag>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Github下载加速</title>
+    <url>/posts/79ca/</url>
+    <content><![CDATA[<p><strong>准备条件</strong></p>
+<ul>
+<li>码云(Gitee账号)</li>
+</ul>
+<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
+<ul>
+<li>Git</li>
+</ul>
+<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows</a></p>
+<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
+<blockquote>
+<p>1.复制项目的网址</p>
+</blockquote>
+<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
+<blockquote>
+<p>2.导入项目到Gitee</p>
+</blockquote>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
+<p><strong>导入后等待页面加载即可</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
+<p><strong>将项目克隆到本地</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
+<p><strong>速度还行</strong></p>
+<p><strong>当我们导入一个比较大的项目时</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
+<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
+<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
+<h2 id="1-仓库名称"><a href="#1-仓库名称" class="headerlink" title="1.仓库名称"></a>1.仓库名称</h2><ul>
+<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
+<p>in:name springboot stars:&gt;3000 forks:&gt;4000<br>in:name 项目名称 stars:数量 forks:数量</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="2-Readme-md文件"><a href="#2-Readme-md文件" class="headerlink" title="2.Readme.md文件"></a>2.Readme.md文件</h2><ul>
+<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
+<p>in:readme spring boot stars:&gt;3000 forks:&gt;4000<br>in:readme 项目名称 stars:数量 forks:数量</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="3-描述文件"><a href="#3-描述文件" class="headerlink" title="3.描述文件"></a>3.描述文件</h2><ul>
+<li>微服务项目 stars&gt;1000 语言为java 最后一次更新时间再2019-09-01之后<blockquote>
+<p>in:description 微服务 stars:&gt;1000 language:java pushed:&gt;2019-09-01<br>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
+</blockquote>
+</li>
+</ul>
+<p>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
+<p><strong>Github官方使用文档</strong><br><a href="https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories" target="_blank" rel="noopener">https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories</a></p>
+]]></content>
+      <categories>
+        <category>生产力</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
       </tags>
   </entry>
   <entry>
@@ -430,40 +635,67 @@
       </tags>
   </entry>
   <entry>
-    <title>Nginx配置SSL证书</title>
-    <url>/posts/27ab/</url>
-    <content><![CDATA[<blockquote>
-<p>环境</p>
-</blockquote>
-<ul>
-<li>阿里云 centos7.7</li>
-<li>SSL证书</li>
-<li>Nginx/1.17.9</li>
-<li>一个解析好的域名</li>
-<li>Xshell 和 Xftp</li>
+    <title>MarkDown使用指南</title>
+    <url>/posts/9365/</url>
+    <content><![CDATA[<h2 id="MarkDown使用指南"><a href="#MarkDown使用指南" class="headerlink" title="MarkDown使用指南"></a>MarkDown使用指南</h2><ul>
+<li>待办事项</li>
 </ul>
-<p><strong>Nginx安装SSL官网文档:</strong><br><a href="https://help.aliyun.com/document_detail/98728.html?spm=5176.2020520163.0.0.113156a7LfBJvD" target="_blank" rel="noopener">https://help.aliyun.com/document_detail/98728.html?spm=5176.2020520163.0.0.113156a7LfBJvD</a></p>
-<p><strong>开始配置</strong></p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>[x] This is a complete item</span><br><span class="line"><span class="bullet">- </span>[ ] This is an incomplete item</span><br></pre></td></tr></table></figure>
+
 <ul>
-<li>在Nginx安装目录（默认Nginx安装目录为/usr/local/nginx/conf）下创建cert目录，并将下载的证书文件和密钥文件拷贝到cert目录中。</li>
+<li><input disabled="" type="checkbox"> This is a complete item</li>
+<li><input disabled="" type="checkbox"> This is an incomplete item</li>
 </ul>
-<p><img src= "/img/loading.gif" data-src="https://i.loli.net/2020/04/30/YEZrqlSAVxCwpFG.png" alt="image.png"></p>
-<p><strong>编辑nginx配置文件</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># HTTPS server</span></span><br><span class="line">   server &#123;</span><br><span class="line">       listen        443 ssl;</span><br><span class="line">       server_name   www.crow1024.top;</span><br><span class="line">   </span><br><span class="line">       ssl_certificate      cert/3816266_www.crow1024.top.pem;</span><br><span class="line">       ssl_certificate_key  cert/3816266_www.crow1024.top.key;</span><br><span class="line">   </span><br><span class="line">       ssl_session_cache    shared:SSL:1m;</span><br><span class="line">       ssl_session_timeout  5m;</span><br><span class="line">   </span><br><span class="line">       ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;</span><br><span class="line">   	ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">       ssl_prefer_server_ciphers  on;</span><br><span class="line">   </span><br><span class="line">       location / &#123;</span><br><span class="line">           root   html;</span><br><span class="line">    proxy_set_header HOST <span class="variable">$host</span>;</span><br><span class="line">           proxy_set_header X-Forwarded-Proto <span class="variable">$scheme</span>;</span><br><span class="line">           proxy_set_header X-Real-IP <span class="variable">$remote_addr</span>;</span><br><span class="line">           proxy_set_header X-Forwarded-For <span class="variable">$proxy_add_x_forwarded_for</span>;		</span><br><span class="line">    proxy_pass http://127.0.0.1:8090;</span><br><span class="line">           index  index.html index.htm;</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-<p><strong>location中注意点</strong></p>
-<ul>
-<li>http后面没有s</li>
-<li>加上halo的默认端口号<br><img src= "/img/loading.gif" data-src="https://i.loli.net/2020/04/30/GYWplMZtP9eNrQH.png" alt="image.png"></li>
-</ul>
-<p><strong>保存退出切换到sbin目录下</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[root@crow ~]<span class="comment"># cd /usr/local/nginx/sbin</span></span><br><span class="line"><span class="comment"># 停止nginx服务</span></span><br><span class="line">./nginx -s stop</span><br><span class="line"><span class="comment"># 启动nginx</span></span><br><span class="line">./nginx</span><br></pre></td></tr></table></figure>
-<p><strong>打开浏览器就可以直接通过域名访问</strong></p>
+<p><font color = red size = 5>文字颜色</font></p>
+<p><font face="黑体">我是黑体字</font></p>
+<p><font face="微软雅黑">我是微软雅黑</font></p>
+<p><font face="STCAIYUN">我是华文彩云</font></p>
+<p><font color=red >我是红色</font></p>
+<p><font color=#008000>我是绿色</font></p>
+<p><font color=Blue>我是蓝色</font></p>
+<p><font size=5>我是尺寸</font></p>
+<p><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font></p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)" target="_blank" rel="noopener" title="官方文档"><i class="far fa-hand-point-right fa-fw"></i> 官方文档 </a>
+</div>
+
 ]]></content>
       <categories>
-        <category>服务器</category>
+        <category>生产力</category>
       </categories>
       <tags>
-        <tag>服务器</tag>
+        <tag>生产力</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Win10快捷键</title>
+    <url>/posts/e5dc/</url>
+    <content><![CDATA[<p>1.创建虚拟桌面</p>
+<p>Win+Alt+D / Win+Tab(可以通过鼠标操作虚拟桌面的创建、切换与删除)</p>
+<p>Win+Ctrl+F4 关闭当前虚拟桌面</p>
+<p>2.窗口最小化</p>
+<p>Win+M 窗口最小化 Win+D 可在最小化全部窗口与恢复全部窗口状态 间自由切换</p>
+<p>3.应用切换<br>Ctrl+Alt+Tab显示当前桌面运行的所有应用程序 Ctrl+Tab 切换任务</p>
+<p>4.屏幕截图</p>
+<p>Win + PrtSc/PrtSc /Win + Shift + S</p>
+<p>5.任务管理器</p>
+<p>Ctrl+Shift+Esc</p>
+<p>6.文件资源管理器</p>
+<p>Win+E </p>
+<p>7.操作中心</p>
+<p>win+A</p>
+<p>8.打开设置</p>
+<p>Win+I</p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.jb51.net/os/win10/226560.html" target="_blank" rel="noopener" title="Win10快捷键大全"><i class="far fa-hand-point-right fa-fw"></i> Win10快捷键大全 </a>
+</div>
+
+]]></content>
+      <categories>
+        <category>生产力</category>
+      </categories>
+      <tags>
+        <tag>Win10</tag>
       </tags>
   </entry>
   <entry>
@@ -549,90 +781,6 @@
       <tags>
         <tag>C++</tag>
         <tag>内存分区模型</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>十大排序算法</title>
-    <url>/posts/564c/</url>
-    <content><![CDATA[<h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><h3 id="直接插入排序"><a href="#直接插入排序" class="headerlink" title="直接插入排序"></a>直接插入排序</h3><p><strong>插入排序法思想</strong>:</p>
-<p>把 n 个待排序的元素看成为一个<code>有序表</code>和一个<code>无序表</code>，开始时<strong>有序表中只包含一个元素</strong>，<strong>无序表中包含有 n-1 个元素个元素</strong>，</p>
-<p><strong>排序过程</strong></p>
-<p>每次从无序表中取出第一个元素，把它的排序码依次与有序表元素的排序码进行比较，将它插入到有序表中的适当位置，使之成为新的有序表。</p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200826153417.png" alt="image-20200826152835050"></p>
-<ul>
-<li>选取数组的第一个元素为基准值，作为有序部分的第一个元素</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> insertVal = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">int</span> insertIndex = <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>遍历寻找无序部分的元素，跟有序部分的元素进行比较，确定元素应该插入的位置</li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(i=<span class="number">1</span>; i&lt;n; i++)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="comment">//找到要插入的位置</span></span><br><span class="line">    <span class="keyword">for</span>(j=<span class="number">0</span>; j&lt;i; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        ....</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>插入元素，移动插入位置后的元素</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="希尔排序"><a href="#希尔排序" class="headerlink" title="希尔排序"></a>希尔排序</h3>]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>排序</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MarkDown使用指南</title>
-    <url>/posts/9365/</url>
-    <content><![CDATA[<h2 id="MarkDown使用指南"><a href="#MarkDown使用指南" class="headerlink" title="MarkDown使用指南"></a>MarkDown使用指南</h2><ul>
-<li>待办事项</li>
-</ul>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>[x] This is a complete item</span><br><span class="line"><span class="bullet">- </span>[ ] This is an incomplete item</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><input disabled="" type="checkbox"> This is a complete item</li>
-<li><input disabled="" type="checkbox"> This is an incomplete item</li>
-</ul>
-<p><font color = red size = 5>文字颜色</font></p>
-<p><font face="黑体">我是黑体字</font></p>
-<p><font face="微软雅黑">我是微软雅黑</font></p>
-<p><font face="STCAIYUN">我是华文彩云</font></p>
-<p><font color=red >我是红色</font></p>
-<p><font color=#008000>我是绿色</font></p>
-<p><font color=Blue>我是蓝色</font></p>
-<p><font size=5>我是尺寸</font></p>
-<p><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font></p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)" target="_blank" rel="noopener" title="官方文档"><i class="far fa-hand-point-right fa-fw"></i> 官方文档 </a>
-</div>
-
-]]></content>
-      <categories>
-        <category>生产力</category>
-      </categories>
-      <tags>
-        <tag>生产力</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开源项目推荐</title>
-    <url>/posts/aaf6/</url>
-    <content><![CDATA[<h2 id="1-编程语言"><a href="#1-编程语言" class="headerlink" title="1.编程语言"></a>1.编程语言</h2><h3 id="1-1Java"><a href="#1-1Java" class="headerlink" title="1.1Java"></a>1.1Java</h3><ul>
-<li>1.<code>JavaGuide</code></li>
-</ul>
-<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
-<h2 id="2-数据结构和算法"><a href="#2-数据结构和算法" class="headerlink" title="2.数据结构和算法"></a>2.数据结构和算法</h2><p>2.1<code>fucking-algorithm</code></p>
-<p><a href="https://github.com/labuladong/fucking-algorithm" target="_blank" rel="noopener">https://github.com/labuladong/fucking-algorithm</a></p>
-]]></content>
-      <categories>
-        <category>开源项目</category>
-      </categories>
-      <tags>
-        <tag>Github</tag>
-        <tag>开源项目</tag>
       </tags>
   </entry>
   <entry>
@@ -723,6 +871,24 @@
       <tags>
         <tag>计算机基础知识</tag>
         <tag>位运算</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>开源项目推荐</title>
+    <url>/posts/aaf6/</url>
+    <content><![CDATA[<h2 id="1-编程语言"><a href="#1-编程语言" class="headerlink" title="1.编程语言"></a>1.编程语言</h2><h3 id="1-1Java"><a href="#1-1Java" class="headerlink" title="1.1Java"></a>1.1Java</h3><ul>
+<li>1.<code>JavaGuide</code></li>
+</ul>
+<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
+<h2 id="2-数据结构和算法"><a href="#2-数据结构和算法" class="headerlink" title="2.数据结构和算法"></a>2.数据结构和算法</h2><p>2.1<code>fucking-algorithm</code></p>
+<p><a href="https://github.com/labuladong/fucking-algorithm" target="_blank" rel="noopener">https://github.com/labuladong/fucking-algorithm</a></p>
+]]></content>
+      <categories>
+        <category>开源项目</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
+        <tag>开源项目</tag>
       </tags>
   </entry>
   <entry>
@@ -938,34 +1104,281 @@
       </tags>
   </entry>
   <entry>
-    <title>Win10快捷键</title>
-    <url>/posts/e5dc/</url>
-    <content><![CDATA[<p>1.创建虚拟桌面</p>
-<p>Win+Alt+D / Win+Tab(可以通过鼠标操作虚拟桌面的创建、切换与删除)</p>
-<p>Win+Ctrl+F4 关闭当前虚拟桌面</p>
-<p>2.窗口最小化</p>
-<p>Win+M 窗口最小化 Win+D 可在最小化全部窗口与恢复全部窗口状态 间自由切换</p>
-<p>3.应用切换<br>Ctrl+Alt+Tab显示当前桌面运行的所有应用程序 Ctrl+Tab 切换任务</p>
-<p>4.屏幕截图</p>
-<p>Win + PrtSc/PrtSc /Win + Shift + S</p>
-<p>5.任务管理器</p>
-<p>Ctrl+Shift+Esc</p>
-<p>6.文件资源管理器</p>
-<p>Win+E </p>
-<p>7.操作中心</p>
-<p>win+A</p>
-<p>8.打开设置</p>
-<p>Win+I</p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.jb51.net/os/win10/226560.html" target="_blank" rel="noopener" title="Win10快捷键大全"><i class="far fa-hand-point-right fa-fw"></i> Win10快捷键大全 </a>
-</div>
+    <title>函数</title>
+    <url>/posts/5409/</url>
+    <content><![CDATA[<h2 id="函数的初步了解"><a href="#函数的初步了解" class="headerlink" title="函数的初步了解"></a>函数的初步了解</h2><ul>
+<li><p>为完成某一功能的<strong>程序指令（语句）的集合</strong>称为<code>函数</code></p>
+</li>
+<li><p>在C语言中，函数分为：<code>自定义函数</code>、<code>系统函数</code></p>
+<ul>
+<li>C语言在线手册 <a href="http://www.dba.cn/book/c/CJiChuJiaoCheng/CJiBenYuFa.html" target="_blank" rel="noopener">http://www.dba.cn/book/c/CJiChuJiaoCheng/CJiBenYuFa.html</a></li>
+</ul>
+</li>
+<li><p>函数还有其它名称，方法等</p>
+</li>
+</ul>
+<p><strong>函数的基本语法</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">返回类型 函数名 (形参)&#123;</span><br><span class="line">	执行语句;</span><br><span class="line">	return 返回值;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<ul>
+<li><code>形参</code>表示<strong>函数的输入</strong></li>
+<li>函数中的<code>执行语句</code> <strong>实现某一功能代码块</strong></li>
+<li>函数可以有返回值，也可以没有，如果没有返回值，返回类型声明为void</li>
+</ul>
+<h2 id="头文件"><a href="#头文件" class="headerlink" title="头文件"></a>头文件</h2><p><strong>需求</strong>：实际开发中<strong>需要在不同文件中调用其他文件中的函数</strong></p>
+<p><strong>基本概念</strong></p>
+<ul>
+<li><p><code>头文件</code>是<strong>扩展名为h</strong>的文件，包含了<code>C函数声明</code>和<code>宏定义</code>，<strong>被多个源文件中引用共享</strong>。</p>
+</li>
+<li><p>头文件的类型的开发者<strong>自己编写的头文件</strong>和<strong>C标准库自带的头文件</strong></p>
+</li>
+<li><p>程序中要使用头文件，需要使用<code>C预处理指令#include</code>来引用。<code>stdio. h</code>头文件，是C标准库自带的头文件</p>
+</li>
+<li><p>文件包含命令(<code>#include</code>)，用来引入对应的头文件（h文件）。#include的<strong>处理过程</strong>是将<strong>头文件的内容插入到该命令所在的位置</strong>，使得<code>头文件</code>和<code>当前源文件</code><strong>连接成一个源文件</strong>，与复制粘贴的效果相同。直接在源文件中复制头文件的内容，容易出错，特别在程序是由多个源文件组成的时候。</p>
+</li>
+<li><p>所有的<code>常量</code>、<code>宏</code>、<code>系统全局变量</code>和<code>函数原型</code>写在<code>头文件</code>中，需要的时候随时再引用头文件</p>
+</li>
+</ul>
+<p>​                                                                            <strong>工作原理图</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/08/400f7ef8cad9d26182ce82e0a80624f1.png" alt="image-20200708163738567"></p>
+<ul>
+<li>func.h头文件和func.c源文件<strong>名称一般相同</strong>为了使用</li>
+</ul>
+<p><strong>头文件的注意事项和细节说明</strong></p>
+<ul>
+<li><p><strong>引用头文件相当于复制头文件的内容，注意路径问题</strong></p>
+</li>
+<li><p>C语言中 include&lt;&gt;与 include””的区别include&lt;&gt; ：</p>
+<ul>
+<li><code>include&lt;&gt;</code>: 引用的是编译器的类库路径里面的头文件，用于<strong>引用系统头文件</strong></li>
+<li><code>include””</code>：引用的是程序<strong>目录的相对路径中的头文件</strong>，</li>
+<li>如果在<strong>程序目录</strong>没有找到引用的头文件则到<strong>编译器的类库路径</strong>的目录下找该头文件，</li>
+<li>引用<strong>系统头文件</strong>，两种形式·都可以，include&lt;&gt;效率</li>
+<li>引用<strong>用户头文件</strong>，只能使用 include””</li>
+</ul>
+</li>
+<li><p>一个#include命令只能包含一个头文件，多个头文件需要多个# include命令</p>
+</li>
+<li><p>同一个头文件如果被多次引入，<strong>多次引入的效果和一次引入的效果相同</strong>，因为<strong>头文件在代码层面有防止重复引入的机制</strong></p>
+</li>
+<li><p>在一个被包含的文件.c中又可以包含另一个文件头文件.h</p>
+</li>
+<li><p>不管是<code>标准头文件</code>，还是<code>自定义头文件</code>，都<strong>只能包含变量和函数的声明</strong>，<strong>不能包含定义</strong>，否则在<strong>多次引入时会引起重复定义错误</strong></p>
+</li>
+</ul>
+<h2 id="函数的调用机制"><a href="#函数的调用机制" class="headerlink" title="函数的调用机制"></a>函数的调用机制</h2><p>函数调用的规则适用于: <code>java</code>,<code>c++</code>，<code>php</code>等）</p>
+<ul>
+<li>当调用(执行)一个函数时，就会开辟一个独立的空间(栈)</li>
+<li>每个栈空间是相互独立</li>
+<li>当函数执行完毕后，会返回到调用函数位置，继续执行</li>
+<li>函数有返回值，将返回值赋给接收的变量 当一个函数返回后，该函数对应的栈空间也就销毀</li>
+</ul>
+<h2 id="函数的递归调用"><a href="#函数的递归调用" class="headerlink" title="函数的递归调用"></a>函数的递归调用</h2><p><strong>一个函数在函数体内又调用了函数本身，称为递归调用</strong></p>
+<ul>
+<li><p>执行一个函数时，就创建一个新的受保护的独立空间（新函数栈）</p>
+</li>
+<li><p>函数的局部变量是独立的，不会相互影响</p>
+</li>
+<li><p>递归必须向退出递归的条件逼近，否则就是无限递归,造成栈溢出(StackOverFlow)</p>
+</li>
+<li><p>当一个函数执行完毕，或者遇到 return，就会返回，将结果返回给调用处</p>
+</li>
+</ul>
+<p>🌰<strong>举例</strong></p>
+<p>求出斐波那契数1,1,2,3,5,8,13.求整数n对应的斐波那契数</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">fbn</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(n=<span class="number">1</span> || n==<span class="number">2</span>)&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span>&#123;</span><br><span class="line">		<span class="keyword">return</span> fbn(n<span class="number">-1</span>)+ fbn(n<span class="number">-2</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> res = fbn(<span class="number">10</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"res = %d"</span>,res);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>有一堆桃子，猴子第一天吃了其中的一半，并再多吃了一个,以后每天猴子都吃其中的一半，然后再多吃一个。当到第十天时，想再吃时（还没吃），发现只有1个桃子了。求最初多少桃子？</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">peach</span><span class="params">(<span class="keyword">int</span> day)</span></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(day=<span class="number">10</span>)&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	&#125; <span class="keyword">else</span>&#123;</span><br><span class="line">		<span class="keyword">return</span> (peach(day+<span class="number">1</span>)+<span class="number">1</span>)*<span class="number">2</span>;</span><br><span class="line">	&#125; </span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//分析过程</span></span><br><span class="line">	<span class="comment">//1.day=10有1个桃子</span></span><br><span class="line">	<span class="comment">//2.day=9有(day10+1)*2=（1+1）*2=4</span></span><br><span class="line">	<span class="comment">//3.day=8 (day9+1)*2=(4+1)*2=10</span></span><br><span class="line">	<span class="keyword">int</span> peachUm =  peach(<span class="number">1</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"第一天有%d个桃子"</span>,peachUm);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="函数的传递方式"><a href="#函数的传递方式" class="headerlink" title="函数的传递方式"></a>函数的传递方式</h2><p><strong>基本介绍</strong></p>
+<ul>
+<li>C语言传递参数可以是<code>值传递(pass by value)</code>，也可以<code>传递指针(a pointer passed by value)</code>也叫<strong>传递地址或者引用传递。</strong></li>
+<li>不管是值传递还是引用传递，传递给函数的都是变量的副本，不同的是，<strong>值传递的是值的拷贝</strong>，<strong>引用传递的是地址的拷贝</strong>，一般<strong>地址拷贝效率高</strong>，因为<strong>数据量小</strong>，而<strong>值拷贝决定拷贝的数据大小</strong>，<strong>数据越大</strong>，<strong>效率越低</strong>。</li>
+</ul>
+<p><strong>值传递和引用传递的使用特点</strong></p>
+<ul>
+<li><code>值传递</code>：变量直接存储值，内存通常在栈中分配</li>
+<li>默认是<strong>值传递</strong>的数据类型有：1.基本数据类型2.结构体3.共用体4.枚举类型</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/08/96c8d59769dce374bb5b1da2d0e1aa0a.png" alt="image-20200708182517552"></p>
+<ul>
+<li><code>引用传递</code>:  变量存储的是一个地址，这个地址对应的空间才真正存储数据（值）。</li>
+<li>默认是<strong>引用传递</strong>的数据类型有1.指针 2.数组</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/08/31e03c7aafe9dfd149b80a90482c1463.png" alt="image-20200708183714366"></p>
+<ul>
+<li>如果希望<strong>函数内的变量能修改函数外的变量</strong>，可以传入<strong>变量的地址&amp;</strong>，函数内<strong>以指针的方式操作变量</strong>（*指针从效果上看类似引用，修改结构体的属性。)</li>
+</ul>
+<h2 id="变量的作用域"><a href="#变量的作用域" class="headerlink" title="变量的作用域"></a>变量的作用域</h2><h3 id="基本说明"><a href="#基本说明" class="headerlink" title="基本说明"></a>基本说明</h3><ul>
+<li>变量作用域(<code>Scope</code>),就是指<strong>变量的有效范围</strong></li>
+<li>函数内部声明或定义的局部变量，作用域仅限于函数内部。</li>
+<li>函数的<code>参数</code>，<code>形式参数</code>，被当作该<strong>函数内的局部变量</strong>，如果与<strong>全局变量同名它们会优先使用局部变量</strong>（编译器使用<strong>就近原则</strong></li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//全局变量</span></span><br><span class="line"><span class="keyword">int</span> n=<span class="number">20</span>;</span><br><span class="line">函数形参，会被视为n10的局部变量</span><br><span class="line">∥说明：当局部变量和全局变量同名时，以局部变量为准（就近原则</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">	 <span class="built_in">printf</span>(<span class="string">"n=%d"</span>,n);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">void</span> main&#123;</span><br><span class="line">	func(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>在所有<strong>函数外部定义的变量</strong>叫<strong>全局变量</strong>，<strong>作用域在整个程序有效</strong></li>
+</ul>
+<h3 id="初始化局部变量和全局变量"><a href="#初始化局部变量和全局变量" class="headerlink" title="初始化局部变量和全局变量"></a>初始化局部变量和全局变量</h3><ul>
+<li><code>局部变量</code>，系统<strong>不会对其默认初始化</strong>，必须对局部变量初始化后才能使用，否则，程序运行后可能会异常退出。</li>
+<li><code>全局变量</code>，系统会<strong>自动对其初始化</strong></li>
+<li><strong>未初始化的的变量</strong>会在<strong>内存中存在一些垃圾值</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th>初始化默认值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>int</td>
+<td>0</td>
+</tr>
+<tr>
+<td>char</td>
+<td>‘\n’</td>
+</tr>
+<tr>
+<td>float</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>double</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>pointer(指针)</td>
+<td>NULL</td>
+</tr>
+</tbody></table>
+<p><strong>作用域的注意事项和细节</strong></p>
+<ul>
+<li><p><code>全局变量（ Global Variable）</code>保存在<strong>内存的全局存储区</strong>中，占用<strong>静态的存储单元</strong>，它的<strong>作用域默认是整个程序</strong>，也就是所有的代码文件，包括源文件（c文件）和头文件（h文件）。</p>
+<p>​                                                                  <strong>C程序内存布局图</strong></p>
+</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/09/97313603ab16527d1f40b9d59245a949.png" alt="image-20200709100907055"></p>
+<ul>
+<li><code>局部变量( local Variable)</code>保存在栈中，函数被调用时才动态地为变量分配存储单元，它的<strong>作用域仅限于函数内部</strong>。</li>
+<li>C语言规定，<strong>只能从小的作用域向大的作用域中去寻找变量</strong>，而不能反过来</li>
+<li><strong>同一个作用域，变量名不能重复</strong>，在不同的作用域，变量名可以重复，使用时编译器采用<strong>就近原则</strong></li>
+<li><strong>{}包围的代码块也拥有独立的作用域</strong></li>
+</ul>
+<h2 id="Static关键字"><a href="#Static关键字" class="headerlink" title="Static关键字"></a>Static关键字</h2><p><code>static关键字</code>使用恰当能够大大<strong>提髙程序的模块化特性</strong>，<strong>有利于扩展和维护</strong></p>
+<p>局部变量被static修饰后，我们称为<strong>静态局部变量</strong></p>
+<ul>
+<li><p>对应静态局部变量<strong>在声明时未赋初值</strong>，编译器也会把它<strong>初始化为0。</strong></p>
+</li>
+<li><p>静态局部变量存储于<strong>进程的静态存储区（全局性质）</strong>，<strong>只会被初始一次，即使函数返回，它的值也会保持不变</strong></p>
+</li>
+</ul>
+<p><strong>全局变量使用 static修饰</strong></p>
+<ul>
+<li><strong>普通全局变量</strong>对整个工程可见，其他文件可以<strong>使用 extern外部声明后直接使用</strong>。其他文件不能再定义个与其相同名字的变量了（编译器会认为它们是同一个变量），<strong>静态全局变量仅对当前文件可见，其他文件不可访问，其他文件可以定义与其同名的变量，两者互不影响</strong></li>
+<li><strong>不需要与其他文件共享的全局变量</strong>时，加上 <code>static关键字</code>能够有效地<strong>降低程序模块之间的耦合</strong>，避免不同文件同名变量的冲突，且不会误使用</li>
+</ul>
+<p><strong>函数使用static修饰</strong></p>
+<ul>
+<li><p>函数的使用方式与全局变量类似，<strong>函数的返回类型前加上 static</strong>，就是<code>静态函数</code></p>
+</li>
+<li><p><strong>非静态函数</strong>可以在另一个文件中<strong>通过 extern引用</strong></p>
+</li>
+<li><p><strong>静态函数</strong>只能在声明它的文件中可见，<strong>其他文件不能引用该函数</strong></p>
+</li>
+<li><p><strong>不同文件</strong>可以使用<strong>相同名字的静态函数，互不影响</strong></p>
+</li>
+</ul>
+<h2 id="系统函数"><a href="#系统函数" class="headerlink" title="系统函数"></a>系统函数</h2><h3 id="字符串函数"><a href="#字符串函数" class="headerlink" title="字符串函数"></a>字符串函数</h3><p><strong>字符串函数</strong>的头文件<code>&lt;string.h&gt;</code></p>
+<ul>
+<li><p><strong>字符串的长度</strong>strlen()，从第一个字符开始直到空结束字符，但<strong>不包括空结束字符</strong></p>
+</li>
+<li><p><strong>拷贝字符串</strong>char * strcpy (char * dest, const char * src）*<em>把src所指向的字符串复制(原来的字符串会被覆盖)到dest *</em></p>
+</li>
+<li><p><strong>连接字符串</strong>char <em>strcat(char dest, const char <em>src）</em></em>把src所指向的字符串追加到dest所指向的字符串的结尾**</p>
+</li>
+</ul>
+<h3 id="时间和日期相关函数"><a href="#时间和日期相关函数" class="headerlink" title="时间和日期相关函数"></a>时间和日期相关函数</h3><p>头文件<code>&lt;time.h&gt;</code></p>
+<ul>
+<li><strong>获取当前时间</strong>char * ctime(const time_t * timer) <strong>返回</strong>一个表示<strong>当地时间的字符串</strong>，当地时间是<strong>基于参数 timer</strong></li>
+</ul>
+<p>🌰<strong>举例</strong></p>
+<p><strong>计算函数的执行时间</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;time.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> sum=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> j=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">20771119</span>;i++)&#123;</span><br><span class="line">    	sum=<span class="number">0</span>;</span><br><span class="line">    	<span class="keyword">for</span>(j=<span class="number">0</span>;j&lt; <span class="number">10</span>;j++)&#123;</span><br><span class="line">    		sum +=j;</span><br><span class="line">   		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//time_t 是结构体类型</span></span><br><span class="line">    <span class="keyword">time_t</span> curtime;</span><br><span class="line">    <span class="comment">//time()完成初始化</span></span><br><span class="line">    time(&amp;curtime);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"当前时间=%s"</span>,ctime(&amp;curtime));</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//先得到执行test前的时间</span></span><br><span class="line">    <span class="keyword">time_t</span> <span class="keyword">start_t</span>,<span class="keyword">end_t</span>;</span><br><span class="line">    <span class="comment">//时间差</span></span><br><span class="line">    <span class="keyword">double</span> <span class="keyword">diff_t</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"程序启动 \n"</span>);</span><br><span class="line">    <span class="comment">//初始化得到当前时间</span></span><br><span class="line">    time(&amp;<span class="keyword">start_t</span>);</span><br><span class="line">    <span class="comment">//执行test()</span></span><br><span class="line">    test();</span><br><span class="line">	<span class="comment">//得到执行test后的时间</span></span><br><span class="line">    time(&amp;<span class="keyword">end_t</span>);</span><br><span class="line">    <span class="comment">//时间差 秒</span></span><br><span class="line">    <span class="keyword">diff_t</span> = difftime(<span class="keyword">end_t</span>,<span class="keyword">start_t</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"执行test()函数耗用了%2f秒"</span>,<span class="keyword">diff_t</span>); 	getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="数学相关函数"><a href="#数学相关函数" class="headerlink" title="数学相关函数"></a>数学相关函数</h3><p>头文件<code>&lt;math.h&gt;</code> 定义了各种数学函数和一个宏。库中所有<strong>可用的功能</strong>都带有<strong>一个 double类型的参数且都返回 double类型的结果</strong></p>
+<ul>
+<li>double exp (double x）<br>返回e的<strong>x次幂</strong>的值</li>
+<li>double log (double x)<br>返回x的<strong>自然对数</strong>（基数为e的对数）</li>
+<li>double pow (double x, double y)<br>返回<strong>x的y次幂。</strong></li>
+<li>double sqrt(double x)<br>返回<strong>x的平方根</strong>。</li>
+<li>double fabs(double x)<br>返回<strong>x的绝对值</strong>。</li>
+</ul>
+<h3 id="基本数据类型和字符串函数转换"><a href="#基本数据类型和字符串函数转换" class="headerlink" title="基本数据类型和字符串函数转换"></a>基本数据类型和字符串函数转换</h3><p><strong>sprintf()函数的使用</strong></p>
+<ul>
+<li><code>sprintf()函数</code>与<code>printf()函数</code>的功能相似。 sprintf函数<strong>打印到字符串中</strong>，而 printf函数打印输<strong>出到屏幕上</strong>。 sprintf函数<strong>可以完成其他数据类型转换成字符串类型</strong>的操作</li>
+<li>该函数包含在 <code>&lt;stdio.h&gt;</code>的头文件中</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">char</span> strl[<span class="number">20</span>];</span><br><span class="line">    <span class="keyword">char</span> str2[<span class="number">20</span>];</span><br><span class="line">    <span class="keyword">char</span> str3[<span class="number">20</span>];</span><br><span class="line">    <span class="keyword">int</span> a=<span class="number">2077</span>,b=<span class="number">1024</span></span><br><span class="line">    <span class="keyword">double</span> d = <span class="number">2077.1119</span>;</span><br><span class="line">    <span class="comment">//1. sprintf是一个系统函数,将结果存放到字符串中</span></span><br><span class="line">    <span class="comment">//2.格式化的结果，会存放到str1中</span></span><br><span class="line">    <span class="built_in">sprintf</span>(str1,<span class="string">" %d %d"</span>,a,b); </span><br><span class="line">    <span class="built_in">sprintf</span>(str2,<span class="string">"%.2f"</span>,d); </span><br><span class="line"><span class="comment">//%8.2f含义是格式化后，一共有8位，小数点后占用2位，小数点前用空格占位</span></span><br><span class="line">    <span class="built_in">sprintf</span>(str3,<span class="string">"%8.2f"</span>,d);</span><br><span class="line">    <span class="built_in">printf</span>（<span class="string">"strl=%s str=%os str3=%s"</span>,strl,str2,str3);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>字符串类型转换为基本数据类型</strong></p>
+<p>通过<code>&lt;stdlib.h&gt;</code>的函数调用 <strong>atoi() ,atof()</strong>即可</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">char</span> str[<span class="number">10</span>]=<span class="string">"123456"</span>;</span><br><span class="line">        <span class="keyword">char</span> str2[<span class="number">10</span>]=<span class="string">"12.67423"</span>;</span><br><span class="line">        <span class="keyword">char</span> str3[<span class="number">10</span>]=<span class="string">"cyberpunk”；    </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        //1.atoi(str) 将str转成整数</span></span><br><span class="line"><span class="string">        int numl = atoi(str);</span></span><br><span class="line"><span class="string">        //2.atof(st2)将st2转成小数</span></span><br><span class="line"><span class="string">        double d = atof(str2);</span></span><br><span class="line"><span class="string">        //3.截取字符数组的第一个字符</span></span><br><span class="line"><span class="string">        str[0];</span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>将字符数组转成基本数据类型时，要确保能够转成有效的数据，“123” =&gt; 123 ，但 “cyberpunk” =&gt; 不能转化整型</li>
+<li>格式错误,会默认转成0或者0.00</li>
+</ul>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=91" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
+</div>
 ]]></content>
       <categories>
-        <category>生产力</category>
+        <category>C</category>
       </categories>
       <tags>
-        <tag>Win10</tag>
+        <tag>C</tag>
+        <tag>函数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>十大排序算法</title>
+    <url>/posts/564c/</url>
+    <content><![CDATA[<h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><h3 id="直接插入排序"><a href="#直接插入排序" class="headerlink" title="直接插入排序"></a>直接插入排序</h3><p><strong>插入排序法思想</strong>:</p>
+<p>把 n 个待排序的元素看成为一个<code>有序表</code>和一个<code>无序表</code>，开始时<strong>有序表中只包含一个元素</strong>，<strong>无序表中包含有 n-1 个元素个元素</strong>，</p>
+<p><strong>排序过程</strong></p>
+<p>每次从无序表中取出第一个元素，把它的排序码依次与有序表元素的排序码进行比较，将它插入到有序表中的适当位置，使之成为新的有序表。</p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200826153417.png" alt="image-20200826152835050"></p>
+<ul>
+<li>选取数组的第一个元素为基准值，作为有序部分的第一个元素</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> insertVal = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">int</span> insertIndex = <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>遍历寻找无序部分的元素，跟有序部分的元素进行比较，确定元素应该插入的位置</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(i=<span class="number">1</span>; i&lt;n; i++)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="comment">//找到要插入的位置</span></span><br><span class="line">    <span class="keyword">for</span>(j=<span class="number">0</span>; j&lt;i; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        ....</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>插入元素，移动插入位置后的元素</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="希尔排序"><a href="#希尔排序" class="headerlink" title="希尔排序"></a>希尔排序</h3>]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>排序</tag>
       </tags>
   </entry>
   <entry>
@@ -1146,22 +1559,6 @@
       <tags>
         <tag>C</tag>
         <tag>函数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>普里姆(prim)算法</title>
-    <url>/posts/a02d/</url>
-    <content><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote>
-<p>普利姆算法是求最小生成树，也就是在包含n个顶点的连通图中，找出只有(n-1)条边包含所有n个顶点的连通子图,就是<code>极小连通子图</code></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>prim</tag>
-        <tag>最小生成树</tag>
       </tags>
   </entry>
   <entry>
@@ -1671,6 +2068,22 @@
       </tags>
   </entry>
   <entry>
+    <title>普里姆(prim)算法</title>
+    <url>/posts/a02d/</url>
+    <content><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote>
+<p>普利姆算法是求最小生成树，也就是在包含n个顶点的连通图中，找出只有(n-1)条边包含所有n个顶点的连通子图,就是<code>极小连通子图</code></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>prim</tag>
+        <tag>最小生成树</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>枚举</title>
     <url>/posts/4523/</url>
     <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>枚举是C语言中的一种<strong>构造数据类型</strong>，它可以<strong>让数据更简洁，更易读</strong>，对于<strong>只有几个有限的特定数据</strong>，可以使用枚举(enumeration,简写enum）</p>
@@ -2138,6 +2551,98 @@
       </tags>
   </entry>
   <entry>
+    <title>汇编语言练习题</title>
+    <url>/posts/ac3c/</url>
+    <content><![CDATA[<h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><p>（1）1个CPU的寻址能力为8KB，那么它的地址总线的宽度为<strong>13</strong></p>
+<ul>
+<li>“<strong>一个cpu若有N根地址总线，那么它可以寻2^N个内存单元</strong>。(即：内存单元的单位就是cpu最小单位）一个内存单元可以储存8个比特。”即：一个内存单元=8个比特=一个Byte（字节），可见一个内存单元=1Byte大小，所以cpu寻址最小单位为Byte。 N即是地址总线宽度，8KB=2^13Byte,N=13</li>
+</ul>
+<p>（2）1KB的存储器有个存储单元。存储单元的编号从到<strong>0-1023</strong><br>（3）1KB的存储器可以存储个<strong>2^13</strong>bit，<strong>2^10</strong>个Byte<br>（4）1GB、MB、1KB分别是Byte  <strong>2^30  ,2^20 ,2^10</strong><br>（5）8080、8088、80286、80386的地址总线宽度分别为16根、20根、24根、32根，则它们的寻址能力分别为：（KB）、_（MB）<br>（MB）、（GB）。<strong>64, 1,16, 4</strong></p>
+<ul>
+<li><strong>一个CPU有N根地址线，则可以说这个CPU的地址总线的宽度为N。这样的CPU最多可以寻找2的N次方个内存单元。（一个内存单元=1Byte）。</strong></li>
+</ul>
+<p>（6）8080、8088、8086、80286、80386的数据总线宽度分别为8根、8根、16根、16根、32根。则它们一次可以传送的数据为：（B）、（B）、（B）、（B）、（B）<strong>1, 1, 2,  2, 4,</strong><br>（7）从内存中读取1024字节的数据，8086至少要读<strong>512</strong>次，80386至少要读<strong>256</strong>次<br>（8）在存储器中，数据和程序以<strong>二进制</strong>形式存放。</p>
+]]></content>
+      <categories>
+        <category>汇编语言</category>
+      </categories>
+      <tags>
+        <tag>汇编语言</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>结构体和共用体</title>
+    <url>/posts/d9a0/</url>
+    <content><![CDATA[<h2 id="结构体基本介绍"><a href="#结构体基本介绍" class="headerlink" title="结构体基本介绍"></a>结构体基本介绍</h2><p><code>结构体</code>和<code>结构体变量</code>的区别和联系</p>
+<ul>
+<li><code>结构体</code>是<strong>自定义的数据类型</strong>，表示的是一种数据类型 (Game 是数据类型 name是变量)</li>
+<li><code>结构体变量</code>代表一个具体变量 int price(int是数据类型 price是变量);</li>
+</ul>
+<p><strong>成员基本介绍</strong></p>
+<ul>
+<li><p><code>成员</code>或<code>结构体包含的变量</code> 说法不同</p>
+</li>
+<li><p>成员是结构体的一个组成部分，<strong>一般是基本数据类型</strong>、也可以是<code>数组</code>、<code>指针</code>、<code>结构体</code>等。</p>
+</li>
+</ul>
+<p><strong>注意事项和细节说明</strong></p>
+<ul>
+<li>成员声明语法同变量 <code>数据类型</code>   <code>成员名</code></li>
+<li>字段的类型可以为：<code>基本类型</code>、<code>数组或指针</code>、<code>结构体</code>等</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//结构体声明</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> 结构体名称&#123;</span></span><br><span class="line">  <span class="comment">//结构体名首字母大写</span></span><br><span class="line">  成员列表...</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//创建结构体 Game 数据类型</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">        <span class="keyword">char</span> *name;</span><br><span class="line">        <span class="keyword">int</span> price;</span><br><span class="line">        <span class="keyword">char</span> *time;</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="comment">//使用结构体创建变量</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">    <span class="comment">//给变量的成员赋值</span></span><br><span class="line">    game1.name = <span class="string">"CyberPunk2077"</span>;</span><br><span class="line">    game1.price = <span class="number">298</span>;</span><br><span class="line">    game1.time = <span class="string">"2020.11.19"</span>;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game2</span>;</span></span><br><span class="line">    game2.name = <span class="string">"Watch Dogs: Legion"</span>;</span><br><span class="line">    game2.price = <span class="number">298</span>;</span><br><span class="line">    game2.time = <span class="string">"2020.10.29"</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s\n"</span>,game1.name,game1.price,game1.time);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s"</span>,game2.name,game2.price,game2.time);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200716163649.png" alt="image-20200716163618173"></p>
+<h3 id="结构体的创建"><a href="#结构体的创建" class="headerlink" title="结构体的创建"></a>结构体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先创建结构体</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//使用结构体创建变量</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体的同时定义结构体变量并初始化</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125; game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;,game2 = &#123;<span class="string">"Watch Dogs: Legion"</span>,<span class="number">298</span>,<span class="string">"2020.10.29"</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体变量时整体赋值</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span> = &#123;</span><span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><strong>错误示范</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><strong>结构体定义的变量的数量确定</strong>时可以使用<strong>匿名结构体</strong>方式创建</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;game1,game2;</span><br></pre></td></tr></table></figure>
+
+<h2 id="公用体基本介绍"><a href="#公用体基本介绍" class="headerlink" title="公用体基本介绍"></a>公用体基本介绍</h2><ul>
+<li><code>共用体(Union)</code>属于<strong>构造类型</strong>，它可以<strong>包含多个类型不同的成员</strong>。和结构体非常类似，但是也有<strong>不同的地方共用体有时也被称为联合或者联合体</strong>，定义格式为</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">union</span> 共用体名&#123;</span><br><span class="line">成员列表...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>结构体</code>和<code>共用体</code>的<strong>区别</strong>在于：<code>结构体</code>的各个成员会<strong>占用不同的内存</strong>，<strong>互相之间没有影响</strong>；而<code>共用体</code>的所有成员<strong>占用同一段内存</strong>，<strong>修改一个成员会影响其余所有成员</strong>并<strong>以空间最大的成员为准</strong></li>
+</ul>
+<h3 id="共用体的创建"><a href="#共用体的创建" class="headerlink" title="共用体的创建"></a>共用体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//方法一</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">union</span> data d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法二</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法三</span></span><br><span class="line"><span class="keyword">union</span> &#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br></pre></td></tr></table></figure>
+
+<p><strong>🌰举例</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">union</span> data&#123; <span class="comment">// data 就是一个共用体(内存布局)， 包含三个成员, 共享数据空间, 该空间的大小以占用最大的成员为准</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">	short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//定义两个一个 共用体变量  a</span></span><br><span class="line">	<span class="keyword">union</span> data a; </span><br><span class="line">    <span class="comment">// 4, 4</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %d\n"</span>, <span class="keyword">sizeof</span>(a), <span class="keyword">sizeof</span>(<span class="keyword">union</span> data));</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0100 0000(1个字节8位数字) </span></span><br><span class="line">	a.n = <span class="number">0x40</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 64 a.ch ==&gt; @ 根据ASCII表 找到64 对应的字符@ a.m==&gt;64 short也是整型并且字节数大于64储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//字符9 根据ASCII表找到对应的2进制 0011 1001存储在内存中 </span></span><br><span class="line">	a.ch = <span class="string">'9'</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 57 0011 1001覆盖了原先的0100 0000 a.m==&gt;57 short也是整型并且字节数大于57储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0010 0000 0101 1001(1个字节8位数字) </span></span><br><span class="line">	a.m = <span class="number">0x2059</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt;8281 2进制==&gt;10进制输出 a.ch==&gt;Y ch只占一个字节 0101 1001 转化为10进制 89 对应ASCII表的字符Y</span></span><br><span class="line">    <span class="comment">//a.m ==&gt;8281 short也是整型并且字节数等于于8281存储的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 (1个字节8位数字) 0011 1110 0010 0101 1010 1101 0101 0100</span></span><br><span class="line">	a.n = <span class="number">0x3E25AD54</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt; 2进制==&gt;10进制输出1042656596 a.ch 只看最后一个字节存储的2进制0101 0100 转化为10进制 84 对应ASCII表的字符T</span></span><br><span class="line">    <span class="comment">//a.m==&gt; 44372只看最后两个字节存储的1010 1101 0101 0100 转换为10进制输出44382</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">	getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>内存图解</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200717175628.png" alt="image-20200717175621397"></p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=147" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
+</div>
+
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>结构体和共用体</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>树</title>
+    <url>/posts/5b58/</url>
+    <content><![CDATA[<p>树( Tree’ )是 n(n~O) 个结点的有限集 。n=O 时称为空树 。 在任<br>意-棵非空树中: ( 1 )有且仅有-个特定的称为根( Root )的结<br>点: (2) 当n&gt;1 时，其余结点可分为 m (m&gt;O) 个互不相变的<br>有限集 T1 、 T2、……、 Tm • 奠中每一个集合本身又是一槐树，并<br>且称为棍的子树( SubTree ).如圈 6-2-1 所示 。<br><a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener"><img src= "/img/loading.gif" data-src="https://github-readme-stats.vercel.app/api?username=l0serH4&show_icons=true&theme=synthwave" alt="Anurag&#39;s github stats"></a></p>
+<script src="https://assets.gitee.com/webpacks/project_animation-d3270c762ea6fed9d2c1.bundle.js"></script>]]></content>
+      <categories>
+        <category>uncategorized</category>
+      </categories>
+      <tags>
+        <tag>二叉树</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>线性表</title>
     <url>/posts/82000000/</url>
     <content><![CDATA[<p><strong>定义</strong>：零个或多个数据元素的<strong>有限序列</strong>。<strong>除第一个元素外</strong>，每个元素<strong>有且仅有</strong>一个直接前驱，<strong>除最后一个元素外，每个元素有且仅有一个直接后继。</strong></p>
@@ -2438,343 +2943,6 @@
       <tags>
         <tag>C</tag>
         <tag>预处理命令</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>函数</title>
-    <url>/posts/5409/</url>
-    <content><![CDATA[<h2 id="函数的初步了解"><a href="#函数的初步了解" class="headerlink" title="函数的初步了解"></a>函数的初步了解</h2><ul>
-<li><p>为完成某一功能的<strong>程序指令（语句）的集合</strong>称为<code>函数</code></p>
-</li>
-<li><p>在C语言中，函数分为：<code>自定义函数</code>、<code>系统函数</code></p>
-<ul>
-<li>C语言在线手册 <a href="http://www.dba.cn/book/c/CJiChuJiaoCheng/CJiBenYuFa.html" target="_blank" rel="noopener">http://www.dba.cn/book/c/CJiChuJiaoCheng/CJiBenYuFa.html</a></li>
-</ul>
-</li>
-<li><p>函数还有其它名称，方法等</p>
-</li>
-</ul>
-<p><strong>函数的基本语法</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">返回类型 函数名 (形参)&#123;</span><br><span class="line">	执行语句;</span><br><span class="line">	return 返回值;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>形参</code>表示<strong>函数的输入</strong></li>
-<li>函数中的<code>执行语句</code> <strong>实现某一功能代码块</strong></li>
-<li>函数可以有返回值，也可以没有，如果没有返回值，返回类型声明为void</li>
-</ul>
-<h2 id="头文件"><a href="#头文件" class="headerlink" title="头文件"></a>头文件</h2><p><strong>需求</strong>：实际开发中<strong>需要在不同文件中调用其他文件中的函数</strong></p>
-<p><strong>基本概念</strong></p>
-<ul>
-<li><p><code>头文件</code>是<strong>扩展名为h</strong>的文件，包含了<code>C函数声明</code>和<code>宏定义</code>，<strong>被多个源文件中引用共享</strong>。</p>
-</li>
-<li><p>头文件的类型的开发者<strong>自己编写的头文件</strong>和<strong>C标准库自带的头文件</strong></p>
-</li>
-<li><p>程序中要使用头文件，需要使用<code>C预处理指令#include</code>来引用。<code>stdio. h</code>头文件，是C标准库自带的头文件</p>
-</li>
-<li><p>文件包含命令(<code>#include</code>)，用来引入对应的头文件（h文件）。#include的<strong>处理过程</strong>是将<strong>头文件的内容插入到该命令所在的位置</strong>，使得<code>头文件</code>和<code>当前源文件</code><strong>连接成一个源文件</strong>，与复制粘贴的效果相同。直接在源文件中复制头文件的内容，容易出错，特别在程序是由多个源文件组成的时候。</p>
-</li>
-<li><p>所有的<code>常量</code>、<code>宏</code>、<code>系统全局变量</code>和<code>函数原型</code>写在<code>头文件</code>中，需要的时候随时再引用头文件</p>
-</li>
-</ul>
-<p>​                                                                            <strong>工作原理图</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/08/400f7ef8cad9d26182ce82e0a80624f1.png" alt="image-20200708163738567"></p>
-<ul>
-<li>func.h头文件和func.c源文件<strong>名称一般相同</strong>为了使用</li>
-</ul>
-<p><strong>头文件的注意事项和细节说明</strong></p>
-<ul>
-<li><p><strong>引用头文件相当于复制头文件的内容，注意路径问题</strong></p>
-</li>
-<li><p>C语言中 include&lt;&gt;与 include””的区别include&lt;&gt; ：</p>
-<ul>
-<li><code>include&lt;&gt;</code>: 引用的是编译器的类库路径里面的头文件，用于<strong>引用系统头文件</strong></li>
-<li><code>include””</code>：引用的是程序<strong>目录的相对路径中的头文件</strong>，</li>
-<li>如果在<strong>程序目录</strong>没有找到引用的头文件则到<strong>编译器的类库路径</strong>的目录下找该头文件，</li>
-<li>引用<strong>系统头文件</strong>，两种形式·都可以，include&lt;&gt;效率</li>
-<li>引用<strong>用户头文件</strong>，只能使用 include””</li>
-</ul>
-</li>
-<li><p>一个#include命令只能包含一个头文件，多个头文件需要多个# include命令</p>
-</li>
-<li><p>同一个头文件如果被多次引入，<strong>多次引入的效果和一次引入的效果相同</strong>，因为<strong>头文件在代码层面有防止重复引入的机制</strong></p>
-</li>
-<li><p>在一个被包含的文件.c中又可以包含另一个文件头文件.h</p>
-</li>
-<li><p>不管是<code>标准头文件</code>，还是<code>自定义头文件</code>，都<strong>只能包含变量和函数的声明</strong>，<strong>不能包含定义</strong>，否则在<strong>多次引入时会引起重复定义错误</strong></p>
-</li>
-</ul>
-<h2 id="函数的调用机制"><a href="#函数的调用机制" class="headerlink" title="函数的调用机制"></a>函数的调用机制</h2><p>函数调用的规则适用于: <code>java</code>,<code>c++</code>，<code>php</code>等）</p>
-<ul>
-<li>当调用(执行)一个函数时，就会开辟一个独立的空间(栈)</li>
-<li>每个栈空间是相互独立</li>
-<li>当函数执行完毕后，会返回到调用函数位置，继续执行</li>
-<li>函数有返回值，将返回值赋给接收的变量 当一个函数返回后，该函数对应的栈空间也就销毀</li>
-</ul>
-<h2 id="函数的递归调用"><a href="#函数的递归调用" class="headerlink" title="函数的递归调用"></a>函数的递归调用</h2><p><strong>一个函数在函数体内又调用了函数本身，称为递归调用</strong></p>
-<ul>
-<li><p>执行一个函数时，就创建一个新的受保护的独立空间（新函数栈）</p>
-</li>
-<li><p>函数的局部变量是独立的，不会相互影响</p>
-</li>
-<li><p>递归必须向退出递归的条件逼近，否则就是无限递归,造成栈溢出(StackOverFlow)</p>
-</li>
-<li><p>当一个函数执行完毕，或者遇到 return，就会返回，将结果返回给调用处</p>
-</li>
-</ul>
-<p>🌰<strong>举例</strong></p>
-<p>求出斐波那契数1,1,2,3,5,8,13.求整数n对应的斐波那契数</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">fbn</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(n=<span class="number">1</span> || n==<span class="number">2</span>)&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span>&#123;</span><br><span class="line">		<span class="keyword">return</span> fbn(n<span class="number">-1</span>)+ fbn(n<span class="number">-2</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> res = fbn(<span class="number">10</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"res = %d"</span>,res);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>有一堆桃子，猴子第一天吃了其中的一半，并再多吃了一个,以后每天猴子都吃其中的一半，然后再多吃一个。当到第十天时，想再吃时（还没吃），发现只有1个桃子了。求最初多少桃子？</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">peach</span><span class="params">(<span class="keyword">int</span> day)</span></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(day=<span class="number">10</span>)&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	&#125; <span class="keyword">else</span>&#123;</span><br><span class="line">		<span class="keyword">return</span> (peach(day+<span class="number">1</span>)+<span class="number">1</span>)*<span class="number">2</span>;</span><br><span class="line">	&#125; </span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//分析过程</span></span><br><span class="line">	<span class="comment">//1.day=10有1个桃子</span></span><br><span class="line">	<span class="comment">//2.day=9有(day10+1)*2=（1+1）*2=4</span></span><br><span class="line">	<span class="comment">//3.day=8 (day9+1)*2=(4+1)*2=10</span></span><br><span class="line">	<span class="keyword">int</span> peachUm =  peach(<span class="number">1</span>);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"第一天有%d个桃子"</span>,peachUm);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="函数的传递方式"><a href="#函数的传递方式" class="headerlink" title="函数的传递方式"></a>函数的传递方式</h2><p><strong>基本介绍</strong></p>
-<ul>
-<li>C语言传递参数可以是<code>值传递(pass by value)</code>，也可以<code>传递指针(a pointer passed by value)</code>也叫<strong>传递地址或者引用传递。</strong></li>
-<li>不管是值传递还是引用传递，传递给函数的都是变量的副本，不同的是，<strong>值传递的是值的拷贝</strong>，<strong>引用传递的是地址的拷贝</strong>，一般<strong>地址拷贝效率高</strong>，因为<strong>数据量小</strong>，而<strong>值拷贝决定拷贝的数据大小</strong>，<strong>数据越大</strong>，<strong>效率越低</strong>。</li>
-</ul>
-<p><strong>值传递和引用传递的使用特点</strong></p>
-<ul>
-<li><code>值传递</code>：变量直接存储值，内存通常在栈中分配</li>
-<li>默认是<strong>值传递</strong>的数据类型有：1.基本数据类型2.结构体3.共用体4.枚举类型</li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/08/96c8d59769dce374bb5b1da2d0e1aa0a.png" alt="image-20200708182517552"></p>
-<ul>
-<li><code>引用传递</code>:  变量存储的是一个地址，这个地址对应的空间才真正存储数据（值）。</li>
-<li>默认是<strong>引用传递</strong>的数据类型有1.指针 2.数组</li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/08/31e03c7aafe9dfd149b80a90482c1463.png" alt="image-20200708183714366"></p>
-<ul>
-<li>如果希望<strong>函数内的变量能修改函数外的变量</strong>，可以传入<strong>变量的地址&amp;</strong>，函数内<strong>以指针的方式操作变量</strong>（*指针从效果上看类似引用，修改结构体的属性。)</li>
-</ul>
-<h2 id="变量的作用域"><a href="#变量的作用域" class="headerlink" title="变量的作用域"></a>变量的作用域</h2><h3 id="基本说明"><a href="#基本说明" class="headerlink" title="基本说明"></a>基本说明</h3><ul>
-<li>变量作用域(<code>Scope</code>),就是指<strong>变量的有效范围</strong></li>
-<li>函数内部声明或定义的局部变量，作用域仅限于函数内部。</li>
-<li>函数的<code>参数</code>，<code>形式参数</code>，被当作该<strong>函数内的局部变量</strong>，如果与<strong>全局变量同名它们会优先使用局部变量</strong>（编译器使用<strong>就近原则</strong></li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//全局变量</span></span><br><span class="line"><span class="keyword">int</span> n=<span class="number">20</span>;</span><br><span class="line">函数形参，会被视为n10的局部变量</span><br><span class="line">∥说明：当局部变量和全局变量同名时，以局部变量为准（就近原则</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">func</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">	 <span class="built_in">printf</span>(<span class="string">"n=%d"</span>,n);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">void</span> main&#123;</span><br><span class="line">	func(<span class="number">10</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>在所有<strong>函数外部定义的变量</strong>叫<strong>全局变量</strong>，<strong>作用域在整个程序有效</strong></li>
-</ul>
-<h3 id="初始化局部变量和全局变量"><a href="#初始化局部变量和全局变量" class="headerlink" title="初始化局部变量和全局变量"></a>初始化局部变量和全局变量</h3><ul>
-<li><code>局部变量</code>，系统<strong>不会对其默认初始化</strong>，必须对局部变量初始化后才能使用，否则，程序运行后可能会异常退出。</li>
-<li><code>全局变量</code>，系统会<strong>自动对其初始化</strong></li>
-<li><strong>未初始化的的变量</strong>会在<strong>内存中存在一些垃圾值</strong></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>数据类型</th>
-<th>初始化默认值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>int</td>
-<td>0</td>
-</tr>
-<tr>
-<td>char</td>
-<td>‘\n’</td>
-</tr>
-<tr>
-<td>float</td>
-<td>0.0</td>
-</tr>
-<tr>
-<td>double</td>
-<td>0.0</td>
-</tr>
-<tr>
-<td>pointer(指针)</td>
-<td>NULL</td>
-</tr>
-</tbody></table>
-<p><strong>作用域的注意事项和细节</strong></p>
-<ul>
-<li><p><code>全局变量（ Global Variable）</code>保存在<strong>内存的全局存储区</strong>中，占用<strong>静态的存储单元</strong>，它的<strong>作用域默认是整个程序</strong>，也就是所有的代码文件，包括源文件（c文件）和头文件（h文件）。</p>
-<p>​                                                                  <strong>C程序内存布局图</strong></p>
-</li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/09/97313603ab16527d1f40b9d59245a949.png" alt="image-20200709100907055"></p>
-<ul>
-<li><code>局部变量( local Variable)</code>保存在栈中，函数被调用时才动态地为变量分配存储单元，它的<strong>作用域仅限于函数内部</strong>。</li>
-<li>C语言规定，<strong>只能从小的作用域向大的作用域中去寻找变量</strong>，而不能反过来</li>
-<li><strong>同一个作用域，变量名不能重复</strong>，在不同的作用域，变量名可以重复，使用时编译器采用<strong>就近原则</strong></li>
-<li><strong>{}包围的代码块也拥有独立的作用域</strong></li>
-</ul>
-<h2 id="Static关键字"><a href="#Static关键字" class="headerlink" title="Static关键字"></a>Static关键字</h2><p><code>static关键字</code>使用恰当能够大大<strong>提髙程序的模块化特性</strong>，<strong>有利于扩展和维护</strong></p>
-<p>局部变量被static修饰后，我们称为<strong>静态局部变量</strong></p>
-<ul>
-<li><p>对应静态局部变量<strong>在声明时未赋初值</strong>，编译器也会把它<strong>初始化为0。</strong></p>
-</li>
-<li><p>静态局部变量存储于<strong>进程的静态存储区（全局性质）</strong>，<strong>只会被初始一次，即使函数返回，它的值也会保持不变</strong></p>
-</li>
-</ul>
-<p><strong>全局变量使用 static修饰</strong></p>
-<ul>
-<li><strong>普通全局变量</strong>对整个工程可见，其他文件可以<strong>使用 extern外部声明后直接使用</strong>。其他文件不能再定义个与其相同名字的变量了（编译器会认为它们是同一个变量），<strong>静态全局变量仅对当前文件可见，其他文件不可访问，其他文件可以定义与其同名的变量，两者互不影响</strong></li>
-<li><strong>不需要与其他文件共享的全局变量</strong>时，加上 <code>static关键字</code>能够有效地<strong>降低程序模块之间的耦合</strong>，避免不同文件同名变量的冲突，且不会误使用</li>
-</ul>
-<p><strong>函数使用static修饰</strong></p>
-<ul>
-<li><p>函数的使用方式与全局变量类似，<strong>函数的返回类型前加上 static</strong>，就是<code>静态函数</code></p>
-</li>
-<li><p><strong>非静态函数</strong>可以在另一个文件中<strong>通过 extern引用</strong></p>
-</li>
-<li><p><strong>静态函数</strong>只能在声明它的文件中可见，<strong>其他文件不能引用该函数</strong></p>
-</li>
-<li><p><strong>不同文件</strong>可以使用<strong>相同名字的静态函数，互不影响</strong></p>
-</li>
-</ul>
-<h2 id="系统函数"><a href="#系统函数" class="headerlink" title="系统函数"></a>系统函数</h2><h3 id="字符串函数"><a href="#字符串函数" class="headerlink" title="字符串函数"></a>字符串函数</h3><p><strong>字符串函数</strong>的头文件<code>&lt;string.h&gt;</code></p>
-<ul>
-<li><p><strong>字符串的长度</strong>strlen()，从第一个字符开始直到空结束字符，但<strong>不包括空结束字符</strong></p>
-</li>
-<li><p><strong>拷贝字符串</strong>char * strcpy (char * dest, const char * src）*<em>把src所指向的字符串复制(原来的字符串会被覆盖)到dest *</em></p>
-</li>
-<li><p><strong>连接字符串</strong>char <em>strcat(char dest, const char <em>src）</em></em>把src所指向的字符串追加到dest所指向的字符串的结尾**</p>
-</li>
-</ul>
-<h3 id="时间和日期相关函数"><a href="#时间和日期相关函数" class="headerlink" title="时间和日期相关函数"></a>时间和日期相关函数</h3><p>头文件<code>&lt;time.h&gt;</code></p>
-<ul>
-<li><strong>获取当前时间</strong>char * ctime(const time_t * timer) <strong>返回</strong>一个表示<strong>当地时间的字符串</strong>，当地时间是<strong>基于参数 timer</strong></li>
-</ul>
-<p>🌰<strong>举例</strong></p>
-<p><strong>计算函数的执行时间</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;time.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> i=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> sum=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> j=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">20771119</span>;i++)&#123;</span><br><span class="line">    	sum=<span class="number">0</span>;</span><br><span class="line">    	<span class="keyword">for</span>(j=<span class="number">0</span>;j&lt; <span class="number">10</span>;j++)&#123;</span><br><span class="line">    		sum +=j;</span><br><span class="line">   		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//time_t 是结构体类型</span></span><br><span class="line">    <span class="keyword">time_t</span> curtime;</span><br><span class="line">    <span class="comment">//time()完成初始化</span></span><br><span class="line">    time(&amp;curtime);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"当前时间=%s"</span>,ctime(&amp;curtime));</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//先得到执行test前的时间</span></span><br><span class="line">    <span class="keyword">time_t</span> <span class="keyword">start_t</span>,<span class="keyword">end_t</span>;</span><br><span class="line">    <span class="comment">//时间差</span></span><br><span class="line">    <span class="keyword">double</span> <span class="keyword">diff_t</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"程序启动 \n"</span>);</span><br><span class="line">    <span class="comment">//初始化得到当前时间</span></span><br><span class="line">    time(&amp;<span class="keyword">start_t</span>);</span><br><span class="line">    <span class="comment">//执行test()</span></span><br><span class="line">    test();</span><br><span class="line">	<span class="comment">//得到执行test后的时间</span></span><br><span class="line">    time(&amp;<span class="keyword">end_t</span>);</span><br><span class="line">    <span class="comment">//时间差 秒</span></span><br><span class="line">    <span class="keyword">diff_t</span> = difftime(<span class="keyword">end_t</span>,<span class="keyword">start_t</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"执行test()函数耗用了%2f秒"</span>,<span class="keyword">diff_t</span>); 	getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="数学相关函数"><a href="#数学相关函数" class="headerlink" title="数学相关函数"></a>数学相关函数</h3><p>头文件<code>&lt;math.h&gt;</code> 定义了各种数学函数和一个宏。库中所有<strong>可用的功能</strong>都带有<strong>一个 double类型的参数且都返回 double类型的结果</strong></p>
-<ul>
-<li>double exp (double x）<br>返回e的<strong>x次幂</strong>的值</li>
-<li>double log (double x)<br>返回x的<strong>自然对数</strong>（基数为e的对数）</li>
-<li>double pow (double x, double y)<br>返回<strong>x的y次幂。</strong></li>
-<li>double sqrt(double x)<br>返回<strong>x的平方根</strong>。</li>
-<li>double fabs(double x)<br>返回<strong>x的绝对值</strong>。</li>
-</ul>
-<h3 id="基本数据类型和字符串函数转换"><a href="#基本数据类型和字符串函数转换" class="headerlink" title="基本数据类型和字符串函数转换"></a>基本数据类型和字符串函数转换</h3><p><strong>sprintf()函数的使用</strong></p>
-<ul>
-<li><code>sprintf()函数</code>与<code>printf()函数</code>的功能相似。 sprintf函数<strong>打印到字符串中</strong>，而 printf函数打印输<strong>出到屏幕上</strong>。 sprintf函数<strong>可以完成其他数据类型转换成字符串类型</strong>的操作</li>
-<li>该函数包含在 <code>&lt;stdio.h&gt;</code>的头文件中</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">char</span> strl[<span class="number">20</span>];</span><br><span class="line">    <span class="keyword">char</span> str2[<span class="number">20</span>];</span><br><span class="line">    <span class="keyword">char</span> str3[<span class="number">20</span>];</span><br><span class="line">    <span class="keyword">int</span> a=<span class="number">2077</span>,b=<span class="number">1024</span></span><br><span class="line">    <span class="keyword">double</span> d = <span class="number">2077.1119</span>;</span><br><span class="line">    <span class="comment">//1. sprintf是一个系统函数,将结果存放到字符串中</span></span><br><span class="line">    <span class="comment">//2.格式化的结果，会存放到str1中</span></span><br><span class="line">    <span class="built_in">sprintf</span>(str1,<span class="string">" %d %d"</span>,a,b); </span><br><span class="line">    <span class="built_in">sprintf</span>(str2,<span class="string">"%.2f"</span>,d); </span><br><span class="line"><span class="comment">//%8.2f含义是格式化后，一共有8位，小数点后占用2位，小数点前用空格占位</span></span><br><span class="line">    <span class="built_in">sprintf</span>(str3,<span class="string">"%8.2f"</span>,d);</span><br><span class="line">    <span class="built_in">printf</span>（<span class="string">"strl=%s str=%os str3=%s"</span>,strl,str2,str3);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p><strong>字符串类型转换为基本数据类型</strong></p>
-<p>通过<code>&lt;stdlib.h&gt;</code>的函数调用 <strong>atoi() ,atof()</strong>即可</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">char</span> str[<span class="number">10</span>]=<span class="string">"123456"</span>;</span><br><span class="line">        <span class="keyword">char</span> str2[<span class="number">10</span>]=<span class="string">"12.67423"</span>;</span><br><span class="line">        <span class="keyword">char</span> str3[<span class="number">10</span>]=<span class="string">"cyberpunk”；    </span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        //1.atoi(str) 将str转成整数</span></span><br><span class="line"><span class="string">        int numl = atoi(str);</span></span><br><span class="line"><span class="string">        //2.atof(st2)将st2转成小数</span></span><br><span class="line"><span class="string">        double d = atof(str2);</span></span><br><span class="line"><span class="string">        //3.截取字符数组的第一个字符</span></span><br><span class="line"><span class="string">        str[0];</span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>将字符数组转成基本数据类型时，要确保能够转成有效的数据，“123” =&gt; 123 ，但 “cyberpunk” =&gt; 不能转化整型</li>
-<li>格式错误,会默认转成0或者0.00</li>
-</ul>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=91" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
-</div>
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>函数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>汇编语言练习题</title>
-    <url>/posts/ac3c/</url>
-    <content><![CDATA[<h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><p>（1）1个CPU的寻址能力为8KB，那么它的地址总线的宽度为<strong>13</strong></p>
-<ul>
-<li>“<strong>一个cpu若有N根地址总线，那么它可以寻2^N个内存单元</strong>。(即：内存单元的单位就是cpu最小单位）一个内存单元可以储存8个比特。”即：一个内存单元=8个比特=一个Byte（字节），可见一个内存单元=1Byte大小，所以cpu寻址最小单位为Byte。 N即是地址总线宽度，8KB=2^13Byte,N=13</li>
-</ul>
-<p>（2）1KB的存储器有个存储单元。存储单元的编号从到<strong>0-1023</strong><br>（3）1KB的存储器可以存储个<strong>2^13</strong>bit，<strong>2^10</strong>个Byte<br>（4）1GB、MB、1KB分别是Byte  <strong>2^30  ,2^20 ,2^10</strong><br>（5）8080、8088、80286、80386的地址总线宽度分别为16根、20根、24根、32根，则它们的寻址能力分别为：（KB）、_（MB）<br>（MB）、（GB）。<strong>64, 1,16, 4</strong></p>
-<ul>
-<li><strong>一个CPU有N根地址线，则可以说这个CPU的地址总线的宽度为N。这样的CPU最多可以寻找2的N次方个内存单元。（一个内存单元=1Byte）。</strong></li>
-</ul>
-<p>（6）8080、8088、8086、80286、80386的数据总线宽度分别为8根、8根、16根、16根、32根。则它们一次可以传送的数据为：（B）、（B）、（B）、（B）、（B）<strong>1, 1, 2,  2, 4,</strong><br>（7）从内存中读取1024字节的数据，8086至少要读<strong>512</strong>次，80386至少要读<strong>256</strong>次<br>（8）在存储器中，数据和程序以<strong>二进制</strong>形式存放。</p>
-]]></content>
-      <categories>
-        <category>汇编语言</category>
-      </categories>
-      <tags>
-        <tag>汇编语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>结构体和共用体</title>
-    <url>/posts/d9a0/</url>
-    <content><![CDATA[<h2 id="结构体基本介绍"><a href="#结构体基本介绍" class="headerlink" title="结构体基本介绍"></a>结构体基本介绍</h2><p><code>结构体</code>和<code>结构体变量</code>的区别和联系</p>
-<ul>
-<li><code>结构体</code>是<strong>自定义的数据类型</strong>，表示的是一种数据类型 (Game 是数据类型 name是变量)</li>
-<li><code>结构体变量</code>代表一个具体变量 int price(int是数据类型 price是变量);</li>
-</ul>
-<p><strong>成员基本介绍</strong></p>
-<ul>
-<li><p><code>成员</code>或<code>结构体包含的变量</code> 说法不同</p>
-</li>
-<li><p>成员是结构体的一个组成部分，<strong>一般是基本数据类型</strong>、也可以是<code>数组</code>、<code>指针</code>、<code>结构体</code>等。</p>
-</li>
-</ul>
-<p><strong>注意事项和细节说明</strong></p>
-<ul>
-<li>成员声明语法同变量 <code>数据类型</code>   <code>成员名</code></li>
-<li>字段的类型可以为：<code>基本类型</code>、<code>数组或指针</code>、<code>结构体</code>等</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//结构体声明</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> 结构体名称&#123;</span></span><br><span class="line">  <span class="comment">//结构体名首字母大写</span></span><br><span class="line">  成员列表...</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//创建结构体 Game 数据类型</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">        <span class="keyword">char</span> *name;</span><br><span class="line">        <span class="keyword">int</span> price;</span><br><span class="line">        <span class="keyword">char</span> *time;</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="comment">//使用结构体创建变量</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">    <span class="comment">//给变量的成员赋值</span></span><br><span class="line">    game1.name = <span class="string">"CyberPunk2077"</span>;</span><br><span class="line">    game1.price = <span class="number">298</span>;</span><br><span class="line">    game1.time = <span class="string">"2020.11.19"</span>;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game2</span>;</span></span><br><span class="line">    game2.name = <span class="string">"Watch Dogs: Legion"</span>;</span><br><span class="line">    game2.price = <span class="number">298</span>;</span><br><span class="line">    game2.time = <span class="string">"2020.10.29"</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s\n"</span>,game1.name,game1.price,game1.time);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s"</span>,game2.name,game2.price,game2.time);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200716163649.png" alt="image-20200716163618173"></p>
-<h3 id="结构体的创建"><a href="#结构体的创建" class="headerlink" title="结构体的创建"></a>结构体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先创建结构体</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//使用结构体创建变量</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体的同时定义结构体变量并初始化</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125; game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;,game2 = &#123;<span class="string">"Watch Dogs: Legion"</span>,<span class="number">298</span>,<span class="string">"2020.10.29"</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体变量时整体赋值</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span> = &#123;</span><span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
-
-<p><strong>错误示范</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
-
-<p><strong>结构体定义的变量的数量确定</strong>时可以使用<strong>匿名结构体</strong>方式创建</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;game1,game2;</span><br></pre></td></tr></table></figure>
-
-<h2 id="公用体基本介绍"><a href="#公用体基本介绍" class="headerlink" title="公用体基本介绍"></a>公用体基本介绍</h2><ul>
-<li><code>共用体(Union)</code>属于<strong>构造类型</strong>，它可以<strong>包含多个类型不同的成员</strong>。和结构体非常类似，但是也有<strong>不同的地方共用体有时也被称为联合或者联合体</strong>，定义格式为</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">union</span> 共用体名&#123;</span><br><span class="line">成员列表...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>结构体</code>和<code>共用体</code>的<strong>区别</strong>在于：<code>结构体</code>的各个成员会<strong>占用不同的内存</strong>，<strong>互相之间没有影响</strong>；而<code>共用体</code>的所有成员<strong>占用同一段内存</strong>，<strong>修改一个成员会影响其余所有成员</strong>并<strong>以空间最大的成员为准</strong></li>
-</ul>
-<h3 id="共用体的创建"><a href="#共用体的创建" class="headerlink" title="共用体的创建"></a>共用体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//方法一</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">union</span> data d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法二</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法三</span></span><br><span class="line"><span class="keyword">union</span> &#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br></pre></td></tr></table></figure>
-
-<p><strong>🌰举例</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">union</span> data&#123; <span class="comment">// data 就是一个共用体(内存布局)， 包含三个成员, 共享数据空间, 该空间的大小以占用最大的成员为准</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">	short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//定义两个一个 共用体变量  a</span></span><br><span class="line">	<span class="keyword">union</span> data a; </span><br><span class="line">    <span class="comment">// 4, 4</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %d\n"</span>, <span class="keyword">sizeof</span>(a), <span class="keyword">sizeof</span>(<span class="keyword">union</span> data));</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0100 0000(1个字节8位数字) </span></span><br><span class="line">	a.n = <span class="number">0x40</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 64 a.ch ==&gt; @ 根据ASCII表 找到64 对应的字符@ a.m==&gt;64 short也是整型并且字节数大于64储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//字符9 根据ASCII表找到对应的2进制 0011 1001存储在内存中 </span></span><br><span class="line">	a.ch = <span class="string">'9'</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 57 0011 1001覆盖了原先的0100 0000 a.m==&gt;57 short也是整型并且字节数大于57储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0010 0000 0101 1001(1个字节8位数字) </span></span><br><span class="line">	a.m = <span class="number">0x2059</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt;8281 2进制==&gt;10进制输出 a.ch==&gt;Y ch只占一个字节 0101 1001 转化为10进制 89 对应ASCII表的字符Y</span></span><br><span class="line">    <span class="comment">//a.m ==&gt;8281 short也是整型并且字节数等于于8281存储的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 (1个字节8位数字) 0011 1110 0010 0101 1010 1101 0101 0100</span></span><br><span class="line">	a.n = <span class="number">0x3E25AD54</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt; 2进制==&gt;10进制输出1042656596 a.ch 只看最后一个字节存储的2进制0101 0100 转化为10进制 84 对应ASCII表的字符T</span></span><br><span class="line">    <span class="comment">//a.m==&gt; 44372只看最后两个字节存储的1010 1101 0101 0100 转换为10进制输出44382</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">	getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>内存图解</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200717175628.png" alt="image-20200717175621397"></p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=147" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
-</div>
-
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>结构体和共用体</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>树</title>
-    <url>/posts/5b58/</url>
-    <content><![CDATA[<p>树( Tree’ )是 n(n~O) 个结点的有限集 。n=O 时称为空树 。 在任<br>意-棵非空树中: ( 1 )有且仅有-个特定的称为根( Root )的结<br>点: (2) 当n&gt;1 时，其余结点可分为 m (m&gt;O) 个互不相变的<br>有限集 T1 、 T2、……、 Tm • 奠中每一个集合本身又是一槐树，并<br>且称为棍的子树( SubTree ).如圈 6-2-1 所示 。<br><a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener"><img src= "/img/loading.gif" data-src="https://github-readme-stats.vercel.app/api?username=l0serH4&show_icons=true&theme=synthwave" alt="Anurag&#39;s github stats"></a></p>
-<script src="https://assets.gitee.com/webpacks/project_animation-d3270c762ea6fed9d2c1.bundle.js"></script>]]></content>
-      <categories>
-        <category>uncategorized</category>
-      </categories>
-      <tags>
-        <tag>二叉树</tag>
       </tags>
   </entry>
 </search>
