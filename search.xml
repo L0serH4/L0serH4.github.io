@@ -25,97 +25,172 @@
       </tags>
   </entry>
   <entry>
-    <title>Github下载加速</title>
-    <url>/posts/79ca/</url>
-    <content><![CDATA[<p><strong>准备条件</strong></p>
-<ul>
-<li>码云(Gitee账号)</li>
+    <title>C语言易错点</title>
+    <url>/posts/9db8/</url>
+    <content><![CDATA[<h2 id="语法基础"><a href="#语法基础" class="headerlink" title="语法基础"></a>语法基础</h2><ul>
+<li><p><strong>getchar()函数</strong>从终端读取一个字符（一次只读取一个字符）并将其作为整数返回</p>
+</li>
+<li><p><strong>所有C语句必须以分号结尾。</strong></p>
+</li>
 </ul>
-<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
+<p><strong>C语言关键字</strong></p>
+<table>
+<thead>
+<tr>
+<th>关键字</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>auto</td>
+<td>声明自动变量</td>
+</tr>
+<tr>
+<td>short</td>
+<td>声明短整型变量或函数</td>
+</tr>
+<tr>
+<td>int</td>
+<td>声明整型变量或函数</td>
+</tr>
+<tr>
+<td>long</td>
+<td>声明长整型变量或函数</td>
+</tr>
+<tr>
+<td>float</td>
+<td>声明浮点型变量或函数</td>
+</tr>
+<tr>
+<td>double</td>
+<td>声明双精度变量或函数</td>
+</tr>
+<tr>
+<td>char</td>
+<td>声明字符型变量或函数</td>
+</tr>
+<tr>
+<td>struct</td>
+<td>声明结构体变量或函数</td>
+</tr>
+<tr>
+<td><strong>union</strong></td>
+<td><strong>声明共用数据类型</strong></td>
+</tr>
+<tr>
+<td>enum</td>
+<td>声明枚举类型</td>
+</tr>
+<tr>
+<td><strong>typedef</strong></td>
+<td><strong>用以给数据类型取别名</strong></td>
+</tr>
+<tr>
+<td>const</td>
+<td>声明只读变量</td>
+</tr>
+<tr>
+<td>unsigned</td>
+<td>声明无符号类型变量或函数</td>
+</tr>
+<tr>
+<td>signed</td>
+<td>声明有符号类型变量或函数</td>
+</tr>
+<tr>
+<td>extern</td>
+<td>声明变量是在其他文件正声明</td>
+</tr>
+<tr>
+<td><strong>register</strong></td>
+<td><strong>声明寄存器变量</strong></td>
+</tr>
+<tr>
+<td>static</td>
+<td>声明静态变量</td>
+</tr>
+<tr>
+<td>volatile</td>
+<td>说明变量在程序执行中可被隐含地改变</td>
+</tr>
+<tr>
+<td>void</td>
+<td>声明函数无返回值或无参数，声明无类型指针</td>
+</tr>
+<tr>
+<td>if</td>
+<td>条件语句</td>
+</tr>
+<tr>
+<td>else</td>
+<td>条件语句否定分支（与 if 连用）</td>
+</tr>
+<tr>
+<td>switch</td>
+<td>用于开关语句</td>
+</tr>
+<tr>
+<td>case</td>
+<td>开关语句分支</td>
+</tr>
+<tr>
+<td>for</td>
+<td>一种循环语句</td>
+</tr>
+<tr>
+<td>do</td>
+<td>循环语句的循环体</td>
+</tr>
+<tr>
+<td>while</td>
+<td>循环语句的循环条件</td>
+</tr>
+<tr>
+<td>goto</td>
+<td>无条件跳转语句</td>
+</tr>
+<tr>
+<td>continue</td>
+<td>结束当前循环，开始下一轮循环</td>
+</tr>
+<tr>
+<td>break</td>
+<td>跳出当前循环</td>
+</tr>
+<tr>
+<td>default</td>
+<td>开关语句中的“其他”分支</td>
+</tr>
+<tr>
+<td>sizeof</td>
+<td>计算数据类型长度</td>
+</tr>
+<tr>
+<td>return</td>
+<td>子程序返回语句（可以带参数，也可不带参数）循环条件</td>
+</tr>
+</tbody></table>
 <ul>
-<li>Git</li>
+<li><p><strong>实型数据也称为浮点数或实数</strong></p>
+</li>
+<li><p><code>int</code>C语言中数据类型的合法值范围是-32768-32767</p>
+</li>
 </ul>
-<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows</a></p>
-<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
-<blockquote>
-<p>1.复制项目的网址</p>
-</blockquote>
-<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
-<blockquote>
-<p>2.导入项目到Gitee</p>
-</blockquote>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
-<p><strong>导入后等待页面加载即可</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
-<p><strong>将项目克隆到本地</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">int</span> j = <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">switch</span>(i)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">1</span>: <span class="built_in">printf</span>(<span class="string">"one"</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> j: <span class="built_in">printf</span>(<span class="string">"two"</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
-<p><strong>速度还行</strong></p>
-<p><strong>当我们导入一个比较大的项目时</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
-<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
-<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
-<h2 id="1-仓库名称"><a href="#1-仓库名称" class="headerlink" title="1.仓库名称"></a>1.仓库名称</h2><ul>
-<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
-<p>in:name springboot stars:&gt;3000 forks:&gt;4000<br>in:name 项目名称 stars:数量 forks:数量</p>
-</blockquote>
-</li>
-</ul>
-<h2 id="2-Readme-md文件"><a href="#2-Readme-md文件" class="headerlink" title="2.Readme.md文件"></a>2.Readme.md文件</h2><ul>
-<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
-<p>in:readme spring boot stars:&gt;3000 forks:&gt;4000<br>in:readme 项目名称 stars:数量 forks:数量</p>
-</blockquote>
-</li>
-</ul>
-<h2 id="3-描述文件"><a href="#3-描述文件" class="headerlink" title="3.描述文件"></a>3.描述文件</h2><ul>
-<li>微服务项目 stars&gt;1000 语言为java 最后一次更新时间再2019-09-01之后<blockquote>
-<p>in:description 微服务 stars:&gt;1000 language:java pushed:&gt;2019-09-01<br>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
-</blockquote>
-</li>
-</ul>
-<p>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
-<p><strong>Github官方使用文档</strong><br><a href="https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories" target="_blank" rel="noopener">https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories</a></p>
+<p><strong>错误，常量表达式需要代替j。将j改为2</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="number">5</span> + <span class="string">"Good Morning"</span>);</span><br><span class="line"><span class="comment">//Good Morning</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>跳过后面的字符串的5个字符，然后打印字符串。</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> a =<span class="number">10</span>;</span><br><span class="line">    <span class="keyword">if</span>(a = <span class="number">5</span>)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"hello"</span>);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"bye"</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//a=5 赋值操作 输出hello</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>union的大小由最大的成员的大小决定；</strong></p>
 ]]></content>
       <categories>
-        <category>生产力</category>
+        <category>C</category>
       </categories>
       <tags>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java面向对象的三大特性</title>
-    <url>/posts/9d0/</url>
-    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
-</ul>
-<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
-</ul>
-<p>##多态</p>
-<ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>面向对象</tag>
-        <tag>Java</tag>
+        <tag>C</tag>
       </tags>
   </entry>
   <entry>
@@ -203,6 +278,86 @@
       </tags>
   </entry>
   <entry>
+    <title>Github下载加速</title>
+    <url>/posts/79ca/</url>
+    <content><![CDATA[<p><strong>准备条件</strong></p>
+<ul>
+<li>码云(Gitee账号)</li>
+</ul>
+<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
+<ul>
+<li>Git</li>
+</ul>
+<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows</a></p>
+<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
+<blockquote>
+<p>1.复制项目的网址</p>
+</blockquote>
+<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
+<blockquote>
+<p>2.导入项目到Gitee</p>
+</blockquote>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
+<p><strong>导入后等待页面加载即可</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
+<p><strong>将项目克隆到本地</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
+<p><strong>速度还行</strong></p>
+<p><strong>当我们导入一个比较大的项目时</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
+<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
+<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
+<h2 id="1-仓库名称"><a href="#1-仓库名称" class="headerlink" title="1.仓库名称"></a>1.仓库名称</h2><ul>
+<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
+<p>in:name springboot stars:&gt;3000 forks:&gt;4000<br>in:name 项目名称 stars:数量 forks:数量</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="2-Readme-md文件"><a href="#2-Readme-md文件" class="headerlink" title="2.Readme.md文件"></a>2.Readme.md文件</h2><ul>
+<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
+<p>in:readme spring boot stars:&gt;3000 forks:&gt;4000<br>in:readme 项目名称 stars:数量 forks:数量</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="3-描述文件"><a href="#3-描述文件" class="headerlink" title="3.描述文件"></a>3.描述文件</h2><ul>
+<li>微服务项目 stars&gt;1000 语言为java 最后一次更新时间再2019-09-01之后<blockquote>
+<p>in:description 微服务 stars:&gt;1000 language:java pushed:&gt;2019-09-01<br>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
+</blockquote>
+</li>
+</ul>
+<p>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
+<p><strong>Github官方使用文档</strong><br><a href="https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories" target="_blank" rel="noopener">https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories</a></p>
+]]></content>
+      <categories>
+        <category>生产力</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MyBatis</title>
+    <url>/posts/f1de/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+      </categories>
+      <tags>
+        <tag>MyBatis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>KMP算法</title>
     <url>/posts/8c51/</url>
     <content><![CDATA[<p>KMP算法的应用场景是字符串匹配</p>
@@ -281,26 +436,28 @@
       </tags>
   </entry>
   <entry>
-    <title>MyBatis</title>
-    <url>/posts/f1de/</url>
-    <content><![CDATA[]]></content>
+    <title>Java面向对象的三大特性</title>
+    <url>/posts/9d0/</url>
+    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
+</ul>
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
+</ul>
+<p>##多态</p>
+<ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
+</ul>
+]]></content>
       <categories>
-        <category>后端框架</category>
+        <category>Java</category>
       </categories>
       <tags>
-        <tag>MyBatis</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Spring</title>
-    <url>/posts/46eb/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>Spring</tag>
+        <tag>面向对象</tag>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -316,15 +473,15 @@
       </tags>
   </entry>
   <entry>
-    <title>SpringCloud</title>
-    <url>/posts/a67e/</url>
+    <title>Spring</title>
+    <url>/posts/46eb/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>后端框架</category>
         <category>Spring全家桶</category>
       </categories>
       <tags>
-        <tag>SpringCloud</tag>
+        <tag>Spring</tag>
       </tags>
   </entry>
   <entry>
@@ -340,171 +497,15 @@
       </tags>
   </entry>
   <entry>
-    <title>C语言易错点</title>
-    <url>/posts/9db8/</url>
-    <content><![CDATA[<h2 id="语法基础"><a href="#语法基础" class="headerlink" title="语法基础"></a>语法基础</h2><ul>
-<li><p><strong>getchar()函数</strong>从终端读取一个字符（一次只读取一个字符）并将其作为整数返回</p>
-</li>
-<li><p><strong>所有C语句必须以分号结尾。</strong></p>
-</li>
-</ul>
-<p><strong>C语言关键字</strong></p>
-<table>
-<thead>
-<tr>
-<th>关键字</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>auto</td>
-<td>声明自动变量</td>
-</tr>
-<tr>
-<td>short</td>
-<td>声明短整型变量或函数</td>
-</tr>
-<tr>
-<td>int</td>
-<td>声明整型变量或函数</td>
-</tr>
-<tr>
-<td>long</td>
-<td>声明长整型变量或函数</td>
-</tr>
-<tr>
-<td>float</td>
-<td>声明浮点型变量或函数</td>
-</tr>
-<tr>
-<td>double</td>
-<td>声明双精度变量或函数</td>
-</tr>
-<tr>
-<td>char</td>
-<td>声明字符型变量或函数</td>
-</tr>
-<tr>
-<td>struct</td>
-<td>声明结构体变量或函数</td>
-</tr>
-<tr>
-<td>union</td>
-<td>声明共用数据类型</td>
-</tr>
-<tr>
-<td>enum</td>
-<td>声明枚举类型</td>
-</tr>
-<tr>
-<td>typedef</td>
-<td>用以给数据类型取别名</td>
-</tr>
-<tr>
-<td>const</td>
-<td>声明只读变量</td>
-</tr>
-<tr>
-<td>unsigned</td>
-<td>声明无符号类型变量或函数</td>
-</tr>
-<tr>
-<td>signed</td>
-<td>声明有符号类型变量或函数</td>
-</tr>
-<tr>
-<td>extern</td>
-<td>声明变量是在其他文件正声明</td>
-</tr>
-<tr>
-<td><strong>register</strong></td>
-<td>声明寄存器变量</td>
-</tr>
-<tr>
-<td>static</td>
-<td>声明静态变量</td>
-</tr>
-<tr>
-<td>volatile</td>
-<td>说明变量在程序执行中可被隐含地改变</td>
-</tr>
-<tr>
-<td>void</td>
-<td>声明函数无返回值或无参数，声明无类型指针</td>
-</tr>
-<tr>
-<td>if</td>
-<td>条件语句</td>
-</tr>
-<tr>
-<td>else</td>
-<td>条件语句否定分支（与 if 连用）</td>
-</tr>
-<tr>
-<td>switch</td>
-<td>用于开关语句</td>
-</tr>
-<tr>
-<td>case</td>
-<td>开关语句分支</td>
-</tr>
-<tr>
-<td>for</td>
-<td>一种循环语句</td>
-</tr>
-<tr>
-<td>do</td>
-<td>循环语句的循环体</td>
-</tr>
-<tr>
-<td>while</td>
-<td>循环语句的循环条件</td>
-</tr>
-<tr>
-<td>goto</td>
-<td>无条件跳转语句</td>
-</tr>
-<tr>
-<td>continue</td>
-<td>结束当前循环，开始下一轮循环</td>
-</tr>
-<tr>
-<td>break</td>
-<td>跳出当前循环</td>
-</tr>
-<tr>
-<td>default</td>
-<td>开关语句中的“其他”分支</td>
-</tr>
-<tr>
-<td>sizeof</td>
-<td>计算数据类型长度</td>
-</tr>
-<tr>
-<td>return</td>
-<td>子程序返回语句（可以带参数，也可不带参数）循环条件</td>
-</tr>
-</tbody></table>
-<ul>
-<li><p><strong>实型数据也称为浮点数或实数</strong></p>
-</li>
-<li><p><code>int</code>C语言中数据类型的合法值范围是-32768-32767</p>
-</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">int</span> j = <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">switch</span>(i)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">case</span> <span class="number">1</span>: <span class="built_in">printf</span>(<span class="string">"one"</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">case</span> j: <span class="built_in">printf</span>(<span class="string">"two"</span>);</span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>错误，常量表达式需要代替j。将j改为2</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="number">5</span> + <span class="string">"Good Morning"</span>);</span><br><span class="line"><span class="comment">//Good Morning</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>跳过后面的字符串的5个字符，然后打印字符串。</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">main()</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">int</span> a =<span class="number">10</span>;</span><br><span class="line">    <span class="keyword">if</span>(a = <span class="number">5</span>)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"hello"</span>);</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"bye"</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//a=5 赋值操作 输出hello</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
+    <title>SpringCloud</title>
+    <url>/posts/a67e/</url>
+    <content><![CDATA[]]></content>
       <categories>
-        <category>C</category>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
       </categories>
       <tags>
-        <tag>C</tag>
+        <tag>SpringCloud</tag>
       </tags>
   </entry>
   <entry>
@@ -635,26 +636,28 @@
       </tags>
   </entry>
   <entry>
-    <title>Win10快捷键</title>
-    <url>/posts/e5dc/</url>
-    <content><![CDATA[<p>1.创建虚拟桌面</p>
-<p>Win+Alt+D / Win+Tab(可以通过鼠标操作虚拟桌面的创建、切换与删除)</p>
-<p>Win+Ctrl+F4 关闭当前虚拟桌面</p>
-<p>2.窗口最小化</p>
-<p>Win+M 窗口最小化 Win+D 可在最小化全部窗口与恢复全部窗口状态 间自由切换</p>
-<p>3.应用切换<br>Ctrl+Alt+Tab显示当前桌面运行的所有应用程序 Ctrl+Tab 切换任务</p>
-<p>4.屏幕截图</p>
-<p>Win + PrtSc/PrtSc /Win + Shift + S</p>
-<p>5.任务管理器</p>
-<p>Ctrl+Shift+Esc</p>
-<p>6.文件资源管理器</p>
-<p>Win+E </p>
-<p>7.操作中心</p>
-<p>win+A</p>
-<p>8.打开设置</p>
-<p>Win+I</p>
+    <title>MarkDown使用指南</title>
+    <url>/posts/9365/</url>
+    <content><![CDATA[<h2 id="MarkDown使用指南"><a href="#MarkDown使用指南" class="headerlink" title="MarkDown使用指南"></a>MarkDown使用指南</h2><ul>
+<li>待办事项</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>[x] This is a complete item</span><br><span class="line"><span class="bullet">- </span>[ ] This is an incomplete item</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><input disabled="" type="checkbox"> This is a complete item</li>
+<li><input disabled="" type="checkbox"> This is an incomplete item</li>
+</ul>
+<p><font color = red size = 5>文字颜色</font></p>
+<p><font face="黑体">我是黑体字</font></p>
+<p><font face="微软雅黑">我是微软雅黑</font></p>
+<p><font face="STCAIYUN">我是华文彩云</font></p>
+<p><font color=red >我是红色</font></p>
+<p><font color=#008000>我是绿色</font></p>
+<p><font color=Blue>我是蓝色</font></p>
+<p><font size=5>我是尺寸</font></p>
+<p><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font></p>
 <h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.jb51.net/os/win10/226560.html" target="_blank" rel="noopener" title="Win10快捷键大全"><i class="far fa-hand-point-right fa-fw"></i> Win10快捷键大全 </a>
+<a class="btn-beautify button--animated outline green larger" href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)" target="_blank" rel="noopener" title="官方文档"><i class="far fa-hand-point-right fa-fw"></i> 官方文档 </a>
 </div>
 
 ]]></content>
@@ -662,7 +665,7 @@
         <category>生产力</category>
       </categories>
       <tags>
-        <tag>Win10</tag>
+        <tag>生产力</tag>
       </tags>
   </entry>
   <entry>
@@ -802,39 +805,6 @@
       </tags>
   </entry>
   <entry>
-    <title>MarkDown使用指南</title>
-    <url>/posts/9365/</url>
-    <content><![CDATA[<h2 id="MarkDown使用指南"><a href="#MarkDown使用指南" class="headerlink" title="MarkDown使用指南"></a>MarkDown使用指南</h2><ul>
-<li>待办事项</li>
-</ul>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>[x] This is a complete item</span><br><span class="line"><span class="bullet">- </span>[ ] This is an incomplete item</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><input disabled="" type="checkbox"> This is a complete item</li>
-<li><input disabled="" type="checkbox"> This is an incomplete item</li>
-</ul>
-<p><font color = red size = 5>文字颜色</font></p>
-<p><font face="黑体">我是黑体字</font></p>
-<p><font face="微软雅黑">我是微软雅黑</font></p>
-<p><font face="STCAIYUN">我是华文彩云</font></p>
-<p><font color=red >我是红色</font></p>
-<p><font color=#008000>我是绿色</font></p>
-<p><font color=Blue>我是蓝色</font></p>
-<p><font size=5>我是尺寸</font></p>
-<p><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font></p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)" target="_blank" rel="noopener" title="官方文档"><i class="far fa-hand-point-right fa-fw"></i> 官方文档 </a>
-</div>
-
-]]></content>
-      <categories>
-        <category>生产力</category>
-      </categories>
-      <tags>
-        <tag>生产力</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>位运算</title>
     <url>/posts/ebce/</url>
     <content><![CDATA[<h3 id="位运算符以及源码-反码-补码"><a href="#位运算符以及源码-反码-补码" class="headerlink" title="位运算符以及源码,反码,补码"></a>位运算符以及源码,反码,补码</h3><ul>
@@ -922,6 +892,37 @@
       <tags>
         <tag>计算机基础知识</tag>
         <tag>位运算</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Win10快捷键</title>
+    <url>/posts/e5dc/</url>
+    <content><![CDATA[<p>1.创建虚拟桌面</p>
+<p>Win+Alt+D / Win+Tab(可以通过鼠标操作虚拟桌面的创建、切换与删除)</p>
+<p>Win+Ctrl+F4 关闭当前虚拟桌面</p>
+<p>2.窗口最小化</p>
+<p>Win+M 窗口最小化 Win+D 可在最小化全部窗口与恢复全部窗口状态 间自由切换</p>
+<p>3.应用切换<br>Ctrl+Alt+Tab显示当前桌面运行的所有应用程序 Ctrl+Tab 切换任务</p>
+<p>4.屏幕截图</p>
+<p>Win + PrtSc/PrtSc /Win + Shift + S</p>
+<p>5.任务管理器</p>
+<p>Ctrl+Shift+Esc</p>
+<p>6.文件资源管理器</p>
+<p>Win+E </p>
+<p>7.操作中心</p>
+<p>win+A</p>
+<p>8.打开设置</p>
+<p>Win+I</p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.jb51.net/os/win10/226560.html" target="_blank" rel="noopener" title="Win10快捷键大全"><i class="far fa-hand-point-right fa-fw"></i> Win10快捷键大全 </a>
+</div>
+
+]]></content>
+      <categories>
+        <category>生产力</category>
+      </categories>
+      <tags>
+        <tag>Win10</tag>
       </tags>
   </entry>
   <entry>
@@ -1170,48 +1171,6 @@
       </tags>
   </entry>
   <entry>
-    <title>数据结构和算法基本介绍</title>
-    <url>/posts/e427/</url>
-    <content><![CDATA[<h2 id="数据结构及相关概念"><a href="#数据结构及相关概念" class="headerlink" title="数据结构及相关概念"></a>数据结构及相关概念</h2><p>程序设计的实质是<code>数据表示</code>和<code>数据处理</code></p>
-<ul>
-<li><p><code>数据表示</code>的核心是<code>数据结构</code></p>
-</li>
-<li><p><code>数据处理</code>的核心是<code>算法</code></p>
-</li>
-</ul>
-<p><strong>程序 = 数据结构 + 算法</strong></p>
-<p>计算机求解的问题分为数值问题和非数值问题</p>
-<p><strong>非数据问题的数据组织和处理</strong></p>
-<ul>
-<li><p>数据的<strong>逻辑结构</strong>：<code>线性表，树，图</code>等数据结构<strong>核心是如何组织待处理的数据及数据之间的关系</strong></p>
-</li>
-<li><p>数据的<strong>存储结构</strong>：如何将<code>线性表，树，图</code>等数据结构存储到计算机的存储器中<strong>核心是如何有效存储数据及数据之间的逻辑关系</strong></p>
-</li>
-<li><p><strong>算法</strong>：如何基<strong>于数据的某种存储结构</strong>实现<strong>增加，修改，删除，查找</strong>等基本操作,<strong>核心是如何有效处理地处理数据</strong></p>
-</li>
-<li><p>常用<strong>数据处理技术</strong>：<code>查找，排序，索引</code> </p>
-</li>
-</ul>
-<h4 id="存储结构分类"><a href="#存储结构分类" class="headerlink" title="存储结构分类"></a>存储结构分类</h4><p><a href="https://blog.csdn.net/bbc955625132551/article/details/72629470" target="_blank" rel="noopener">https://blog.csdn.net/bbc955625132551/article/details/72629470</a></p>
-<ul>
-<li><p><strong>顺序存储方式</strong>：顺序存储方式是指将所有的数据元素放在一段连续的存储空间中，并使逻辑上相邻的数据元素其对应的物理存储位置也是相邻的（即保证逻辑位置关系与物理位置关系的一致）。顺序存储结构通常借助程序设计语言中的数组来加以实现。</p>
-</li>
-<li><p><strong>链式存储方式</strong>：链式存储方式不需要将逻辑上相邻的元素存储在物理位置相邻的位置，也就是说数据元素的存储具有任意性。每个数据元素所对应的存储表示由两部分组成，一部分存储元素值本身，另一部分用于存放表示逻辑关系的指针。我们可以认为指针给出的是下一个数据元素的存储地址。</p>
-</li>
-<li><p><strong>索引存储方式</strong>：索引存储方式在存储数据元素的同时还增加了一个索引表。索引表中的每一项包括关键字和地址，关键字是能够唯一标示一个数据元素的数据项，地址是指示数据元素的存储地址或者存储区域的首地址的。</p>
-</li>
-<li><p><strong>散列存储方式</strong>：散列存储也称为哈希存储，这种存储方式将数据元素存储在一个连续的区域，每一个数据元素的具体存储位置是根据该数据的关键字值，通过散列（哈希）函数直接计算出来的。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数组</title>
     <url>/posts/7ffe/</url>
     <content><![CDATA[<h2 id="数组介绍"><a href="#数组介绍" class="headerlink" title="数组介绍"></a>数组介绍</h2><p><code>数组</code>可以存放多个<strong>同一类型数据</strong>。数组也是一种数据类型，是<strong>构造类型</strong>。传递是以<strong>引用的方式传递</strong>（即传递的是<strong>地址</strong>）</p>
@@ -1355,6 +1314,48 @@
       </tags>
   </entry>
   <entry>
+    <title>数据结构和算法基本介绍</title>
+    <url>/posts/e427/</url>
+    <content><![CDATA[<h2 id="数据结构及相关概念"><a href="#数据结构及相关概念" class="headerlink" title="数据结构及相关概念"></a>数据结构及相关概念</h2><p>程序设计的实质是<code>数据表示</code>和<code>数据处理</code></p>
+<ul>
+<li><p><code>数据表示</code>的核心是<code>数据结构</code></p>
+</li>
+<li><p><code>数据处理</code>的核心是<code>算法</code></p>
+</li>
+</ul>
+<p><strong>程序 = 数据结构 + 算法</strong></p>
+<p>计算机求解的问题分为数值问题和非数值问题</p>
+<p><strong>非数据问题的数据组织和处理</strong></p>
+<ul>
+<li><p>数据的<strong>逻辑结构</strong>：<code>线性表，树，图</code>等数据结构<strong>核心是如何组织待处理的数据及数据之间的关系</strong></p>
+</li>
+<li><p>数据的<strong>存储结构</strong>：如何将<code>线性表，树，图</code>等数据结构存储到计算机的存储器中<strong>核心是如何有效存储数据及数据之间的逻辑关系</strong></p>
+</li>
+<li><p><strong>算法</strong>：如何基<strong>于数据的某种存储结构</strong>实现<strong>增加，修改，删除，查找</strong>等基本操作,<strong>核心是如何有效处理地处理数据</strong></p>
+</li>
+<li><p>常用<strong>数据处理技术</strong>：<code>查找，排序，索引</code> </p>
+</li>
+</ul>
+<h4 id="存储结构分类"><a href="#存储结构分类" class="headerlink" title="存储结构分类"></a>存储结构分类</h4><p><a href="https://blog.csdn.net/bbc955625132551/article/details/72629470" target="_blank" rel="noopener">https://blog.csdn.net/bbc955625132551/article/details/72629470</a></p>
+<ul>
+<li><p><strong>顺序存储方式</strong>：顺序存储方式是指将所有的数据元素放在一段连续的存储空间中，并使逻辑上相邻的数据元素其对应的物理存储位置也是相邻的（即保证逻辑位置关系与物理位置关系的一致）。顺序存储结构通常借助程序设计语言中的数组来加以实现。</p>
+</li>
+<li><p><strong>链式存储方式</strong>：链式存储方式不需要将逻辑上相邻的元素存储在物理位置相邻的位置，也就是说数据元素的存储具有任意性。每个数据元素所对应的存储表示由两部分组成，一部分存储元素值本身，另一部分用于存放表示逻辑关系的指针。我们可以认为指针给出的是下一个数据元素的存储地址。</p>
+</li>
+<li><p><strong>索引存储方式</strong>：索引存储方式在存储数据元素的同时还增加了一个索引表。索引表中的每一项包括关键字和地址，关键字是能够唯一标示一个数据元素的数据项，地址是指示数据元素的存储地址或者存储区域的首地址的。</p>
+</li>
+<li><p><strong>散列存储方式</strong>：散列存储也称为哈希存储，这种存储方式将数据元素存储在一个连续的区域，每一个数据元素的具体存储位置是根据该数据的关键字值，通过散列（哈希）函数直接计算出来的。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>普里姆(prim)算法</title>
     <url>/posts/a02d/</url>
     <content><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote>
@@ -1368,6 +1369,277 @@
         <tag>C++</tag>
         <tag>prim</tag>
         <tag>最小生成树</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文件操作</title>
+    <url>/posts/3f31/</url>
+    <content><![CDATA[<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><ul>
+<li><p><code>流</code>：数据在<strong>数据源（文件）和程序（内存）</strong>之间经历的<strong>路径</strong></p>
+</li>
+<li><p><code>输入流</code>：数据从数据源（文件）到程序（内存）的路径</p>
+</li>
+<li><p><code>输岀流</code>：数据从程序（内存）到数据源（文件）的路径</p>
+</li>
+<li><p>C标准库<code>stdio.h</code>该头文件<strong>定义了三个变量类型</strong>、一些宏和各种函数来执行输入和输出</p>
+</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/17/00cea1dabd649b34bdcc2806ec605e8e.png" alt="image-20200717201852928"></p>
+<h3 id="输入和输出"><a href="#输入和输出" class="headerlink" title="输入和输出"></a>输入和输出</h3><ul>
+<li><code>输入</code>：向程序写入一些数据。输入可以是<strong>以文件的形式或从命令行</strong>中进行。C语言提供了<strong>内置函数</strong>来读取给定的输入，并根据需要<strong>写入到程序中</strong></li>
+<li><code>输出</code>，这意味着要在<code>屏幕上、打印机上或任意文件</code>中<strong>显示数据</strong>。C语言提供了<strong>内置函数</strong>来输出数据到<strong>计算机屏幕上和保存数据到文本文件或二进制文件中</strong></li>
+</ul>
+<h3 id="标准文件"><a href="#标准文件" class="headerlink" title="标准文件"></a>标准文件</h3><ul>
+<li><p>C语言<strong>把所有的设备都当作文件</strong>。设备(比如显示器)<strong>被处理的方式与文件相同</strong>。</p>
+</li>
+<li><p><code>文件指针</code>是访问文件的方式</p>
+</li>
+<li><p>C语言中的I/O（输入/输岀）通常使用 <code>printf</code>和 <code>scanf</code>两个函数。 <code>scanf()</code>函数用于从<strong>标准输入（键盘）读取并格式化，</strong> <code>printf()</code>函数发送<strong>格式化输出到标准输出(屏幕)</strong></p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>标准文件</th>
+<th>文件指针</th>
+<th>设备</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>标准输入</td>
+<td>stdin</td>
+<td>键盘</td>
+</tr>
+<tr>
+<td>标准输出</td>
+<td>stdout</td>
+<td>屏幕</td>
+</tr>
+<tr>
+<td>标准错误</td>
+<td>stderr</td>
+<td>屏幕</td>
+</tr>
+</tbody></table>
+<p>三个文件会在程序执行时自动打开，以便访问键盘和屏幕</p>
+<p><strong>getchar()&amp; putchar()函数</strong></p>
+<ul>
+<li><code>int getchar(void)</code>函数从屏幕<strong>读取下一个可用的字符，并把它返回为一个整数</strong>。函数在<strong>同一个时间内只会读取一个单一的字符</strong>。循环内使用这个方法，以便从屏幕上读取多个字符。</li>
+<li><code>int putchar(int)</code>函数把字符输出到屏幕上，<strong>并返回相同的字符</strong>。函数在<strong>同一个时间内只会输出一个单一的字符</strong>。循环内使用这个方法，以便从屏幕上读取多个字符。</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">( )</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c;</span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"Enter a value :"</span>);</span><br><span class="line">    c = getchar();</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\nYou entered: "</span>);</span><br><span class="line">    <span class="built_in">putchar</span>(c);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>gets()&amp; puts()函数</strong></p>
+<ul>
+<li><code>char*gets(char *s)</code>函数从 stdin<strong>读取一行到s所指向的缓冲区，直到一个终止符或EOF</strong></li>
+<li><code>Int puts(const char*s)</code>函数把<strong>字符串s和一个尾随的换行符写入到 stdout</strong></li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">( )</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> str[<span class="number">100</span>];</span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"Enter a value :"</span>);</span><br><span class="line">    gets(str);</span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"\nYou entered: "</span>);</span><br><span class="line">    <span class="built_in">puts</span>(str);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>scanf()&amp;printf0函数</strong></p>
+<ul>
+<li><p><code>int scanf(const char* format，…)</code>函数从<strong>标准输入流 stdin读取输入</strong>，并根据提供的 format来浏览输入。</p>
+</li>
+<li><p><code>int printf(const char* format，…)</code>函数把输出写入到<strong>标准输出流 stdout</strong>，<strong>根据提供的格式产生输出</strong></p>
+</li>
+<li><p><code>format</code>可以是一个简单的<strong>常量字符串</strong>，可以分别指定<code>%s、%d、%c、%f</code>等来输出或<strong>读取字符串、整数字符或浮点数</strong>。根据需要使用对应的格式选项。</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">( )</span> </span>&#123;</span><br><span class="line">    <span class="keyword">char</span> str[<span class="number">100</span>];</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"Enter a value :"</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%s %d"</span>, str, &amp;i);</span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"\nYou entered: %s %d "</span>, str, i);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h2><h3 id="文件读写"><a href="#文件读写" class="headerlink" title="文件读写"></a>文件读写</h3><ul>
+<li>无论是文本文件还是二进制文件，<strong>代表了一系列的字节</strong>。C语言不仅提供了访问顶层和底层(OS)调用来处理存储设备上的文件。</li>
+</ul>
+<h3 id="打开文件"><a href="#打开文件" class="headerlink" title="打开文件"></a>打开文件</h3><p>使用<code>fopen()</code>函数来<strong>创建一个新的文件或者打开一个已有的文件</strong>，这个调用会<strong>初始化类型FILE的一个对象</strong>，<strong>类型FILE包含了所有用来控制流的必要的信息</strong>。函数调用的原型<code>FILE *fopen(const char *filename, const char mode)</code></p>
+<ul>
+<li><p><strong>filename是字符串，用来命名文件，mode是访问模式的值</strong></p>
+</li>
+<li><p>如果处理的是二进制文件(图片,视频)，则需使用下面的访问模式：”rb”，”wb”，”ab”，”rb+”，”r+b”，”wb+”，”w+b”<br>“ab+”，”a+b”(b代表二进制)</p>
+</li>
+</ul>
+<p><strong>函数说明</strong></p>
+<table>
+<thead>
+<tr>
+<th>模式</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>r</td>
+<td>打开一个已有的文本文件，允许读取文件</td>
+</tr>
+<tr>
+<td>w</td>
+<td>打开一个文本文件，允许写入文件。如果文件不存在，则会创建一个新文件。在这里，程序会从文件的开头写入内容。<strong>如果文件存在，则该会被截断为零长度，重新写入！。</strong></td>
+</tr>
+<tr>
+<td>a</td>
+<td>打开一个文本文件，以<strong>追加模式</strong>写入文件。如果文件不存在，则会创建一个新文件。在这里，程序会在已有的文件内容中追加内容</td>
+</tr>
+<tr>
+<td>r+</td>
+<td>打开一个文本文件，允许读写文件</td>
+</tr>
+<tr>
+<td>w+</td>
+<td>打开一个文本文件，允许读写文件。如果文件已存在，则文件会被截断为零长度，如果文件不存在，则会创建一个新文件</td>
+</tr>
+<tr>
+<td>a+</td>
+<td>打开一个文本文件，允许读写文件。如果文件不存在，则会创建一个新文件读取会从文件的开头开始，写入则只能是追加模式。</td>
+</tr>
+</tbody></table>
+<h3 id="关闭文件"><a href="#关闭文件" class="headerlink" title="关闭文件"></a>关闭文件</h3><p><code>fclose()</code>函数。函数的原型如下int fclose(FILEfp)</p>
+<ul>
+<li><strong>成功关闭文件， fclose()函数返回零</strong>，<strong>关闭文件时发生错误，函数返回EOF</strong>。<code>fclose()</code>函数，<strong>会清空缓冲区中的数据，关闭文件，并释放用于该文件的所有内存</strong>。<code>EOF</code>是一个定义在头文件<code>&lt;stdio. h&gt;</code>中的<strong>常量</strong>。</li>
+<li>C标准库提供了各种函数来<strong>按字符或者以固定长度字符串的形式读写文件。</strong></li>
+<li><strong>使用完文件后(读,写)，一定要将该文件关闭</strong></li>
+</ul>
+<h3 id="写入文件"><a href="#写入文件" class="headerlink" title="写入文件"></a>写入文件</h3><p><strong>把字符写入到流</strong>中的函数<code>int fputc(int c, FILE *fp)</code>;</p>
+<ul>
+<li>说明：函数 fputc() 把参数 c 的字符值写入到 fp 所指向的输出流中。如果<strong>写入成功，它会返回写入的字符</strong>，<br>如果<strong>发生错误，则会返回</strong> <code>EOF</code>。</li>
+<li><code>int fputs(const char *s, FILE *fp)</code>;把一个以 null 结尾的字符串写入到流中：<br>说明：函数 fputs() 把字符串 s 写入到 fp 所指向的输出流中。如果<strong>写入成功，它会返回一个非负值</strong>，如果<strong>发生</strong><br><strong>错误，则会返回</strong> <code>EOF</code>。也可以使用 <code>int fprintf(FILE *fp,const char *format, ...)</code>函数来写<strong>把一个字符串写入到文件中</strong></li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//创建一个文件指针</span></span><br><span class="line">    FILE *fp = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="comment">//打开该文件 w+ 模式是 文件会被截断为零长度</span></span><br><span class="line">    fp = fopen(<span class="string">"d:/java.txt"</span>, <span class="string">"w+"</span>); </span><br><span class="line">    <span class="comment">//fp = fopen("d:/test100.txt", "a+");</span></span><br><span class="line">    <span class="comment">//将内容写入到文件中</span></span><br><span class="line">    <span class="comment">/*fprintf(fp, "hello world java~~\n");</span></span><br><span class="line"><span class="comment">    fputs("hello world go~~\n", fp);*/</span></span><br><span class="line">    <span class="comment">//关闭文件!</span></span><br><span class="line">    fclose(fp);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"创建，写入信息完成"</span>);</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="读取文件"><a href="#读取文件" class="headerlink" title="读取文件"></a>读取文件</h3><ul>
+<li><strong>从文件读取单个字符</strong>的函数<code>int fgetc( FILE * fp )</code>;<br>说明：fgetc() 函数从 fp 所指向的输入文件中读取一个字符。<strong>返回值是读取的字符，如果发生错误则返回</strong> <code>EOF</code>。</li>
+<li><strong>从流中读取一个字符串</strong>：<code>char *fgets(char *buf, int n, FILE *fp)</code>;<ul>
+<li>说明：函数 fgets() 从 fp 所指向的输入流中<strong>读取 n - 1 个字符</strong>。<strong>把读取的字符串复制到<code>缓冲区 buf</code>，并在</strong><br><strong>最后追加一个 <code>null 字符</code>来终止字符串。</strong><br>如果这个函数在<strong>读取最后一个字符之前</strong>就遇到一个<strong>换行符 ‘\n’ 或文件的末尾 EO</strong>F，则<strong>只会返回读取到的字符，</strong><br><strong>包括换行符。</strong></li>
+<li>也可使用<code>int fscanf(FILE *fp, const char *format, ...)</code> 函数来<strong>从文件中读取字符串</strong>，但是在<strong>遇到第一个空格字符</strong><br><strong>时，它会停止读取。</strong></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="comment">//创建一个文件指针</span></span><br><span class="line">    FILE *fp = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="comment">//定义一个缓冲区</span></span><br><span class="line">    <span class="keyword">char</span> buff[<span class="number">1024</span>];</span><br><span class="line">    <span class="comment">//打开文件</span></span><br><span class="line">    fp = fopen(<span class="string">"d:/java.txt"</span>, <span class="string">"r"</span>);</span><br><span class="line">    <span class="comment">//方法 1</span></span><br><span class="line">    <span class="comment">//fscanf(fp, "%s", buff);</span></span><br><span class="line">    <span class="comment">////输出</span></span><br><span class="line">    <span class="comment">//printf("%s\n", buff);</span></span><br><span class="line">    <span class="comment">//方法 2 读取整个文件</span></span><br><span class="line">    <span class="comment">//说明，循环读取 fp 指向的文件内容，如果读到 NULL,就结束</span></span><br><span class="line">    <span class="keyword">while</span>(fgets(buff, <span class="number">1024</span>,fp)!=<span class="literal">NULL</span>) &#123;</span><br><span class="line">   		<span class="built_in">printf</span>(<span class="string">"%s"</span>, buff);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//关闭文件</span></span><br><span class="line">    fclose(fp);</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>文件操作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>栈和队列</title>
+    <url>/posts/7712/</url>
+    <content><![CDATA[<h1 id="1-栈和队列"><a href="#1-栈和队列" class="headerlink" title="1.栈和队列"></a>1.栈和队列</h1><p>在数组中，我们可以通过索引访问<code>随机</code>元素。 但是，在某些情况下，我们可能想要限制处理顺序。</p>
+<p>两种不同的处理顺序，<code>先入先出</code>和<code>后入先出</code>；以及两个相应的线性数据结构，<code>队列</code>和<code>栈</code>。</p>
+<h3 id="示例-队列"><a href="#示例-队列" class="headerlink" title="示例 - 队列"></a>示例 - 队列</h3><p><strong>先入先出的数据结构</strong></p>
+<hr>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/9e25e27f353f85d8ea00d178be89ee1f.png" alt="screen-shot-2018-05-03-at-151021">首先处理添加到队列中的<code>第一个元素</code>添加到<code>队列</code></p>
+<p>如上图所示，队列是典型的 <strong>FIFO(First Input First Output)</strong> 数据结构。插入（insert）操作也称作入队（enqueue），新元素始终被添加在<code>队列的末尾</code>。 删除（delete）操作也被称为出队（dequeue)。 你只能移除<code>第一个元素</code>。</p>
+<hr>
+<ul>
+<li>入队： <code>Enqueue</code> 将新元素 6 添加到队列中。</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/b9db84785bc5c01963ef43cdf7baa40f.png" alt="screen-shot-2018-05-02-at-174355"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/646bd68a8314b465bd264fdff9c3cf53.png" alt="screen-shot-2018-05-02-at-172840">  Enqueue</p>
+<ul>
+<li><p>出队：<code>Dequeue</code> 查看将删除元素。</p>
+<p>Dequeue</p>
+</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/646bd68a8314b465bd264fdff9c3cf53.png" alt="screen-shot-2018-05-02-at-172840"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703092516.png" alt="screen-shot-2018-05-02-at-175409"></p>
+<h4 id="剑指-Offer-59-I-滑动窗口的最大值"><a href="#剑指-Offer-59-I-滑动窗口的最大值" class="headerlink" title="剑指 Offer 59 - I. 滑动窗口的最大值"></a><a href="https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/" target="_blank" rel="noopener">剑指 Offer 59 - I. 滑动窗口的最大值</a></h4><p>给定一个数组 <code>nums</code> 和滑动窗口的大小 <code>k</code>，请找出所有滑动窗口里的最大值。</p>
+<ul>
+<li>难度简单</li>
+</ul>
+<p><strong>示例:</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: nums &#x3D; [1,3,-1,-3,5,3,6,7], 和 k &#x3D; 3</span><br><span class="line">输出: [3,3,5,5,6,7] </span><br><span class="line">解释: </span><br><span class="line"></span><br><span class="line">  滑动窗口的位置                最大值</span><br><span class="line">---------------               -----</span><br><span class="line">[1  3  -1] -3  5  3  6  7       3</span><br><span class="line"> 1 [3  -1  -3] 5  3  6  7       3</span><br><span class="line"> 1  3 [-1  -3  5] 3  6  7       5</span><br><span class="line"> 1  3  -1 [-3  5  3] 6  7       5</span><br><span class="line"> 1  3  -1  -3 [5  3  6] 7       6</span><br><span class="line"> 1  3  -1  -3  5 [3  6  7]      7</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>提示：</strong></p>
+<p>你可以假设 <em>k</em> 总是有效的，在输入数组不为空的情况下，1 ≤ k ≤ 输入数组的大小。</p>
+<p>🔗<a href="https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/solution/mian-shi-ti-59-i-hua-dong-chuang-kou-de-zui-da-1-6/" target="_blank" rel="noopener">题解参考链接</a></p>
+<h3 id="示例-栈"><a href="#示例-栈" class="headerlink" title="示例 - 栈"></a>示例 - 栈</h3><p>与<code>队列</code>不同<code>栈</code>是一个 <strong>LIFO(Last In First Out )</strong>  数据结构。通常，</p>
+<p>插入操作,入栈 <code>push</code> ,与队列类似，总是在<strong>堆栈的末尾添加一个新元素</strong></p>
+<p>举例说明🌰</p>
+<ul>
+<li>入栈顺序 1=&gt;2 =&gt;3 =&gt;4 =&gt;5</li>
+</ul>
+<p>删除操作,出栈 <code>pop</code> ，元素始终<strong>栈堆的末尾弹出</strong></p>
+<p>举例说明🌰</p>
+<ul>
+<li>入栈顺序 5=&gt;4 =&gt;3 =&gt;2 =&gt;1</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703095049.png" alt="screen-shot-2018-06-02-at-203523"></p>
+<h4 id="剑指-Offer-09-用两个栈实现队列"><a href="#剑指-Offer-09-用两个栈实现队列" class="headerlink" title="剑指 Offer 09. 用两个栈实现队列"></a><a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/" target="_blank" rel="noopener">剑指 Offer 09. 用两个栈实现队列</a></h4><ul>
+<li>难度简单</li>
+</ul>
+<p>用两个栈实现一个队列。队列的声明如下，请实现它的两个函数 <code>appendTail</code> 和 <code>deleteHead</code> ，分别完成在<strong>队列尾部插入</strong>整数和在<strong>队列头部删除整数</strong>的功能。(若队列中没有元素，<code>deleteHead</code> 操作返回 -1 )</p>
+<p><strong>示例 1：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line">[&quot;CQueue&quot;,&quot;appendTail&quot;,&quot;deleteHead&quot;,&quot;deleteHead&quot;]</span><br><span class="line">[[],[3],[],[]]</span><br><span class="line">输出：[null,null,3,-1]</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line">[&quot;CQueue&quot;,&quot;deleteHead&quot;,&quot;appendTail&quot;,&quot;appendTail&quot;,&quot;deleteHead&quot;,&quot;deleteHead&quot;]</span><br><span class="line">[[],[],[5],[2],[],[]]</span><br><span class="line">输出：[null,-1,null,null,5,2]</span><br></pre></td></tr></table></figure>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>1 &lt;= values &lt;= 10000</code></li>
+<li><code>最多会对 appendTail、deleteHead 进行 10000 次调用</code></li>
+</ul>
+<p>🔗<a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/solution/mian-shi-ti-09-yong-liang-ge-zhan-shi-xian-dui-l-2/" target="_blank" rel="noopener">题解参考链接</a></p>
+<h4 id="剑指-Offer-30-包含min函数的栈"><a href="#剑指-Offer-30-包含min函数的栈" class="headerlink" title="剑指 Offer 30. 包含min函数的栈"></a><a href="https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/" target="_blank" rel="noopener">剑指 Offer 30. 包含min函数的栈</a></h4><ul>
+<li>难度简单</li>
+</ul>
+<p>定义栈的数据结构，请在该类型中实现一个能够得到栈的最小元素的 min 函数在该栈中，调用 min、push 及 pop 的时间复杂度都是 O(1)。</p>
+<p><strong>示例:</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">MinStack minStack &#x3D; new MinStack();</span><br><span class="line">minStack.push(-2);</span><br><span class="line">minStack.push(0);</span><br><span class="line">minStack.push(-3);</span><br><span class="line">minStack.min();   --&gt; 返回 -3.</span><br><span class="line">minStack.pop();</span><br><span class="line">minStack.top();      --&gt; 返回 0.</span><br><span class="line">minStack.min();   --&gt; 返回 -2.</span><br></pre></td></tr></table></figure>
+
+<p><strong>提示：</strong></p>
+<ol>
+<li>各函数的调用总次数不超过 20000 次</li>
+</ol>
+<p>🔗<a href="https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/solution/mian-shi-ti-30-bao-han-minhan-shu-de-zhan-fu-zhu-z/" target="_blank" rel="noopener">题解参考链接</a></p>
+<h4 id="剑指-Offer-59-II-队列的最大值"><a href="#剑指-Offer-59-II-队列的最大值" class="headerlink" title="剑指 Offer 59 - II. 队列的最大值"></a><a href="https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/" target="_blank" rel="noopener">剑指 Offer 59 - II. 队列的最大值</a></h4><ul>
+<li>难度中等</li>
+</ul>
+<p>请定义一个队列并实现函数 <code>max_value</code> 得到队列里的最大值，要求函数<code>max_value</code>、<code>push_back</code> 和 <code>pop_front</code> 的<strong>均摊</strong>时间复杂度都是O(1)。</p>
+<p>若队列为空，<code>pop_front</code> 和 <code>max_value</code> 需要返回 -1</p>
+<p><strong>示例 1：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: </span><br><span class="line">[&quot;MaxQueue&quot;,&quot;push_back&quot;,&quot;push_back&quot;,&quot;max_value&quot;,&quot;pop_front&quot;,&quot;max_value&quot;]</span><br><span class="line">[[],[1],[2],[],[],[]]</span><br><span class="line">输出: [null,null,null,2,1,2]</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2：</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: </span><br><span class="line">[&quot;MaxQueue&quot;,&quot;pop_front&quot;,&quot;max_value&quot;]</span><br><span class="line">[[],[],[]]</span><br><span class="line">输出: [null,-1,-1]</span><br></pre></td></tr></table></figure>
+
+<p><strong>限制：</strong></p>
+<ul>
+<li><code>1 &lt;= push_back,pop_front,max_value的总操作数 &lt;= 10000</code></li>
+<li><code>1 &lt;= value &lt;= 10^5</code></li>
+</ul>
+<p>🔗<a href="https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/ru-he-jie-jue-o1-fu-za-du-de-api-she-ji-ti-by-z1m/" target="_blank" rel="noopener">题解参考链接</a></p>
+]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>剑指offer</tag>
+        <tag>栈和队列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>汇编语言练习题</title>
+    <url>/posts/ac3c/</url>
+    <content><![CDATA[<h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><p>（1）1个CPU的寻址能力为8KB，那么它的地址总线的宽度为<strong>13</strong></p>
+<ul>
+<li>“<strong>一个cpu若有N根地址总线，那么它可以寻2^N个内存单元</strong>。(即：内存单元的单位就是cpu最小单位）一个内存单元可以储存8个比特。”即：一个内存单元=8个比特=一个Byte（字节），可见一个内存单元=1Byte大小，所以cpu寻址最小单位为Byte。 N即是地址总线宽度，8KB=2^13Byte,N=13</li>
+</ul>
+<p>（2）1KB的存储器有个存储单元。存储单元的编号从到<strong>0-1023</strong><br>（3）1KB的存储器可以存储个<strong>2^13</strong>bit，<strong>2^10</strong>个Byte<br>（4）1GB、MB、1KB分别是Byte  <strong>2^30  ,2^20 ,2^10</strong><br>（5）8080、8088、80286、80386的地址总线宽度分别为16根、20根、24根、32根，则它们的寻址能力分别为：（KB）、_（MB）<br>（MB）、（GB）。<strong>64, 1,16, 4</strong></p>
+<ul>
+<li><strong>一个CPU有N根地址线，则可以说这个CPU的地址总线的宽度为N。这样的CPU最多可以寻找2的N次方个内存单元。（一个内存单元=1Byte）。</strong></li>
+</ul>
+<p>（6）8080、8088、8086、80286、80386的数据总线宽度分别为8根、8根、16根、16根、32根。则它们一次可以传送的数据为：（B）、（B）、（B）、（B）、（B）<strong>1, 1, 2,  2, 4,</strong><br>（7）从内存中读取1024字节的数据，8086至少要读<strong>512</strong>次，80386至少要读<strong>256</strong>次<br>（8）在存储器中，数据和程序以<strong>二进制</strong>形式存放。</p>
+]]></content>
+      <categories>
+        <category>汇编语言</category>
+      </categories>
+      <tags>
+        <tag>汇编语言</tag>
       </tags>
   </entry>
   <entry>
@@ -1877,185 +2149,170 @@
       </tags>
   </entry>
   <entry>
-    <title>枚举</title>
-    <url>/posts/4523/</url>
-    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>枚举是C语言中的一种<strong>构造数据类型</strong>，它可以<strong>让数据更简洁，更易读</strong>，对于<strong>只有几个有限的特定数据</strong>，可以使用枚举(enumeration,简写enum）</p>
-<p>枚举是<strong>一组常量的集合</strong>，包含一组有限的特定的数据</p>
-<p><strong>语法定义格式</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum 枚举名 &#123;枚举元素1,枚举元素2,.....&#125;;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//DAY是枚举类型 包含了7个枚举元素</span></span><br><span class="line">	<span class="keyword">enum</span> DAY</span><br><span class="line">	&#123;</span><br><span class="line">    	MON=<span class="number">1</span>,TUE=<span class="number">2</span>,WED=<span class="number">3</span>,THU=<span class="number">4</span>,FRI=<span class="number">5</span>,SAT=<span class="number">6</span>,SUN=<span class="number">7</span></span><br><span class="line">	&#125;;</span><br><span class="line">	<span class="comment">//day 是枚举变量</span></span><br><span class="line">	<span class="keyword">enum</span> DAY day;</span><br><span class="line">    <span class="comment">//给枚举变量赋值,值是某个枚举元素</span></span><br><span class="line">	day=WED;</span><br><span class="line">    <span class="comment">//每个枚举元素对应一个值 3</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d"</span>,day);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="枚举的遍历及使用"><a href="#枚举的遍历及使用" class="headerlink" title="枚举的遍历及使用"></a>枚举的遍历及使用</h2><p><strong>遍历</strong></p>
-<p>C语言中，<strong>枚举类型</strong>是被当做<code>int</code>或者<code>unsigned int</code>类型来处理的，<strong>枚举类型必须连续是可以实现有条件的遍历</strong>。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">enum</span> day </span><br><span class="line">	&#123;</span><br><span class="line">	<span class="comment">//如果没有给赋值,则会按照顺序赋值</span></span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN;</span><br><span class="line">	&#125;day;</span><br><span class="line">	<span class="comment">//表示定义了一个枚举类型 enum Day,同时定义了一个变量枚举day(类型是 enum day)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(day = MON;day&lt;=SUN;day++)&#123;</span><br><span class="line">       <span class="comment">//要求枚举元素是连续赋值 </span></span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"枚举元素:%d\n"</span>,day);</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="keyword">return</span> o;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>swich 使用枚举</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//定义枚举类型 enum SEASONS</span></span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS seasons;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入你喜欢的季节:1.spring,2.summer,3.autumn,4.winter);"</span>); 		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;season);</span><br><span class="line">	<span class="keyword">switch</span>(season)&#123;</span><br><span class="line">	<span class="keyword">case</span> SPRING: </span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是春天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> SUMMER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是夏天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> AUTUMN:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是秋天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> WINTER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是冬天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"输入有误"</span>); </span><br><span class="line">	&#125;</span><br><span class="line">	getchar();</span><br><span class="line">	getchar();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>使用的注意事项和细节</strong></p>
+    <title>泛型</title>
+    <url>/posts/805/</url>
+    <content><![CDATA[<h1 id="1-泛型"><a href="#1-泛型" class="headerlink" title="1.泛型"></a>1.泛型</h1><h2 id="1-1什么是泛型"><a href="#1-1什么是泛型" class="headerlink" title="1.1什么是泛型"></a>1.1什么是泛型</h2><p><strong>泛型的概念</strong></p>
 <ul>
-<li><p><strong>第一个枚举成员</strong>的<strong>默认值为整型的0</strong>，<strong>后续枚举成员的值</strong>在<strong>前一个成员上加1.</strong></p>
+<li><p>Java 泛型（generics）是 <code>JDK 5</code> 中引入的一个新特性,考虑到<code>向前兼容</code>，编译器是<strong>允许非泛型集合与泛型集合互相赋值</strong> ,泛型提供了<strong>编译时类型安全检测机制</strong>，该机制允许程序在编译时检测到非法的类型。</p>
 </li>
-<li><p>在<strong>定义</strong><code>枚举类型</code>时<strong>改变枚举元素的值</strong></p>
+<li><p>泛型的<strong>本质</strong>是<strong>参数化类型</strong>,也就是说<strong>所操作的数据类型被指定为一个参数</strong>,泛型的<strong>参数只可以代表类</strong>，不能代表个别对象。由于 Java <strong>泛型的类型参数之实际类型在编译时会被消除</strong>，<strong>所以无法在运行时得知其类型参数的类型</strong>。</p>
 </li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum DAY&#123;</span><br><span class="line">	&#x2F;&#x2F;如果没有给赋值,会从1开始按照顺序赋值</span><br><span class="line">	MON,TUE,WED,THU&#x3D;9,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line">	&#x2F;&#x2F;定义了一个枚举类型enum DAY,同时定义了一个变量day</span><br><span class="line">	&#x2F;&#x2F;FRI,SAT,SUN 10,11,12</span><br></pre></td></tr></table></figure>
-
+<p><strong>参数化类型</strong></p>
 <ul>
-<li><strong>枚举变量</strong>的定义的形式</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先定义枚举类型,再定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">enum</span> Day day;</span><br><span class="line"><span class="comment">//定义枚举类型同时定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line"><span class="comment">//省略枚举类型,直接定义枚举变量,这种形式定义的枚举类型只能使用一次</span></span><br><span class="line"><span class="keyword">enum</span> &#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>整数转换为对应的枚举值</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS season;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="number">4</span>;</span><br><span class="line">    season = (<span class="keyword">enum</span> SEASONS)n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"season = %d"</span>,season);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=88" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
-</div>
-
-
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>枚举</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>栈和队列</title>
-    <url>/posts/7712/</url>
-    <content><![CDATA[<h1 id="1-栈和队列"><a href="#1-栈和队列" class="headerlink" title="1.栈和队列"></a>1.栈和队列</h1><p>在数组中，我们可以通过索引访问<code>随机</code>元素。 但是，在某些情况下，我们可能想要限制处理顺序。</p>
-<p>两种不同的处理顺序，<code>先入先出</code>和<code>后入先出</code>；以及两个相应的线性数据结构，<code>队列</code>和<code>栈</code>。</p>
-<h3 id="示例-队列"><a href="#示例-队列" class="headerlink" title="示例 - 队列"></a>示例 - 队列</h3><p><strong>先入先出的数据结构</strong></p>
-<hr>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/9e25e27f353f85d8ea00d178be89ee1f.png" alt="screen-shot-2018-05-03-at-151021">首先处理添加到队列中的<code>第一个元素</code>添加到<code>队列</code></p>
-<p>如上图所示，队列是典型的 <strong>FIFO(First Input First Output)</strong> 数据结构。插入（insert）操作也称作入队（enqueue），新元素始终被添加在<code>队列的末尾</code>。 删除（delete）操作也被称为出队（dequeue)。 你只能移除<code>第一个元素</code>。</p>
-<hr>
-<ul>
-<li>入队： <code>Enqueue</code> 将新元素 6 添加到队列中。</li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/b9db84785bc5c01963ef43cdf7baa40f.png" alt="screen-shot-2018-05-02-at-174355"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/646bd68a8314b465bd264fdff9c3cf53.png" alt="screen-shot-2018-05-02-at-172840">  Enqueue</p>
-<ul>
-<li><p>出队：<code>Dequeue</code> 查看将删除元素。</p>
-<p>Dequeue</p>
+<li><p><strong>将类型由原来的具体的类型参数化</strong>，然后在<strong>使用/调用时传入具体的类型</strong>这种参数类型可以用在类、方法和接口中，分别被称为<code>泛型类、泛型方法、泛型接口</code></p>
+</li>
+<li><p>编译器在<strong>编译泛型时会自动加入类型转换的编码</strong>，故<strong>运行速度不会因为使用泛型而加快</strong></p>
 </li>
 </ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/01/646bd68a8314b465bd264fdff9c3cf53.png" alt="screen-shot-2018-05-02-at-172840"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703092516.png" alt="screen-shot-2018-05-02-at-175409"></p>
-<h4 id="剑指-Offer-59-I-滑动窗口的最大值"><a href="#剑指-Offer-59-I-滑动窗口的最大值" class="headerlink" title="剑指 Offer 59 - I. 滑动窗口的最大值"></a><a href="https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/" target="_blank" rel="noopener">剑指 Offer 59 - I. 滑动窗口的最大值</a></h4><p>给定一个数组 <code>nums</code> 和滑动窗口的大小 <code>k</code>，请找出所有滑动窗口里的最大值。</p>
+<p><strong>泛型定义格式</strong></p>
 <ul>
-<li>难度简单</li>
+<li>&lt;类型&gt;：指定一种类型的格式。这里的类型可以看成是<strong>形参</strong></li>
+<li>&lt;类型1类型2…&gt;：指定<strong>多种类型的格式，多种类型之间用逗号隔开</strong>。这里的类型可以看成是形参将来具体调用时候给定的类型可以看成是实参，并且<strong>实参的类型只能是引用数据类型（类,接口,数组）</strong></li>
 </ul>
-<p><strong>示例:</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: nums &#x3D; [1,3,-1,-3,5,3,6,7], 和 k &#x3D; 3</span><br><span class="line">输出: [3,3,5,5,6,7] </span><br><span class="line">解释: </span><br><span class="line"></span><br><span class="line">  滑动窗口的位置                最大值</span><br><span class="line">---------------               -----</span><br><span class="line">[1  3  -1] -3  5  3  6  7       3</span><br><span class="line"> 1 [3  -1  -3] 5  3  6  7       3</span><br><span class="line"> 1  3 [-1  -3  5] 3  6  7       5</span><br><span class="line"> 1  3  -1 [-3  5  3] 6  7       5</span><br><span class="line"> 1  3  -1  -3 [5  3  6] 7       6</span><br><span class="line"> 1  3  -1  -3  5 [3  6  7]      7</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericParadigmDemo</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建集合对象</span></span><br><span class="line">        Collection c = <span class="keyword">new</span> ArrayList();</span><br><span class="line">        c.add(<span class="string">"数据结构和算法"</span>);</span><br><span class="line">        c.add(<span class="string">"C语言程序设计"</span>);</span><br><span class="line">        c.add(<span class="string">"Java入门到放弃"</span>);</span><br><span class="line">       </span><br><span class="line">        <span class="comment">//遍历集合</span></span><br><span class="line">        <span class="keyword">for</span> (Object o : c) &#123;</span><br><span class="line">            System.out.println(o);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<p><strong>修改代码</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">c.add(<span class="number">1379</span>);</span><br><span class="line">String str  = (String) it.next();</span><br></pre></td></tr></table></figure>
 
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericParadigmDemo</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建集合对象</span></span><br><span class="line">        Collection c = <span class="keyword">new</span> ArrayList();</span><br><span class="line">        c.add(<span class="string">"数据结构和算法"</span>);</span><br><span class="line">        c.add(<span class="string">"C语言程序设计"</span>);</span><br><span class="line">        c.add(<span class="string">"Java入门到放弃"</span>);</span><br><span class="line">        c.add(<span class="number">1379</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//遍历集合</span></span><br><span class="line">        <span class="keyword">for</span> (Object o : c) &#123;</span><br><span class="line">            <span class="comment">//Object obj = it.next();</span></span><br><span class="line">            <span class="comment">//System.out.println(obj);</span></span><br><span class="line">            String str = (String) o;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><strong>提示：</strong></p>
-<p>你可以假设 <em>k</em> 总是有效的，在输入数组不为空的情况下，1 ≤ k ≤ 输入数组的大小。</p>
-<p>🔗<a href="https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/solution/mian-shi-ti-59-i-hua-dong-chuang-kou-de-zui-da-1-6/" target="_blank" rel="noopener">题解参考链接</a></p>
-<h3 id="示例-栈"><a href="#示例-栈" class="headerlink" title="示例 - 栈"></a>示例 - 栈</h3><p>与<code>队列</code>不同<code>栈</code>是一个 <strong>LIFO(Last In First Out )</strong>  数据结构。通常，</p>
-<p>插入操作,入栈 <code>push</code> ,与队列类似，总是在<strong>堆栈的末尾添加一个新元素</strong></p>
-<p>举例说明🌰</p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/27/8ad03da66217574b46ae446756602527.png" alt="image-20200627133508630"></p>
+<p><strong>运行后出现</strong><code>ClassCastException</code></p>
 <ul>
-<li>入栈顺序 1=&gt;2 =&gt;3 =&gt;4 =&gt;5</li>
+<li><p>原因  c.add(1379)存储的是Integer类型,for循环里面的是String 类型不匹配</p>
+</li>
+<li><p>集合未指定数据类型</p>
+</li>
+<li><p>程序包含了<code>ClassCastException</code></p>
+</li>
 </ul>
-<p>删除操作,出栈 <code>pop</code> ，元素始终<strong>栈堆的末尾弹出</strong></p>
-<p>举例说明🌰</p>
+<p><strong>解决方法</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Collection&lt;String&gt; c &#x3D; new ArrayList&lt;String&gt;();</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/27/13c091f1900ba0c4c0fec3bd207aa91f.png" alt="image-20200627150124943"></p>
+<p><strong>使用泛型将运行时的异常提到了编译期</strong></p>
+<p>如果使用<code>迭代器遍历</code>集合</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Iterator it = c.iterator();</span><br><span class="line"><span class="keyword">while</span> (it.hasNext())&#123;</span><br><span class="line">     <span class="comment">//向上转型</span></span><br><span class="line">     String str = (String)it.next();</span><br><span class="line">     System.out.println(str);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>使用泛型后,<strong>避免了强制类型转换</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Iterator&lt;String&gt; it = c.iterator();</span><br><span class="line"><span class="keyword">while</span> (it.hasNext())&#123;</span><br><span class="line">    String str = it.next();</span><br><span class="line">    System.out.println(str);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="1-2泛型类"><a href="#1-2泛型类" class="headerlink" title="1.2泛型类"></a>1.2泛型类</h2><ul>
+<li><strong>泛型类</strong>的定义格式</li>
+<li>修饰符 class 类名 &lt;类型&gt;{}</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//T表示任意标识,常见的T,E,K,V</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="1-2-1普通方法"><a href="#1-2-1普通方法" class="headerlink" title="1.2.1普通方法"></a>1.2.1普通方法</h3><ul>
+<li>Game游戏类</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <ul>
-<li>入栈顺序 5=&gt;4 =&gt;3 =&gt;2 =&gt;1</li>
+<li>Player玩家类</li>
 </ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200703095049.png" alt="screen-shot-2018-06-02-at-203523"></p>
-<h4 id="剑指-Offer-09-用两个栈实现队列"><a href="#剑指-Offer-09-用两个栈实现队列" class="headerlink" title="剑指 Offer 09. 用两个栈实现队列"></a><a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/" target="_blank" rel="noopener">剑指 Offer 09. 用两个栈实现队列</a></h4><ul>
-<li>难度简单</li>
-</ul>
-<p>用两个栈实现一个队列。队列的声明如下，请实现它的两个函数 <code>appendTail</code> 和 <code>deleteHead</code> ，分别完成在<strong>队列尾部插入</strong>整数和在<strong>队列头部删除整数</strong>的功能。(若队列中没有元素，<code>deleteHead</code> 操作返回 -1 )</p>
-<p><strong>示例 1：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line">[&quot;CQueue&quot;,&quot;appendTail&quot;,&quot;deleteHead&quot;,&quot;deleteHead&quot;]</span><br><span class="line">[[],[3],[],[]]</span><br><span class="line">输出：[null,null,3,-1]</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Player</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Integer age;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Integer <span class="title">getAge</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> age;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span> <span class="params">(Integer age)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.age = age;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><strong>示例 2：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line">[&quot;CQueue&quot;,&quot;deleteHead&quot;,&quot;appendTail&quot;,&quot;appendTail&quot;,&quot;deleteHead&quot;,&quot;deleteHead&quot;]</span><br><span class="line">[[],[],[5],[2],[],[]]</span><br><span class="line">输出：[null,-1,null,null,5,2]</span><br></pre></td></tr></table></figure>
-
-<p><strong>提示：</strong></p>
 <ul>
-<li><code>1 &lt;= values &lt;= 10000</code></li>
-<li><code>最多会对 appendTail、deleteHead 进行 10000 次调用</code></li>
+<li>Test测试类</li>
 </ul>
-<p>🔗<a href="https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/solution/mian-shi-ti-09-yong-liang-ge-zhan-shi-xian-dui-l-2/" target="_blank" rel="noopener">题解参考链接</a></p>
-<h4 id="剑指-Offer-30-包含min函数的栈"><a href="#剑指-Offer-30-包含min函数的栈" class="headerlink" title="剑指 Offer 30. 包含min函数的栈"></a><a href="https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/" target="_blank" rel="noopener">剑指 Offer 30. 包含min函数的栈</a></h4><ul>
-<li>难度简单</li>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Player p = <span class="keyword">new</span> Player();</span><br><span class="line">        p.setAge(<span class="number">18</span>);</span><br><span class="line">        System.out.println(p.getAge());</span><br><span class="line"></span><br><span class="line">        Game g = <span class="keyword">new</span> Game();</span><br><span class="line">        g.setName(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        System.out.println(g.getName());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>使用泛型让一个方法<strong>接受不同的参数类型</strong></p>
+<p>修改<code>Game</code>为泛型类</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> T t;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> T <span class="title">getT</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> t;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setT</span><span class="params">(T t)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.t = t;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>修改<code>Test</code>类 </p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//设置泛型参数为String</span></span><br><span class="line">Game&lt;String&gt; g = <span class="keyword">new</span> Game&lt;String&gt;();</span><br><span class="line">g.setT(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">System.out.println(g1.getT());</span><br><span class="line"><span class="comment">//设置泛型参数为Ineger</span></span><br><span class="line">Game&lt;Integer&gt; g2 = <span class="keyword">new</span> Game&lt;Integer&gt;();</span><br><span class="line">g2.setT(<span class="number">18</span>);</span><br><span class="line">System.out.println(g2.getT());</span><br></pre></td></tr></table></figure>
+
+<p><strong>实现了相同效果,减少了一个类的创建</strong></p>
+<h3 id="1-2-2方法重载"><a href="#1-2-2方法重载" class="headerlink" title="1.2.2方法重载"></a>1.2.2方法重载</h3><ul>
+<li>1.创建一个Game类(重载)</li>
 </ul>
-<p>定义栈的数据结构，请在该类型中实现一个能够得到栈的最小元素的 min 函数在该栈中，调用 min、push 及 pop 的时间复杂度都是 O(1)。</p>
-<p><strong>示例:</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">MinStack minStack &#x3D; new MinStack();</span><br><span class="line">minStack.push(-2);</span><br><span class="line">minStack.push(0);</span><br><span class="line">minStack.push(-3);</span><br><span class="line">minStack.min();   --&gt; 返回 -3.</span><br><span class="line">minStack.pop();</span><br><span class="line">minStack.top();      --&gt; 返回 0.</span><br><span class="line">minStack.min();   --&gt; 返回 -2.</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(String name)</span></span>&#123;</span><br><span class="line">        System.out.println(name);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(Integer price)</span></span>&#123;</span><br><span class="line">        System.out.println(price);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(<span class="keyword">boolean</span> ontime)</span></span>&#123;</span><br><span class="line">        System.out.println(ontime);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><strong>提示：</strong></p>
-<ol>
-<li>各函数的调用总次数不超过 20000 次</li>
-</ol>
-<p>🔗<a href="https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/solution/mian-shi-ti-30-bao-han-minhan-shu-de-zhan-fu-zhu-z/" target="_blank" rel="noopener">题解参考链接</a></p>
-<h4 id="剑指-Offer-59-II-队列的最大值"><a href="#剑指-Offer-59-II-队列的最大值" class="headerlink" title="剑指 Offer 59 - II. 队列的最大值"></a><a href="https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/" target="_blank" rel="noopener">剑指 Offer 59 - II. 队列的最大值</a></h4><ul>
-<li>难度中等</li>
-</ul>
-<p>请定义一个队列并实现函数 <code>max_value</code> 得到队列里的最大值，要求函数<code>max_value</code>、<code>push_back</code> 和 <code>pop_front</code> 的<strong>均摊</strong>时间复杂度都是O(1)。</p>
-<p>若队列为空，<code>pop_front</code> 和 <code>max_value</code> 需要返回 -1</p>
-<p><strong>示例 1：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: </span><br><span class="line">[&quot;MaxQueue&quot;,&quot;push_back&quot;,&quot;push_back&quot;,&quot;max_value&quot;,&quot;pop_front&quot;,&quot;max_value&quot;]</span><br><span class="line">[[],[1],[2],[],[],[]]</span><br><span class="line">输出: [null,null,null,2,1,2]</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 2：</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">输入: </span><br><span class="line">[&quot;MaxQueue&quot;,&quot;pop_front&quot;,&quot;max_value&quot;]</span><br><span class="line">[[],[],[]]</span><br><span class="line">输出: [null,-1,-1]</span><br></pre></td></tr></table></figure>
-
-<p><strong>限制：</strong></p>
 <ul>
-<li><code>1 &lt;= push_back,pop_front,max_value的总操作数 &lt;= 10000</code></li>
-<li><code>1 &lt;= value &lt;= 10^5</code></li>
+<li>2.Test类</li>
 </ul>
-<p>🔗<a href="https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/solution/ru-he-jie-jue-o1-fu-za-du-de-api-she-ji-ti-by-z1m/" target="_blank" rel="noopener">题解参考链接</a></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    Game g = <span class="keyword">new</span> Game();</span><br><span class="line">    g.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">    g.attribute(<span class="number">298</span>);</span><br><span class="line">    g.attribute(<span class="keyword">false</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>3.如果再次添加属性,需要Game类中添加,才能使得新添加的属性生效</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(<span class="keyword">double</span> time)</span></span>&#123;</span><br><span class="line">        System.out.println(time);</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">g.attribute(<span class="number">2020.11</span>);</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>使用泛型类改进</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;</span><br><span class="line">        System.out.println(t);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game&lt;String&gt; g1 = <span class="keyword">new</span> Game&lt;String&gt;();</span><br><span class="line">        g1.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        Game&lt;Integer&gt; g2 = <span class="keyword">new</span> Game&lt;Integer&gt;();</span><br><span class="line">        g2.attribute(<span class="number">298</span>);</span><br><span class="line">        Game&lt;Boolean&gt; g3 = <span class="keyword">new</span> Game&lt;Boolean&gt;();</span><br><span class="line">        g3.attribute(<span class="keyword">false</span>);</span><br><span class="line">        Game&lt;Double&gt; g4 = <span class="keyword">new</span> Game&lt;Double&gt;();</span><br><span class="line">        g4.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="1-3泛型方法"><a href="#1-3泛型方法" class="headerlink" title="1.3泛型方法"></a>1.3泛型方法</h2><ul>
+<li><strong>泛型方法</strong>的定义格式</li>
+<li>修饰符&lt;类型&gt; 返回值类型 方法名 （类型 变量名){ }</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> &lt;T&gt; <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>Game</code>类 调用方法时才明确参数的类型</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> &lt;T&gt; <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;</span><br><span class="line">        System.out.println(t);        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Test类</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game g = <span class="keyword">new</span> Game();</span><br><span class="line">        g.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        g.attribute(<span class="number">298</span>);</span><br><span class="line">        g.attribute(<span class="keyword">false</span>);</span><br><span class="line">        g.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="1-4泛型接口"><a href="#1-4泛型接口" class="headerlink" title="1.4泛型接口"></a>1.4泛型接口</h2><ul>
+<li><strong>泛型接口</strong>的定义格式</li>
+<li>修饰符 interface 接口名&lt;类型&gt;{ }</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt;</span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>泛型接口</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p><strong>测试类无法直接使用接口,接口没有<code>实例化</code></strong></p>
+</li>
+<li><p>创建<strong>接口的实现类</strong></p>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GameImpl</span>&lt;<span class="title">T</span>&gt; <span class="keyword">implements</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span> </span>&#123;</span><br><span class="line">        System.out.println(t);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>Test</code>类</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game&lt;String&gt; g1 = <span class="keyword">new</span> GameImpl&lt;String&gt;();</span><br><span class="line">        g1.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        Game&lt;Integer&gt; g2 = <span class="keyword">new</span> GameImpl&lt;Integer&gt;();</span><br><span class="line">        g2.attribute(<span class="number">298</span>);</span><br><span class="line">        Game&lt;Boolean&gt; g3 = <span class="keyword">new</span> GameImpl&lt;Boolean&gt;();</span><br><span class="line">        g3.attribute(<span class="keyword">false</span>);</span><br><span class="line">        Game&lt;Double&gt; g4 = <span class="keyword">new</span> GameImpl&lt;Double&gt;();</span><br><span class="line">        g4.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li>参考连接</li>
+<li><a href="https://www.bilibili.com/video/BV1gb411F76B?p=252" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1gb411F76B?p=252</a></li>
+</ul>
 ]]></content>
       <categories>
-        <category>数据结构和算法</category>
+        <category>Java</category>
       </categories>
       <tags>
-        <tag>数据结构</tag>
-        <tag>剑指offer</tag>
-        <tag>栈和队列</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>汇编语言练习题</title>
-    <url>/posts/ac3c/</url>
-    <content><![CDATA[<h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><p>（1）1个CPU的寻址能力为8KB，那么它的地址总线的宽度为<strong>13</strong></p>
-<ul>
-<li>“<strong>一个cpu若有N根地址总线，那么它可以寻2^N个内存单元</strong>。(即：内存单元的单位就是cpu最小单位）一个内存单元可以储存8个比特。”即：一个内存单元=8个比特=一个Byte（字节），可见一个内存单元=1Byte大小，所以cpu寻址最小单位为Byte。 N即是地址总线宽度，8KB=2^13Byte,N=13</li>
-</ul>
-<p>（2）1KB的存储器有个存储单元。存储单元的编号从到<strong>0-1023</strong><br>（3）1KB的存储器可以存储个<strong>2^13</strong>bit，<strong>2^10</strong>个Byte<br>（4）1GB、MB、1KB分别是Byte  <strong>2^30  ,2^20 ,2^10</strong><br>（5）8080、8088、80286、80386的地址总线宽度分别为16根、20根、24根、32根，则它们的寻址能力分别为：（KB）、_（MB）<br>（MB）、（GB）。<strong>64, 1,16, 4</strong></p>
-<ul>
-<li><strong>一个CPU有N根地址线，则可以说这个CPU的地址总线的宽度为N。这样的CPU最多可以寻找2的N次方个内存单元。（一个内存单元=1Byte）。</strong></li>
-</ul>
-<p>（6）8080、8088、8086、80286、80386的数据总线宽度分别为8根、8根、16根、16根、32根。则它们一次可以传送的数据为：（B）、（B）、（B）、（B）、（B）<strong>1, 1, 2,  2, 4,</strong><br>（7）从内存中读取1024字节的数据，8086至少要读<strong>512</strong>次，80386至少要读<strong>256</strong>次<br>（8）在存储器中，数据和程序以<strong>二进制</strong>形式存放。</p>
-]]></content>
-      <categories>
-        <category>汇编语言</category>
-      </categories>
-      <tags>
-        <tag>汇编语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>树</title>
-    <url>/posts/5b58/</url>
-    <content><![CDATA[<p>树( Tree’ )是 n(n~O) 个结点的有限集 。n=O 时称为空树 。 在任<br>意-棵非空树中: ( 1 )有且仅有-个特定的称为根( Root )的结<br>点: (2) 当n&gt;1 时，其余结点可分为 m (m&gt;O) 个互不相变的<br>有限集 T1 、 T2、……、 Tm • 奠中每一个集合本身又是一槐树，并<br>且称为棍的子树( SubTree ).如圈 6-2-1 所示 。<br><a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener"><img src= "/img/loading.gif" data-src="https://github-readme-stats.vercel.app/api?username=l0serH4&show_icons=true&theme=synthwave" alt="Anurag&#39;s github stats"></a></p>
-<script src="https://assets.gitee.com/webpacks/project_animation-d3270c762ea6fed9d2c1.bundle.js"></script>]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>二叉树</tag>
+        <tag>Java</tag>
+        <tag>集合</tag>
+        <tag>泛型</tag>
       </tags>
   </entry>
   <entry>
@@ -2271,216 +2528,6 @@
       </tags>
   </entry>
   <entry>
-    <title>文件操作</title>
-    <url>/posts/3f31/</url>
-    <content><![CDATA[<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><ul>
-<li><p><code>流</code>：数据在<strong>数据源（文件）和程序（内存）</strong>之间经历的<strong>路径</strong></p>
-</li>
-<li><p><code>输入流</code>：数据从数据源（文件）到程序（内存）的路径</p>
-</li>
-<li><p><code>输岀流</code>：数据从程序（内存）到数据源（文件）的路径</p>
-</li>
-<li><p>C标准库<code>stdio.h</code>该头文件<strong>定义了三个变量类型</strong>、一些宏和各种函数来执行输入和输出</p>
-</li>
-</ul>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/17/00cea1dabd649b34bdcc2806ec605e8e.png" alt="image-20200717201852928"></p>
-<h3 id="输入和输出"><a href="#输入和输出" class="headerlink" title="输入和输出"></a>输入和输出</h3><ul>
-<li><code>输入</code>：向程序写入一些数据。输入可以是<strong>以文件的形式或从命令行</strong>中进行。C语言提供了<strong>内置函数</strong>来读取给定的输入，并根据需要<strong>写入到程序中</strong></li>
-<li><code>输出</code>，这意味着要在<code>屏幕上、打印机上或任意文件</code>中<strong>显示数据</strong>。C语言提供了<strong>内置函数</strong>来输出数据到<strong>计算机屏幕上和保存数据到文本文件或二进制文件中</strong></li>
-</ul>
-<h3 id="标准文件"><a href="#标准文件" class="headerlink" title="标准文件"></a>标准文件</h3><ul>
-<li><p>C语言<strong>把所有的设备都当作文件</strong>。设备(比如显示器)<strong>被处理的方式与文件相同</strong>。</p>
-</li>
-<li><p><code>文件指针</code>是访问文件的方式</p>
-</li>
-<li><p>C语言中的I/O（输入/输岀）通常使用 <code>printf</code>和 <code>scanf</code>两个函数。 <code>scanf()</code>函数用于从<strong>标准输入（键盘）读取并格式化，</strong> <code>printf()</code>函数发送<strong>格式化输出到标准输出(屏幕)</strong></p>
-</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>标准文件</th>
-<th>文件指针</th>
-<th>设备</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>标准输入</td>
-<td>stdin</td>
-<td>键盘</td>
-</tr>
-<tr>
-<td>标准输出</td>
-<td>stdout</td>
-<td>屏幕</td>
-</tr>
-<tr>
-<td>标准错误</td>
-<td>stderr</td>
-<td>屏幕</td>
-</tr>
-</tbody></table>
-<p>三个文件会在程序执行时自动打开，以便访问键盘和屏幕</p>
-<p><strong>getchar()&amp; putchar()函数</strong></p>
-<ul>
-<li><code>int getchar(void)</code>函数从屏幕<strong>读取下一个可用的字符，并把它返回为一个整数</strong>。函数在<strong>同一个时间内只会读取一个单一的字符</strong>。循环内使用这个方法，以便从屏幕上读取多个字符。</li>
-<li><code>int putchar(int)</code>函数把字符输出到屏幕上，<strong>并返回相同的字符</strong>。函数在<strong>同一个时间内只会输出一个单一的字符</strong>。循环内使用这个方法，以便从屏幕上读取多个字符。</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">( )</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c;</span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"Enter a value :"</span>);</span><br><span class="line">    c = getchar();</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\nYou entered: "</span>);</span><br><span class="line">    <span class="built_in">putchar</span>(c);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>gets()&amp; puts()函数</strong></p>
-<ul>
-<li><code>char*gets(char *s)</code>函数从 stdin<strong>读取一行到s所指向的缓冲区，直到一个终止符或EOF</strong></li>
-<li><code>Int puts(const char*s)</code>函数把<strong>字符串s和一个尾随的换行符写入到 stdout</strong></li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">( )</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> str[<span class="number">100</span>];</span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"Enter a value :"</span>);</span><br><span class="line">    gets(str);</span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"\nYou entered: "</span>);</span><br><span class="line">    <span class="built_in">puts</span>(str);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>scanf()&amp;printf0函数</strong></p>
-<ul>
-<li><p><code>int scanf(const char* format，…)</code>函数从<strong>标准输入流 stdin读取输入</strong>，并根据提供的 format来浏览输入。</p>
-</li>
-<li><p><code>int printf(const char* format，…)</code>函数把输出写入到<strong>标准输出流 stdout</strong>，<strong>根据提供的格式产生输出</strong></p>
-</li>
-<li><p><code>format</code>可以是一个简单的<strong>常量字符串</strong>，可以分别指定<code>%s、%d、%c、%f</code>等来输出或<strong>读取字符串、整数字符或浮点数</strong>。根据需要使用对应的格式选项。</p>
-</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">( )</span> </span>&#123;</span><br><span class="line">    <span class="keyword">char</span> str[<span class="number">100</span>];</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"Enter a value :"</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%s %d"</span>, str, &amp;i);</span><br><span class="line">    <span class="built_in">printf</span>( <span class="string">"\nYou entered: %s %d "</span>, str, i);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h2><h3 id="文件读写"><a href="#文件读写" class="headerlink" title="文件读写"></a>文件读写</h3><ul>
-<li>无论是文本文件还是二进制文件，<strong>代表了一系列的字节</strong>。C语言不仅提供了访问顶层和底层(OS)调用来处理存储设备上的文件。</li>
-</ul>
-<h3 id="打开文件"><a href="#打开文件" class="headerlink" title="打开文件"></a>打开文件</h3><p>使用<code>fopen()</code>函数来<strong>创建一个新的文件或者打开一个已有的文件</strong>，这个调用会<strong>初始化类型FILE的一个对象</strong>，<strong>类型FILE包含了所有用来控制流的必要的信息</strong>。函数调用的原型<code>FILE *fopen(const char *filename, const char mode)</code></p>
-<ul>
-<li><p><strong>filename是字符串，用来命名文件，mode是访问模式的值</strong></p>
-</li>
-<li><p>如果处理的是二进制文件(图片,视频)，则需使用下面的访问模式：”rb”，”wb”，”ab”，”rb+”，”r+b”，”wb+”，”w+b”<br>“ab+”，”a+b”(b代表二进制)</p>
-</li>
-</ul>
-<p><strong>函数说明</strong></p>
-<table>
-<thead>
-<tr>
-<th>模式</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>r</td>
-<td>打开一个已有的文本文件，允许读取文件</td>
-</tr>
-<tr>
-<td>w</td>
-<td>打开一个文本文件，允许写入文件。如果文件不存在，则会创建一个新文件。在这里，程序会从文件的开头写入内容。<strong>如果文件存在，则该会被截断为零长度，重新写入！。</strong></td>
-</tr>
-<tr>
-<td>a</td>
-<td>打开一个文本文件，以<strong>追加模式</strong>写入文件。如果文件不存在，则会创建一个新文件。在这里，程序会在已有的文件内容中追加内容</td>
-</tr>
-<tr>
-<td>r+</td>
-<td>打开一个文本文件，允许读写文件</td>
-</tr>
-<tr>
-<td>w+</td>
-<td>打开一个文本文件，允许读写文件。如果文件已存在，则文件会被截断为零长度，如果文件不存在，则会创建一个新文件</td>
-</tr>
-<tr>
-<td>a+</td>
-<td>打开一个文本文件，允许读写文件。如果文件不存在，则会创建一个新文件读取会从文件的开头开始，写入则只能是追加模式。</td>
-</tr>
-</tbody></table>
-<h3 id="关闭文件"><a href="#关闭文件" class="headerlink" title="关闭文件"></a>关闭文件</h3><p><code>fclose()</code>函数。函数的原型如下int fclose(FILEfp)</p>
-<ul>
-<li><strong>成功关闭文件， fclose()函数返回零</strong>，<strong>关闭文件时发生错误，函数返回EOF</strong>。<code>fclose()</code>函数，<strong>会清空缓冲区中的数据，关闭文件，并释放用于该文件的所有内存</strong>。<code>EOF</code>是一个定义在头文件<code>&lt;stdio. h&gt;</code>中的<strong>常量</strong>。</li>
-<li>C标准库提供了各种函数来<strong>按字符或者以固定长度字符串的形式读写文件。</strong></li>
-<li><strong>使用完文件后(读,写)，一定要将该文件关闭</strong></li>
-</ul>
-<h3 id="写入文件"><a href="#写入文件" class="headerlink" title="写入文件"></a>写入文件</h3><p><strong>把字符写入到流</strong>中的函数<code>int fputc(int c, FILE *fp)</code>;</p>
-<ul>
-<li>说明：函数 fputc() 把参数 c 的字符值写入到 fp 所指向的输出流中。如果<strong>写入成功，它会返回写入的字符</strong>，<br>如果<strong>发生错误，则会返回</strong> <code>EOF</code>。</li>
-<li><code>int fputs(const char *s, FILE *fp)</code>;把一个以 null 结尾的字符串写入到流中：<br>说明：函数 fputs() 把字符串 s 写入到 fp 所指向的输出流中。如果<strong>写入成功，它会返回一个非负值</strong>，如果<strong>发生</strong><br><strong>错误，则会返回</strong> <code>EOF</code>。也可以使用 <code>int fprintf(FILE *fp,const char *format, ...)</code>函数来写<strong>把一个字符串写入到文件中</strong></li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//创建一个文件指针</span></span><br><span class="line">    FILE *fp = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="comment">//打开该文件 w+ 模式是 文件会被截断为零长度</span></span><br><span class="line">    fp = fopen(<span class="string">"d:/java.txt"</span>, <span class="string">"w+"</span>); </span><br><span class="line">    <span class="comment">//fp = fopen("d:/test100.txt", "a+");</span></span><br><span class="line">    <span class="comment">//将内容写入到文件中</span></span><br><span class="line">    <span class="comment">/*fprintf(fp, "hello world java~~\n");</span></span><br><span class="line"><span class="comment">    fputs("hello world go~~\n", fp);*/</span></span><br><span class="line">    <span class="comment">//关闭文件!</span></span><br><span class="line">    fclose(fp);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"创建，写入信息完成"</span>);</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="读取文件"><a href="#读取文件" class="headerlink" title="读取文件"></a>读取文件</h3><ul>
-<li><strong>从文件读取单个字符</strong>的函数<code>int fgetc( FILE * fp )</code>;<br>说明：fgetc() 函数从 fp 所指向的输入文件中读取一个字符。<strong>返回值是读取的字符，如果发生错误则返回</strong> <code>EOF</code>。</li>
-<li><strong>从流中读取一个字符串</strong>：<code>char *fgets(char *buf, int n, FILE *fp)</code>;<ul>
-<li>说明：函数 fgets() 从 fp 所指向的输入流中<strong>读取 n - 1 个字符</strong>。<strong>把读取的字符串复制到<code>缓冲区 buf</code>，并在</strong><br><strong>最后追加一个 <code>null 字符</code>来终止字符串。</strong><br>如果这个函数在<strong>读取最后一个字符之前</strong>就遇到一个<strong>换行符 ‘\n’ 或文件的末尾 EO</strong>F，则<strong>只会返回读取到的字符，</strong><br><strong>包括换行符。</strong></li>
-<li>也可使用<code>int fscanf(FILE *fp, const char *format, ...)</code> 函数来<strong>从文件中读取字符串</strong>，但是在<strong>遇到第一个空格字符</strong><br><strong>时，它会停止读取。</strong></li>
-</ul>
-</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="comment">//创建一个文件指针</span></span><br><span class="line">    FILE *fp = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="comment">//定义一个缓冲区</span></span><br><span class="line">    <span class="keyword">char</span> buff[<span class="number">1024</span>];</span><br><span class="line">    <span class="comment">//打开文件</span></span><br><span class="line">    fp = fopen(<span class="string">"d:/java.txt"</span>, <span class="string">"r"</span>);</span><br><span class="line">    <span class="comment">//方法 1</span></span><br><span class="line">    <span class="comment">//fscanf(fp, "%s", buff);</span></span><br><span class="line">    <span class="comment">////输出</span></span><br><span class="line">    <span class="comment">//printf("%s\n", buff);</span></span><br><span class="line">    <span class="comment">//方法 2 读取整个文件</span></span><br><span class="line">    <span class="comment">//说明，循环读取 fp 指向的文件内容，如果读到 NULL,就结束</span></span><br><span class="line">    <span class="keyword">while</span>(fgets(buff, <span class="number">1024</span>,fp)!=<span class="literal">NULL</span>) &#123;</span><br><span class="line">   		<span class="built_in">printf</span>(<span class="string">"%s"</span>, buff);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//关闭文件</span></span><br><span class="line">    fclose(fp);</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>文件操作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>结构体和共用体</title>
-    <url>/posts/d9a0/</url>
-    <content><![CDATA[<h2 id="结构体基本介绍"><a href="#结构体基本介绍" class="headerlink" title="结构体基本介绍"></a>结构体基本介绍</h2><p><code>结构体</code>和<code>结构体变量</code>的区别和联系</p>
-<ul>
-<li><code>结构体</code>是<strong>自定义的数据类型</strong>，表示的是一种数据类型 (Game 是数据类型 name是变量)</li>
-<li><code>结构体变量</code>代表一个具体变量 int price(int是数据类型 price是变量);</li>
-</ul>
-<p><strong>成员基本介绍</strong></p>
-<ul>
-<li><p><code>成员</code>或<code>结构体包含的变量</code> 说法不同</p>
-</li>
-<li><p>成员是结构体的一个组成部分，<strong>一般是基本数据类型</strong>、也可以是<code>数组</code>、<code>指针</code>、<code>结构体</code>等。</p>
-</li>
-</ul>
-<p><strong>注意事项和细节说明</strong></p>
-<ul>
-<li>成员声明语法同变量 <code>数据类型</code>   <code>成员名</code></li>
-<li>字段的类型可以为：<code>基本类型</code>、<code>数组或指针</code>、<code>结构体</code>等</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//结构体声明</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> 结构体名称&#123;</span></span><br><span class="line">  <span class="comment">//结构体名首字母大写</span></span><br><span class="line">  成员列表...</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//创建结构体 Game 数据类型</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">        <span class="keyword">char</span> *name;</span><br><span class="line">        <span class="keyword">int</span> price;</span><br><span class="line">        <span class="keyword">char</span> *time;</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="comment">//使用结构体创建变量</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">    <span class="comment">//给变量的成员赋值</span></span><br><span class="line">    game1.name = <span class="string">"CyberPunk2077"</span>;</span><br><span class="line">    game1.price = <span class="number">298</span>;</span><br><span class="line">    game1.time = <span class="string">"2020.11.19"</span>;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game2</span>;</span></span><br><span class="line">    game2.name = <span class="string">"Watch Dogs: Legion"</span>;</span><br><span class="line">    game2.price = <span class="number">298</span>;</span><br><span class="line">    game2.time = <span class="string">"2020.10.29"</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s\n"</span>,game1.name,game1.price,game1.time);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s"</span>,game2.name,game2.price,game2.time);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200716163649.png" alt="image-20200716163618173"></p>
-<h3 id="结构体的创建"><a href="#结构体的创建" class="headerlink" title="结构体的创建"></a>结构体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先创建结构体</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//使用结构体创建变量</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体的同时定义结构体变量并初始化</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125; game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;,game2 = &#123;<span class="string">"Watch Dogs: Legion"</span>,<span class="number">298</span>,<span class="string">"2020.10.29"</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体变量时整体赋值</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span> = &#123;</span><span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
-
-<p><strong>错误示范</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
-
-<p><strong>结构体定义的变量的数量确定</strong>时可以使用<strong>匿名结构体</strong>方式创建</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;game1,game2;</span><br></pre></td></tr></table></figure>
-
-<h2 id="公用体基本介绍"><a href="#公用体基本介绍" class="headerlink" title="公用体基本介绍"></a>公用体基本介绍</h2><ul>
-<li><code>共用体(Union)</code>属于<strong>构造类型</strong>，它可以<strong>包含多个类型不同的成员</strong>。和结构体非常类似，但是也有<strong>不同的地方共用体有时也被称为联合或者联合体</strong>，定义格式为</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">union</span> 共用体名&#123;</span><br><span class="line">成员列表...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>结构体</code>和<code>共用体</code>的<strong>区别</strong>在于：<code>结构体</code>的各个成员会<strong>占用不同的内存</strong>，<strong>互相之间没有影响</strong>；而<code>共用体</code>的所有成员<strong>占用同一段内存</strong>，<strong>修改一个成员会影响其余所有成员</strong>并<strong>以空间最大的成员为准</strong></li>
-</ul>
-<h3 id="共用体的创建"><a href="#共用体的创建" class="headerlink" title="共用体的创建"></a>共用体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//方法一</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">union</span> data d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法二</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法三</span></span><br><span class="line"><span class="keyword">union</span> &#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br></pre></td></tr></table></figure>
-
-<p><strong>🌰举例</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">union</span> data&#123; <span class="comment">// data 就是一个共用体(内存布局)， 包含三个成员, 共享数据空间, 该空间的大小以占用最大的成员为准</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">	short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//定义两个一个 共用体变量  a</span></span><br><span class="line">	<span class="keyword">union</span> data a; </span><br><span class="line">    <span class="comment">// 4, 4</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %d\n"</span>, <span class="keyword">sizeof</span>(a), <span class="keyword">sizeof</span>(<span class="keyword">union</span> data));</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0100 0000(1个字节8位数字) </span></span><br><span class="line">	a.n = <span class="number">0x40</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 64 a.ch ==&gt; @ 根据ASCII表 找到64 对应的字符@ a.m==&gt;64 short也是整型并且字节数大于64储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//字符9 根据ASCII表找到对应的2进制 0011 1001存储在内存中 </span></span><br><span class="line">	a.ch = <span class="string">'9'</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 57 0011 1001覆盖了原先的0100 0000 a.m==&gt;57 short也是整型并且字节数大于57储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0010 0000 0101 1001(1个字节8位数字) </span></span><br><span class="line">	a.m = <span class="number">0x2059</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt;8281 2进制==&gt;10进制输出 a.ch==&gt;Y ch只占一个字节 0101 1001 转化为10进制 89 对应ASCII表的字符Y</span></span><br><span class="line">    <span class="comment">//a.m ==&gt;8281 short也是整型并且字节数等于于8281存储的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 (1个字节8位数字) 0011 1110 0010 0101 1010 1101 0101 0100</span></span><br><span class="line">	a.n = <span class="number">0x3E25AD54</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt; 2进制==&gt;10进制输出1042656596 a.ch 只看最后一个字节存储的2进制0101 0100 转化为10进制 84 对应ASCII表的字符T</span></span><br><span class="line">    <span class="comment">//a.m==&gt; 44372只看最后两个字节存储的1010 1101 0101 0100 转换为10进制输出44382</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">	getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>内存图解</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200717175628.png" alt="image-20200717175621397"></p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=147" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
-</div>
-
-]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>结构体和共用体</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>预处理命令</title>
     <url>/posts/3c59/</url>
     <content><![CDATA[<h2 id="预处理命令基本介绍"><a href="#预处理命令基本介绍" class="headerlink" title="预处理命令基本介绍"></a><strong>预处理命令基本介绍</strong></h2><ul>
@@ -2648,6 +2695,78 @@
       </tags>
   </entry>
   <entry>
+    <title>结构体和共用体</title>
+    <url>/posts/d9a0/</url>
+    <content><![CDATA[<h2 id="结构体基本介绍"><a href="#结构体基本介绍" class="headerlink" title="结构体基本介绍"></a>结构体基本介绍</h2><p><code>结构体</code>和<code>结构体变量</code>的区别和联系</p>
+<ul>
+<li><code>结构体</code>是<strong>自定义的数据类型</strong>，表示的是一种数据类型 (Game 是数据类型 name是变量)</li>
+<li><code>结构体变量</code>代表一个具体变量 int price(int是数据类型 price是变量);</li>
+</ul>
+<p><strong>成员基本介绍</strong></p>
+<ul>
+<li><p><code>成员</code>或<code>结构体包含的变量</code> 说法不同</p>
+</li>
+<li><p>成员是结构体的一个组成部分，<strong>一般是基本数据类型</strong>、也可以是<code>数组</code>、<code>指针</code>、<code>结构体</code>等。</p>
+</li>
+</ul>
+<p><strong>注意事项和细节说明</strong></p>
+<ul>
+<li>成员声明语法同变量 <code>数据类型</code>   <code>成员名</code></li>
+<li>字段的类型可以为：<code>基本类型</code>、<code>数组或指针</code>、<code>结构体</code>等</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//结构体声明</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> 结构体名称&#123;</span></span><br><span class="line">  <span class="comment">//结构体名首字母大写</span></span><br><span class="line">  成员列表...</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">//创建结构体 Game 数据类型</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">        <span class="keyword">char</span> *name;</span><br><span class="line">        <span class="keyword">int</span> price;</span><br><span class="line">        <span class="keyword">char</span> *time;</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="comment">//使用结构体创建变量</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">    <span class="comment">//给变量的成员赋值</span></span><br><span class="line">    game1.name = <span class="string">"CyberPunk2077"</span>;</span><br><span class="line">    game1.price = <span class="number">298</span>;</span><br><span class="line">    game1.time = <span class="string">"2020.11.19"</span>;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game2</span>;</span></span><br><span class="line">    game2.name = <span class="string">"Watch Dogs: Legion"</span>;</span><br><span class="line">    game2.price = <span class="number">298</span>;</span><br><span class="line">    game2.time = <span class="string">"2020.10.29"</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s\n"</span>,game1.name,game1.price,game1.time);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"游戏名称:%s 价格:%d 发售时间:%s"</span>,game2.name,game2.price,game2.time);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200716163649.png" alt="image-20200716163618173"></p>
+<h3 id="结构体的创建"><a href="#结构体的创建" class="headerlink" title="结构体的创建"></a>结构体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先创建结构体</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//使用结构体创建变量</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体的同时定义结构体变量并初始化</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125; game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;,game2 = &#123;<span class="string">"Watch Dogs: Legion"</span>,<span class="number">298</span>,<span class="string">"2020.10.29"</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//定义结构体变量时整体赋值</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span> = &#123;</span><span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><strong>错误示范</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Game</span> <span class="title">game1</span>;</span></span><br><span class="line">game1 = &#123;<span class="string">"CyberPunk2077"</span>,<span class="number">298</span>,<span class="string">"2020.11.19"</span>&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><strong>结构体定义的变量的数量确定</strong>时可以使用<strong>匿名结构体</strong>方式创建</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> &#123;</span></span><br><span class="line">    <span class="keyword">char</span> *name;</span><br><span class="line">    <span class="keyword">int</span> price;</span><br><span class="line">    <span class="keyword">char</span> *time;</span><br><span class="line">&#125;game1,game2;</span><br></pre></td></tr></table></figure>
+
+<h2 id="公用体基本介绍"><a href="#公用体基本介绍" class="headerlink" title="公用体基本介绍"></a>公用体基本介绍</h2><ul>
+<li><code>共用体(Union)</code>属于<strong>构造类型</strong>，它可以<strong>包含多个类型不同的成员</strong>。和结构体非常类似，但是也有<strong>不同的地方共用体有时也被称为联合或者联合体</strong>，定义格式为</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">union</span> 共用体名&#123;</span><br><span class="line">成员列表...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>结构体</code>和<code>共用体</code>的<strong>区别</strong>在于：<code>结构体</code>的各个成员会<strong>占用不同的内存</strong>，<strong>互相之间没有影响</strong>；而<code>共用体</code>的所有成员<strong>占用同一段内存</strong>，<strong>修改一个成员会影响其余所有成员</strong>并<strong>以空间最大的成员为准</strong></li>
+</ul>
+<h3 id="共用体的创建"><a href="#共用体的创建" class="headerlink" title="共用体的创建"></a>共用体的创建</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//方法一</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">union</span> data d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法二</span></span><br><span class="line"><span class="keyword">union</span> data&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法三</span></span><br><span class="line"><span class="keyword">union</span> &#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">    short m;</span><br><span class="line">&#125;d1,d2;</span><br></pre></td></tr></table></figure>
+
+<p><strong>🌰举例</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">union</span> data&#123; <span class="comment">// data 就是一个共用体(内存布局)， 包含三个成员, 共享数据空间, 该空间的大小以占用最大的成员为准</span></span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="keyword">char</span> ch;</span><br><span class="line">	short m;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//定义两个一个 共用体变量  a</span></span><br><span class="line">	<span class="keyword">union</span> data a; </span><br><span class="line">    <span class="comment">// 4, 4</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %d\n"</span>, <span class="keyword">sizeof</span>(a), <span class="keyword">sizeof</span>(<span class="keyword">union</span> data));</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0100 0000(1个字节8位数字) </span></span><br><span class="line">	a.n = <span class="number">0x40</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 64 a.ch ==&gt; @ 根据ASCII表 找到64 对应的字符@ a.m==&gt;64 short也是整型并且字节数大于64储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//字符9 根据ASCII表找到对应的2进制 0011 1001存储在内存中 </span></span><br><span class="line">	a.ch = <span class="string">'9'</span>;</span><br><span class="line">    <span class="comment">//a.n ==&gt; 57 0011 1001覆盖了原先的0100 0000 a.m==&gt;57 short也是整型并且字节数大于57储存的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 0010 0000 0101 1001(1个字节8位数字) </span></span><br><span class="line">	a.m = <span class="number">0x2059</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt;8281 2进制==&gt;10进制输出 a.ch==&gt;Y ch只占一个字节 0101 1001 转化为10进制 89 对应ASCII表的字符Y</span></span><br><span class="line">    <span class="comment">//a.m ==&gt;8281 short也是整型并且字节数等于于8281存储的字节数</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">    <span class="comment">//16进制 ==&gt; 2进制存储在内存中 (1个字节8位数字) 0011 1110 0010 0101 1010 1101 0101 0100</span></span><br><span class="line">	a.n = <span class="number">0x3E25AD54</span>;</span><br><span class="line">    <span class="comment">//a.n==&gt; 2进制==&gt;10进制输出1042656596 a.ch 只看最后一个字节存储的2进制0101 0100 转化为10进制 84 对应ASCII表的字符T</span></span><br><span class="line">    <span class="comment">//a.m==&gt; 44372只看最后两个字节存储的1010 1101 0101 0100 转换为10进制输出44382</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d, %c, %d\n"</span>, a.n, a.ch, a.m);</span><br><span class="line">	getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>内存图解</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200717175628.png" alt="image-20200717175621397"></p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=147" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
+</div>
+
+]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>结构体和共用体</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>树</title>
+    <url>/posts/5b58/</url>
+    <content><![CDATA[<p>树( Tree’ )是 n(n~O) 个结点的有限集 。n=O 时称为空树 。 在任<br>意-棵非空树中: ( 1 )有且仅有-个特定的称为根( Root )的结<br>点: (2) 当n&gt;1 时，其余结点可分为 m (m&gt;O) 个互不相变的<br>有限集 T1 、 T2、……、 Tm • 奠中每一个集合本身又是一槐树，并<br>且称为棍的子树( SubTree ).如圈 6-2-1 所示 。<br><a href="https://github.com/anuraghazra/github-readme-stats" target="_blank" rel="noopener"><img src= "/img/loading.gif" data-src="https://github-readme-stats.vercel.app/api?username=l0serH4&show_icons=true&theme=synthwave" alt="Anurag&#39;s github stats"></a></p>
+<script src="https://assets.gitee.com/webpacks/project_animation-d3270c762ea6fed9d2c1.bundle.js"></script>]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>二叉树</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>线性表</title>
     <url>/posts/82000000/</url>
     <content><![CDATA[<p><strong>定义</strong>：零个或多个数据元素的<strong>有限序列</strong>。<strong>除第一个元素外</strong>，每个元素<strong>有且仅有</strong>一个直接前驱，<strong>除最后一个元素外，每个元素有且仅有一个直接后继。</strong></p>
@@ -2784,170 +2903,52 @@
       </tags>
   </entry>
   <entry>
-    <title>泛型</title>
-    <url>/posts/805/</url>
-    <content><![CDATA[<h1 id="1-泛型"><a href="#1-泛型" class="headerlink" title="1.泛型"></a>1.泛型</h1><h2 id="1-1什么是泛型"><a href="#1-1什么是泛型" class="headerlink" title="1.1什么是泛型"></a>1.1什么是泛型</h2><p><strong>泛型的概念</strong></p>
-<ul>
-<li><p>Java 泛型（generics）是 <code>JDK 5</code> 中引入的一个新特性,考虑到<code>向前兼容</code>，编译器是<strong>允许非泛型集合与泛型集合互相赋值</strong> ,泛型提供了<strong>编译时类型安全检测机制</strong>，该机制允许程序在编译时检测到非法的类型。</p>
-</li>
-<li><p>泛型的<strong>本质</strong>是<strong>参数化类型</strong>,也就是说<strong>所操作的数据类型被指定为一个参数</strong>,泛型的<strong>参数只可以代表类</strong>，不能代表个别对象。由于 Java <strong>泛型的类型参数之实际类型在编译时会被消除</strong>，<strong>所以无法在运行时得知其类型参数的类型</strong>。</p>
-</li>
-</ul>
-<p><strong>参数化类型</strong></p>
-<ul>
-<li><p><strong>将类型由原来的具体的类型参数化</strong>，然后在<strong>使用/调用时传入具体的类型</strong>这种参数类型可以用在类、方法和接口中，分别被称为<code>泛型类、泛型方法、泛型接口</code></p>
-</li>
-<li><p>编译器在<strong>编译泛型时会自动加入类型转换的编码</strong>，故<strong>运行速度不会因为使用泛型而加快</strong></p>
-</li>
-</ul>
-<p><strong>泛型定义格式</strong></p>
-<ul>
-<li>&lt;类型&gt;：指定一种类型的格式。这里的类型可以看成是<strong>形参</strong></li>
-<li>&lt;类型1类型2…&gt;：指定<strong>多种类型的格式，多种类型之间用逗号隔开</strong>。这里的类型可以看成是形参将来具体调用时候给定的类型可以看成是实参，并且<strong>实参的类型只能是引用数据类型（类,接口,数组）</strong></li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericParadigmDemo</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建集合对象</span></span><br><span class="line">        Collection c = <span class="keyword">new</span> ArrayList();</span><br><span class="line">        c.add(<span class="string">"数据结构和算法"</span>);</span><br><span class="line">        c.add(<span class="string">"C语言程序设计"</span>);</span><br><span class="line">        c.add(<span class="string">"Java入门到放弃"</span>);</span><br><span class="line">       </span><br><span class="line">        <span class="comment">//遍历集合</span></span><br><span class="line">        <span class="keyword">for</span> (Object o : c) &#123;</span><br><span class="line">            System.out.println(o);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+    <title>枚举</title>
+    <url>/posts/4523/</url>
+    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>枚举是C语言中的一种<strong>构造数据类型</strong>，它可以<strong>让数据更简洁，更易读</strong>，对于<strong>只有几个有限的特定数据</strong>，可以使用枚举(enumeration,简写enum）</p>
+<p>枚举是<strong>一组常量的集合</strong>，包含一组有限的特定的数据</p>
+<p><strong>语法定义格式</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum 枚举名 &#123;枚举元素1,枚举元素2,.....&#125;;</span><br></pre></td></tr></table></figure>
 
-<p><strong>修改代码</strong></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">c.add(<span class="number">1379</span>);</span><br><span class="line">String str  = (String) it.next();</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//DAY是枚举类型 包含了7个枚举元素</span></span><br><span class="line">	<span class="keyword">enum</span> DAY</span><br><span class="line">	&#123;</span><br><span class="line">    	MON=<span class="number">1</span>,TUE=<span class="number">2</span>,WED=<span class="number">3</span>,THU=<span class="number">4</span>,FRI=<span class="number">5</span>,SAT=<span class="number">6</span>,SUN=<span class="number">7</span></span><br><span class="line">	&#125;;</span><br><span class="line">	<span class="comment">//day 是枚举变量</span></span><br><span class="line">	<span class="keyword">enum</span> DAY day;</span><br><span class="line">    <span class="comment">//给枚举变量赋值,值是某个枚举元素</span></span><br><span class="line">	day=WED;</span><br><span class="line">    <span class="comment">//每个枚举元素对应一个值 3</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"d"</span>,day);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericParadigmDemo</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建集合对象</span></span><br><span class="line">        Collection c = <span class="keyword">new</span> ArrayList();</span><br><span class="line">        c.add(<span class="string">"数据结构和算法"</span>);</span><br><span class="line">        c.add(<span class="string">"C语言程序设计"</span>);</span><br><span class="line">        c.add(<span class="string">"Java入门到放弃"</span>);</span><br><span class="line">        c.add(<span class="number">1379</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//遍历集合</span></span><br><span class="line">        <span class="keyword">for</span> (Object o : c) &#123;</span><br><span class="line">            <span class="comment">//Object obj = it.next();</span></span><br><span class="line">            <span class="comment">//System.out.println(obj);</span></span><br><span class="line">            String str = (String) o;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="枚举的遍历及使用"><a href="#枚举的遍历及使用" class="headerlink" title="枚举的遍历及使用"></a>枚举的遍历及使用</h2><p><strong>遍历</strong></p>
+<p>C语言中，<strong>枚举类型</strong>是被当做<code>int</code>或者<code>unsigned int</code>类型来处理的，<strong>枚举类型必须连续是可以实现有条件的遍历</strong>。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">enum</span> day </span><br><span class="line">	&#123;</span><br><span class="line">	<span class="comment">//如果没有给赋值,则会按照顺序赋值</span></span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN;</span><br><span class="line">	&#125;day;</span><br><span class="line">	<span class="comment">//表示定义了一个枚举类型 enum Day,同时定义了一个变量枚举day(类型是 enum day)</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(day = MON;day&lt;=SUN;day++)&#123;</span><br><span class="line">       <span class="comment">//要求枚举元素是连续赋值 </span></span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"枚举元素:%d\n"</span>,day);</span><br><span class="line">    &#125;</span><br><span class="line">	<span class="keyword">return</span> o;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/27/8ad03da66217574b46ae446756602527.png" alt="image-20200627133508630"></p>
-<p><strong>运行后出现</strong><code>ClassCastException</code></p>
+<p><strong>swich 使用枚举</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//定义枚举类型 enum SEASONS</span></span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS seasons;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"请输入你喜欢的季节:1.spring,2.summer,3.autumn,4.winter);"</span>); 		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;season);</span><br><span class="line">	<span class="keyword">switch</span>(season)&#123;</span><br><span class="line">	<span class="keyword">case</span> SPRING: </span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是春天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> SUMMER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是夏天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">	<span class="keyword">case</span> AUTUMN:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是秋天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> WINTER:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"你喜欢的季节是冬天"</span>); </span><br><span class="line">		<span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"输入有误"</span>); </span><br><span class="line">	&#125;</span><br><span class="line">	getchar();</span><br><span class="line">	getchar();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>使用的注意事项和细节</strong></p>
 <ul>
-<li><p>原因  c.add(1379)存储的是Integer类型,for循环里面的是String 类型不匹配</p>
+<li><p><strong>第一个枚举成员</strong>的<strong>默认值为整型的0</strong>，<strong>后续枚举成员的值</strong>在<strong>前一个成员上加1.</strong></p>
 </li>
-<li><p>集合未指定数据类型</p>
-</li>
-<li><p>程序包含了<code>ClassCastException</code></p>
+<li><p>在<strong>定义</strong><code>枚举类型</code>时<strong>改变枚举元素的值</strong></p>
 </li>
 </ul>
-<p><strong>解决方法</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Collection&lt;String&gt; c &#x3D; new ArrayList&lt;String&gt;();</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/27/13c091f1900ba0c4c0fec3bd207aa91f.png" alt="image-20200627150124943"></p>
-<p><strong>使用泛型将运行时的异常提到了编译期</strong></p>
-<p>如果使用<code>迭代器遍历</code>集合</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Iterator it = c.iterator();</span><br><span class="line"><span class="keyword">while</span> (it.hasNext())&#123;</span><br><span class="line">     <span class="comment">//向上转型</span></span><br><span class="line">     String str = (String)it.next();</span><br><span class="line">     System.out.println(str);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>使用泛型后,<strong>避免了强制类型转换</strong></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Iterator&lt;String&gt; it = c.iterator();</span><br><span class="line"><span class="keyword">while</span> (it.hasNext())&#123;</span><br><span class="line">    String str = it.next();</span><br><span class="line">    System.out.println(str);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="1-2泛型类"><a href="#1-2泛型类" class="headerlink" title="1.2泛型类"></a>1.2泛型类</h2><ul>
-<li><strong>泛型类</strong>的定义格式</li>
-<li>修饰符 class 类名 &lt;类型&gt;{}</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//T表示任意标识,常见的T,E,K,V</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="1-2-1普通方法"><a href="#1-2-1普通方法" class="headerlink" title="1.2.1普通方法"></a>1.2.1普通方法</h3><ul>
-<li>Game游戏类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">enum DAY&#123;</span><br><span class="line">	&#x2F;&#x2F;如果没有给赋值,会从1开始按照顺序赋值</span><br><span class="line">	MON,TUE,WED,THU&#x3D;9,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line">	&#x2F;&#x2F;定义了一个枚举类型enum DAY,同时定义了一个变量day</span><br><span class="line">	&#x2F;&#x2F;FRI,SAT,SUN 10,11,12</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>Player玩家类</li>
+<li><strong>枚举变量</strong>的定义的形式</li>
 </ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Player</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Integer age;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Integer <span class="title">getAge</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> age;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setAge</span> <span class="params">(Integer age)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.age = age;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先定义枚举类型,再定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">enum</span> Day day;</span><br><span class="line"><span class="comment">//定义枚举类型同时定义枚举变量</span></span><br><span class="line"><span class="keyword">enum</span> DAY&#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br><span class="line"><span class="comment">//省略枚举类型,直接定义枚举变量,这种形式定义的枚举类型只能使用一次</span></span><br><span class="line"><span class="keyword">enum</span> &#123;</span><br><span class="line">	MON=<span class="number">1</span>,TUE,WED,THU,FRI,SAT,SUN</span><br><span class="line">&#125;day;</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>Test测试类</li>
+<li>整数转换为对应的枚举值</li>
 </ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Player p = <span class="keyword">new</span> Player();</span><br><span class="line">        p.setAge(<span class="number">18</span>);</span><br><span class="line">        System.out.println(p.getAge());</span><br><span class="line"></span><br><span class="line">        Game g = <span class="keyword">new</span> Game();</span><br><span class="line">        g.setName(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        System.out.println(g.getName());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">enum</span> SEASONS&#123; SPRING=<span class="number">1</span>,SUMMER,AUTUMN, WINTER&#125;;</span><br><span class="line">	<span class="comment">//定义了一个枚举类型变量season(类型 enum SEASONS)</span></span><br><span class="line">    <span class="keyword">enum</span> SEASONS season;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="number">4</span>;</span><br><span class="line">    season = (<span class="keyword">enum</span> SEASONS)n;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"season = %d"</span>,season);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=88" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
+</div>
 
 
-
-<p>使用泛型让一个方法<strong>接受不同的参数类型</strong></p>
-<p>修改<code>Game</code>为泛型类</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> T t;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> T <span class="title">getT</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> t;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setT</span><span class="params">(T t)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.t = t;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>修改<code>Test</code>类 </p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//设置泛型参数为String</span></span><br><span class="line">Game&lt;String&gt; g = <span class="keyword">new</span> Game&lt;String&gt;();</span><br><span class="line">g.setT(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">System.out.println(g1.getT());</span><br><span class="line"><span class="comment">//设置泛型参数为Ineger</span></span><br><span class="line">Game&lt;Integer&gt; g2 = <span class="keyword">new</span> Game&lt;Integer&gt;();</span><br><span class="line">g2.setT(<span class="number">18</span>);</span><br><span class="line">System.out.println(g2.getT());</span><br></pre></td></tr></table></figure>
-
-<p><strong>实现了相同效果,减少了一个类的创建</strong></p>
-<h3 id="1-2-2方法重载"><a href="#1-2-2方法重载" class="headerlink" title="1.2.2方法重载"></a>1.2.2方法重载</h3><ul>
-<li>1.创建一个Game类(重载)</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(String name)</span></span>&#123;</span><br><span class="line">        System.out.println(name);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(Integer price)</span></span>&#123;</span><br><span class="line">        System.out.println(price);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(<span class="keyword">boolean</span> ontime)</span></span>&#123;</span><br><span class="line">        System.out.println(ontime);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>2.Test类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    Game g = <span class="keyword">new</span> Game();</span><br><span class="line">    g.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">    g.attribute(<span class="number">298</span>);</span><br><span class="line">    g.attribute(<span class="keyword">false</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>3.如果再次添加属性,需要Game类中添加,才能使得新添加的属性生效</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(<span class="keyword">double</span> time)</span></span>&#123;</span><br><span class="line">        System.out.println(time);</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">g.attribute(<span class="number">2020.11</span>);</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>使用泛型类改进</p>
-</blockquote>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;</span><br><span class="line">        System.out.println(t);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game&lt;String&gt; g1 = <span class="keyword">new</span> Game&lt;String&gt;();</span><br><span class="line">        g1.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        Game&lt;Integer&gt; g2 = <span class="keyword">new</span> Game&lt;Integer&gt;();</span><br><span class="line">        g2.attribute(<span class="number">298</span>);</span><br><span class="line">        Game&lt;Boolean&gt; g3 = <span class="keyword">new</span> Game&lt;Boolean&gt;();</span><br><span class="line">        g3.attribute(<span class="keyword">false</span>);</span><br><span class="line">        Game&lt;Double&gt; g4 = <span class="keyword">new</span> Game&lt;Double&gt;();</span><br><span class="line">        g4.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="1-3泛型方法"><a href="#1-3泛型方法" class="headerlink" title="1.3泛型方法"></a>1.3泛型方法</h2><ul>
-<li><strong>泛型方法</strong>的定义格式</li>
-<li>修饰符&lt;类型&gt; 返回值类型 方法名 （类型 变量名){ }</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> &lt;T&gt; <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>Game</code>类 调用方法时才明确参数的类型</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Game</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> &lt;T&gt; <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>&#123;</span><br><span class="line">        System.out.println(t);        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>Test类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game g = <span class="keyword">new</span> Game();</span><br><span class="line">        g.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        g.attribute(<span class="number">298</span>);</span><br><span class="line">        g.attribute(<span class="keyword">false</span>);</span><br><span class="line">        g.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="1-4泛型接口"><a href="#1-4泛型接口" class="headerlink" title="1.4泛型接口"></a>1.4泛型接口</h2><ul>
-<li><strong>泛型接口</strong>的定义格式</li>
-<li>修饰符 interface 接口名&lt;类型&gt;{ }</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt;</span>&#123;&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>泛型接口</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><p><strong>测试类无法直接使用接口,接口没有<code>实例化</code></strong></p>
-</li>
-<li><p>创建<strong>接口的实现类</strong></p>
-</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GameImpl</span>&lt;<span class="title">T</span>&gt; <span class="keyword">implements</span> <span class="title">Game</span>&lt;<span class="title">T</span>&gt; </span>&#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">attribute</span><span class="params">(T t)</span> </span>&#123;</span><br><span class="line">        System.out.println(t);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>Test</code>类</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Game&lt;String&gt; g1 = <span class="keyword">new</span> GameImpl&lt;String&gt;();</span><br><span class="line">        g1.attribute(<span class="string">"Cyberpunk2077"</span>);</span><br><span class="line">        Game&lt;Integer&gt; g2 = <span class="keyword">new</span> GameImpl&lt;Integer&gt;();</span><br><span class="line">        g2.attribute(<span class="number">298</span>);</span><br><span class="line">        Game&lt;Boolean&gt; g3 = <span class="keyword">new</span> GameImpl&lt;Boolean&gt;();</span><br><span class="line">        g3.attribute(<span class="keyword">false</span>);</span><br><span class="line">        Game&lt;Double&gt; g4 = <span class="keyword">new</span> GameImpl&lt;Double&gt;();</span><br><span class="line">        g4.attribute(<span class="number">2020.11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<ul>
-<li>参考连接</li>
-<li><a href="https://www.bilibili.com/video/BV1gb411F76B?p=252" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1gb411F76B?p=252</a></li>
-</ul>
 ]]></content>
       <categories>
-        <category>Java</category>
+        <category>C</category>
       </categories>
       <tags>
-        <tag>Java</tag>
-        <tag>集合</tag>
-        <tag>泛型</tag>
+        <tag>C</tag>
+        <tag>枚举</tag>
       </tags>
   </entry>
 </search>
