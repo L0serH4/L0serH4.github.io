@@ -3009,4 +3009,18 @@
         <tag>预处理命令</tag>
       </tags>
   </entry>
+  <entry>
+    <title>网络编程</title>
+    <url>/posts/cd50/</url>
+    <content><![CDATA[<p>网络编程的目的: 直接或间接的通过网络协议与其他计算机进行通讯和数据交换</p>
+<p>TCP: 打电话(只需要有人同意接受)</p>
+<p>UDP: 发短信(只管发送)</p>
+]]></content>
+      <categories>
+        <category>uncategorized</category>
+      </categories>
+      <tags>
+        <tag>计算机网络</tag>
+      </tags>
+  </entry>
 </search>
