@@ -13,6 +13,75 @@
       </tags>
   </entry>
   <entry>
+    <title>Github下载加速</title>
+    <url>/posts/79ca/</url>
+    <content><![CDATA[<p><strong>准备条件</strong></p>
+<ul>
+<li>码云(Gitee账号)</li>
+</ul>
+<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
+<ul>
+<li>Git</li>
+</ul>
+<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows</a></p>
+<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
+<blockquote>
+<p>1.复制项目的网址</p>
+</blockquote>
+<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
+<blockquote>
+<p>2.导入项目到Gitee</p>
+</blockquote>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
+<p><strong>导入后等待页面加载即可</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
+<p><strong>将项目克隆到本地</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
+<p><strong>速度还行</strong></p>
+<p><strong>当我们导入一个比较大的项目时</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
+<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
+<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
+<h2 id="1-仓库名称"><a href="#1-仓库名称" class="headerlink" title="1.仓库名称"></a>1.仓库名称</h2><ul>
+<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
+<p>in:name springboot stars:&gt;3000 forks:&gt;4000<br>in:name 项目名称 stars:数量 forks:数量</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="2-Readme-md文件"><a href="#2-Readme-md文件" class="headerlink" title="2.Readme.md文件"></a>2.Readme.md文件</h2><ul>
+<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
+<p>in:readme spring boot stars:&gt;3000 forks:&gt;4000<br>in:readme 项目名称 stars:数量 forks:数量</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="3-描述文件"><a href="#3-描述文件" class="headerlink" title="3.描述文件"></a>3.描述文件</h2><ul>
+<li>微服务项目 stars&gt;1000 语言为java 最后一次更新时间再2019-09-01之后<blockquote>
+<p>in:description 微服务 stars:&gt;1000 language:java pushed:&gt;2019-09-01<br>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
+</blockquote>
+</li>
+</ul>
+<p>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
+<p><strong>Github官方使用文档</strong><br><a href="https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories" target="_blank" rel="noopener">https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories</a></p>
+]]></content>
+      <categories>
+        <category>生产力</category>
+      </categories>
+      <tags>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C语言程序设计概述</title>
     <url>/posts/c5a3/</url>
     <content><![CDATA[<h1 id="C语言程序设计概述"><a href="#C语言程序设计概述" class="headerlink" title="C语言程序设计概述"></a>C语言程序设计概述</h1><h2 id="1-C语言的发展历程"><a href="#1-C语言的发展历程" class="headerlink" title="1.C语言的发展历程"></a>1.C语言的发展历程</h2><ul>
@@ -106,6 +175,31 @@
       </categories>
       <tags>
         <tag>IDEA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java面向对象的三大特性</title>
+    <url>/posts/9d0/</url>
+    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
+</ul>
+<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
+</ul>
+<p>##多态</p>
+<ul>
+<li>参考链接</li>
+<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>面向对象</tag>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -336,28 +430,14 @@
       </tags>
   </entry>
   <entry>
-    <title>Java面向对象的三大特性</title>
-    <url>/posts/9d0/</url>
-    <content><![CDATA[<h2 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3351835.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3351835.html</a></li>
-</ul>
-<h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3354884.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3354884.html</a></li>
-</ul>
-<p>##多态</p>
-<ul>
-<li>参考链接</li>
-<li><a href="https://www.cnblogs.com/chenssy/p/3372798.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenssy/p/3372798.html</a></li>
-</ul>
-]]></content>
+    <title>MyBatis</title>
+    <url>/posts/f1de/</url>
+    <content><![CDATA[]]></content>
       <categories>
-        <category>Java</category>
+        <category>后端框架</category>
       </categories>
       <tags>
-        <tag>面向对象</tag>
-        <tag>Java</tag>
+        <tag>MyBatis</tag>
       </tags>
   </entry>
   <entry>
@@ -451,14 +531,51 @@
       </tags>
   </entry>
   <entry>
-    <title>MyBatis</title>
-    <url>/posts/f1de/</url>
+    <title>Spring</title>
+    <url>/posts/46eb/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>后端框架</category>
+        <category>Spring全家桶</category>
       </categories>
       <tags>
-        <tag>MyBatis</tag>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringBoot</title>
+    <url>/posts/83dd/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
+      </categories>
+      <tags>
+        <tag>SpringBoot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringCloud</title>
+    <url>/posts/a67e/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
+      </categories>
+      <tags>
+        <tag>SpringCloud</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringMVC</title>
+    <url>/posts/12ac/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>后端框架</category>
+        <category>Spring全家桶</category>
+      </categories>
+      <tags>
+        <tag>SpringMVC</tag>
       </tags>
   </entry>
   <entry>
@@ -540,154 +657,29 @@
       </tags>
   </entry>
   <entry>
-    <title>Spring</title>
-    <url>/posts/46eb/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>Spring</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringCloud</title>
-    <url>/posts/a67e/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringCloud</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringBoot</title>
-    <url>/posts/83dd/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringBoot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringMVC</title>
-    <url>/posts/12ac/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringMVC</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Github下载加速</title>
-    <url>/posts/79ca/</url>
-    <content><![CDATA[<p><strong>准备条件</strong></p>
-<ul>
-<li>码云(Gitee账号)</li>
-</ul>
-<p>注册地址：<a href="https://gitee.com/" target="_blank" rel="noopener">https://gitee.com/</a></p>
-<ul>
-<li>Git</li>
-</ul>
-<p>镜像下载地址：<a href="https://npm.taobao.org/mirrors/git-for-windows" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows</a></p>
-<h2 id="1-码云-Gitee-导入"><a href="#1-码云-Gitee-导入" class="headerlink" title="1.码云(Gitee)导入"></a>1.码云(Gitee)导入</h2><p>1.以<code>Github</code>上Stars较多的一个优秀的Java学习路线项目为例</p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/6e61b1ed8495188950dfd0b73705b957.png" alt="image-20200630113350201"></p>
-<blockquote>
-<p>1.复制项目的网址</p>
-</blockquote>
-<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b5928fa75fe216915bfa5f0611796b28.png" alt="image-20200630113456261"></p>
-<blockquote>
-<p>2.导入项目到Gitee</p>
-</blockquote>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/d2e4a08b94327d6b0ce9569607ee63f2.png" alt="image-20200630113727080"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/1202564fd464d7efa445f44a5679d0a8.png" alt="image-20200630114432345"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/4d52e8150d9f81182e386a8882d4d70f.png" alt="image-20200630114647419"></p>
-<p><strong>导入后等待页面加载即可</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/88d8e95cbbe78cb93e8c43f00cf92f57.png" alt="image-20200630114914779"></p>
-<p><strong>将项目克隆到本地</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/ecd4d35e1eac4e6a71efe1089f855fbd.png" alt="image-20200630115427594"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#git clone 码云上的项目地址</span></span><br><span class="line">git <span class="built_in">clone</span> https://gitee.com/crow_678/JavaGuide.git</span><br></pre></td></tr></table></figure>
+    <title>make和makefile文件</title>
+    <url>/posts/bfbe/</url>
+    <content><![CDATA[<p>make</p>
+<p>用处：用来管理多模块程序的的编译和链接，直至生成可执行文件</p>
+<p>Clion分模块编译</p>
+<p>1.最外层的CmakeLists</p>
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line"><span class="keyword">cmake_minimum_required</span>(VERSION <span class="number">3.17</span>)</span><br><span class="line"><span class="keyword">project</span>(Game C)</span><br><span class="line"></span><br><span class="line"><span class="keyword">set</span>(CMAKE_C_STANDARD <span class="number">99</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">add_subdirectory</span>(code/Bird)</span><br><span class="line"><span class="keyword">add_subdirectory</span>(code/Triangle)</span><br><span class="line"><span class="keyword">add_subdirectory</span>(code/public)</span><br></pre></td></tr></table></figure>
 
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/10b6c23c7bbcfddebbd608468a2754ff.png" alt="image-20200630115535023"></p>
-<p><strong>速度还行</strong></p>
-<p><strong>当我们导入一个比较大的项目时</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/71747e5f946516ec19148fcfd9003832.png" alt="image-20200630120819524"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/e702ecef3ef4897a5a88f509587c1494.png" alt="image-20200630121226310"></p>
-<h2 id="2-使用在线的网站"><a href="#2-使用在线的网站" class="headerlink" title="2.使用在线的网站"></a>2.使用在线的网站</h2><p><a href="http://g.widyun.com/" target="_blank" rel="noopener">http://g.widyun.com/</a></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/7aa20b8396ecd033331e7199c956bd3f.png" alt="image-20200630121331482"></p>
-<p><strong>复制项目网址到中间的输入框,点击获取连接耐心等待</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/b7cdf7a2b2fb2ccbb03901b77a6352ce.png" alt="image-20200630122021103"></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/06/30/62fcf183c409d8fb19fae2201204522a.png" alt="image-20200630122104574"></p>
-<h2 id="1-仓库名称"><a href="#1-仓库名称" class="headerlink" title="1.仓库名称"></a>1.仓库名称</h2><ul>
-<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
-<p>in:name springboot stars:&gt;3000 forks:&gt;4000<br>in:name 项目名称 stars:数量 forks:数量</p>
-</blockquote>
-</li>
-</ul>
-<h2 id="2-Readme-md文件"><a href="#2-Readme-md文件" class="headerlink" title="2.Readme.md文件"></a>2.Readme.md文件</h2><ul>
-<li>springboot stars大于3000的项目并且fork&gt;4000<blockquote>
-<p>in:readme spring boot stars:&gt;3000 forks:&gt;4000<br>in:readme 项目名称 stars:数量 forks:数量</p>
-</blockquote>
-</li>
-</ul>
-<h2 id="3-描述文件"><a href="#3-描述文件" class="headerlink" title="3.描述文件"></a>3.描述文件</h2><ul>
-<li>微服务项目 stars&gt;1000 语言为java 最后一次更新时间再2019-09-01之后<blockquote>
-<p>in:description 微服务 stars:&gt;1000 language:java pushed:&gt;2019-09-01<br>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
-</blockquote>
-</li>
-</ul>
-<p>in:description 项目名称 stars:数量 forks:数量 language:编程语言 pushed:更新时间</p>
-<p><strong>Github官方使用文档</strong><br><a href="https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories" target="_blank" rel="noopener">https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories</a></p>
+<p>2.内层CmakeLists</p>
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line"><span class="keyword">add_subdirectory</span>(Bird)</span><br><span class="line"><span class="keyword">add_subdirectory</span>(Triangle)</span><br><span class="line"><span class="keyword">add_subdirectory</span>(public)</span><br></pre></td></tr></table></figure>
+
+<p>3.最内层CmakeLists</p>
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 包含公共库</span></span><br><span class="line"><span class="keyword">include_directories</span>(<span class="variable">$&#123;CMAKE_SOURCE_DIR&#125;</span>/code/public)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 生成可执行文件</span></span><br><span class="line"><span class="keyword">add_executable</span>(Bird Bird.c)</span><br><span class="line"><span class="comment"># 链接公共库</span></span><br><span class="line"><span class="keyword">target_link_libraries</span>(Bird Scanf_lib)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 生成一个静态库，因为所有其他数据结构都会引用这个库</span></span><br><span class="line"><span class="keyword">add_library</span>(Scanf_lib public.c)</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
-        <category>生产力</category>
+        <category>C</category>
       </categories>
       <tags>
-        <tag>Github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MarkDown使用指南</title>
-    <url>/posts/9365/</url>
-    <content><![CDATA[<h2 id="MarkDown使用指南"><a href="#MarkDown使用指南" class="headerlink" title="MarkDown使用指南"></a>MarkDown使用指南</h2><ul>
-<li>待办事项</li>
-</ul>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>[x] This is a complete item</span><br><span class="line"><span class="bullet">- </span>[ ] This is an incomplete item</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><input disabled="" type="checkbox"> This is a complete item</li>
-<li><input disabled="" type="checkbox"> This is an incomplete item</li>
-</ul>
-<p><font color = red size = 5>文字颜色</font></p>
-<p><font face="黑体">我是黑体字</font></p>
-<p><font face="微软雅黑">我是微软雅黑</font></p>
-<p><font face="STCAIYUN">我是华文彩云</font></p>
-<p><font color=red >我是红色</font></p>
-<p><font color=#008000>我是绿色</font></p>
-<p><font color=Blue>我是蓝色</font></p>
-<p><font size=5>我是尺寸</font></p>
-<p><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font></p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)" target="_blank" rel="noopener" title="官方文档"><i class="far fa-hand-point-right fa-fw"></i> 官方文档 </a>
-</div>
-<div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.jianshu.com/p/22e7d281859e)" target="_blank" rel="noopener" title="其他连接"><i class="far fa-hand-point-right fa-fw"></i> 其他连接 </a>
-</div>]]></content>
-      <categories>
-        <category>生产力</category>
-      </categories>
-      <tags>
-        <tag>生产力</tag>
+        <tag>make</tag>
+        <tag>makefile</tag>
       </tags>
   </entry>
   <entry>
@@ -725,39 +717,6 @@
       </categories>
       <tags>
         <tag>服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>十大排序算法</title>
-    <url>/posts/564c/</url>
-    <content><![CDATA[<h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><h3 id="直接插入排序"><a href="#直接插入排序" class="headerlink" title="直接插入排序"></a>直接插入排序</h3><p><strong>插入排序法思想</strong>:</p>
-<p>把 n 个待排序的元素看成为一个<code>有序表</code>和一个<code>无序表</code>，开始时<strong>有序表中只包含一个元素</strong>，<strong>无序表中包含有 n-1 个元素个元素</strong>，</p>
-<p><strong>排序过程</strong></p>
-<p>每次从无序表中取出第一个元素，把它的排序码依次与有序表元素的排序码进行比较，将它插入到有序表中的适当位置，使之成为新的有序表。</p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200826153417.png" alt="image-20200826152835050"></p>
-<ul>
-<li>选取数组的第一个元素为基准值，作为有序部分的第一个元素</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> insertVal = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">int</span> insertIndex = <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>遍历寻找无序部分的元素，跟有序部分的元素进行比较，确定元素应该插入的位置</li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(i=<span class="number">1</span>; i&lt;n; i++)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="comment">//找到要插入的位置</span></span><br><span class="line">    <span class="keyword">for</span>(j=<span class="number">0</span>; j&lt;i; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        ....</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>插入元素，移动插入位置后的元素</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="希尔排序"><a href="#希尔排序" class="headerlink" title="希尔排序"></a>希尔排序</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdlib&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;ctime&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">shellSort</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; <span class="built_in">array</span>)</span></span>&#123;</span><br><span class="line">  <span class="comment">//n为数组长度</span></span><br><span class="line">  <span class="keyword">int</span> n = <span class="built_in">array</span>.<span class="built_in">size</span>();</span><br><span class="line">  <span class="comment">//将数组按照步长分为gap个小组，每个小组的第一个数字加上步长得到第二个数字的下标</span></span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> gap = n / <span class="number">2</span>; gap &gt;= <span class="number">1</span>; gap /= <span class="number">2</span>)&#123;</span><br><span class="line">    <span class="comment">//每个小组内使用插入排序</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = gap; i &lt; n; i++)&#123;</span><br><span class="line">      <span class="comment">// 使用插入排序算法，将元素依次插入所在小组的已排序列表中</span></span><br><span class="line">      <span class="comment">// 待插入元素</span></span><br><span class="line">      <span class="keyword">int</span> itermToInsert = <span class="built_in">array</span>[i];</span><br><span class="line">      <span class="keyword">int</span> j = i - gap;</span><br><span class="line">      <span class="comment">//每个小组的第一个数字和末尾数字进行比较</span></span><br><span class="line">      <span class="keyword">while</span> (j &gt;= <span class="number">0</span> &amp;&amp; <span class="built_in">array</span>[j] &gt;= itermToInsert)&#123;</span><br><span class="line">        <span class="comment">//小组内的第一个数字大于末尾数字，则进行交换</span></span><br><span class="line">        <span class="built_in">array</span>[j + gap] = <span class="built_in">array</span>[j];</span><br><span class="line">        <span class="comment">//j -= gap 为了跳出当前循环,进行下一组元素的交换</span></span><br><span class="line">        j -= gap;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="built_in">array</span>[j + gap] = itermToInsert;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; <span class="built_in">array</span>)</span></span>&#123;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> &amp; it : <span class="built_in">array</span>) &#123;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; it &lt;&lt; <span class="string">" "</span>;</span><br><span class="line">  &#125;<span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;arr;</span><br><span class="line">  arr.resize(<span class="number">100000</span>);</span><br><span class="line">  srand(time(<span class="literal">NULL</span>));</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">100000</span>; ++i) &#123;</span><br><span class="line">    arr.push_back(rand()%<span class="number">100000</span>+<span class="number">1</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  shellSort(arr);</span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">"The run time is:"</span> &lt;&lt; (<span class="keyword">double</span>)clock() /CLOCKS_PER_SEC&lt;&lt; <span class="string">"s"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  Print(arr);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>排序</tag>
       </tags>
   </entry>
   <entry>
@@ -843,6 +802,70 @@
       <tags>
         <tag>C++</tag>
         <tag>内存分区模型</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>十大排序算法</title>
+    <url>/posts/564c/</url>
+    <content><![CDATA[<h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><h3 id="直接插入排序"><a href="#直接插入排序" class="headerlink" title="直接插入排序"></a>直接插入排序</h3><p><strong>插入排序法思想</strong>:</p>
+<p>把 n 个待排序的元素看成为一个<code>有序表</code>和一个<code>无序表</code>，开始时<strong>有序表中只包含一个元素</strong>，<strong>无序表中包含有 n-1 个元素个元素</strong>，</p>
+<p><strong>排序过程</strong></p>
+<p>每次从无序表中取出第一个元素，把它的排序码依次与有序表元素的排序码进行比较，将它插入到有序表中的适当位置，使之成为新的有序表。</p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200826153417.png" alt="image-20200826152835050"></p>
+<ul>
+<li>选取数组的第一个元素为基准值，作为有序部分的第一个元素</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> insertVal = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">int</span> insertIndex = <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>遍历寻找无序部分的元素，跟有序部分的元素进行比较，确定元素应该插入的位置</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(i=<span class="number">1</span>; i&lt;n; i++)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="comment">//找到要插入的位置</span></span><br><span class="line">    <span class="keyword">for</span>(j=<span class="number">0</span>; j&lt;i; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        ....</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>插入元素，移动插入位置后的元素</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="希尔排序"><a href="#希尔排序" class="headerlink" title="希尔排序"></a>希尔排序</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdlib&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;ctime&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">shellSort</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; <span class="built_in">array</span>)</span></span>&#123;</span><br><span class="line">  <span class="comment">//n为数组长度</span></span><br><span class="line">  <span class="keyword">int</span> n = <span class="built_in">array</span>.<span class="built_in">size</span>();</span><br><span class="line">  <span class="comment">//将数组按照步长分为gap个小组，每个小组的第一个数字加上步长得到第二个数字的下标</span></span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> gap = n / <span class="number">2</span>; gap &gt;= <span class="number">1</span>; gap /= <span class="number">2</span>)&#123;</span><br><span class="line">    <span class="comment">//每个小组内使用插入排序</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = gap; i &lt; n; i++)&#123;</span><br><span class="line">      <span class="comment">// 使用插入排序算法，将元素依次插入所在小组的已排序列表中</span></span><br><span class="line">      <span class="comment">// 待插入元素</span></span><br><span class="line">      <span class="keyword">int</span> itermToInsert = <span class="built_in">array</span>[i];</span><br><span class="line">      <span class="keyword">int</span> j = i - gap;</span><br><span class="line">      <span class="comment">//每个小组的第一个数字和末尾数字进行比较</span></span><br><span class="line">      <span class="keyword">while</span> (j &gt;= <span class="number">0</span> &amp;&amp; <span class="built_in">array</span>[j] &gt;= itermToInsert)&#123;</span><br><span class="line">        <span class="comment">//小组内的第一个数字大于末尾数字，则进行交换</span></span><br><span class="line">        <span class="built_in">array</span>[j + gap] = <span class="built_in">array</span>[j];</span><br><span class="line">        <span class="comment">//j -= gap 为了跳出当前循环,进行下一组元素的交换</span></span><br><span class="line">        j -= gap;</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="built_in">array</span>[j + gap] = itermToInsert;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Print</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; <span class="built_in">array</span>)</span></span>&#123;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> &amp; it : <span class="built_in">array</span>) &#123;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; it &lt;&lt; <span class="string">" "</span>;</span><br><span class="line">  &#125;<span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;arr;</span><br><span class="line">  arr.resize(<span class="number">100000</span>);</span><br><span class="line">  srand(time(<span class="literal">NULL</span>));</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">100000</span>; ++i) &#123;</span><br><span class="line">    arr.push_back(rand()%<span class="number">100000</span>+<span class="number">1</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  shellSort(arr);</span><br><span class="line">  <span class="built_in">cout</span> &lt;&lt; <span class="string">"The run time is:"</span> &lt;&lt; (<span class="keyword">double</span>)clock() /CLOCKS_PER_SEC&lt;&lt; <span class="string">"s"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">  Print(arr);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>排序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Win10快捷键</title>
+    <url>/posts/e5dc/</url>
+    <content><![CDATA[<p>1.创建虚拟桌面</p>
+<p>Win+Alt+D / Win+Tab(可以通过鼠标操作虚拟桌面的创建、切换与删除)</p>
+<p>Win+Ctrl+F4 关闭当前虚拟桌面</p>
+<p>2.窗口最小化</p>
+<p>Win+M 窗口最小化 Win+D 可在最小化全部窗口与恢复全部窗口状态 间自由切换</p>
+<p>3.应用切换<br>Ctrl+Alt+Tab显示当前桌面运行的所有应用程序 Ctrl+Tab 切换任务</p>
+<p>4.屏幕截图</p>
+<p>Win + PrtSc/PrtSc /Win + Shift + S</p>
+<p>5.任务管理器</p>
+<p>Ctrl+Shift+Esc</p>
+<p>6.文件资源管理器</p>
+<p>Win+E </p>
+<p>7.操作中心</p>
+<p>win+A</p>
+<p>8.打开设置</p>
+<p>Win+I</p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.jb51.net/os/win10/226560.html" target="_blank" rel="noopener" title="Win10快捷键大全"><i class="far fa-hand-point-right fa-fw"></i> Win10快捷键大全 </a>
+</div>
+
+]]></content>
+      <categories>
+        <category>生产力</category>
+      </categories>
+      <tags>
+        <tag>Win10</tag>
       </tags>
   </entry>
   <entry>
@@ -951,37 +974,6 @@
       <tags>
         <tag>计算机基础知识</tag>
         <tag>位运算</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Win10快捷键</title>
-    <url>/posts/e5dc/</url>
-    <content><![CDATA[<p>1.创建虚拟桌面</p>
-<p>Win+Alt+D / Win+Tab(可以通过鼠标操作虚拟桌面的创建、切换与删除)</p>
-<p>Win+Ctrl+F4 关闭当前虚拟桌面</p>
-<p>2.窗口最小化</p>
-<p>Win+M 窗口最小化 Win+D 可在最小化全部窗口与恢复全部窗口状态 间自由切换</p>
-<p>3.应用切换<br>Ctrl+Alt+Tab显示当前桌面运行的所有应用程序 Ctrl+Tab 切换任务</p>
-<p>4.屏幕截图</p>
-<p>Win + PrtSc/PrtSc /Win + Shift + S</p>
-<p>5.任务管理器</p>
-<p>Ctrl+Shift+Esc</p>
-<p>6.文件资源管理器</p>
-<p>Win+E </p>
-<p>7.操作中心</p>
-<p>win+A</p>
-<p>8.打开设置</p>
-<p>Win+I</p>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.jb51.net/os/win10/226560.html" target="_blank" rel="noopener" title="Win10快捷键大全"><i class="far fa-hand-point-right fa-fw"></i> Win10快捷键大全 </a>
-</div>
-
-]]></content>
-      <categories>
-        <category>生产力</category>
-      </categories>
-      <tags>
-        <tag>Win10</tag>
       </tags>
   </entry>
   <entry>
@@ -1269,22 +1261,6 @@
       </categories>
       <tags>
         <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>普里姆(prim)算法</title>
-    <url>/posts/a02d/</url>
-    <content><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote>
-<p>普利姆算法是求最小生成树，也就是在包含n个顶点的连通图中，找出只有(n-1)条边包含所有n个顶点的连通子图,就是<code>极小连通子图</code></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>prim</tag>
-        <tag>最小生成树</tag>
       </tags>
   </entry>
   <entry>
@@ -1937,6 +1913,234 @@
       </tags>
   </entry>
   <entry>
+    <title>普里姆(prim)算法</title>
+    <url>/posts/a02d/</url>
+    <content><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote>
+<p>普利姆算法是求最小生成树，也就是在包含n个顶点的连通图中，找出只有(n-1)条边包含所有n个顶点的连通子图,就是<code>极小连通子图</code></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>prim</tag>
+        <tag>最小生成树</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>指针</title>
+    <url>/posts/9f93/</url>
+    <content><![CDATA[<h2 id="指针的基本介绍"><a href="#指针的基本介绍" class="headerlink" title="指针的基本介绍"></a>指针的基本介绍</h2><ul>
+<li><code>指针</code>是内存的地址；所谓指针变量，也就是保存了内存地址的变量。</li>
+<li><strong>获取变量的地址用&amp;</strong>，比如：int num=10，获取num的地址：&amp;num <strong>获取指针本身的地址不加取值符号</strong></li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> num = <span class="number">100</span>;</span><br><span class="line"><span class="keyword">int</span>* ptr = &amp;num;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"ptr本身的地址=%p ptr存放的地址=%p ptr指向的值"</span>,&amp;ptr,ptr,*ptr);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p><strong>指针类型，指针变量存的是一个地址</strong>，这个地址指向的空间存的才是值比如：int  * ptr = &amp;num；<strong>ptr就是指向int类型的指针变量，ptr是int*类型</strong>。</p>
+</li>
+<li><p><strong>获取指针类型所指向的值</strong>，<strong>使用:*  (取值符号)</strong>，比如：int * ptr，<strong>使用*ptr获取ptr指向的值</strong></p>
+</li>
+<li><p>使用指针存储其他变量地址之前，对其进行声明。指针变量声明的一般形式为：</p>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*整型的指针*/</span></span><br><span class="line"><span class="keyword">int</span> *ip; </span><br><span class="line"><span class="comment">/*double型的指针*/</span> </span><br><span class="line"><span class="keyword">double</span> *dp;</span><br><span class="line"><span class="comment">/*浮点型的指针*/</span></span><br><span class="line"><span class="keyword">float</span> *fp;</span><br><span class="line"><span class="comment">/*字符型的指针*/</span></span><br><span class="line"><span class="keyword">char</span> *ch;</span><br></pre></td></tr></table></figure>
+
+<p><strong>🌰举例内存图解</strong> </p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/14/cc880e41e8897b36380d87d0fffcc3fe.png" alt="31e03c7aafe9dfd149b80a90482c1463"></p>
+<p><strong>指针可执行算术运算</strong>。四种算术运算：<code>++,- - ,+, -</code>,</p>
+<p><strong>指针递增(++)操作</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAX =<span class="number">3</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr;</span><br><span class="line">	ptr = var;</span><br><span class="line">	<span class="keyword">for</span>(i = <span class="number">0</span>;i &lt; MAX;i++)&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"var[%d] 地址=%p\n"</span>,i,ptr);</span><br><span class="line">        <span class="comment">//ptr=ptr+1（1个int字节数;ptr存放值+4字节(int)</span></span><br><span class="line">        <span class="built_in">print</span>（<span class="string">"存储值: var[%d =%dn"</span>,i,*ptr); 			</span><br><span class="line">        ptr++;</span><br><span class="line">	&#125;</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>内存图解</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/14/f697f699d6db795ad5123dc4700e823b.png" alt="image-20200714171833898"></p>
+<ul>
+<li><strong>数组</strong>在内存中是<strong>连续分布</strong>的</li>
+<li>当对指针进行++时，指针会按照它<strong>指向的数据类型字节数大小增加</strong>，比如i<code>int*指针</code>，每++，<strong>增加4个字节</strong></li>
+</ul>
+<p><strong>指针(-)操作</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr;</span><br><span class="line">	ptr = var;</span><br><span class="line">    <span class="comment">//ptr=ptr-1（1个int字节数;ptr存放值-4字节(int)</span></span><br><span class="line">	ptr -=<span class="number">1</span>; </span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"var[1]= %d 地址=%p ptr存储的地址=%p ptr指向的值=%d"</span>,var[<span class="number">1</span>],&amp;var[<span class="number">1</span>],ptr,*ptr);</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>可以对指针按照指定的字节数大小进行+或者-的操作，可以快速定位想要的地址</strong></p>
+<h2 id="指针的比较"><a href="#指针的比较" class="headerlink" title="指针的比较"></a>指针的比较</h2><p><code>指针</code>可以用<strong>关系运算符进行比较</strong>，如果p1和p2指向两个变量，比如同一个数组中的不同元素，则可对pl和p2进行大小比较</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr;</span><br><span class="line">	ptr = var;</span><br><span class="line">    <span class="keyword">if</span>(ptr==&amp;var[<span class="number">0</span>])&#123;</span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"cyberpunk2077"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(ptr==var)&#123;</span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"cyberpunk2077"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">if</span>(ptr&lt;=&amp;var[<span class="number">1</span>])&#123;</span><br><span class="line">       <span class="comment">//可以比较,返回true </span></span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"cyberpunk2077"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>%x 和 %p的比较 <code>%x</code> 输出结果会<strong>去掉地址前面的0</strong> ， <code>%p</code>输出结果<strong>保留地址前面的0</strong> </li>
+</ul>
+<h2 id="指针数组"><a href="#指针数组" class="headerlink" title="指针数组"></a>指针数组</h2><p><strong>基本介绍</strong></p>
+<p><strong>让数组的元素指向int或其他数据类型的地址（指针）</strong>。可以使用<code>指针数组</code></p>
+<p><strong>指针数组定义</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">数据类型 * 指针数组名 [大小];</span><br><span class="line"><span class="keyword">int</span>*ptr[<span class="number">3</span>];</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>ptr声明为一个指针数组</li>
+<li>由<strong>3个整数指针</strong>组成。ptr中的<strong>每个元素</strong>，<strong>都是一个指向int值的指针</strong></li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAX =<span class="number">3</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr[<span class="number">3</span>];</span><br><span class="line">	<span class="keyword">for</span>(i = <span class="number">0</span>;i &lt; MAX;i++)&#123;</span><br><span class="line">       <span class="comment">//赋值为整数的地址</span></span><br><span class="line">       ptr[i] = &amp;var[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(i = <span class="number">0</span>;i &lt; MAX;i++)&#123;</span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"var[%d]=%d ptr[%d]本身的地址=%p\n"</span>,i,*ptr[i],i,&amp;ptr[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/14/fe7253f1d54a11604f17415e8e994aa0.png" alt="image-20200714181338508"></p>
+<h2 id="多重指针"><a href="#多重指针" class="headerlink" title="多重指针"></a>多重指针</h2><p><strong>基本介绍</strong></p>
+<p><code>指向指针的指针</code>是一种<strong>多级间接寻址</strong>的形式，或者说是一个<code>指针链</code>。定义一个指向指针的指针时，第一个指针包含了第二个指针的地址，第二个指针指向包含实际值的位置</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr;</span><br><span class="line">    <span class="comment">//var变量的值赋给ptr1</span></span><br><span class="line">    ptr1 = &amp;var;</span><br><span class="line">    <span class="comment">//ptr1存放的地址赋给ptr2</span></span><br><span class="line">    ptr2 = &amp;ptr1;</span><br><span class="line">    <span class="comment">//ptr2存放的地址赋给ptr3</span></span><br><span class="line">    ptr3 = &amp;ptr3;</span><br><span class="line">    <span class="comment">//var代表数组的首地址</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"var[0]=%p var[0]=%d\n"</span>,&amp;var,var[<span class="number">0</span>]);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"ptr1本身的地址=%p ptr1存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr1,ptr1,*ptr1);</span><br><span class="line">     <span class="built_in">printf</span>(<span class="string">"ptr2本身的地址=%p ptr2存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr2,ptr2,*ptr2);</span><br><span class="line">     <span class="built_in">printf</span>(<span class="string">"ptr3本身的地址=%p ptr3存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr3,ptr3,*ptr3);</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/14/84c0f449534bd9e788d2e97573fa56cd.png" alt="image-20200714182508266"></p>
+<p><strong>传递指针给函数</strong></p>
+<p>当函数的形参类型是<code>指针类型</code>时，是使用该函数时，需要<code>传递指针</code>，或者<code>地址</code>，或者<code>数组</code>(数组名代表该数组首地址)给该<strong>形参</strong>，</p>
+<h2 id="指针函数-返回指针的函数"><a href="#指针函数-返回指针的函数" class="headerlink" title="指针函数(返回指针的函数)"></a>指针函数(返回指针的函数)</h2><p><strong>定义</strong>：返回指针的函数C语言<strong>允许函数的返回值是一个指针</strong>(地址)</p>
+<p><strong>🌰举例</strong></p>
+<p><strong>比较字符串长度</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="comment">//函数返回的char*（指针）</span></span><br><span class="line"><span class="function"><span class="keyword">char</span>* <span class="title">strlong</span><span class="params">(<span class="keyword">char</span>*str1,<span class="keyword">char</span>*str2)</span></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"strl的长度%d str2的长度%d \n"</span>,<span class="built_in">strlen</span>(str1),<span class="built_in">strlen</span>(str2));</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">strlen</span>(str1)&gt;=<span class="built_in">strlen</span>(str2))&#123;</span><br><span class="line">        <span class="keyword">return</span> str1;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> str2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> str1[<span class="number">20</span>],str2[<span class="number">20</span>],*str;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"输入第一字符串:\n"</span>);</span><br><span class="line">    gets(str1);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"输入第二字符串:\n"</span>);</span><br><span class="line">    gets(str2);</span><br><span class="line">    str = strlong(str1,str2);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%s的字符串中较长"</span>,str);</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>注意事项和细节</strong></p>
+<ul>
+<li>函数<strong>运行结束</strong>后会<strong>销毁在它内部定义的所有局部数据</strong>，包括<code>局部变量</code>、<code>局部数组</code>和<code>形式参数</code>，函数返回的指针不能指向这些数据</li>
+<li>销毁并<strong>不是将局部数据所占用的内存全部清零</strong>，而是<strong>程序放弃对它的使用权限</strong>，后面的代码可以使用这块内存</li>
+<li>C语言<strong>不支持在调用函数时返回局部变量的地址</strong>，如果确实有这样的需求，<strong>需要定义局部变量为 static变量</strong></li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span>*<span class="title">fun</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//int n=100;局部变量，在func返回时，就会销毁	</span></span><br><span class="line">    <span class="comment">//如果这个局部变量是 static性质的，那么n存放数据的空间在静态数据区</span></span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> n=<span class="number">100</span>;</span><br><span class="line">    <span class="keyword">return</span> &amp;n;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//返回指针</span></span><br><span class="line">    <span class="keyword">int</span>*p= func();</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="comment">//可能会使用到局部变量int n=100 内存空间</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"cyberpunk2077\n"</span>);</span><br><span class="line">    <span class="comment">//当int n=100;在内存中开辟空间未被使用时,可以输出</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"value=%d\n"</span>,n);</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="函数指针-指向函数的指针"><a href="#函数指针-指向函数的指针" class="headerlink" title="函数指针(指向函数的指针)"></a>函数指针(指向函数的指针)</h2><p><strong>基本介绍</strong></p>
+<ul>
+<li><p>一个函数总是<strong>占用一段连续的内存区域</strong>，函数名在<strong>表达式</strong>中有时也会<strong>被转换为该函数所在内存区域的首地址</strong>，这和数组名非常类似</p>
+</li>
+<li><p>把函数的这个首地址(或称入口地址)<strong>赋予一个指针变量</strong>，使指针变量指向函数所在的内存区域，然后<strong>通过指针变量就可以找到并调用该函数</strong>。这种指针就是<code>函数指针</code>。</p>
+</li>
+</ul>
+<p><strong>函数指针定义</strong></p>
+<p><strong>returnType(*pointerName)(param list)</strong></p>
+<ul>
+<li><code>returnType</code>为函数指针<strong>指向的函数返回值类型</strong></li>
+<li><code>pointerName</code>为<strong>函数指针名称</strong></li>
+<li><code>param list</code>为函数指针<strong>指向的函数的参数列表</strong></li>
+<li><code>参数列表</code>中<strong>可以同时给出参数的类型和名称，也可以只给出参数的类型，省略参数的名称</strong></li>
+<li><strong>注意()的优先级高于*，第一个括号不能省略</strong>，如果写作 <code>returnType * pointerName(param list)</code>；就成了<strong>函数原型</strong>，<strong>表明函数的返回值类型为 return Type*</strong></li>
+</ul>
+<p><strong>🌰举例</strong> </p>
+<p><strong>用函数指针来实现对函数的调用，返回两个整数中的最大值</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">max</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> a&gt;b? a:b;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> x,y,maxVal;</span><br><span class="line">    <span class="comment">//函数指针的名字 pmax</span></span><br><span class="line">    <span class="comment">//int表示该函数指针指向的函数是返回int类型</span></span><br><span class="line">    <span class="comment">//(int,int)表示该函数指针指向的函数形参是接收两个int</span></span><br><span class="line">    <span class="comment">//在定义函数指针时，也可以写上形参名int(*pmax)</span></span><br><span class="line">    <span class="keyword">int</span>(*pmax)(<span class="keyword">int</span>,<span class="keyword">int</span>) = <span class="built_in">max</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Input two numbers:"</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d %d"</span>,&amp;x,&amp;y);</span><br><span class="line">    <span class="comment">//(*pmax)(x,y)通过函数指针去调用函数max</span></span><br><span class="line">    maxVal = (*pmax)(x,y);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Max value:%d pmax=%p pmax本身的地址=%p\n"</span>,maxVal,pmax,&amp;pmax);</span><br><span class="line">    getchar();</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200715122648.png" alt="image-20200715122611182"></p>
+<h2 id="回调函数"><a href="#回调函数" class="headerlink" title="回调函数"></a>回调函数</h2><p><strong>基本介绍</strong></p>
+<p><code>函数指针变量</code>可以<strong>作为某个函数的参数</strong>来使用的，<code>回调函数</code>就是一个<strong>通过函数指针调用的函数</strong>,回调函数是由其他函数执行时调用当前传入的函数(通过函数指针完成）</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//回调函数int(*f)(void)</span></span><br><span class="line"><span class="comment">//f就是函数指针，它可以接收的函数是(返回int，没有形参的函数）</span></span><br><span class="line"><span class="comment">//f在这里被inteRray调用,充当了回调函数角色</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">initArray</span><span class="params">(<span class="keyword">int</span> *<span class="built_in">array</span>,<span class="keyword">int</span> arraySize,<span class="keyword">int</span> (*f)(<span class="keyword">void</span>))</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;arraySize;i++)&#123;</span><br><span class="line">        <span class="comment">//通过函数指针调用了 getNextRandomValue函数</span></span><br><span class="line">        <span class="built_in">array</span>[i] = f();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//获取随机数</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">getNextRandomValue</span><span class="params">(<span class="keyword">void</span>)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> rand();</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> <span class="built_in">array</span>[<span class="number">10</span>],i;</span><br><span class="line">    <span class="comment">//调用initArray函数</span></span><br><span class="line">    initArray(<span class="built_in">array</span>,<span class="number">10</span>,getNextRandomValue);</span><br><span class="line">    <span class="comment">//输出赋值后的数组</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)&#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,<span class="built_in">array</span>[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>指针的注意事项和细节</strong></p>
+<ul>
+<li><code>指针</code>变量存放的是<strong>地址</strong>，指针的本质就是地址。</li>
+<li><strong>变量声明</strong>的时候，如果<strong>没有确切的地址赋值，为指针变量赋一个NULL值</strong></li>
+<li><strong>赋为NULL值的指针</strong>被称为<code>空指针</code>，NULL指针是一个定义在标准库<code>&lt; stdio.h&gt;</code>中的<strong>值为零的常量</strong>#define NULL 0</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>*p = <span class="literal">NULL</span>;</span><br></pre></td></tr></table></figure>
+
+<h2 id="动态分配内存"><a href="#动态分配内存" class="headerlink" title="动态分配内存"></a>动态分配内存</h2><p><strong>不同数据在内存中分配说明：</strong></p>
+<ul>
+<li><code>全局变量</code>——&gt;内存中的<strong>静态存储区</strong></li>
+<li><code>非静态的局部变量</code>一一&gt;内存中的<strong>动态存储区</strong>—&gt;<code>stack栈</code></li>
+<li><strong>临时使用的数据</strong>-建立<strong>动态内存分配区域</strong>，<strong>需要时随时开辟，不需要时及时释放</strong>——&gt;<code>heap堆</code></li>
+<li>根据需要向系统申请所需大小的空间，由于<strong>未在声明部分定义其为变量或者数组</strong>，<strong>不能通过变量名或者数组名来引用这些数据，只能通过指针来引用</strong></li>
+</ul>
+<p><strong>内存动态分配的相关函数</strong></p>
+<p>头文件<code>&lt;stdlib.h&gt;</code>声明了<strong>四个关于内存动态分配的函数</strong></p>
+<p>1.函数原型<code>void* malloc(usigned int size)</code>memory allocation(内存分配)</p>
+<ul>
+<li><strong>作用</strong>:在内存的<code>动态存储区(堆区)</code>中分配一个<strong>长度为size的连续空间。</strong></li>
+<li>形参<code>size</code>的类型为<strong>无符号整型</strong>，<strong>函数返回值是所分配区域的第一个字节的地址</strong>，即此函数是一个<code>指针型函数</code>，返回的指针指向该分配域的开头位置。</li>
+<li>malloc(100)；<strong>开辟100字节的临时空间，返回值为其第一个字节的地址</strong></li>
+</ul>
+<p>2.函数原型<code>void* calloc(unsigned n, unsigned size)</code></p>
+<ul>
+<li><strong>作用</strong>:在内存的<code>动态存储区中</code>分配n个<strong>长度为size的连续空间，这个空间一般比较大，足以保存一个数组</strong></li>
+<li><code>calloc函数</code>可以为<strong>一维数组开辟动态存储空间，n为数组元素个数，每个元素长度为size</strong></li>
+<li>函数<strong>返回指向所分配域的起始位置的指针</strong>；分配<strong>不成功，返回NULL</strong></li>
+<li>p=calloc(50,4)；开辟50<em>4个字节临时空间，把*</em>起始地址分配给指针变量p**</li>
+</ul>
+<p>3.函数原型：<code>void free(void*p)</code></p>
+<ul>
+<li><p><strong>作用</strong>:<strong>释放变量p所指向的动态空间</strong>，<strong>放弃空间的使用权限不是销毁内存</strong>使这部分空间<strong>能重新被其他变量使用</strong></p>
+</li>
+<li><p>p是<strong>最近一次调用</strong><code>calloc</code>或 <code>malloc</code>函数时的<strong>函数返回值</strong></p>
+</li>
+<li><p>free函数<strong>无返回值</strong></p>
+</li>
+<li><p>free(p)  <strong>释放p所指向的已分配的动态空间</strong></p>
+</li>
+</ul>
+<p>4.函数原型<code>void* realloc(void*p,unsigned int size)</code></p>
+<ul>
+<li><strong>作用</strong>:<strong>重新分配 <code>malloc</code>或<code>calloc</code>函数获得的动态空间大小</strong>，将p指向的<strong>动态空间大小改变为size</strong>,p的<strong>值不变</strong>，分<strong>配失败返回NULL</strong> </li>
+<li>realloc(p,50)  将p所指向的<strong>已分配的动态空间改为50字节</strong></li>
+</ul>
+<p><strong>返回类型说明</strong></p>
+<p><code>C99标准</code>把以上 <code>malloc</code>, <code>calloc</code>, <code>realloc</code>函数的<strong>基类型定为void类型</strong>，这种指针称为<strong>无类型指针(typeless pointer)</strong>，即<strong>不指向哪一种具体的类型数据</strong>，只表示用来<strong>指向一个抽象的类型的数据</strong>，即仅<strong>提供一个纯地址</strong>，而<strong>不能指向任何具体的对象</strong>。<br><code>C99</code>允许使用<strong>基类型为void的指针类型</strong>。可以定义一个基类型为void的指针变量(即void<em>型变量），它不指向任何类型的数据。把*</em>“指向void类型“”理解为“指向空类型”或“不指向确定的类型”的数据<strong>。在将它的值赋给另一指针变量时由</strong>系统对它进行类型转换<strong>，使之适</strong>合于被赋值的变量的类型**。</p>
+<p><strong>🌰举例</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//p3为无类型指针变量（基类型为void型）</span></span><br><span class="line"><span class="keyword">void</span> * p3；</span><br><span class="line"><span class="comment">//将p1的值转换为void*类型，然后赋值给p3</span></span><br><span class="line">p3=(<span class="keyword">void</span> *)pl;</span><br><span class="line"><span class="comment">//将p3的值转换为char*类型，然后赋值给p2</span></span><br><span class="line">p2=(<span class="keyword">char</span>*)p3；</span><br><span class="line"><span class="comment">//赋值后p3得到a的纯地址，但并不指向a，不能通过*p3输出</span></span><br><span class="line">p3=&amp;a;  √ 纯地址</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%d"</span>,*p3); ×</span><br></pre></td></tr></table></figure>
+
+<p><strong>动态分配内存的基本原则</strong></p>
+<ul>
+<li><strong>避免分配大量的小内存块。分配堆上的内存有一些系统开销，所以分配许多小的内存块比分配几个大内存块的系统开销大</strong></li>
+<li><strong>在需要时分配内存</strong>。只要<strong>使用完堆上的内存块，及时释放它(</strong>如果使用<strong>动态分配内存</strong>，需要遵守原则：<strong>谁分配，谁释放</strong>)，否则可能出现<code>内存泄漏</code></li>
+<li>分配后一定要释放内存</li>
+<li><strong>释放内存之前，确保不会无意中覆盖堆上已分配的内存地址</strong>，否则程序就会出现<code>内存泄漏</code>。<strong>注意循环中分配内存</strong></li>
+</ul>
+<p><strong>指针使用一览</strong></p>
+<table>
+<thead>
+<tr>
+<th>变量定义</th>
+<th>类型表示</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>int * p</td>
+<td>int *</td>
+<td>定义p为指向整型数据的指针变量</td>
+</tr>
+<tr>
+<td>int * p[4]</td>
+<td>int *</td>
+<td>定义指针数组p,它由4个指向整型数据的指针元素组成</td>
+</tr>
+<tr>
+<td>int (* p)[4]</td>
+<td>int(*)[4]</td>
+<td>p为指向包含4个元素的一维数组的指针变量</td>
+</tr>
+<tr>
+<td>int * p()</td>
+<td>int * ()</td>
+<td>p为返回一个指针的函数，该指针指向整型数据</td>
+</tr>
+<tr>
+<td>int (* p)()</td>
+<td>int (*)()</td>
+<td>p为指向函数的指针，该函数返回一个整型值</td>
+</tr>
+<tr>
+<td>int ** p</td>
+<td>int **</td>
+<td>p是一个指针变量，它指向一个指向整型数据的指针变量</td>
+</tr>
+<tr>
+<td>void * p</td>
+<td>void *</td>
+<td>p是一个指针变量，基类型为void(空类型),不指向具体的对象</td>
+</tr>
+</tbody></table>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=133" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
+</div>]]></content>
+      <categories>
+        <category>C</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>指针</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>枚举</title>
     <url>/posts/4523/</url>
     <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>枚举是C语言中的一种<strong>构造数据类型</strong>，它可以<strong>让数据更简洁，更易读</strong>，对于<strong>只有几个有限的特定数据</strong>，可以使用枚举(enumeration,简写enum）</p>
@@ -2257,218 +2461,6 @@
       </tags>
   </entry>
   <entry>
-    <title>指针</title>
-    <url>/posts/9f93/</url>
-    <content><![CDATA[<h2 id="指针的基本介绍"><a href="#指针的基本介绍" class="headerlink" title="指针的基本介绍"></a>指针的基本介绍</h2><ul>
-<li><code>指针</code>是内存的地址；所谓指针变量，也就是保存了内存地址的变量。</li>
-<li><strong>获取变量的地址用&amp;</strong>，比如：int num=10，获取num的地址：&amp;num <strong>获取指针本身的地址不加取值符号</strong></li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> num = <span class="number">100</span>;</span><br><span class="line"><span class="keyword">int</span>* ptr = &amp;num;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"ptr本身的地址=%p ptr存放的地址=%p ptr指向的值"</span>,&amp;ptr,ptr,*ptr);</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><p><strong>指针类型，指针变量存的是一个地址</strong>，这个地址指向的空间存的才是值比如：int  * ptr = &amp;num；<strong>ptr就是指向int类型的指针变量，ptr是int*类型</strong>。</p>
-</li>
-<li><p><strong>获取指针类型所指向的值</strong>，<strong>使用:*  (取值符号)</strong>，比如：int * ptr，<strong>使用*ptr获取ptr指向的值</strong></p>
-</li>
-<li><p>使用指针存储其他变量地址之前，对其进行声明。指针变量声明的一般形式为：</p>
-</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*整型的指针*/</span></span><br><span class="line"><span class="keyword">int</span> *ip; </span><br><span class="line"><span class="comment">/*double型的指针*/</span> </span><br><span class="line"><span class="keyword">double</span> *dp;</span><br><span class="line"><span class="comment">/*浮点型的指针*/</span></span><br><span class="line"><span class="keyword">float</span> *fp;</span><br><span class="line"><span class="comment">/*字符型的指针*/</span></span><br><span class="line"><span class="keyword">char</span> *ch;</span><br></pre></td></tr></table></figure>
-
-<p><strong>🌰举例内存图解</strong> </p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/14/cc880e41e8897b36380d87d0fffcc3fe.png" alt="31e03c7aafe9dfd149b80a90482c1463"></p>
-<p><strong>指针可执行算术运算</strong>。四种算术运算：<code>++,- - ,+, -</code>,</p>
-<p><strong>指针递增(++)操作</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAX =<span class="number">3</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr;</span><br><span class="line">	ptr = var;</span><br><span class="line">	<span class="keyword">for</span>(i = <span class="number">0</span>;i &lt; MAX;i++)&#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"var[%d] 地址=%p\n"</span>,i,ptr);</span><br><span class="line">        <span class="comment">//ptr=ptr+1（1个int字节数;ptr存放值+4字节(int)</span></span><br><span class="line">        <span class="built_in">print</span>（<span class="string">"存储值: var[%d =%dn"</span>,i,*ptr); 			</span><br><span class="line">        ptr++;</span><br><span class="line">	&#125;</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>内存图解</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/14/f697f699d6db795ad5123dc4700e823b.png" alt="image-20200714171833898"></p>
-<ul>
-<li><strong>数组</strong>在内存中是<strong>连续分布</strong>的</li>
-<li>当对指针进行++时，指针会按照它<strong>指向的数据类型字节数大小增加</strong>，比如i<code>int*指针</code>，每++，<strong>增加4个字节</strong></li>
-</ul>
-<p><strong>指针(-)操作</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr;</span><br><span class="line">	ptr = var;</span><br><span class="line">    <span class="comment">//ptr=ptr-1（1个int字节数;ptr存放值-4字节(int)</span></span><br><span class="line">	ptr -=<span class="number">1</span>; </span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"var[1]= %d 地址=%p ptr存储的地址=%p ptr指向的值=%d"</span>,var[<span class="number">1</span>],&amp;var[<span class="number">1</span>],ptr,*ptr);</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>可以对指针按照指定的字节数大小进行+或者-的操作，可以快速定位想要的地址</strong></p>
-<h2 id="指针的比较"><a href="#指针的比较" class="headerlink" title="指针的比较"></a>指针的比较</h2><p><code>指针</code>可以用<strong>关系运算符进行比较</strong>，如果p1和p2指向两个变量，比如同一个数组中的不同元素，则可对pl和p2进行大小比较</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr;</span><br><span class="line">	ptr = var;</span><br><span class="line">    <span class="keyword">if</span>(ptr==&amp;var[<span class="number">0</span>])&#123;</span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"cyberpunk2077"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(ptr==var)&#123;</span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"cyberpunk2077"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">    <span class="keyword">if</span>(ptr&lt;=&amp;var[<span class="number">1</span>])&#123;</span><br><span class="line">       <span class="comment">//可以比较,返回true </span></span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"cyberpunk2077"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>%x 和 %p的比较 <code>%x</code> 输出结果会<strong>去掉地址前面的0</strong> ， <code>%p</code>输出结果<strong>保留地址前面的0</strong> </li>
-</ul>
-<h2 id="指针数组"><a href="#指针数组" class="headerlink" title="指针数组"></a>指针数组</h2><p><strong>基本介绍</strong></p>
-<p><strong>让数组的元素指向int或其他数据类型的地址（指针）</strong>。可以使用<code>指针数组</code></p>
-<p><strong>指针数组定义</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">数据类型 * 指针数组名 [大小];</span><br><span class="line"><span class="keyword">int</span>*ptr[<span class="number">3</span>];</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>ptr声明为一个指针数组</li>
-<li>由<strong>3个整数指针</strong>组成。ptr中的<strong>每个元素</strong>，<strong>都是一个指向int值的指针</strong></li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAX =<span class="number">3</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr[<span class="number">3</span>];</span><br><span class="line">	<span class="keyword">for</span>(i = <span class="number">0</span>;i &lt; MAX;i++)&#123;</span><br><span class="line">       <span class="comment">//赋值为整数的地址</span></span><br><span class="line">       ptr[i] = &amp;var[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(i = <span class="number">0</span>;i &lt; MAX;i++)&#123;</span><br><span class="line">       <span class="built_in">printf</span>(<span class="string">"var[%d]=%d ptr[%d]本身的地址=%p\n"</span>,i,*ptr[i],i,&amp;ptr[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/14/fe7253f1d54a11604f17415e8e994aa0.png" alt="image-20200714181338508"></p>
-<h2 id="多重指针"><a href="#多重指针" class="headerlink" title="多重指针"></a>多重指针</h2><p><strong>基本介绍</strong></p>
-<p><code>指向指针的指针</code>是一种<strong>多级间接寻址</strong>的形式，或者说是一个<code>指针链</code>。定义一个指向指针的指针时，第一个指针包含了第二个指针的地址，第二个指针指向包含实际值的位置</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr;</span><br><span class="line">    <span class="comment">//var变量的值赋给ptr1</span></span><br><span class="line">    ptr1 = &amp;var;</span><br><span class="line">    <span class="comment">//ptr1存放的地址赋给ptr2</span></span><br><span class="line">    ptr2 = &amp;ptr1;</span><br><span class="line">    <span class="comment">//ptr2存放的地址赋给ptr3</span></span><br><span class="line">    ptr3 = &amp;ptr3;</span><br><span class="line">    <span class="comment">//var代表数组的首地址</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"var[0]=%p var[0]=%d\n"</span>,&amp;var,var[<span class="number">0</span>]);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"ptr1本身的地址=%p ptr1存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr1,ptr1,*ptr1);</span><br><span class="line">     <span class="built_in">printf</span>(<span class="string">"ptr2本身的地址=%p ptr2存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr2,ptr2,*ptr2);</span><br><span class="line">     <span class="built_in">printf</span>(<span class="string">"ptr3本身的地址=%p ptr3存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr3,ptr3,*ptr3);</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/14/84c0f449534bd9e788d2e97573fa56cd.png" alt="image-20200714182508266"></p>
-<p><strong>传递指针给函数</strong></p>
-<p>当函数的形参类型是<code>指针类型</code>时，是使用该函数时，需要<code>传递指针</code>，或者<code>地址</code>，或者<code>数组</code>(数组名代表该数组首地址)给该<strong>形参</strong>，</p>
-<h2 id="指针函数-返回指针的函数"><a href="#指针函数-返回指针的函数" class="headerlink" title="指针函数(返回指针的函数)"></a>指针函数(返回指针的函数)</h2><p><strong>定义</strong>：返回指针的函数C语言<strong>允许函数的返回值是一个指针</strong>(地址)</p>
-<p><strong>🌰举例</strong></p>
-<p><strong>比较字符串长度</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="comment">//函数返回的char*（指针）</span></span><br><span class="line"><span class="function"><span class="keyword">char</span>* <span class="title">strlong</span><span class="params">(<span class="keyword">char</span>*str1,<span class="keyword">char</span>*str2)</span></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"strl的长度%d str2的长度%d \n"</span>,<span class="built_in">strlen</span>(str1),<span class="built_in">strlen</span>(str2));</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">strlen</span>(str1)&gt;=<span class="built_in">strlen</span>(str2))&#123;</span><br><span class="line">        <span class="keyword">return</span> str1;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> str2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> str1[<span class="number">20</span>],str2[<span class="number">20</span>],*str;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"输入第一字符串:\n"</span>);</span><br><span class="line">    gets(str1);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"输入第二字符串:\n"</span>);</span><br><span class="line">    gets(str2);</span><br><span class="line">    str = strlong(str1,str2);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%s的字符串中较长"</span>,str);</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>注意事项和细节</strong></p>
-<ul>
-<li>函数<strong>运行结束</strong>后会<strong>销毁在它内部定义的所有局部数据</strong>，包括<code>局部变量</code>、<code>局部数组</code>和<code>形式参数</code>，函数返回的指针不能指向这些数据</li>
-<li>销毁并<strong>不是将局部数据所占用的内存全部清零</strong>，而是<strong>程序放弃对它的使用权限</strong>，后面的代码可以使用这块内存</li>
-<li>C语言<strong>不支持在调用函数时返回局部变量的地址</strong>，如果确实有这样的需求，<strong>需要定义局部变量为 static变量</strong></li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span>*<span class="title">fun</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//int n=100;局部变量，在func返回时，就会销毁	</span></span><br><span class="line">    <span class="comment">//如果这个局部变量是 static性质的，那么n存放数据的空间在静态数据区</span></span><br><span class="line">    <span class="keyword">static</span> <span class="keyword">int</span> n=<span class="number">100</span>;</span><br><span class="line">    <span class="keyword">return</span> &amp;n;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">//返回指针</span></span><br><span class="line">    <span class="keyword">int</span>*p= func();</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="comment">//可能会使用到局部变量int n=100 内存空间</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"cyberpunk2077\n"</span>);</span><br><span class="line">    <span class="comment">//当int n=100;在内存中开辟空间未被使用时,可以输出</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"value=%d\n"</span>,n);</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="函数指针-指向函数的指针"><a href="#函数指针-指向函数的指针" class="headerlink" title="函数指针(指向函数的指针)"></a>函数指针(指向函数的指针)</h2><p><strong>基本介绍</strong></p>
-<ul>
-<li><p>一个函数总是<strong>占用一段连续的内存区域</strong>，函数名在<strong>表达式</strong>中有时也会<strong>被转换为该函数所在内存区域的首地址</strong>，这和数组名非常类似</p>
-</li>
-<li><p>把函数的这个首地址(或称入口地址)<strong>赋予一个指针变量</strong>，使指针变量指向函数所在的内存区域，然后<strong>通过指针变量就可以找到并调用该函数</strong>。这种指针就是<code>函数指针</code>。</p>
-</li>
-</ul>
-<p><strong>函数指针定义</strong></p>
-<p><strong>returnType(*pointerName)(param list)</strong></p>
-<ul>
-<li><code>returnType</code>为函数指针<strong>指向的函数返回值类型</strong></li>
-<li><code>pointerName</code>为<strong>函数指针名称</strong></li>
-<li><code>param list</code>为函数指针<strong>指向的函数的参数列表</strong></li>
-<li><code>参数列表</code>中<strong>可以同时给出参数的类型和名称，也可以只给出参数的类型，省略参数的名称</strong></li>
-<li><strong>注意()的优先级高于*，第一个括号不能省略</strong>，如果写作 <code>returnType * pointerName(param list)</code>；就成了<strong>函数原型</strong>，<strong>表明函数的返回值类型为 return Type*</strong></li>
-</ul>
-<p><strong>🌰举例</strong> </p>
-<p><strong>用函数指针来实现对函数的调用，返回两个整数中的最大值</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">max</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> a&gt;b? a:b;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> x,y,maxVal;</span><br><span class="line">    <span class="comment">//函数指针的名字 pmax</span></span><br><span class="line">    <span class="comment">//int表示该函数指针指向的函数是返回int类型</span></span><br><span class="line">    <span class="comment">//(int,int)表示该函数指针指向的函数形参是接收两个int</span></span><br><span class="line">    <span class="comment">//在定义函数指针时，也可以写上形参名int(*pmax)</span></span><br><span class="line">    <span class="keyword">int</span>(*pmax)(<span class="keyword">int</span>,<span class="keyword">int</span>) = <span class="built_in">max</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Input two numbers:"</span>);</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d %d"</span>,&amp;x,&amp;y);</span><br><span class="line">    <span class="comment">//(*pmax)(x,y)通过函数指针去调用函数max</span></span><br><span class="line">    maxVal = (*pmax)(x,y);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"Max value:%d pmax=%p pmax本身的地址=%p\n"</span>,maxVal,pmax,&amp;pmax);</span><br><span class="line">    getchar();</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200715122648.png" alt="image-20200715122611182"></p>
-<h2 id="回调函数"><a href="#回调函数" class="headerlink" title="回调函数"></a>回调函数</h2><p><strong>基本介绍</strong></p>
-<p><code>函数指针变量</code>可以<strong>作为某个函数的参数</strong>来使用的，<code>回调函数</code>就是一个<strong>通过函数指针调用的函数</strong>,回调函数是由其他函数执行时调用当前传入的函数(通过函数指针完成）</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">//回调函数int(*f)(void)</span></span><br><span class="line"><span class="comment">//f就是函数指针，它可以接收的函数是(返回int，没有形参的函数）</span></span><br><span class="line"><span class="comment">//f在这里被inteRray调用,充当了回调函数角色</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">initArray</span><span class="params">(<span class="keyword">int</span> *<span class="built_in">array</span>,<span class="keyword">int</span> arraySize,<span class="keyword">int</span> (*f)(<span class="keyword">void</span>))</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;arraySize;i++)&#123;</span><br><span class="line">        <span class="comment">//通过函数指针调用了 getNextRandomValue函数</span></span><br><span class="line">        <span class="built_in">array</span>[i] = f();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//获取随机数</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">getNextRandomValue</span><span class="params">(<span class="keyword">void</span>)</span></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> rand();</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> <span class="built_in">array</span>[<span class="number">10</span>],i;</span><br><span class="line">    <span class="comment">//调用initArray函数</span></span><br><span class="line">    initArray(<span class="built_in">array</span>,<span class="number">10</span>,getNextRandomValue);</span><br><span class="line">    <span class="comment">//输出赋值后的数组</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)&#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,<span class="built_in">array</span>[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>指针的注意事项和细节</strong></p>
-<ul>
-<li><code>指针</code>变量存放的是<strong>地址</strong>，指针的本质就是地址。</li>
-<li><strong>变量声明</strong>的时候，如果<strong>没有确切的地址赋值，为指针变量赋一个NULL值</strong></li>
-<li><strong>赋为NULL值的指针</strong>被称为<code>空指针</code>，NULL指针是一个定义在标准库<code>&lt; stdio.h&gt;</code>中的<strong>值为零的常量</strong>#define NULL 0</li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>*p = <span class="literal">NULL</span>;</span><br></pre></td></tr></table></figure>
-
-<h2 id="动态分配内存"><a href="#动态分配内存" class="headerlink" title="动态分配内存"></a>动态分配内存</h2><p><strong>不同数据在内存中分配说明：</strong></p>
-<ul>
-<li><code>全局变量</code>——&gt;内存中的<strong>静态存储区</strong></li>
-<li><code>非静态的局部变量</code>一一&gt;内存中的<strong>动态存储区</strong>—&gt;<code>stack栈</code></li>
-<li><strong>临时使用的数据</strong>-建立<strong>动态内存分配区域</strong>，<strong>需要时随时开辟，不需要时及时释放</strong>——&gt;<code>heap堆</code></li>
-<li>根据需要向系统申请所需大小的空间，由于<strong>未在声明部分定义其为变量或者数组</strong>，<strong>不能通过变量名或者数组名来引用这些数据，只能通过指针来引用</strong></li>
-</ul>
-<p><strong>内存动态分配的相关函数</strong></p>
-<p>头文件<code>&lt;stdlib.h&gt;</code>声明了<strong>四个关于内存动态分配的函数</strong></p>
-<p>1.函数原型<code>void* malloc(usigned int size)</code>memory allocation(内存分配)</p>
-<ul>
-<li><strong>作用</strong>:在内存的<code>动态存储区(堆区)</code>中分配一个<strong>长度为size的连续空间。</strong></li>
-<li>形参<code>size</code>的类型为<strong>无符号整型</strong>，<strong>函数返回值是所分配区域的第一个字节的地址</strong>，即此函数是一个<code>指针型函数</code>，返回的指针指向该分配域的开头位置。</li>
-<li>malloc(100)；<strong>开辟100字节的临时空间，返回值为其第一个字节的地址</strong></li>
-</ul>
-<p>2.函数原型<code>void* calloc(unsigned n, unsigned size)</code></p>
-<ul>
-<li><strong>作用</strong>:在内存的<code>动态存储区中</code>分配n个<strong>长度为size的连续空间，这个空间一般比较大，足以保存一个数组</strong></li>
-<li><code>calloc函数</code>可以为<strong>一维数组开辟动态存储空间，n为数组元素个数，每个元素长度为size</strong></li>
-<li>函数<strong>返回指向所分配域的起始位置的指针</strong>；分配<strong>不成功，返回NULL</strong></li>
-<li>p=calloc(50,4)；开辟50<em>4个字节临时空间，把*</em>起始地址分配给指针变量p**</li>
-</ul>
-<p>3.函数原型：<code>void free(void*p)</code></p>
-<ul>
-<li><p><strong>作用</strong>:<strong>释放变量p所指向的动态空间</strong>，<strong>放弃空间的使用权限不是销毁内存</strong>使这部分空间<strong>能重新被其他变量使用</strong></p>
-</li>
-<li><p>p是<strong>最近一次调用</strong><code>calloc</code>或 <code>malloc</code>函数时的<strong>函数返回值</strong></p>
-</li>
-<li><p>free函数<strong>无返回值</strong></p>
-</li>
-<li><p>free(p)  <strong>释放p所指向的已分配的动态空间</strong></p>
-</li>
-</ul>
-<p>4.函数原型<code>void* realloc(void*p,unsigned int size)</code></p>
-<ul>
-<li><strong>作用</strong>:<strong>重新分配 <code>malloc</code>或<code>calloc</code>函数获得的动态空间大小</strong>，将p指向的<strong>动态空间大小改变为size</strong>,p的<strong>值不变</strong>，分<strong>配失败返回NULL</strong> </li>
-<li>realloc(p,50)  将p所指向的<strong>已分配的动态空间改为50字节</strong></li>
-</ul>
-<p><strong>返回类型说明</strong></p>
-<p><code>C99标准</code>把以上 <code>malloc</code>, <code>calloc</code>, <code>realloc</code>函数的<strong>基类型定为void类型</strong>，这种指针称为<strong>无类型指针(typeless pointer)</strong>，即<strong>不指向哪一种具体的类型数据</strong>，只表示用来<strong>指向一个抽象的类型的数据</strong>，即仅<strong>提供一个纯地址</strong>，而<strong>不能指向任何具体的对象</strong>。<br><code>C99</code>允许使用<strong>基类型为void的指针类型</strong>。可以定义一个基类型为void的指针变量(即void<em>型变量），它不指向任何类型的数据。把*</em>“指向void类型“”理解为“指向空类型”或“不指向确定的类型”的数据<strong>。在将它的值赋给另一指针变量时由</strong>系统对它进行类型转换<strong>，使之适</strong>合于被赋值的变量的类型**。</p>
-<p><strong>🌰举例</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//p3为无类型指针变量（基类型为void型）</span></span><br><span class="line"><span class="keyword">void</span> * p3；</span><br><span class="line"><span class="comment">//将p1的值转换为void*类型，然后赋值给p3</span></span><br><span class="line">p3=(<span class="keyword">void</span> *)pl;</span><br><span class="line"><span class="comment">//将p3的值转换为char*类型，然后赋值给p2</span></span><br><span class="line">p2=(<span class="keyword">char</span>*)p3；</span><br><span class="line"><span class="comment">//赋值后p3得到a的纯地址，但并不指向a，不能通过*p3输出</span></span><br><span class="line">p3=&amp;a;  √ 纯地址</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"%d"</span>,*p3); ×</span><br></pre></td></tr></table></figure>
-
-<p><strong>动态分配内存的基本原则</strong></p>
-<ul>
-<li><strong>避免分配大量的小内存块。分配堆上的内存有一些系统开销，所以分配许多小的内存块比分配几个大内存块的系统开销大</strong></li>
-<li><strong>在需要时分配内存</strong>。只要<strong>使用完堆上的内存块，及时释放它(</strong>如果使用<strong>动态分配内存</strong>，需要遵守原则：<strong>谁分配，谁释放</strong>)，否则可能出现<code>内存泄漏</code></li>
-<li>分配后一定要释放内存</li>
-<li><strong>释放内存之前，确保不会无意中覆盖堆上已分配的内存地址</strong>，否则程序就会出现<code>内存泄漏</code>。<strong>注意循环中分配内存</strong></li>
-</ul>
-<p><strong>指针使用一览</strong></p>
-<table>
-<thead>
-<tr>
-<th>变量定义</th>
-<th>类型表示</th>
-<th>含义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>int * p</td>
-<td>int *</td>
-<td>定义p为指向整型数据的指针变量</td>
-</tr>
-<tr>
-<td>int * p[4]</td>
-<td>int *</td>
-<td>定义指针数组p,它由4个指向整型数据的指针元素组成</td>
-</tr>
-<tr>
-<td>int (* p)[4]</td>
-<td>int(*)[4]</td>
-<td>p为指向包含4个元素的一维数组的指针变量</td>
-</tr>
-<tr>
-<td>int * p()</td>
-<td>int * ()</td>
-<td>p为返回一个指针的函数，该指针指向整型数据</td>
-</tr>
-<tr>
-<td>int (* p)()</td>
-<td>int (*)()</td>
-<td>p为指向函数的指针，该函数返回一个整型值</td>
-</tr>
-<tr>
-<td>int ** p</td>
-<td>int **</td>
-<td>p是一个指针变量，它指向一个指向整型数据的指针变量</td>
-</tr>
-<tr>
-<td>void * p</td>
-<td>void *</td>
-<td>p是一个指针变量，基类型为void(空类型),不指向具体的对象</td>
-</tr>
-</tbody></table>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
-<a class="btn-beautify button--animated outline green larger" href="https://www.bilibili.com/video/BV1qJ411z7Hf?p=133" target="_blank" rel="noopener" title="尚硅谷C语言入门"><i class="far fa-hand-point-right fa-fw"></i> 尚硅谷C语言入门 </a>
-</div>]]></content>
-      <categories>
-        <category>C</category>
-      </categories>
-      <tags>
-        <tag>C</tag>
-        <tag>指针</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>泛型</title>
     <url>/posts/805/</url>
     <content><![CDATA[<h1 id="1-泛型"><a href="#1-泛型" class="headerlink" title="1.泛型"></a>1.泛型</h1><h2 id="1-1什么是泛型"><a href="#1-1什么是泛型" class="headerlink" title="1.1什么是泛型"></a>1.1什么是泛型</h2><p><strong>泛型的概念</strong></p>
@@ -2636,6 +2628,40 @@
       </tags>
   </entry>
   <entry>
+    <title>MarkDown使用指南</title>
+    <url>/posts/9365/</url>
+    <content><![CDATA[<h2 id="MarkDown使用指南"><a href="#MarkDown使用指南" class="headerlink" title="MarkDown使用指南"></a>MarkDown使用指南</h2><ul>
+<li>待办事项</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>[x] This is a complete item</span><br><span class="line"><span class="bullet">- </span>[ ] This is an incomplete item</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><input disabled="" type="checkbox"> This is a complete item</li>
+<li><input disabled="" type="checkbox"> This is an incomplete item</li>
+</ul>
+<p><font color = red size = 5>文字颜色</font></p>
+<p><font face="黑体">我是黑体字</font></p>
+<p><font face="微软雅黑">我是微软雅黑</font></p>
+<p><font face="STCAIYUN">我是华文彩云</font></p>
+<p><font color=red >我是红色</font></p>
+<p><font color=#008000>我是绿色</font></p>
+<p><font color=Blue>我是蓝色</font></p>
+<p><font size=5>我是尺寸</font></p>
+<p><font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font></p>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)" target="_blank" rel="noopener" title="官方文档"><i class="far fa-hand-point-right fa-fw"></i> 官方文档 </a>
+</div>
+<div class="btn-center">
+<a class="btn-beautify button--animated outline green larger" href="https://www.jianshu.com/p/22e7d281859e)" target="_blank" rel="noopener" title="其他连接"><i class="far fa-hand-point-right fa-fw"></i> 其他连接 </a>
+</div>]]></content>
+      <categories>
+        <category>生产力</category>
+      </categories>
+      <tags>
+        <tag>生产力</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>网络编程</title>
     <url>/posts/cd50/</url>
     <content><![CDATA[<p>网络编程的目的: 直接或间接的通过网络协议与其他计算机进行通讯和数据交换</p>
@@ -2707,6 +2733,142 @@
       </categories>
       <tags>
         <tag>结构体和共用体</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>线性表</title>
+    <url>/posts/82000000/</url>
+    <content><![CDATA[<p><strong>定义</strong>：零个或多个数据元素的<strong>有限序列</strong>。<strong>除第一个元素外</strong>，每个元素<strong>有且仅有</strong>一个直接前驱，<strong>除最后一个元素外，每个元素有且仅有一个直接后继。</strong></p>
+<p>线性表的特点：</p>
+<ul>
+<li>1.元素个数有限   </li>
+<li>2.元素有先后次序</li>
+<li>3.数据类型相同   </li>
+</ul>
+<h2 id="顺序存储结构"><a href="#顺序存储结构" class="headerlink" title="顺序存储结构"></a>顺序存储结构</h2><p>线性表的<code>顺序存储结构</code>，指的是用<strong>一段地址连续的存储单元依次存储线性表的数据元素</strong></p>
+<p>🌰<code>一维数组</code></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//存储空间初始分配量</span></span><br><span class="line"><span class="meta"># <span class="meta-keyword">define</span> MAXSIZE 20</span></span><br><span class="line"><span class="comment">//ElemType类型根据实际情况而定，这里假设为int</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> ElemType;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//数组存储数据元素,最大值为 MAXSIZE</span></span><br><span class="line">    <span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">E1</span> <span class="title">emType</span> <span class="title">data</span>[<span class="title">MAXSIZE</span>];</span> </span><br><span class="line">    <span class="comment">//线性表的当前长度</span></span><br><span class="line">    <span class="keyword">int</span> length;</span><br><span class="line">&#125;SqList;</span><br></pre></td></tr></table></figure>
+
+<p><code>顺序存储结构</code>的属性:</p>
+<ul>
+<li>存储空间的起始位置：数组data，数组<strong>起始位置</strong>的地址就是数组在内存中的存储位置。</li>
+<li>线性表的最大存储容量：数组长度 MaxSize </li>
+<li>线性表的当前长度：length</li>
+</ul>
+<p>内存中的<code>地址</code>，就和图书馆或电影院里的座位一样，都是有编号的。存储器中的每个存储单元都有自己的编号，这个编号称为地址。</p>
+<p>假设数组中的第一元素在内存中的地址是<strong>000000000061FE08</strong>, 第二个元素的地址是<strong>000000000061FE0C</strong></p>
+<p>原因是数组中存储的<strong>元素的数据类型是int</strong>,int在内存中占4个字节 <strong>08 + 4 =&gt; 0C (16进制),</strong>后面元素的地址在前一个地址的基础上加4即可</p>
+<p>算出线性表中<strong>任意位置的地址都是相同的时间</strong>。对每个线性表位置的<code>存入</code>或者<code>取出</code>数据，对于计算机来说都是相等的时间，也就是一个常数，时间复杂度的概念来说，它的存取时间性能为O（1）。我们通常把具有这一特点的存储结构称为<code>随机存取结构</code>。</p>
+<h3 id="顺序存储结构的插入和删除"><a href="#顺序存储结构的插入和删除" class="headerlink" title="顺序存储结构的插入和删除"></a>顺序存储结构的插入和删除</h3><h4 id="获取元素"><a href="#获取元素" class="headerlink" title="获取元素"></a>获取元素</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> OK 1</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ERROR 0</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> TRUE 1</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> FALSE 0</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> status;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	status是函数的类型，其值是函数结果状态代码，如OK等</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在1≤i≤ListLength（L）</span></span><br><span class="line"><span class="comment">	操作结果：用e返回L中第i个数据元素的值</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function">status <span class="title">GetElem</span> <span class="params">(SqList L, <span class="keyword">int</span> i, ElemType *e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(L.length==<span class="number">0</span> || i &lt; <span class="number">1</span> || i &gt; L length)&#123;</span><br><span class="line">		<span class="keyword">return</span> ERROR；</span><br><span class="line">	&#125;</span><br><span class="line">	*e = L.data[i<span class="number">-1</span>]; </span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>返回值类型Sats是一个整型，返回OK代表1， ERROR代表0。</strong></p>
+<h4 id="插入元素"><a href="#插入元素" class="headerlink" title="插入元素"></a>插入元素</h4><p><strong>思路</strong></p>
+<ul>
+<li>插入位置不合理，抛出异常；</li>
+<li>线性表长度大于等于数组长度，则抛出异常或动态增加容量；</li>
+<li>从最后一个元素开始向前遍历到第i个位置，分别将它们都向后移动一个位置;</li>
+<li>将要插入元素填入位置i处；</li>
+<li>表长加1。</li>
+</ul>
+<p>🌰<strong>插队</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在，1≤i≤ ListLength(L)，</span></span><br><span class="line"><span class="comment">	操作结果：在工中第i个位置之前插入新的数据元素e，工的长度加1</span></span><br><span class="line"><span class="comment">*/</span> </span><br><span class="line"><span class="function">Status <span class="title">ListInsert</span> <span class="params">(SqList *L, <span class="keyword">int</span> i, ElemType e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> k;</span><br><span class="line">    <span class="comment">//顺序线性表已经满</span></span><br><span class="line">    <span class="keyword">if</span>(L-&gt; length == MAXSIZE)&#123;</span><br><span class="line">        <span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//当不在范围内时</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt; <span class="number">1</span> || i &gt; L-&gt;<span class="number">1</span>ength + <span class="number">1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//若插入数据位置不在表尾</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt;= L-&gt; <span class="number">1</span>ength)&#123;</span><br><span class="line">        <span class="comment">//将要插入位置后数据元素向后移动一位*/</span></span><br><span class="line">        <span class="keyword">for</span>(k = L-&gt; <span class="number">1</span>ength<span class="number">-1</span>;k &gt;=i<span class="number">-1</span>;k--)&#123;</span><br><span class="line">            L-&gt;data[k+<span class="number">1</span>] = L-&gt;data[k]; </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//将新元素插入</span></span><br><span class="line">    L-&gt;data[i<span class="number">-1</span>] = e;</span><br><span class="line">    L-&gt;length++; </span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="删除元素"><a href="#删除元素" class="headerlink" title="删除元素"></a>删除元素</h4><p><strong>思路</strong></p>
+<ul>
+<li>删除位置不合理，抛出异常；</li>
+<li>取出删除元素；</li>
+<li>从删除元素位置开始遍历到最后一个元素位置，分别将它们都向前移动个位置；</li>
+<li>表长减1。</li>
+</ul>
+<p>🌰<strong>离队</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在，1 ≤ i ≤ ListLength(L)</span></span><br><span class="line"><span class="comment">	操作结果：删除L的第主个数据元素，并用e返回其值，L的长度减1</span></span><br><span class="line"><span class="comment">*/</span>	</span><br><span class="line"><span class="function">Status <span class="title">ListDelete</span><span class="params">(SqList *L, <span class="keyword">int</span> i, ElemType *e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> k;</span><br><span class="line">    <span class="keyword">if</span>(L-&gt;length == <span class="number">0</span>)&#123;</span><br><span class="line">    	<span class="comment">//线性表为空</span></span><br><span class="line">   		<span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(i &lt; <span class="number">1</span> || i &gt; L-&gt;length)&#123;</span><br><span class="line">    	<span class="comment">//删除位置不正确</span></span><br><span class="line">    	<span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    *e = L-&gt;data[i<span class="number">-1</span>];</span><br><span class="line">    <span class="comment">//如果删除不是最后位置</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt; L-&gt;length)&#123;</span><br><span class="line">    	<span class="comment">//将删除位置后继元素前移</span></span><br><span class="line">    	<span class="keyword">for</span>(k = i;k &lt; L-&gt;<span class="number">1</span>ength;k++)&#123;</span><br><span class="line">    		L-&gt;data[k<span class="number">-1</span>] = L-&gt;data[k];</span><br><span class="line">    	&#125;</span><br><span class="line">    &#125;</span><br><span class="line">    L-&gt;length--;</span><br><span class="line">    <span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>分析插入和删除的时间复杂度</strong></p>
+<p><strong>最好的情况</strong>，如果元素要插入到<strong>最后一个位置</strong>，或者删除最后一个元素，<strong>时间复杂度为O（1）</strong>,因为<strong>不需要移动元素</strong>的，就如同来了一个新人要正常排队，当然是<strong>排在最后</strong>，如果此时他又不想排了，他离开之后，不影响任何人</p>
+<p><strong>最坏的情况</strong>，如果元素要插入到<strong>第一个位置</strong>或者删除第一个元素,意味着要<strong>移动所有的元素向后或者向前</strong>，这个<strong>时间复杂度为平均的情况</strong>，由于元素插入到第<code>ⅰ</code>个位置，或删除第<code>i</code>个元素，需要移动<code>n-i</code>个元素。每个位置插入或删除元素的<strong>可能性是相同</strong>的，也就说位置靠前，移动元素多，位置靠后，移动元素少。最终<strong>平均移动次数和最中间的那个元素的移动次数相等</strong>，为(n-1)/2</p>
+<p>平均时间复杂度还是O(n),这说明<code>线性表</code>的<code>顺序存储结构</code>，在<strong>存、读数据</strong>时，不管是哪个位置，<strong>时间复杂度都是O(1)</strong>；而<strong>插入或删除</strong>时，<strong>时间复杂度都是O(n)</strong>,说明它<strong>比较适合元素个数不太变化</strong>，而<strong>更多是存取数据</strong>的应用。</p>
+<p><strong>优点</strong></p>
+<ul>
+<li>无须为表示表中元素之间的逻辑关系而增加额外的存储空间</li>
+<li>可以快速地存取表中任一位置的元素</li>
+</ul>
+<p><strong>缺点</strong></p>
+<ul>
+<li>插入和删除操作需要移密动大量元素</li>
+<li>当线性表长度变化较大时，难以确定存储空间一位置的元素的容量</li>
+<li>造成存储空间的“碎片”</li>
+</ul>
+<h2 id="链式存储结构"><a href="#链式存储结构" class="headerlink" title="链式存储结构"></a>链式存储结构</h2><p><strong>特点</strong></p>
+<p>用一组<strong>任意的存储单元</strong>存储线性表的数据元素，这组存储单元<strong>可以是连续</strong>的，<strong>也可以是不连续</strong>的。意味着，这些数据元素可以存在内存未被占用的<strong>任意位置</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200705174507.png" alt="下载"></p>
+<p>在<strong>顺序结构</strong>中，每个数据元素<strong>只需要存数据元素信息</strong>就可以了。现在<strong>链式结构</strong>中，除了要存数据元素信息外，还要存储它的<strong>后继元素的存储地址</strong></p>
+<p>把<strong>存储数据元素信息</strong>的域称为<strong>数据域</strong>，把<strong>存储直接后继位置</strong>的域称为<strong>指针域</strong>。指针域中存储的信息称做<strong>指针或链。</strong>这两部分信息组成数据元素的存储映像，称为<strong>结点</strong>（Node）。</p>
+<p>把链表中<strong>第一个结点的存储位置</strong>叫做<code>头指针</code>，整个链表的存取就必须是从头指针开始进行了。之后的每一个结点，是上一个的后继指针指向的位置。想象一下，最后一个结点，它的指针为空  通常 <strong>NULL 或 “^”</strong>  </p>
+<p>方便对链表进行操作,会在单链表的第一个节点称为<code>头节点</code>,它的<strong>数据域,可以不存储任何数据</strong>,但是也<strong>可以存储链表的长度</strong>，<code>指针域</code>存储指向<strong>第一个节点的的指针</strong></p>
+<p><code>头指针</code>与<code>头结点</code></p>
+<p><strong>头指针</strong>是指<code>链表</code><strong>指向第一个节点的指针</strong></p>
+<ul>
+<li>头指针具有<strong>标识作用</strong>，所以常用头指针被称为链表</li>
+<li><strong>无论链表是否为空,头指针一定不为空</strong> ,<code>头指针</code>是<strong>链表必要元素</strong></li>
+</ul>
+<p><strong>头节点</strong>是为了操作<code>链表</code>放在第一个节点之前，数据域一般无意义(可存放链表长度)</p>
+<ul>
+<li>有了头结点，对于链表的第一个节点插入和删除就<strong>与其他节点操作方式无异</strong></li>
+<li><strong>头节点不是链表的必要元素</strong></li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//线性表的单链表存储结构</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span>&#123;</span></span><br><span class="line">	ElemType data; </span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">next</span>;</span></span><br><span class="line">&#125; Node;</span><br><span class="line"><span class="comment">//定义 LinkedList</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">LinkList</span>;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h3><p>与数组相似,<code>链表</code>也是一种<code>线性</code>数据结构,<code>链表</code>有两种类型：<code>单链表</code>和<code>双链表</code>。</p>
+<ul>
+<li>链表是以<code>节点</code>的方式来存储是<strong>链式存储</strong>,</li>
+<li>每个节点包含<strong>data域(存储数据)</strong>，<strong>next域：指向下一个节点</strong></li>
+<li>链表的各个<strong>节点不一定是连续存储</strong></li>
+<li>链表分<strong>带头节点的链表</strong>和<strong>不带头节点的链表</strong>，根据实际的需求来确定</li>
+</ul>
+<h4 id="单链表"><a href="#单链表" class="headerlink" title="单链表"></a><strong>单链表</strong></h4><p>单链表中的<strong>每个结点不仅包含值，还包含链接到下一个结点的<code>引用字段</code></strong></p>
+<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704124949.png" alt="screen-shot-2018-04-12-at-152754"></p>
+<p>单链表的创建</p>
+<ul>
+<li>Java</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SinglyListNode</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    SinglyListNode next;</span><br><span class="line">    SinglyListNode(<span class="keyword">int</span> x) &#123; val = x; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>C++</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">SinglyListNode</span> &#123;</span></span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    SinglyListNode *next;</span><br><span class="line">    SinglyListNode(<span class="keyword">int</span> x) : val(x), next(<span class="literal">NULL</span>) &#123;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><strong>在大多数情况下,使用头结点(第一个结点)来表示整个链表。</strong></p>
+<p><strong>无法访问单链表中的随机元素</strong>。获得第 i 个元素,必须从<strong>头结点逐个遍历</strong>。 我们按<code>索引</code>来<code>访问元素</code>平均要花费 <code>O(N)</code>时间，其中 N 是链表的长度。 </p>
+<p><strong>添加元素</strong></p>
+<p>在给定的结点 <code>prev</code> 之后添加新值，我们应该：</p>
+<ol>
+<li>使用给定值初始化新结点 <code>cur</code></li>
+</ol>
+<h4 id="双链表"><a href="#双链表" class="headerlink" title="双链表"></a>双链表</h4><p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704145009.png" alt="screen-shot-2018-04-17-at-161130"></p>
+<p><strong>线性表是逻辑结构，顺序表和链表是存储结构。</strong></p>
+<ul>
+<li>若线性表需要频繁查找，很少进行插入和删除操作时，宜采用顺序存储结构。若需要频繁插入和删除时，宜采用单链表结构。</li>
+<li>当线性表中的元素个数变化较大或者根本不知道有多大时，最好用单链表结构，这样可以不需要考虑存储空间的大小问题。而如果事先知道线性表的大致长度，用顺序存储结构效率会高很多。</li>
+</ul>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul>
+<li>大话数据结构</li>
+<li>尚硅谷 数据结构(Java版)</li>
+<li><a href="https://www.bilibili.com/video/BV1E4411H73v?from=search&amp;seid=10908307989250096091" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1E4411H73v?from=search&amp;seid=10908307989250096091</a></li>
+<li><a href="https://www.cnblogs.com/wincai/p/5893475.html" target="_blank" rel="noopener">https://www.cnblogs.com/wincai/p/5893475.html</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>数据结构和算法</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>剑指offer</tag>
+        <tag>线性表</tag>
       </tags>
   </entry>
   <entry>
@@ -2886,142 +3048,6 @@
       </categories>
       <tags>
         <tag>二叉树</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>线性表</title>
-    <url>/posts/82000000/</url>
-    <content><![CDATA[<p><strong>定义</strong>：零个或多个数据元素的<strong>有限序列</strong>。<strong>除第一个元素外</strong>，每个元素<strong>有且仅有</strong>一个直接前驱，<strong>除最后一个元素外，每个元素有且仅有一个直接后继。</strong></p>
-<p>线性表的特点：</p>
-<ul>
-<li>1.元素个数有限   </li>
-<li>2.元素有先后次序</li>
-<li>3.数据类型相同   </li>
-</ul>
-<h2 id="顺序存储结构"><a href="#顺序存储结构" class="headerlink" title="顺序存储结构"></a>顺序存储结构</h2><p>线性表的<code>顺序存储结构</code>，指的是用<strong>一段地址连续的存储单元依次存储线性表的数据元素</strong></p>
-<p>🌰<code>一维数组</code></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//存储空间初始分配量</span></span><br><span class="line"><span class="meta"># <span class="meta-keyword">define</span> MAXSIZE 20</span></span><br><span class="line"><span class="comment">//ElemType类型根据实际情况而定，这里假设为int</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> ElemType;</span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//数组存储数据元素,最大值为 MAXSIZE</span></span><br><span class="line">    <span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">E1</span> <span class="title">emType</span> <span class="title">data</span>[<span class="title">MAXSIZE</span>];</span> </span><br><span class="line">    <span class="comment">//线性表的当前长度</span></span><br><span class="line">    <span class="keyword">int</span> length;</span><br><span class="line">&#125;SqList;</span><br></pre></td></tr></table></figure>
-
-<p><code>顺序存储结构</code>的属性:</p>
-<ul>
-<li>存储空间的起始位置：数组data，数组<strong>起始位置</strong>的地址就是数组在内存中的存储位置。</li>
-<li>线性表的最大存储容量：数组长度 MaxSize </li>
-<li>线性表的当前长度：length</li>
-</ul>
-<p>内存中的<code>地址</code>，就和图书馆或电影院里的座位一样，都是有编号的。存储器中的每个存储单元都有自己的编号，这个编号称为地址。</p>
-<p>假设数组中的第一元素在内存中的地址是<strong>000000000061FE08</strong>, 第二个元素的地址是<strong>000000000061FE0C</strong></p>
-<p>原因是数组中存储的<strong>元素的数据类型是int</strong>,int在内存中占4个字节 <strong>08 + 4 =&gt; 0C (16进制),</strong>后面元素的地址在前一个地址的基础上加4即可</p>
-<p>算出线性表中<strong>任意位置的地址都是相同的时间</strong>。对每个线性表位置的<code>存入</code>或者<code>取出</code>数据，对于计算机来说都是相等的时间，也就是一个常数，时间复杂度的概念来说，它的存取时间性能为O（1）。我们通常把具有这一特点的存储结构称为<code>随机存取结构</code>。</p>
-<h3 id="顺序存储结构的插入和删除"><a href="#顺序存储结构的插入和删除" class="headerlink" title="顺序存储结构的插入和删除"></a>顺序存储结构的插入和删除</h3><h4 id="获取元素"><a href="#获取元素" class="headerlink" title="获取元素"></a>获取元素</h4><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> OK 1</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ERROR 0</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> TRUE 1</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> FALSE 0</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> status;</span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	status是函数的类型，其值是函数结果状态代码，如OK等</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在1≤i≤ListLength（L）</span></span><br><span class="line"><span class="comment">	操作结果：用e返回L中第i个数据元素的值</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function">status <span class="title">GetElem</span> <span class="params">(SqList L, <span class="keyword">int</span> i, ElemType *e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(L.length==<span class="number">0</span> || i &lt; <span class="number">1</span> || i &gt; L length)&#123;</span><br><span class="line">		<span class="keyword">return</span> ERROR；</span><br><span class="line">	&#125;</span><br><span class="line">	*e = L.data[i<span class="number">-1</span>]; </span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>返回值类型Sats是一个整型，返回OK代表1， ERROR代表0。</strong></p>
-<h4 id="插入元素"><a href="#插入元素" class="headerlink" title="插入元素"></a>插入元素</h4><p><strong>思路</strong></p>
-<ul>
-<li>插入位置不合理，抛出异常；</li>
-<li>线性表长度大于等于数组长度，则抛出异常或动态增加容量；</li>
-<li>从最后一个元素开始向前遍历到第i个位置，分别将它们都向后移动一个位置;</li>
-<li>将要插入元素填入位置i处；</li>
-<li>表长加1。</li>
-</ul>
-<p>🌰<strong>插队</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在，1≤i≤ ListLength(L)，</span></span><br><span class="line"><span class="comment">	操作结果：在工中第i个位置之前插入新的数据元素e，工的长度加1</span></span><br><span class="line"><span class="comment">*/</span> </span><br><span class="line"><span class="function">Status <span class="title">ListInsert</span> <span class="params">(SqList *L, <span class="keyword">int</span> i, ElemType e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> k;</span><br><span class="line">    <span class="comment">//顺序线性表已经满</span></span><br><span class="line">    <span class="keyword">if</span>(L-&gt; length == MAXSIZE)&#123;</span><br><span class="line">        <span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//当不在范围内时</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt; <span class="number">1</span> || i &gt; L-&gt;<span class="number">1</span>ength + <span class="number">1</span>)&#123;</span><br><span class="line">        <span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//若插入数据位置不在表尾</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt;= L-&gt; <span class="number">1</span>ength)&#123;</span><br><span class="line">        <span class="comment">//将要插入位置后数据元素向后移动一位*/</span></span><br><span class="line">        <span class="keyword">for</span>(k = L-&gt; <span class="number">1</span>ength<span class="number">-1</span>;k &gt;=i<span class="number">-1</span>;k--)&#123;</span><br><span class="line">            L-&gt;data[k+<span class="number">1</span>] = L-&gt;data[k]; </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//将新元素插入</span></span><br><span class="line">    L-&gt;data[i<span class="number">-1</span>] = e;</span><br><span class="line">    L-&gt;length++; </span><br><span class="line">	<span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="删除元素"><a href="#删除元素" class="headerlink" title="删除元素"></a>删除元素</h4><p><strong>思路</strong></p>
-<ul>
-<li>删除位置不合理，抛出异常；</li>
-<li>取出删除元素；</li>
-<li>从删除元素位置开始遍历到最后一个元素位置，分别将它们都向前移动个位置；</li>
-<li>表长减1。</li>
-</ul>
-<p>🌰<strong>离队</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	初始条件：顺序线性表L已存在，1 ≤ i ≤ ListLength(L)</span></span><br><span class="line"><span class="comment">	操作结果：删除L的第主个数据元素，并用e返回其值，L的长度减1</span></span><br><span class="line"><span class="comment">*/</span>	</span><br><span class="line"><span class="function">Status <span class="title">ListDelete</span><span class="params">(SqList *L, <span class="keyword">int</span> i, ElemType *e)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> k;</span><br><span class="line">    <span class="keyword">if</span>(L-&gt;length == <span class="number">0</span>)&#123;</span><br><span class="line">    	<span class="comment">//线性表为空</span></span><br><span class="line">   		<span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(i &lt; <span class="number">1</span> || i &gt; L-&gt;length)&#123;</span><br><span class="line">    	<span class="comment">//删除位置不正确</span></span><br><span class="line">    	<span class="keyword">return</span> ERROR;</span><br><span class="line">    &#125;</span><br><span class="line">    *e = L-&gt;data[i<span class="number">-1</span>];</span><br><span class="line">    <span class="comment">//如果删除不是最后位置</span></span><br><span class="line">    <span class="keyword">if</span>(i &lt; L-&gt;length)&#123;</span><br><span class="line">    	<span class="comment">//将删除位置后继元素前移</span></span><br><span class="line">    	<span class="keyword">for</span>(k = i;k &lt; L-&gt;<span class="number">1</span>ength;k++)&#123;</span><br><span class="line">    		L-&gt;data[k<span class="number">-1</span>] = L-&gt;data[k];</span><br><span class="line">    	&#125;</span><br><span class="line">    &#125;</span><br><span class="line">    L-&gt;length--;</span><br><span class="line">    <span class="keyword">return</span> OK;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>分析插入和删除的时间复杂度</strong></p>
-<p><strong>最好的情况</strong>，如果元素要插入到<strong>最后一个位置</strong>，或者删除最后一个元素，<strong>时间复杂度为O（1）</strong>,因为<strong>不需要移动元素</strong>的，就如同来了一个新人要正常排队，当然是<strong>排在最后</strong>，如果此时他又不想排了，他离开之后，不影响任何人</p>
-<p><strong>最坏的情况</strong>，如果元素要插入到<strong>第一个位置</strong>或者删除第一个元素,意味着要<strong>移动所有的元素向后或者向前</strong>，这个<strong>时间复杂度为平均的情况</strong>，由于元素插入到第<code>ⅰ</code>个位置，或删除第<code>i</code>个元素，需要移动<code>n-i</code>个元素。每个位置插入或删除元素的<strong>可能性是相同</strong>的，也就说位置靠前，移动元素多，位置靠后，移动元素少。最终<strong>平均移动次数和最中间的那个元素的移动次数相等</strong>，为(n-1)/2</p>
-<p>平均时间复杂度还是O(n),这说明<code>线性表</code>的<code>顺序存储结构</code>，在<strong>存、读数据</strong>时，不管是哪个位置，<strong>时间复杂度都是O(1)</strong>；而<strong>插入或删除</strong>时，<strong>时间复杂度都是O(n)</strong>,说明它<strong>比较适合元素个数不太变化</strong>，而<strong>更多是存取数据</strong>的应用。</p>
-<p><strong>优点</strong></p>
-<ul>
-<li>无须为表示表中元素之间的逻辑关系而增加额外的存储空间</li>
-<li>可以快速地存取表中任一位置的元素</li>
-</ul>
-<p><strong>缺点</strong></p>
-<ul>
-<li>插入和删除操作需要移密动大量元素</li>
-<li>当线性表长度变化较大时，难以确定存储空间一位置的元素的容量</li>
-<li>造成存储空间的“碎片”</li>
-</ul>
-<h2 id="链式存储结构"><a href="#链式存储结构" class="headerlink" title="链式存储结构"></a>链式存储结构</h2><p><strong>特点</strong></p>
-<p>用一组<strong>任意的存储单元</strong>存储线性表的数据元素，这组存储单元<strong>可以是连续</strong>的，<strong>也可以是不连续</strong>的。意味着，这些数据元素可以存在内存未被占用的<strong>任意位置</strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200705174507.png" alt="下载"></p>
-<p>在<strong>顺序结构</strong>中，每个数据元素<strong>只需要存数据元素信息</strong>就可以了。现在<strong>链式结构</strong>中，除了要存数据元素信息外，还要存储它的<strong>后继元素的存储地址</strong></p>
-<p>把<strong>存储数据元素信息</strong>的域称为<strong>数据域</strong>，把<strong>存储直接后继位置</strong>的域称为<strong>指针域</strong>。指针域中存储的信息称做<strong>指针或链。</strong>这两部分信息组成数据元素的存储映像，称为<strong>结点</strong>（Node）。</p>
-<p>把链表中<strong>第一个结点的存储位置</strong>叫做<code>头指针</code>，整个链表的存取就必须是从头指针开始进行了。之后的每一个结点，是上一个的后继指针指向的位置。想象一下，最后一个结点，它的指针为空  通常 <strong>NULL 或 “^”</strong>  </p>
-<p>方便对链表进行操作,会在单链表的第一个节点称为<code>头节点</code>,它的<strong>数据域,可以不存储任何数据</strong>,但是也<strong>可以存储链表的长度</strong>，<code>指针域</code>存储指向<strong>第一个节点的的指针</strong></p>
-<p><code>头指针</code>与<code>头结点</code></p>
-<p><strong>头指针</strong>是指<code>链表</code><strong>指向第一个节点的指针</strong></p>
-<ul>
-<li>头指针具有<strong>标识作用</strong>，所以常用头指针被称为链表</li>
-<li><strong>无论链表是否为空,头指针一定不为空</strong> ,<code>头指针</code>是<strong>链表必要元素</strong></li>
-</ul>
-<p><strong>头节点</strong>是为了操作<code>链表</code>放在第一个节点之前，数据域一般无意义(可存放链表长度)</p>
-<ul>
-<li>有了头结点，对于链表的第一个节点插入和删除就<strong>与其他节点操作方式无异</strong></li>
-<li><strong>头节点不是链表的必要元素</strong></li>
-</ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//线性表的单链表存储结构</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span>&#123;</span></span><br><span class="line">	ElemType data; </span><br><span class="line">	<span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">next</span>;</span></span><br><span class="line">&#125; Node;</span><br><span class="line"><span class="comment">//定义 LinkedList</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">LinkList</span>;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h3><p>与数组相似,<code>链表</code>也是一种<code>线性</code>数据结构,<code>链表</code>有两种类型：<code>单链表</code>和<code>双链表</code>。</p>
-<ul>
-<li>链表是以<code>节点</code>的方式来存储是<strong>链式存储</strong>,</li>
-<li>每个节点包含<strong>data域(存储数据)</strong>，<strong>next域：指向下一个节点</strong></li>
-<li>链表的各个<strong>节点不一定是连续存储</strong></li>
-<li>链表分<strong>带头节点的链表</strong>和<strong>不带头节点的链表</strong>，根据实际的需求来确定</li>
-</ul>
-<h4 id="单链表"><a href="#单链表" class="headerlink" title="单链表"></a><strong>单链表</strong></h4><p>单链表中的<strong>每个结点不仅包含值，还包含链接到下一个结点的<code>引用字段</code></strong></p>
-<p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704124949.png" alt="screen-shot-2018-04-12-at-152754"></p>
-<p>单链表的创建</p>
-<ul>
-<li>Java</li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SinglyListNode</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    SinglyListNode next;</span><br><span class="line">    SinglyListNode(<span class="keyword">int</span> x) &#123; val = x; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>C++</li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">SinglyListNode</span> &#123;</span></span><br><span class="line">    <span class="keyword">int</span> val;</span><br><span class="line">    SinglyListNode *next;</span><br><span class="line">    SinglyListNode(<span class="keyword">int</span> x) : val(x), next(<span class="literal">NULL</span>) &#123;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<p><strong>在大多数情况下,使用头结点(第一个结点)来表示整个链表。</strong></p>
-<p><strong>无法访问单链表中的随机元素</strong>。获得第 i 个元素,必须从<strong>头结点逐个遍历</strong>。 我们按<code>索引</code>来<code>访问元素</code>平均要花费 <code>O(N)</code>时间，其中 N 是链表的长度。 </p>
-<p><strong>添加元素</strong></p>
-<p>在给定的结点 <code>prev</code> 之后添加新值，我们应该：</p>
-<ol>
-<li>使用给定值初始化新结点 <code>cur</code></li>
-</ol>
-<h4 id="双链表"><a href="#双链表" class="headerlink" title="双链表"></a>双链表</h4><p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn/img/20200704145009.png" alt="screen-shot-2018-04-17-at-161130"></p>
-<p><strong>线性表是逻辑结构，顺序表和链表是存储结构。</strong></p>
-<ul>
-<li>若线性表需要频繁查找，很少进行插入和删除操作时，宜采用顺序存储结构。若需要频繁插入和删除时，宜采用单链表结构。</li>
-<li>当线性表中的元素个数变化较大或者根本不知道有多大时，最好用单链表结构，这样可以不需要考虑存储空间的大小问题。而如果事先知道线性表的大致长度，用顺序存储结构效率会高很多。</li>
-</ul>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul>
-<li>大话数据结构</li>
-<li>尚硅谷 数据结构(Java版)</li>
-<li><a href="https://www.bilibili.com/video/BV1E4411H73v?from=search&amp;seid=10908307989250096091" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1E4411H73v?from=search&amp;seid=10908307989250096091</a></li>
-<li><a href="https://www.cnblogs.com/wincai/p/5893475.html" target="_blank" rel="noopener">https://www.cnblogs.com/wincai/p/5893475.html</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>数据结构和算法</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>剑指offer</tag>
-        <tag>线性表</tag>
       </tags>
   </entry>
 </search>
