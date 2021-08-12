@@ -531,54 +531,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Spring</title>
-    <url>/posts/46eb/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>Spring</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringBoot</title>
-    <url>/posts/83dd/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringBoot</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringCloud</title>
-    <url>/posts/a67e/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringCloud</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SpringMVC</title>
-    <url>/posts/12ac/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>后端框架</category>
-        <category>Spring全家桶</category>
-      </categories>
-      <tags>
-        <tag>SpringMVC</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>KMP算法</title>
     <url>/posts/8c51/</url>
     <content><![CDATA[<p>KMP算法的应用场景是字符串匹配</p>
@@ -675,7 +627,7 @@
 
 ]]></content>
       <categories>
-        <category>C</category>
+        <category>uncategorized</category>
       </categories>
       <tags>
         <tag>make</tag>
@@ -1935,7 +1887,7 @@
 <li><code>指针</code>是内存的地址；所谓指针变量，也就是保存了内存地址的变量。</li>
 <li><strong>获取变量的地址用&amp;</strong>，比如：int num=10，获取num的地址：&amp;num <strong>获取指针本身的地址不加取值符号</strong></li>
 </ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> num = <span class="number">100</span>;</span><br><span class="line"><span class="keyword">int</span>* ptr = &amp;num;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"ptr本身的地址=%p ptr存放的地址=%p ptr指向的值"</span>,&amp;ptr,ptr,*ptr);</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> num = <span class="number">100</span>;</span><br><span class="line"><span class="keyword">int</span>* ptr = &amp;num;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"ptr本身的地址=%p ptr存放的地址=%p ptr指向的值%d"</span>,&amp;ptr,ptr,*ptr);</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li><p><strong>指针类型，指针变量存的是一个地址</strong>，这个地址指向的空间存的才是值比如：int  * ptr = &amp;num；<strong>ptr就是指向int类型的指针变量，ptr是int*类型</strong>。</p>
@@ -1983,7 +1935,7 @@
 <p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/14/fe7253f1d54a11604f17415e8e994aa0.png" alt="image-20200714181338508"></p>
 <h2 id="多重指针"><a href="#多重指针" class="headerlink" title="多重指针"></a>多重指针</h2><p><strong>基本介绍</strong></p>
 <p><code>指向指针的指针</code>是一种<strong>多级间接寻址</strong>的形式，或者说是一个<code>指针链</code>。定义一个指向指针的指针时，第一个指针包含了第二个指针的地址，第二个指针指向包含实际值的位置</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr;</span><br><span class="line">    <span class="comment">//var变量的值赋给ptr1</span></span><br><span class="line">    ptr1 = &amp;var;</span><br><span class="line">    <span class="comment">//ptr1存放的地址赋给ptr2</span></span><br><span class="line">    ptr2 = &amp;ptr1;</span><br><span class="line">    <span class="comment">//ptr2存放的地址赋给ptr3</span></span><br><span class="line">    ptr3 = &amp;ptr3;</span><br><span class="line">    <span class="comment">//var代表数组的首地址</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"var[0]=%p var[0]=%d\n"</span>,&amp;var,var[<span class="number">0</span>]);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"ptr1本身的地址=%p ptr1存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr1,ptr1,*ptr1);</span><br><span class="line">     <span class="built_in">printf</span>(<span class="string">"ptr2本身的地址=%p ptr2存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr2,ptr2,*ptr2);</span><br><span class="line">     <span class="built_in">printf</span>(<span class="string">"ptr3本身的地址=%p ptr3存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr3,ptr3,*ptr3);</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> var[] =&#123;<span class="number">2077</span>,<span class="number">11</span>,<span class="number">19</span>&#125;;</span><br><span class="line">	<span class="keyword">int</span> i,*ptr;</span><br><span class="line">    <span class="comment">//var变量的值赋给ptr1</span></span><br><span class="line">    ptr1 = &amp;var;</span><br><span class="line">    <span class="comment">//ptr1存放的地址赋给ptr2</span></span><br><span class="line">    ptr2 = &amp;ptr1;</span><br><span class="line">    <span class="comment">//ptr2存放的地址赋给ptr3</span></span><br><span class="line">    ptr3 = &amp;ptr3;</span><br><span class="line">    <span class="comment">//var代表数组的首地址</span></span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"var[0]=%p var[0]=%d\n"</span>,&amp;var,var[<span class="number">0</span>]);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"ptr1本身的地址=%p ptr1存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr1,ptr1,*ptr1);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"ptr2本身的地址=%p ptr2存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr2,ptr2,*ptr2);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"ptr3本身的地址=%p ptr3存放的地址=%p *ptr1=%d\n"</span>,&amp;ptr3,ptr3,*ptr3);</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><img src= "/img/loading.gif" data-src="https://cdn.jsdelivr.net/gh/L0serH4/mycdn@master/2020/07/14/84c0f449534bd9e788d2e97573fa56cd.png" alt="image-20200714182508266"></p>
 <p><strong>传递指针给函数</strong></p>
@@ -2662,20 +2614,6 @@
       </tags>
   </entry>
   <entry>
-    <title>网络编程</title>
-    <url>/posts/cd50/</url>
-    <content><![CDATA[<p>网络编程的目的: 直接或间接的通过网络协议与其他计算机进行通讯和数据交换</p>
-<p>TCP: 打电话(只需要有人同意接受)</p>
-<p>UDP: 发短信(只管发送)</p>
-]]></content>
-      <categories>
-        <category>uncategorized</category>
-      </categories>
-      <tags>
-        <tag>计算机网络</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>结构体和共用体</title>
     <url>/posts/d9a0/</url>
     <content><![CDATA[<h2 id="结构体基本介绍"><a href="#结构体基本介绍" class="headerlink" title="结构体基本介绍"></a>结构体基本介绍</h2><p><code>结构体</code>和<code>结构体变量</code>的区别和联系</p>
@@ -3048,6 +2986,17 @@
       </categories>
       <tags>
         <tag>二叉树</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SQL注入</title>
+    <url>/posts/6721/</url>
+    <content><![CDATA[<h2 id="SQL注入"><a href="#SQL注入" class="headerlink" title="SQL注入"></a>SQL注入</h2>]]></content>
+      <categories>
+        <category>uncategorized</category>
+      </categories>
+      <tags>
+        <tag>SQL注入</tag>
       </tags>
   </entry>
 </search>
