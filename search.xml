@@ -2991,9 +2991,24 @@
   <entry>
     <title>SQL注入</title>
     <url>/posts/6721/</url>
-    <content><![CDATA[<h2 id="SQL注入"><a href="#SQL注入" class="headerlink" title="SQL注入"></a>SQL注入</h2>]]></content>
+    <content><![CDATA[<h2 id="0X00-漏洞描述"><a href="#0X00-漏洞描述" class="headerlink" title="0X00 漏洞描述"></a>0X00 漏洞描述</h2><blockquote>
+<p> Web 程序代码中对于用户提交的参数未做过滤就直接放到 SQL 语句中执<br>行，导致参数中的特殊字符打破了 SQL 语句原有逻辑，黑客可以利用该漏洞执<br>行任意 SQL 语句，如查询数据、下载数据、写入 webshell 、执行系统命令以<br>及绕过登录限制等</p>
+</blockquote>
+<h3 id="测试方法"><a href="#测试方法" class="headerlink" title="测试方法"></a>测试方法</h3><p><strong>手动测试</strong></p>
+<p>​        利用<strong>单引号</strong>、 and1=1和 and 1=2 以及字符型注入进行判断！推荐使用 burpsuite 的 sqlmap 插<br>件，这样可以很方便，鼠标右键就可以将数据包直接发送到 sqlmap 里面进行检<br>测了！</p>
+<h3 id="修复建议"><a href="#修复建议" class="headerlink" title="修复建议"></a>修复建议</h3><p>  代码层最佳防御 sql 漏洞方案：采用 sql 语句预编译和绑定变量，是防御<br>sql 注入的最佳方法。</p>
+<ul>
+<li>所有的查询语句都使用数据库提供的参数化查询接口，参数化的语句使<br>用参数而不是将用户输入变量嵌入到 SQL 语句中。当前几乎所有的数据库系统<br>都提供了参数化 SQL 语句执行接口，使用此接口可以非常有效的防止 SQL 注<br>入攻击。</li>
+<li>对进入数据库的特殊字符（ ‘ &lt;&gt;&amp;*; 等）进行转义处理，或编码转换。</li>
+<li>确认每种数据的类型，比如数字型的数据就必须是数字，数据库中的存<br>储字段必须对应为 int 型。</li>
+<li>数据长度应该严格规定，能在一定程度上防止比较长的 SQL 注入语句<br>无法正确执行。</li>
+<li>网站每个数据层的编码统一，建议全部使用 UTF-8 编码，上下层编码<br>不一致有可能导致一些过滤模型被绕过。</li>
+<li>严格限制网站用户的数据库的操作权限，给此用户提供仅仅能够满足其<br>工作的权限，从而最大限度的减少注入攻击<br>对数据库的危害。</li>
+<li>避免网站显示 SQL 错误信息，比如类型错误、字段不匹配等，防止攻<br>击者利用这些错误信息进行一些判断。</li>
+</ul>
+]]></content>
       <categories>
-        <category>uncategorized</category>
+        <category>WEB安全</category>
       </categories>
       <tags>
         <tag>SQL注入</tag>
