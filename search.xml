@@ -3027,12 +3027,12 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#安装环境</span></span><br><span class="line">sudo apt-get install apache2</span><br><span class="line"><span class="comment">#启动环境</span></span><br><span class="line">sudo systemctl status start apache2</span><br></pre></td></tr></table></figure>
 
 <p><strong>httpd安装成功界面</strong></p>
-<p><img src= "/img/loading.gif" data-src="D:%5CBlog%5Chexo%5Csource_posts%5C%E5%B8%B8%E8%A7%84git%E6%B3%84%E9%9C%B2%E5%A4%8D%E7%8E%B0.assets%5Cimage-20210816190639857.png" alt="image-20210816190639857"></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/image-20210816190639857.png" alt="image-20210816190639857"></p>
 <p><strong>用firefox访问本地地址(<a href="http://127.0.0.1" target="_blank" rel="noopener">http://127.0.0.1</a>)</strong></p>
 <p><img src= "/img/loading.gif" data-src="D:%5CBlog%5Chexo%5Csource_posts%5C%E5%B8%B8%E8%A7%84git%E6%B3%84%E9%9C%B2%E5%A4%8D%E7%8E%B0.assets%5Cimage-20210816190904703.png" alt="image-20210816190904703"></p>
 <h2 id="复现过程"><a href="#复现过程" class="headerlink" title="复现过程"></a>复现过程</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#桌面打开终端后切换到网站根目录</span></span><br><span class="line"><span class="built_in">cd</span> /var/www/html</span><br><span class="line"><span class="comment">#创建新文件夹</span></span><br><span class="line">sudo mkdir git_test</span><br><span class="line"><span class="comment">#切换到git_test文件夹</span></span><br><span class="line"><span class="built_in">cd</span> git_test</span><br><span class="line"><span class="comment">#初始化git仓库</span></span><br><span class="line">sudo git init</span><br><span class="line"><span class="comment">#新建flag.php文件并写入内容</span></span><br><span class="line">sudo vim flag.php </span><br><span class="line"><span class="comment">#将新建的文件加入到本地git仓库</span></span><br><span class="line">sudo git add flag.php </span><br><span class="line"><span class="comment">#提交文件信息</span></span><br><span class="line">sudo git commit -m <span class="string">"flag"</span></span><br></pre></td></tr></table></figure>
 
-<p><img src= "/img/loading.gif" data-src="D:%5CBlog%5Chexo%5Csource_posts%5C%E5%B8%B8%E8%A7%84git%E6%B3%84%E9%9C%B2%E5%A4%8D%E7%8E%B0.assets%5Cimage-20210816203842580.png" alt="image-20210816203842580"></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/image-20210816203842580.png" alt="image-20210816203842580"></p>
 <p><font color=red>git commit 提交失败的原因</font></p>
 <ul>
 <li>未配置git邮箱和用户名</li>
