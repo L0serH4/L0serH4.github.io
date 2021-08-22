@@ -3054,4 +3054,22 @@
         <tag>git泄露</tag>
       </tags>
   </entry>
+  <entry>
+    <title>BurpSuite常见设置</title>
+    <url>/posts/7533/</url>
+    <content><![CDATA[<h2 id="BurpSuite宏穷举含有token的模块"><a href="#BurpSuite宏穷举含有token的模块" class="headerlink" title="BurpSuite宏穷举含有token的模块"></a>BurpSuite宏穷举含有token的模块</h2><p><strong>未设置宏之前,所有穷举的密码的token均相同</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/image-20210822172626625.png" alt="image-20210822172626625"></p>
+<p><strong>设置宏</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/image-20210822173207368.png" alt="image-20210822173207368"></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/image-20210822173626888.png" alt="image-20210822173626888"></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/image-20210822174144478.png" alt="image-20210822174144478"></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/image-20210822174341261.png" alt="image-20210822174341261"></p>
+]]></content>
+      <categories>
+        <category>uncategorized</category>
+      </categories>
+      <tags>
+        <tag>BurpSuite</tag>
+      </tags>
+  </entry>
 </search>
