@@ -821,24 +821,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开源项目推荐</title>
-    <url>/posts/aaf6/</url>
-    <content><![CDATA[<h2 id="1-编程语言"><a href="#1-编程语言" class="headerlink" title="1.编程语言"></a>1.编程语言</h2><h3 id="1-1Java"><a href="#1-1Java" class="headerlink" title="1.1Java"></a>1.1Java</h3><ul>
-<li>1.<code>JavaGuide</code></li>
-</ul>
-<p><a href="https://github.com/Snailclimb/JavaGuide" target="_blank" rel="noopener">https://github.com/Snailclimb/JavaGuide</a></p>
-<h2 id="2-数据结构和算法"><a href="#2-数据结构和算法" class="headerlink" title="2.数据结构和算法"></a>2.数据结构和算法</h2><p>2.1<code>fucking-algorithm</code></p>
-<p><a href="https://github.com/labuladong/fucking-algorithm" target="_blank" rel="noopener">https://github.com/labuladong/fucking-algorithm</a></p>
-]]></content>
-      <categories>
-        <category>开源项目</category>
-      </categories>
-      <tags>
-        <tag>Github</tag>
-        <tag>开源项目</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>位运算</title>
     <url>/posts/ebce/</url>
     <content><![CDATA[<h3 id="位运算符以及源码-反码-补码"><a href="#位运算符以及源码-反码-补码" class="headerlink" title="位运算符以及源码,反码,补码"></a>位运算符以及源码,反码,补码</h3><ul>
@@ -3070,6 +3052,62 @@
       </categories>
       <tags>
         <tag>BurpSuite</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>信息收集思路整理</title>
+    <url>/posts/3798/</url>
+    <content><![CDATA[<h2 id="绕过CDN，获取真实IP地址"><a href="#绕过CDN，获取真实IP地址" class="headerlink" title="绕过CDN，获取真实IP地址"></a>绕过CDN，获取真实IP地址</h2><ul>
+<li><p>网络空间测绘引擎，搜索favicon.ico</p>
+</li>
+<li><p>通过网站ssl证书,访问crt.sh</p>
+</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/image-20210725104215751.png" alt="image-20210725104215751"></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093156.png" alt="image-20210725104234839"></p>
+<p><strong>修改搜索方式为IPv4地址</strong></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093148.png" alt="image-20210725104321523"></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093203.png" alt="image-20210725104354260"></p>
+<p><strong>对获取的IP进行验证</strong></p>
+<p>确定端口是否开放</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nc 47.104.78.21 443 -vv</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093209.png" alt="image-20210725104713897"></p>
+<p>修改本地hosts 文件直接访问网站IP</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo vim /etc/hosts</span><br></pre></td></tr></table></figure>
+
+<p>![image-20210725105022537](E:\websecurity_moon\渗透测试09 信息收集篇\文档\信息收集.assets\image-20210725105022537.png)</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#验证网站是否可以正常访问</span></span><br><span class="line">curl www.kuke99.com</span><br><span class="line">firefox www.kuke99.com</span><br><span class="line"><span class="comment">#nmap扫描</span></span><br><span class="line">nmap -sT -A 47.104.78.21</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>通过网站CA证书中的 Serial:Dercimal 对应的值到网络空间测绘引擎搜索</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093216.png" alt="image-20210725111235872"></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093227.png" alt="image-20210725111252180"></p>
+<ul>
+<li>从邮件中获取真实IP地址(邮件服务器和网站位于同一服务器上)</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093233.png" alt="image-20210725121256856"></p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093239.png" alt="image-20210725121558014"></p>
+<ul>
+<li>phpinfo页面中的$SERVER[‘SERVER_ADDR’]</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093244.png" alt="image-20210725122242378"></p>
+<p><strong>模拟器抓包配置</strong></p>
+<ul>
+<li>burp添加代理时 选中本地对应的IP地址</li>
+</ul>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093247.png" alt="image-20210725131020625"></p>
+<p>模拟器中的浏览器访问对应页面</p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093250.png" alt="image-20210725131407764"></p>
+<p>文件管理器中</p>
+<p><img src= "/img/loading.gif" data-src="https://raw.githubusercontent.com/L0serH4/mycdn/master/20210901093258.png" alt="image-20210725131903145"></p>
+]]></content>
+      <categories>
+        <category>WEB安全</category>
+      </categories>
+      <tags>
+        <tag>信息收集</tag>
       </tags>
   </entry>
 </search>
