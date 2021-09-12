@@ -2977,16 +2977,45 @@
 <p> Web 程序代码中对于用户提交的参数未做过滤就直接放到 SQL 语句中执<br>行，导致参数中的特殊字符打破了 SQL 语句原有逻辑，黑客可以利用该漏洞执<br>行任意 SQL 语句，如查询数据、下载数据、写入 webshell 、执行系统命令以<br>及绕过登录限制等</p>
 </blockquote>
 <h3 id="测试方法"><a href="#测试方法" class="headerlink" title="测试方法"></a>测试方法</h3><p><strong>手动测试</strong></p>
-<p>​        利用<strong>单引号</strong>、 and1=1和 and 1=2 以及字符型注入进行判断！推荐使用 burpsuite 的 sqlmap 插<br>件，这样可以很方便，鼠标右键就可以将数据包直接发送到 sqlmap 里面进行检<br>测了！</p>
-<h3 id="修复建议"><a href="#修复建议" class="headerlink" title="修复建议"></a>修复建议</h3><p>  代码层最佳防御 sql 漏洞方案：采用 sql 语句预编译和绑定变量，是防御<br>sql 注入的最佳方法。</p>
+<p>​        利用<strong>单引号</strong>、 and1=1和 and 1=2 以及字符型注入进行判断！</p>
+<h3 id="Mysql相关的知识"><a href="#Mysql相关的知识" class="headerlink" title="Mysql相关的知识"></a>Mysql相关的知识</h3><ul>
+<li>tables 表字段 TABLE_SCHEMA 、TABLE_NAME 分别记录着库名和表名</li>
+<li>columns 存储该用户创建的所有数据库的库名、标名和字段名。 </li>
+</ul>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="comment">#查询指定数据库中所有表和字段</span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> information_schema.<span class="string">`COLUMNS`</span> <span class="keyword">where</span> TABLE_SCHEMA=<span class="string">'www_dvwa_com'</span></span><br><span class="line"><span class="comment">#查询某个库某表的字段(users)</span></span><br><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> information_schema.COLUMNS <span class="keyword">where</span></span><br><span class="line">TABLE_SCHEMA=<span class="string">'www_dvwa_com'</span> <span class="keyword">and</span> TABLE_NAME=<span class="string">'users'</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Sql注入的基本常识"><a href="#Sql注入的基本常识" class="headerlink" title="Sql注入的基本常识"></a>Sql注入的基本常识</h3><p><strong>原理</strong></p>
 <ul>
-<li>所有的查询语句都使用数据库提供的参数化查询接口，参数化的语句使<br>用参数而不是将用户输入变量嵌入到 SQL 语句中。当前几乎所有的数据库系统<br>都提供了参数化 SQL 语句执行接口，使用此接口可以非常有效的防止 SQL 注<br>入攻击。</li>
-<li>对进入数据库的特殊字符（ ‘ &lt;&gt;&amp;*; 等）进行转义处理，或编码转换。</li>
-<li>确认每种数据的类型，比如数字型的数据就必须是数字，数据库中的存<br>储字段必须对应为 int 型。</li>
-<li>数据长度应该严格规定，能在一定程度上防止比较长的 SQL 注入语句<br>无法正确执行。</li>
-<li>网站每个数据层的编码统一，建议全部使用 UTF-8 编码，上下层编码<br>不一致有可能导致一些过滤模型被绕过。</li>
-<li>严格限制网站用户的数据库的操作权限，给此用户提供仅仅能够满足其<br>工作的权限，从而最大限度的减少注入攻击<br>对数据库的危害。</li>
-<li>避免网站显示 SQL 错误信息，比如类型错误、字段不匹配等，防止攻<br>击者利用这些错误信息进行一些判断。</li>
+<li>参数用户可控</li>
+<li>参数带入数据库中查询</li>
+</ul>
+<p><strong>注入类型</strong></p>
+<ul>
+<li>UNION query SQL injection（可联合查询注入）</li>
+<li>Stacked queries SQL injection（可多语句查询注入）堆叠查询</li>
+<li>Boolean-based blind SQL injection（布尔型注入）</li>
+<li>Error-based SQL injection（报错型注入）</li>
+<li>Time-based blind SQL injection（基于时间延迟注入）</li>
+</ul>
+<p><strong>请求类型区分</strong></p>
+<p>GET 注入: GET 请求的参数是放在 URL 里的，GET 请求的 URL 传参有长度限制 中文需要URL 编码<br>POST 注入: POST 请求参数是放在请求 body 里的，长度没有限制<br>COOKIE 注入: cookie 参数放在请求头信息，提交的时候 服务器会从请求头获取</p>
+<h3 id="修复建议"><a href="#修复建议" class="headerlink" title="修复建议"></a>修复建议</h3><ul>
+<li><p>代码层最佳防御 sql 漏洞方案：采用 sql 语句预编译和绑定变量，是防御<br>sql 注入的最佳方法。</p>
+</li>
+<li><p>所有的查询语句都使用数据库提供的参数化查询接口，参数化的语句使<br>用参数而不是将用户输入变量嵌入到 SQL 语句中。当前几乎所有的数据库系统<br>都提供了参数化 SQL 语句执行接口，使用此接口可以非常有效的防止 SQL 注<br>入攻击。</p>
+</li>
+<li><p>对进入数据库的特殊字符（ ‘ &lt;&gt;&amp;*; 等）进行转义处理，或编码转换。</p>
+</li>
+<li><p>确认每种数据的类型，比如数字型的数据就必须是数字，数据库中的存<br>储字段必须对应为 int 型。</p>
+</li>
+<li><p>数据长度应该严格规定，能在一定程度上防止比较长的 SQL 注入语句<br>无法正确执行。</p>
+</li>
+<li><p>网站每个数据层的编码统一，建议全部使用 UTF-8 编码，上下层编码<br>不一致有可能导致一些过滤模型被绕过。</p>
+</li>
+<li><p>严格限制网站用户的数据库的操作权限，给此用户提供仅仅能够满足其<br>工作的权限，从而最大限度的减少注入攻击<br>对数据库的危害。</p>
+</li>
+<li><p>避免网站显示 SQL 错误信息，比如类型错误、字段不匹配等，防止攻<br>击者利用这些错误信息进行一些判断。</p>
+</li>
 </ul>
 ]]></content>
       <categories>
